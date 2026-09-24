@@ -28,6 +28,8 @@ Original source files remain in place. The files in this directory are copies us
 | gallery | `gallery/competition-judging-students-certificates-2023.jpg` | `D:\CrazyPiano\03\_photos\Competition-Judging\competition-judging-students-certificates-2023.jpg` |
 | lessons | `lessons/kids-piano-student-2024.jpg` | `D:\CrazyPiano\03\_photos\Performance\performance-young-student-piano-2024.jpg` |
 | lessons | `lessons/adult-piano-teacher.png` | `D:\CrazyPiano\pen-assets\profile\hsu-minpiyer-hero-enhanced.png` |
+| lessons | `lessons/exams-competition-judging-2023.jpg` | `D:\CrazyPiano\pen-assets\gallery\competition-judging-students-certificates-2023.jpg` |
+| lessons | `lessons/exams-hero-teacher.png` | `D:\CrazyPiano\pen-assets\profile\hsu-minpiyer-hero-enhanced.png` |
 
 ## Image node inventory (before repair)
 
