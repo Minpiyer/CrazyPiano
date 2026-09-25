@@ -25381,6 +25381,5058 @@
           ]
         }
       ]
+    },
+    {
+      "type": "frame",
+      "id": "fDJoj",
+      "x": 0,
+      "y": 32380,
+      "name": "Custom Piano Arrangements／客製歌曲改編 — Desktop 1440",
+      "context": "Custom Piano Arrangements Internal Page — Desktop 1440 — Ready for Review",
+      "clip": true,
+      "width": 1440,
+      "height": 6706,
+      "fill": "$cp-cream",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "oT4fn",
+          "name": "Custom Arrangements Desktop Navigation",
+          "width": "fill_container",
+          "height": 96,
+          "fill": "$cp-paper",
+          "stroke": "$cp-coffee",
+          "strokeWidth": {
+            "bottom": 2
+          },
+          "padding": [
+            22,
+            56
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "FbpWN",
+              "name": "Brand Lockup",
+              "gap": 14,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "TGnag",
+                  "name": "Brand Vinyl Mark",
+                  "fill": "$cp-orange",
+                  "width": 42,
+                  "height": 42,
+                  "stroke": "$cp-coffee",
+                  "strokeWidth": 2
+                },
+                {
+                  "type": "text",
+                  "id": "AAlKX",
+                  "name": "Brand Name",
+                  "fill": "$cp-ink",
+                  "content": "CRAZY PIANO  瘋鋼琴",
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 24,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.4
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "K1YxvA",
+              "name": "Primary Navigation Links",
+              "gap": 30,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "mA7RT",
+                  "name": "Navigation Link 1",
+                  "fill": "$cp-ink",
+                  "content": "教學特色",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 17,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "jUWPd",
+                  "name": "Navigation Link 2",
+                  "fill": "$cp-ink",
+                  "content": "課程",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 17,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "q5ulW",
+                  "name": "Navigation Link 3",
+                  "fill": "$cp-ink",
+                  "content": "關於徐老師",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 17,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "T0uLvh",
+                  "name": "Navigation Link 4",
+                  "fill": "$cp-ink",
+                  "content": "作品集",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 17,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "VTqR3",
+                  "name": "Navigation Link 5",
+                  "fill": "$cp-ink",
+                  "content": "學費",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 17,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "WPT7H",
+                  "name": "Language Switcher",
+                  "fill": "$cp-cream",
+                  "cornerRadius": 999,
+                  "stroke": "$cp-coffee",
+                  "strokeWidth": 1,
+                  "gap": 7,
+                  "padding": [
+                    9,
+                    13
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ZEa8Y",
+                      "name": "Language Switcher Label",
+                      "fill": "$cp-coffee",
+                      "content": "中 / EN",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "WX52f",
+              "name": "Header Trial Button",
+              "fill": "$cp-burgundy",
+              "cornerRadius": 4,
+              "stroke": "$cp-coffee",
+              "strokeWidth": 2,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#4A3026",
+                "offset": {
+                  "x": 4,
+                  "y": 4
+                }
+              },
+              "padding": [
+                13,
+                19
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Q1dvJI",
+                  "name": "Header Trial Button Label",
+                  "fill": "$cp-paper",
+                  "content": "預約試課 ↗",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "QXsQ9",
+          "name": "Custom Desktop — Hero",
+          "width": "fill_container",
+          "fill": "$cp-mustard",
+          "stroke": "#00000000",
+          "gap": 60,
+          "padding": [
+            64,
+            84
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "n2aNHd",
+              "name": "Adult Hero Desktop Copy",
+              "width": 650,
+              "fill": "#00000000",
+              "stroke": "#00000000",
+              "layout": "vertical",
+              "gap": 18,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "FyYHr",
+                  "name": "Custom Hero Kicker",
+                  "fill": "$cp-coffee",
+                  "textGrowth": "fixed-width",
+                  "width": 650,
+                  "content": "01 — CUSTOM PIANO ARRANGEMENTS",
+                  "lineHeight": 1.4,
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 12,
+                  "fontWeight": "700",
+                  "letterSpacing": 1.2
+                },
+                {
+                  "type": "text",
+                  "id": "jr8sw",
+                  "name": "Custom Hero English Title",
+                  "fill": "$cp-ink",
+                  "textGrowth": "fixed-width",
+                  "width": 650,
+                  "content": "PLAY WHAT\nYOU LOVE.",
+                  "lineHeight": 0.92,
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 74,
+                  "fontWeight": "800",
+                  "letterSpacing": -1.5
+                },
+                {
+                  "type": "text",
+                  "id": "to3Ju",
+                  "name": "Custom Hero Chinese Title",
+                  "fill": "$cp-burgundy",
+                  "textGrowth": "fixed-width",
+                  "width": 650,
+                  "content": "客製歌曲改編",
+                  "lineHeight": 1.2,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 42,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "guBjn",
+                  "name": "Custom Hero Core Message",
+                  "fill": "$cp-ink",
+                  "textGrowth": "fixed-width",
+                  "width": 620,
+                  "content": "把你喜歡的歌，\n變成真的彈得起來的版本。",
+                  "lineHeight": 1.45,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 27,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "Bsrou",
+                  "name": "Custom Hero Description",
+                  "fill": "$cp-coffee",
+                  "textGrowth": "fixed-width",
+                  "width": 620,
+                  "content": "可依學生程度、手型、閱讀能力與學習目標，將喜歡的歌曲調整成合適版本。兒童、成人、初學者或已有基礎，都能在喜歡的音樂裡建立真正的基本功。",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 18,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "frame",
+                  "id": "xx2FV",
+                  "name": "Adult Hero Age Badge",
+                  "width": 310,
+                  "height": 48,
+                  "fill": "$cp-paper",
+                  "cornerRadius": 24,
+                  "stroke": "$cp-coffee",
+                  "strokeWidth": 1,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "qZNiQ",
+                      "name": "Custom Hero Badge Text",
+                      "fill": "$cp-burgundy",
+                      "content": "POP・FILM・YOUR FAVORITES",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.4
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "D27w4",
+                  "name": "Adult Hero Trial CTA",
+                  "context": "Primary CTA — Book a Trial Lesson",
+                  "width": 340,
+                  "height": 58,
+                  "fill": "$cp-burgundy",
+                  "cornerRadius": 3,
+                  "stroke": "$cp-coffee",
+                  "strokeWidth": 1,
+                  "padding": [
+                    0,
+                    20
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "lgloi",
+                      "name": "Custom Hero Trial CTA Label",
+                      "fill": "$cp-paper",
+                      "content": "Book a Trial Lesson / 預約試課",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 16,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.4
+                    },
+                    {
+                      "type": "icon",
+                      "id": "eV3Wd",
+                      "name": "Adult Hero Trial CTA Arrow",
+                      "width": 22,
+                      "height": 22,
+                      "icon": "arrow-up-right",
+                      "library": "lucide",
+                      "fill": "$cp-paper"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "YrjFD",
+              "name": "Adult Hero Desktop Visual",
+              "width": 500,
+              "fill": "#00000000",
+              "stroke": "#00000000",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "t8mnUP",
+                  "name": "Custom Hero Score Preview",
+                  "context": "Teacher performance portrait — local asset",
+                  "width": 500,
+                  "height": 540,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "pen-assets/lessons/custom-example-01-adapted.jpg",
+                    "mode": "fit"
+                  },
+                  "cornerRadius": [
+                    6,
+                    6,
+                    34,
+                    6
+                  ],
+                  "stroke": "$cp-coffee",
+                  "strokeWidth": 2
+                },
+                {
+                  "type": "text",
+                  "id": "nZ5VW",
+                  "name": "Custom Hero Photo Caption",
+                  "fill": "$cp-coffee",
+                  "textGrowth": "fixed-width",
+                  "width": 500,
+                  "content": "喜歡，不是繞過基本功；而是走進基本功的入口。",
+                  "lineHeight": 1.55,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 15,
+                  "fontWeight": "600",
+                  "letterSpacing": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "S13iEl",
+          "name": "Custom Desktop — Who It Is For",
+          "width": "fill_container",
+          "fill": "$cp-paper",
+          "stroke": "#00000000",
+          "layout": "vertical",
+          "gap": 26,
+          "padding": [
+            70,
+            84
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "aOVUp",
+              "name": "Custom Audience Kicker",
+              "fill": "$cp-orange",
+              "textGrowth": "fixed-width",
+              "width": 1272,
+              "content": "02 — WHO IS IT FOR?",
+              "lineHeight": 1.45,
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 11,
+              "fontWeight": "700",
+              "letterSpacing": 1
+            },
+            {
+              "type": "text",
+              "id": "RvrXq",
+              "name": "Custom Audience Title",
+              "fill": "$cp-ink",
+              "textGrowth": "fixed-width",
+              "width": 1000,
+              "content": "讓喜歡的音樂，成為開始練琴的理由。",
+              "lineHeight": 1.3,
+              "fontFamily": "Noto Serif TC",
+              "fontSize": 42,
+              "fontWeight": "700",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "text",
+              "id": "RXusb",
+              "name": "Custom Audience Intro",
+              "fill": "$cp-muted",
+              "textGrowth": "fixed-width",
+              "width": 1000,
+              "content": "不是放棄教材，而是把學生真正想彈的音樂，也納入有方向的學習。",
+              "lineHeight": 1.65,
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 18,
+              "fontWeight": "700",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "frame",
+              "id": "tBb22",
+              "name": "適合誰 Desktop Cards",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "stroke": "#00000000",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "by3dQ",
+                  "name": "適合誰 Desktop Row 1",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "r7hCM3",
+                      "name": "適合誰 Desktop Card 1",
+                      "width": "fill_container",
+                      "height": 250,
+                      "fill": "$cp-mustard",
+                      "cornerRadius": 3,
+                      "stroke": "$cp-coffee",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 18,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ZnyLH",
+                          "name": "Custom Preparing Card 1 Label",
+                          "fill": "$cp-ink",
+                          "content": "FAVORITES",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.8
+                        },
+                        {
+                          "type": "text",
+                          "id": "iW58U",
+                          "name": "Custom Preparing Card 1 Title",
+                          "fill": "$cp-ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "想彈流行、動漫與電影配樂",
+                          "lineHeight": 1.4,
+                          "fontFamily": "Noto Serif TC",
+                          "fontSize": 24,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "Bo3iz",
+                          "name": "Custom Preparing Card 1 Description",
+                          "fill": "$cp-ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "喜歡的作品，可以成為真正有方向的課程素材。",
+                          "lineHeight": 1.65,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 17,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.5
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "uGXLV",
+                      "name": "適合誰 Desktop Card 2",
+                      "width": "fill_container",
+                      "height": 250,
+                      "fill": "$cp-orange",
+                      "cornerRadius": 3,
+                      "stroke": "$cp-coffee",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 18,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "GuMRY",
+                          "name": "Custom Preparing Card 2 Label",
+                          "fill": "$cp-paper",
+                          "content": "OWN PACE",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.8
+                        },
+                        {
+                          "type": "text",
+                          "id": "RERPJ",
+                          "name": "Custom Preparing Card 2 Title",
+                          "fill": "$cp-paper",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "不想只照制式教材",
+                          "lineHeight": 1.4,
+                          "fontFamily": "Noto Serif TC",
+                          "fontSize": 24,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "APF7D",
+                          "name": "Custom Preparing Card 2 Description",
+                          "fill": "$cp-paper",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "依目前程度與目標，安排更有個人感的進度。",
+                          "lineHeight": 1.65,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 17,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.5
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "FKGtn",
+                      "name": "適合誰 Desktop Card 3",
+                      "width": "fill_container",
+                      "height": 250,
+                      "fill": "$cp-green",
+                      "cornerRadius": 3,
+                      "stroke": "$cp-coffee",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 18,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "gw9au",
+                          "name": "Custom Preparing Card 3 Label",
+                          "fill": "$cp-paper",
+                          "content": "MOTIVATION",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.8
+                        },
+                        {
+                          "type": "text",
+                          "id": "PXxzw",
+                          "name": "Custom Preparing Card 3 Title",
+                          "fill": "$cp-paper",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "兒童與成人都適合",
+                          "lineHeight": 1.4,
+                          "fontFamily": "Noto Serif TC",
+                          "fontSize": 24,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "n8naz",
+                          "name": "Custom Preparing Card 3 Description",
+                          "fill": "$cp-paper",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "用熟悉與喜歡的音樂，提高持續學習的動機。",
+                          "lineHeight": 1.65,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 17,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.5
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ij9xw",
+                  "name": "適合誰 Desktop Row 2",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "CNLyI",
+                      "name": "適合誰 Desktop Card 4",
+                      "width": "fill_container",
+                      "height": 250,
+                      "fill": "$cp-burgundy",
+                      "cornerRadius": 3,
+                      "stroke": "$cp-coffee",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 18,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "xXMTu",
+                          "name": "Custom Preparing Card 4 Label",
+                          "fill": "$cp-paper",
+                          "content": "BOTH / AND",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.8
+                        },
+                        {
+                          "type": "text",
+                          "id": "K9Lcq",
+                          "name": "Custom Preparing Card 4 Title",
+                          "fill": "$cp-paper",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "興趣也要兼顧視譜",
+                          "lineHeight": 1.4,
+                          "fontFamily": "Noto Serif TC",
+                          "fontSize": 24,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "Ad5QQ",
+                          "name": "Custom Preparing Card 4 Description",
+                          "fill": "$cp-paper",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "彈喜歡的歌，同時建立閱讀、節奏與協調能力。",
+                          "lineHeight": 1.65,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 17,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.5
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "hH6Gr",
+          "name": "Custom Desktop — How I Arrange",
+          "width": "fill_container",
+          "fill": "$cp-burgundy",
+          "stroke": "#00000000",
+          "layout": "vertical",
+          "gap": 28,
+          "padding": [
+            70,
+            84
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "f2EG2p",
+              "name": "Custom Arrange Kicker",
+              "fill": "$cp-mustard",
+              "textGrowth": "fixed-width",
+              "width": 1272,
+              "content": "03 — HOW I ARRANGE",
+              "lineHeight": 1.45,
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 11,
+              "fontWeight": "700",
+              "letterSpacing": 1
+            },
+            {
+              "type": "text",
+              "id": "fMyGp",
+              "name": "Custom Arrange Title",
+              "fill": "$cp-paper",
+              "textGrowth": "fixed-width",
+              "width": 1100,
+              "content": "不是把音大量刪掉，\n而是重新安排成適合你現在的版本。",
+              "lineHeight": 1.3,
+              "fontFamily": "Noto Serif TC",
+              "fontSize": 42,
+              "fontWeight": "700",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "frame",
+              "id": "IDBTN",
+              "name": "你會學到什麼 Desktop Cards",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "stroke": "#00000000",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "rT1Hc",
+                  "name": "你會學到什麼 Desktop Card 1",
+                  "width": "fill_container",
+                  "height": 260,
+                  "fill": "$cp-mustard",
+                  "cornerRadius": 2,
+                  "stroke": "$cp-coffee",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 18,
+                  "padding": 22,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "S3oAPx",
+                      "name": "Custom ABRSM Card 1 Label",
+                      "fill": "$cp-ink",
+                      "content": "LEVEL",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.6
+                    },
+                    {
+                      "type": "text",
+                      "id": "dSAZ4",
+                      "name": "Custom ABRSM Card 1 Title",
+                      "fill": "$cp-ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "依程度調整難度",
+                      "lineHeight": 1.35,
+                      "fontFamily": "Noto Serif TC",
+                      "fontSize": 24,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "pE6Ej",
+                      "name": "Custom ABRSM Card 1 Description",
+                      "fill": "$cp-ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "從音域、節奏、手型與閱讀能力，找出真正可掌握的版本。",
+                      "lineHeight": 1.65,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 16,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Skug4",
+                  "name": "你會學到什麼 Desktop Card 2",
+                  "width": "fill_container",
+                  "height": 260,
+                  "fill": "$cp-orange",
+                  "cornerRadius": 2,
+                  "stroke": "$cp-coffee",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 18,
+                  "padding": 22,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "vquat",
+                      "name": "Custom ABRSM Card 2 Label",
+                      "fill": "$cp-paper",
+                      "content": "MELODY",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.6
+                    },
+                    {
+                      "type": "text",
+                      "id": "T6mM3",
+                      "name": "Custom ABRSM Card 2 Title",
+                      "fill": "$cp-paper",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "保留旋律特色",
+                      "lineHeight": 1.35,
+                      "fontFamily": "Noto Serif TC",
+                      "fontSize": 24,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "Eg9sM",
+                      "name": "Custom ABRSM Card 2 Description",
+                      "fill": "$cp-paper",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "留下最重要的旋律、節奏辨識與原曲個性。",
+                      "lineHeight": 1.65,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 16,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "magVD",
+                  "name": "你會學到什麼 Desktop Card 3",
+                  "width": "fill_container",
+                  "height": 260,
+                  "fill": "$cp-paper",
+                  "cornerRadius": 2,
+                  "stroke": "$cp-coffee",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 18,
+                  "padding": 22,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ionVS",
+                      "name": "Custom ABRSM Card 3 Label",
+                      "fill": "$cp-ink",
+                      "content": "TEXTURE",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.6
+                    },
+                    {
+                      "type": "text",
+                      "id": "ATI7T",
+                      "name": "Custom ABRSM Card 3 Title",
+                      "fill": "$cp-ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "簡化和聲與伴奏型",
+                      "lineHeight": 1.35,
+                      "fontFamily": "Noto Serif TC",
+                      "fontSize": 24,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "oj7Td",
+                      "name": "Custom ABRSM Card 3 Description",
+                      "fill": "$cp-ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "重新安排左右手配置，降低不必要的技巧門檻。",
+                      "lineHeight": 1.65,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 16,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "sxWHq",
+                  "name": "你會學到什麼 Desktop Card 4",
+                  "width": "fill_container",
+                  "height": 260,
+                  "fill": "$cp-green",
+                  "cornerRadius": 2,
+                  "stroke": "$cp-coffee",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 18,
+                  "padding": 22,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "e91MI",
+                      "name": "Custom ABRSM Card 4 Label",
+                      "fill": "$cp-paper",
+                      "content": "SKILL",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.6
+                    },
+                    {
+                      "type": "text",
+                      "id": "LyJrq",
+                      "name": "Custom ABRSM Card 4 Title",
+                      "fill": "$cp-paper",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "兼顧視譜與技巧",
+                      "lineHeight": 1.35,
+                      "fontFamily": "Noto Serif TC",
+                      "fontSize": 24,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "GYK4y",
+                      "name": "Custom ABRSM Card 4 Description",
+                      "fill": "$cp-paper",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "讓改編後的譜真正能用來練閱讀、節奏與協調。",
+                      "lineHeight": 1.65,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 16,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "HXnEf",
+          "name": "Custom Desktop — Favorite Song to Skills",
+          "width": "fill_container",
+          "fill": "$cp-paper",
+          "stroke": "#00000000",
+          "gap": 56,
+          "padding": [
+            76,
+            84
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "i1wvPI",
+              "name": "視譜基礎 Desktop Intro",
+              "width": 420,
+              "fill": "#00000000",
+              "stroke": "#00000000",
+              "layout": "vertical",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "nfPKW",
+                  "name": "Custom Skills Kicker",
+                  "fill": "$cp-orange",
+                  "textGrowth": "fixed-width",
+                  "width": 420,
+                  "content": "04 — FAVORITE SONG → REAL SKILLS",
+                  "lineHeight": 1.45,
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "LTqMS",
+                  "name": "Custom Skills Title",
+                  "fill": "$cp-ink",
+                  "textGrowth": "fixed-width",
+                  "width": 420,
+                  "content": "喜歡的歌，\n也可以成為鋼琴教材。",
+                  "lineHeight": 1.28,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 40,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "unY5P",
+                  "name": "Custom Skills Description",
+                  "fill": "$cp-muted",
+                  "textGrowth": "fixed-width",
+                  "width": 420,
+                  "content": "目標不只完成一首歌，而是在熟悉的音樂裡，把閱讀、節奏、協調與理解一層一層建立起來。",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 18,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "frame",
+                  "id": "B69H0Q",
+                  "name": "視譜基礎 Goal Card",
+                  "width": 420,
+                  "fill": "$cp-mustard",
+                  "cornerRadius": 3,
+                  "stroke": "$cp-coffee",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 22,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "AiVAR",
+                      "name": "Custom Skills Goal Label",
+                      "fill": "$cp-burgundy",
+                      "content": "INTEREST + FUNDAMENTALS",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.4
+                    },
+                    {
+                      "type": "text",
+                      "id": "B1oXvU",
+                      "name": "Custom Skills Goal Text",
+                      "fill": "$cp-ink",
+                      "textGrowth": "fixed-width",
+                      "width": 376,
+                      "content": "興趣讓你願意開始；清楚的學習方向，讓能力真的留下來。",
+                      "lineHeight": 1.55,
+                      "fontFamily": "Noto Serif TC",
+                      "fontSize": 20,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "E9ACV",
+              "name": "視譜基礎 Desktop Grid",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "stroke": "#00000000",
+              "layout": "vertical",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "kq8RP",
+                  "name": "視譜基礎 Desktop Row 1",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "stroke": "#00000000",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "FnO3S",
+                      "name": "視譜基礎 Desktop Card 1",
+                      "width": "fill_container",
+                      "height": 170,
+                      "fill": "$cp-orange",
+                      "cornerRadius": 2,
+                      "stroke": "$cp-coffee",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "KVqVM",
+                          "name": "Custom Score Step 1 Title",
+                          "fill": "$cp-paper",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Favorite／喜歡的歌",
+                          "lineHeight": 1.35,
+                          "fontFamily": "Noto Serif TC",
+                          "fontSize": 22,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "Na3IS",
+                          "name": "Custom Score Step 1 Body",
+                          "fill": "$cp-paper",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "從真正想彈的音樂開始",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.5
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "WHTuC",
+                      "name": "視譜基礎 Desktop Card 2",
+                      "width": "fill_container",
+                      "height": 170,
+                      "fill": "$cp-cream",
+                      "cornerRadius": 2,
+                      "stroke": "$cp-coffee",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "y6fgY",
+                          "name": "Custom Score Step 2 Title",
+                          "fill": "$cp-ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Read／看譜",
+                          "lineHeight": 1.35,
+                          "fontFamily": "Noto Serif TC",
+                          "fontSize": 22,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "qAir6",
+                          "name": "Custom Score Step 2 Body",
+                          "fill": "$cp-muted",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "把熟悉的聲音連結到譜面與鍵盤",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.5
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ZNZFP",
+                  "name": "視譜基礎 Desktop Row 2",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "stroke": "#00000000",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Ulpbp",
+                      "name": "視譜基礎 Desktop Card 3",
+                      "width": "fill_container",
+                      "height": 170,
+                      "fill": "$cp-green",
+                      "cornerRadius": 2,
+                      "stroke": "$cp-coffee",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "z12Hi",
+                          "name": "Custom Score Step 3 Title",
+                          "fill": "$cp-paper",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Rhythm／節奏",
+                          "lineHeight": 1.35,
+                          "fontFamily": "Noto Serif TC",
+                          "fontSize": 22,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "CAqYD",
+                          "name": "Custom Score Step 3 Body",
+                          "fill": "$cp-paper",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "理解拍點、律動與節奏組合",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.5
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "MQqIk",
+                      "name": "視譜基礎 Desktop Card 4",
+                      "width": "fill_container",
+                      "height": 170,
+                      "fill": "$cp-orange",
+                      "cornerRadius": 2,
+                      "stroke": "$cp-coffee",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "VOOu6",
+                          "name": "Custom Score Step 4 Title",
+                          "fill": "$cp-paper",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Hands／雙手",
+                          "lineHeight": 1.35,
+                          "fontFamily": "Noto Serif TC",
+                          "fontSize": 22,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "y89re",
+                          "name": "Custom Score Step 4 Body",
+                          "fill": "$cp-paper",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "依程度整理左右手配置與協調",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.5
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "VGefJ",
+                  "name": "視譜基礎 Desktop Row 3",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "stroke": "#00000000",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "KzSbX",
+                      "name": "視譜基礎 Desktop Card 5",
+                      "width": "fill_container",
+                      "height": 170,
+                      "fill": "$cp-cream",
+                      "cornerRadius": 2,
+                      "stroke": "$cp-coffee",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "dlYvv",
+                          "name": "Custom Score Step 5 Title",
+                          "fill": "$cp-ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Understand／理解",
+                          "lineHeight": 1.35,
+                          "fontFamily": "Noto Serif TC",
+                          "fontSize": 22,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "Z4YRR",
+                          "name": "Custom Score Step 5 Body",
+                          "fill": "$cp-muted",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "知道旋律、和聲與伴奏如何合作",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.5
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "J01YN1",
+                      "name": "視譜基礎 Desktop Card 6",
+                      "width": "fill_container",
+                      "height": 170,
+                      "fill": "$cp-green",
+                      "cornerRadius": 2,
+                      "stroke": "$cp-coffee",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "I5do0",
+                          "name": "Custom Score Step 6 Title",
+                          "fill": "$cp-paper",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Play／完成",
+                          "lineHeight": 1.35,
+                          "fontFamily": "Noto Serif TC",
+                          "fontSize": 22,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "n4xUmv",
+                          "name": "Custom Score Step 6 Body",
+                          "fill": "$cp-paper",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "在可掌握的範圍內累積成功經驗",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.5
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "JP2z3",
+          "name": "Custom Desktop — Before and After",
+          "width": "fill_container",
+          "fill": "$cp-paper",
+          "stroke": "#00000000",
+          "layout": "vertical",
+          "gap": 28,
+          "padding": [
+            72,
+            84
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "Jx0wU",
+              "name": "Custom Example Kicker",
+              "fill": "$cp-burgundy",
+              "textGrowth": "fixed-width",
+              "width": 1272,
+              "content": "05 — BEFORE / AFTER · EXAMPLE 01",
+              "lineHeight": 1.45,
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 11,
+              "fontWeight": "700",
+              "letterSpacing": 1
+            },
+            {
+              "type": "text",
+              "id": "wCrQI",
+              "name": "Custom Example Title",
+              "fill": "$cp-ink",
+              "textGrowth": "fixed-width",
+              "width": 1100,
+              "content": "同一首音樂，找到現在彈得起來的入口。",
+              "lineHeight": 1.3,
+              "fontFamily": "Noto Serif TC",
+              "fontSize": 40,
+              "fontWeight": "700",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "text",
+              "id": "THpyr",
+              "name": "Custom Example Intro",
+              "fill": "$cp-coffee",
+              "textGrowth": "fixed-width",
+              "width": 1050,
+              "content": "原版的節奏、音域與伴奏型較複雜；改編後保留音樂特色，讓學生能在可掌握的範圍內建立成功經驗與閱讀能力。",
+              "lineHeight": 1.7,
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 18,
+              "fontWeight": "700",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "frame",
+              "id": "i6bTP",
+              "name": "基本技巧 Desktop Cards",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "stroke": "#00000000",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "eDzwE",
+                  "name": "基本技巧 Desktop Card 1",
+                  "width": "fill_container",
+                  "height": 590,
+                  "fill": "$cp-cream",
+                  "cornerRadius": 2,
+                  "stroke": "$cp-coffee",
+                  "strokeWidth": 2,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "k16cp",
+                      "name": "Custom Original Label",
+                      "fill": "$cp-orange",
+                      "content": "ORIGINAL / 原版",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 12,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "WDkUk",
+                      "name": "Custom Original Score Image",
+                      "context": "Original score example — local asset",
+                      "width": "fill_container",
+                      "height": 430,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "pen-assets/lessons/custom-example-01-original.jpg",
+                        "mode": "fit"
+                      },
+                      "cornerRadius": 2,
+                      "stroke": "$cp-paper",
+                      "strokeWidth": 3
+                    },
+                    {
+                      "type": "text",
+                      "id": "Ja402",
+                      "name": "Custom Original Caption",
+                      "fill": "$cp-ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "原版的節奏、音域與伴奏配置較複雜。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 17,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "uYgt7",
+                  "name": "基本技巧 Desktop Card 2",
+                  "width": "fill_container",
+                  "height": 590,
+                  "fill": "$cp-cream",
+                  "cornerRadius": 2,
+                  "stroke": "$cp-coffee",
+                  "strokeWidth": 2,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "lHAGL",
+                      "name": "Custom Adapted Label",
+                      "fill": "$cp-green",
+                      "content": "ADAPTED / 改編後版本",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 12,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "qVNt3",
+                      "name": "Custom Adapted Score Image",
+                      "context": "Adapted score example — local asset",
+                      "width": "fill_container",
+                      "height": 430,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "pen-assets/lessons/custom-example-01-adapted.jpg",
+                        "mode": "fit"
+                      },
+                      "cornerRadius": 2,
+                      "stroke": "$cp-paper",
+                      "strokeWidth": 3
+                    },
+                    {
+                      "type": "text",
+                      "id": "iiBUs",
+                      "name": "Custom Adapted Caption",
+                      "fill": "$cp-ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "保留音樂特色，重新安排成適合目前程度的版本。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 17,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "RKb4O",
+          "name": "Custom Desktop — Teaching Value",
+          "width": "fill_container",
+          "fill": "$cp-cream",
+          "stroke": "#00000000",
+          "layout": "vertical",
+          "gap": 28,
+          "padding": [
+            72,
+            84
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "bt24V",
+              "name": "Custom Value Kicker",
+              "fill": "$cp-burgundy",
+              "textGrowth": "fixed-width",
+              "width": 1272,
+              "content": "06 — WHY IT WORKS",
+              "lineHeight": 1.45,
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 11,
+              "fontWeight": "700",
+              "letterSpacing": 1
+            },
+            {
+              "type": "text",
+              "id": "BSkEr",
+              "name": "Custom Value Title",
+              "fill": "$cp-ink",
+              "textGrowth": "fixed-width",
+              "width": 1100,
+              "content": "興趣與基本功，可以一起前進。",
+              "lineHeight": 1.3,
+              "fontFamily": "Noto Serif TC",
+              "fontSize": 40,
+              "fontWeight": "700",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "text",
+              "id": "TZ6Bf",
+              "name": "Custom Value Intro",
+              "fill": "$cp-muted",
+              "textGrowth": "fixed-width",
+              "width": 1000,
+              "content": "客製改編不是只讓曲子變簡單，而是把學習目標放進真正想彈的音樂裡。",
+              "lineHeight": 1.65,
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 18,
+              "fontWeight": "700",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "frame",
+              "id": "SPbb5",
+              "name": "教材 Desktop Cards",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "stroke": "#00000000",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "i3vcln",
+                  "name": "教材 Desktop Card 1",
+                  "width": "fill_container",
+                  "height": 270,
+                  "fill": "$cp-mustard",
+                  "cornerRadius": 2,
+                  "stroke": "$cp-coffee",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "k8LgB",
+                      "name": "Custom Stage Card 1 Label",
+                      "fill": "$cp-burgundy",
+                      "content": "MOTIVATION",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.4
+                    },
+                    {
+                      "type": "text",
+                      "id": "vH41o",
+                      "name": "Custom Stage Card 1 Title",
+                      "fill": "$cp-ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "提高學習動機",
+                      "lineHeight": 1.35,
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 21,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "Z1SHC",
+                      "name": "Custom Stage Card 1 Body",
+                      "fill": "$cp-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "因為真的想彈，更願意投入練習。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 16,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "jWEqB",
+                  "name": "教材 Desktop Card 2",
+                  "width": "fill_container",
+                  "height": 270,
+                  "fill": "$cp-paper",
+                  "cornerRadius": 2,
+                  "stroke": "$cp-coffee",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "gLyXv",
+                      "name": "Custom Stage Card 2 Label",
+                      "fill": "$cp-burgundy",
+                      "content": "READING",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.4
+                    },
+                    {
+                      "type": "text",
+                      "id": "YilmB",
+                      "name": "Custom Stage Card 2 Title",
+                      "fill": "$cp-ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "建立看譜能力",
+                      "lineHeight": 1.35,
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 21,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "o4UiE5",
+                      "name": "Custom Stage Card 2 Body",
+                      "fill": "$cp-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "把熟悉的聲音連結到譜面與鍵盤。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 16,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "m5S3De",
+                  "name": "教材 Desktop Card 3",
+                  "width": "fill_container",
+                  "height": 270,
+                  "fill": "$cp-orange",
+                  "cornerRadius": 2,
+                  "stroke": "$cp-coffee",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "zq9Jf",
+                      "name": "Custom Stage Card 3 Label",
+                      "fill": "$cp-paper",
+                      "content": "RHYTHM",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.4
+                    },
+                    {
+                      "type": "text",
+                      "id": "g8gXzY",
+                      "name": "Custom Stage Card 3 Title",
+                      "fill": "$cp-paper",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "培養節奏與拍感",
+                      "lineHeight": 1.35,
+                      "fontFamily": "Noto Serif TC",
+                      "fontSize": 21,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "GbyKV",
+                      "name": "Custom Stage Card 3 Body",
+                      "fill": "$cp-paper",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "從歌曲律動理解拍點與節奏組合。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 16,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "hEgnX",
+                  "name": "教材 Desktop Card 4",
+                  "width": "fill_container",
+                  "height": 270,
+                  "fill": "$cp-green",
+                  "cornerRadius": 2,
+                  "stroke": "$cp-coffee",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Ixu7S",
+                      "name": "Custom Stage Card 4 Label",
+                      "fill": "$cp-paper",
+                      "content": "COORDINATION",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.4
+                    },
+                    {
+                      "type": "text",
+                      "id": "NcG8d",
+                      "name": "Custom Stage Card 4 Title",
+                      "fill": "$cp-paper",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "訓練左右手協調",
+                      "lineHeight": 1.35,
+                      "fontFamily": "Noto Serif TC",
+                      "fontSize": 21,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "ystnQ",
+                      "name": "Custom Stage Card 4 Body",
+                      "fill": "$cp-paper",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "用合適難度逐步整理雙手配置。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 16,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "lIczr",
+                  "name": "教材 Desktop Card 5",
+                  "width": "fill_container",
+                  "height": 270,
+                  "fill": "$cp-burgundy",
+                  "cornerRadius": 2,
+                  "stroke": "$cp-coffee",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "IHgF2",
+                      "name": "Custom Stage Card 5 Label",
+                      "fill": "$cp-paper",
+                      "content": "UNDERSTANDING",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.4
+                    },
+                    {
+                      "type": "text",
+                      "id": "rmr4x",
+                      "name": "Custom Stage Card 5 Title",
+                      "fill": "$cp-paper",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "建立音樂理解",
+                      "lineHeight": 1.35,
+                      "fontFamily": "Noto Serif TC",
+                      "fontSize": 21,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "kyBts",
+                      "name": "Custom Stage Card 5 Body",
+                      "fill": "$cp-paper",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "知道旋律與伴奏如何合作，不只按對音。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 16,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "OkK2S",
+          "name": "Custom Desktop — Core Philosophy",
+          "width": "fill_container",
+          "fill": "$cp-green",
+          "gap": 60,
+          "padding": [
+            76,
+            84
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "J0rQV2",
+              "name": "Judge Experience Desktop Intro",
+              "width": 520,
+              "layout": "vertical",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "GpEOa",
+                  "name": "Custom Philosophy Kicker",
+                  "fill": "$cp-mustard",
+                  "textGrowth": "fixed-width",
+                  "width": 520,
+                  "content": "07 — INTEREST × FUNDAMENTALS",
+                  "lineHeight": 1.45,
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "zcNgw",
+                  "name": "Custom Philosophy Title",
+                  "fill": "$cp-paper",
+                  "textGrowth": "fixed-width",
+                  "width": 520,
+                  "content": "不是只學會一首歌，\n而是讓能力跟著留下來。",
+                  "lineHeight": 1.28,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 40,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "egf9B",
+                  "name": "Custom Philosophy Body",
+                  "fill": "$cp-paper",
+                  "textGrowth": "fixed-width",
+                  "width": 520,
+                  "content": "改編後的樂譜會成為真正的教材：學生在喜歡的音樂裡，練習看譜、節奏、雙手協調與音樂理解。",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 18,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "MjVb1",
+              "name": "Judge Experience Desktop Media",
+              "width": 692,
+              "height": 330,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "GAMJf",
+                  "layoutPosition": "absolute",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Custom Philosophy Score Image",
+                  "context": "Teacher performance portrait — local asset",
+                  "width": 692,
+                  "height": 330,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "pen-assets/lessons/custom-example-01-adapted.jpg",
+                    "mode": "fit"
+                  },
+                  "cornerRadius": 2,
+                  "stroke": "$cp-paper",
+                  "strokeWidth": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ALU7F",
+          "name": "Custom Desktop — FAQ",
+          "width": "fill_container",
+          "fill": "$cp-paper",
+          "stroke": "#00000000",
+          "gap": 70,
+          "padding": [
+            76,
+            84
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "CYTYC",
+              "name": "Adult FAQ Desktop Intro",
+              "width": 430,
+              "fill": "#00000000",
+              "stroke": "#00000000",
+              "layout": "vertical",
+              "gap": 18,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "cI38q",
+                  "name": "Custom FAQ Kicker",
+                  "fill": "$cp-burgundy",
+                  "textGrowth": "fixed-width",
+                  "width": 430,
+                  "content": "08 — FAQ",
+                  "lineHeight": 1.45,
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "i0xWx",
+                  "name": "Custom FAQ Title",
+                  "fill": "$cp-ink",
+                  "textGrowth": "fixed-width",
+                  "width": 430,
+                  "content": "開始之前，\n常會問的事。",
+                  "lineHeight": 1.3,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 40,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "fLMiP",
+                  "name": "Custom FAQ Intro",
+                  "fill": "$cp-muted",
+                  "textGrowth": "fixed-width",
+                  "width": 430,
+                  "content": "每首曲子的可改編方式不同，正式規劃仍會依曲目、程度與需求確認。",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 18,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "WonfA",
+              "name": "Adult FAQ Desktop Accordion",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "stroke": "#00000000",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "JIrMK",
+                  "name": "Adult FAQ Desktop Item 1",
+                  "context": "Accordion item — tap to collapse",
+                  "width": "fill_container",
+                  "fill": "$cp-cream",
+                  "cornerRadius": 2,
+                  "stroke": "$cp-coffee",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    18,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "n44UwS",
+                      "name": "Adult FAQ Desktop Question Row 1",
+                      "width": "fill_container",
+                      "fill": "#00000000",
+                      "stroke": "#00000000",
+                      "gap": 16,
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "K0Sw4k",
+                          "name": "Custom FAQ Question 1",
+                          "fill": "$cp-ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "一定要會很多基礎，才能改編喜歡的歌嗎？",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 18,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.5
+                        },
+                        {
+                          "type": "icon",
+                          "id": "TEHjj",
+                          "name": "Adult FAQ Desktop Toggle 1",
+                          "width": 22,
+                          "height": 22,
+                          "icon": "minus",
+                          "library": "lucide",
+                          "fill": "$cp-burgundy"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "EfyPF",
+                      "name": "Custom FAQ Answer 1",
+                      "fill": "$cp-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "不用。會先看目前的閱讀、節奏與彈奏能力，再決定適合的起點。",
+                      "lineHeight": 1.65,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 17,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "q2MeHY",
+                  "name": "Adult FAQ Desktop Item 2",
+                  "context": "Accordion item — tap to expand",
+                  "width": "fill_container",
+                  "fill": "#F2E2C8",
+                  "cornerRadius": 2,
+                  "stroke": "$cp-coffee",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    18,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "rL09g",
+                      "name": "Adult FAQ Desktop Question Row 2",
+                      "width": "fill_container",
+                      "fill": "#00000000",
+                      "stroke": "#00000000",
+                      "gap": 16,
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Vip9H",
+                          "name": "Custom FAQ Question 2",
+                          "fill": "$cp-ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "可以指定想彈的曲子嗎？",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 18,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.5
+                        },
+                        {
+                          "type": "icon",
+                          "id": "IyHoT",
+                          "name": "Adult FAQ Desktop Toggle 2",
+                          "width": 22,
+                          "height": 22,
+                          "icon": "plus",
+                          "library": "lucide",
+                          "fill": "$cp-burgundy"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "cZkms",
+                  "name": "Adult FAQ Desktop Item 3",
+                  "context": "Accordion item — tap to expand",
+                  "width": "fill_container",
+                  "fill": "#F2E2C8",
+                  "cornerRadius": 2,
+                  "stroke": "$cp-coffee",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    18,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "qVfmt",
+                      "name": "Adult FAQ Desktop Question Row 3",
+                      "width": "fill_container",
+                      "fill": "#00000000",
+                      "stroke": "#00000000",
+                      "gap": 16,
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "zWHEJ",
+                          "name": "Custom FAQ Question 3",
+                          "fill": "$cp-ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "兒童也可以用這種方式學嗎？",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 18,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.5
+                        },
+                        {
+                          "type": "icon",
+                          "id": "aLadg",
+                          "name": "Adult FAQ Desktop Toggle 3",
+                          "width": 22,
+                          "height": 22,
+                          "icon": "plus",
+                          "library": "lucide",
+                          "fill": "$cp-burgundy"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "oO4bq",
+                  "name": "Adult FAQ Desktop Item 4",
+                  "context": "Accordion item — tap to expand",
+                  "width": "fill_container",
+                  "fill": "#F2E2C8",
+                  "cornerRadius": 2,
+                  "stroke": "$cp-coffee",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    18,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "lIzQd",
+                      "name": "Adult FAQ Desktop Question Row 4",
+                      "width": "fill_container",
+                      "fill": "#00000000",
+                      "stroke": "#00000000",
+                      "gap": 16,
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "q4qthr",
+                          "name": "Custom FAQ Question 4",
+                          "fill": "$cp-ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "會不會只學會一首歌、不會看譜？",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 18,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.5
+                        },
+                        {
+                          "type": "icon",
+                          "id": "hFPUk",
+                          "name": "Adult FAQ Desktop Toggle 4",
+                          "width": 22,
+                          "height": 22,
+                          "icon": "plus",
+                          "library": "lucide",
+                          "fill": "$cp-burgundy"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "DhFB5",
+          "name": "Custom Desktop — Book a Trial Lesson CTA",
+          "width": "fill_container",
+          "fill": "$cp-mustard",
+          "stroke": "#00000000",
+          "gap": 70,
+          "padding": [
+            70,
+            84
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Hh1bV",
+              "name": "Adult Trial CTA Desktop Copy",
+              "width": 800,
+              "fill": "#00000000",
+              "stroke": "#00000000",
+              "layout": "vertical",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "t79pK",
+                  "name": "Custom CTA Kicker",
+                  "fill": "$cp-burgundy",
+                  "textGrowth": "fixed-width",
+                  "width": 800,
+                  "content": "09 — START WITH A SONG",
+                  "lineHeight": 1.45,
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "Bp1GT",
+                  "name": "Custom CTA Title",
+                  "fill": "$cp-ink",
+                  "textGrowth": "fixed-width",
+                  "width": 800,
+                  "content": "告訴我，\n你最想彈哪一首。",
+                  "lineHeight": 1.25,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 48,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "TVrel",
+                  "name": "Custom CTA Body",
+                  "fill": "$cp-coffee",
+                  "textGrowth": "fixed-width",
+                  "width": 760,
+                  "content": "告訴我想彈的歌曲、現在的程度與學習目標，一起規劃適合的版本與學習方向。\nNo pressure. Just music.",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 18,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "frame",
+                  "id": "lNOph",
+                  "name": "Adult Trial CTA Desktop Button",
+                  "context": "Primary CTA — Book a Trial Lesson",
+                  "width": 340,
+                  "height": 58,
+                  "fill": "$cp-burgundy",
+                  "cornerRadius": 3,
+                  "stroke": "$cp-coffee",
+                  "strokeWidth": 1,
+                  "padding": [
+                    0,
+                    20
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ITmTu",
+                      "name": "Custom CTA Button Label",
+                      "fill": "$cp-paper",
+                      "content": "Book a Trial Lesson / 預約試課",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 16,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.4
+                    },
+                    {
+                      "type": "icon",
+                      "id": "gEG11",
+                      "name": "Adult Trial CTA Desktop Button Arrow",
+                      "width": 22,
+                      "height": 22,
+                      "icon": "arrow-up-right",
+                      "library": "lucide",
+                      "fill": "$cp-paper"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "WNaFY",
+              "name": "Adult Trial CTA Desktop Record Visual",
+              "width": 300,
+              "height": 300,
+              "fill": "#00000000",
+              "stroke": "#00000000",
+              "layout": "none",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "T0QbAe",
+                  "layoutPosition": "absolute",
+                  "x": 25,
+                  "y": 25,
+                  "name": "Adult Trial CTA Desktop Record",
+                  "fill": "$cp-burgundy",
+                  "width": 250,
+                  "height": 250,
+                  "stroke": "$cp-coffee",
+                  "strokeWidth": 2
+                },
+                {
+                  "type": "ellipse",
+                  "id": "BTV1T",
+                  "layoutPosition": "absolute",
+                  "x": 105,
+                  "y": 105,
+                  "name": "Adult Trial CTA Desktop Record Label",
+                  "fill": "$cp-orange",
+                  "width": 90,
+                  "height": 90,
+                  "stroke": "$cp-paper",
+                  "strokeWidth": 2
+                },
+                {
+                  "type": "ellipse",
+                  "id": "y4j75",
+                  "layoutPosition": "absolute",
+                  "x": 142,
+                  "y": 142,
+                  "name": "Adult Trial CTA Desktop Record Center",
+                  "fill": "$cp-paper",
+                  "width": 16,
+                  "height": 16,
+                  "stroke": "#00000000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "BYAkH",
+          "name": "Custom Arrangements Desktop Footer",
+          "width": "fill_container",
+          "height": 430,
+          "fill": "$cp-coffee",
+          "layout": "vertical",
+          "gap": 44,
+          "padding": [
+            58,
+            58,
+            34,
+            58
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "H5fW4x",
+              "name": "Footer Main Row",
+              "width": "fill_container",
+              "height": "fill_container",
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "P2WgvK",
+                  "name": "Footer Brand",
+                  "width": 520,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "znVdW",
+                      "name": "Footer Brand Name",
+                      "fill": "$cp-paper",
+                      "content": "CRAZY PIANO\n瘋鋼琴",
+                      "lineHeight": 0.95,
+                      "fontFamily": "Noto Serif TC",
+                      "fontSize": 57,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "t5rlG",
+                      "name": "Footer Brand Tagline",
+                      "fill": "#FFF8ECC0",
+                      "content": "Play it your way.\n把技巧練好，也把音樂變成自己的。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 18,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Z9YHs",
+                  "name": "Footer Navigation Columns",
+                  "width": 700,
+                  "gap": 56,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "c3cp7",
+                      "name": "Footer Column 1",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 13,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "xHHFu",
+                          "name": "Footer Column 1 Heading",
+                          "fill": "$cp-mustard",
+                          "content": "EXPLORE",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 13,
+                          "fontWeight": "700",
+                          "letterSpacing": 1.3
+                        },
+                        {
+                          "type": "text",
+                          "id": "SKO8E",
+                          "name": "Footer Column 1 Link 1",
+                          "fill": "$cp-paper",
+                          "content": "關於徐老師",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Q0euMv",
+                          "name": "Footer Column 1 Link 2",
+                          "fill": "$cp-paper",
+                          "content": "課程",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "zC95t",
+                          "name": "Footer Column 1 Link 3",
+                          "fill": "$cp-paper",
+                          "content": "學費",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "hX4zy",
+                          "name": "Footer Column 1 Link 4",
+                          "fill": "$cp-paper",
+                          "content": "學生故事",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "E7Bpi",
+                      "name": "Footer Column 2",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 13,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "snDdU",
+                          "name": "Footer Column 2 Heading",
+                          "fill": "$cp-mustard",
+                          "content": "LESSONS",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 13,
+                          "fontWeight": "700",
+                          "letterSpacing": 1.3
+                        },
+                        {
+                          "type": "text",
+                          "id": "zXf8Y",
+                          "name": "Footer Column 2 Link 1",
+                          "fill": "$cp-paper",
+                          "content": "兒童鋼琴",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "AqHiH",
+                          "name": "Footer Column 2 Link 2",
+                          "fill": "$cp-paper",
+                          "content": "成人鋼琴",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "m0ZrCE",
+                          "name": "Footer Column 2 Link 3",
+                          "fill": "$cp-paper",
+                          "content": "ABRSM 檢定",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "BLe6v",
+                          "name": "Footer Column 2 Link 4",
+                          "fill": "$cp-paper",
+                          "content": "客製改編",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "j5SElb",
+                      "name": "Footer Column 3",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 13,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "GOByB",
+                          "name": "Footer Column 3 Heading",
+                          "fill": "$cp-mustard",
+                          "content": "CONNECT",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 13,
+                          "fontWeight": "700",
+                          "letterSpacing": 1.3
+                        },
+                        {
+                          "type": "text",
+                          "id": "kqJSw",
+                          "name": "Footer Column 3 Link 1",
+                          "fill": "$cp-paper",
+                          "content": "YouTube",
+                          "fontFamily": "Funnel Sans",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "dHHtb",
+                          "name": "Footer Column 3 Link 2",
+                          "fill": "$cp-paper",
+                          "content": "Instagram",
+                          "fontFamily": "Funnel Sans",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "zS1N3",
+                          "name": "Footer Column 3 Link 3",
+                          "fill": "$cp-paper",
+                          "content": "minpiyer@gmail.com",
+                          "fontFamily": "Funnel Sans",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "CpnyF",
+                          "name": "Footer Column 3 Link 4",
+                          "fill": "$cp-paper",
+                          "content": "預約試課",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "BaZut",
+              "name": "Footer Bottom Row",
+              "width": "fill_container",
+              "stroke": "#FFF8EC55",
+              "strokeWidth": {
+                "top": 1
+              },
+              "padding": [
+                18,
+                0,
+                0,
+                0
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "DJE2w",
+                  "name": "Footer Copyright",
+                  "fill": "#FFF8ECAA",
+                  "content": "© 2026 CRAZY PIANO / DR. HSU. ALL RIGHTS RESERVED.",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "kUfYX",
+                  "name": "Footer Location",
+                  "fill": "#FFF8ECAA",
+                  "content": "TAIPEI ↔ WORLDWIDE ONLINE",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "mxNTp",
+      "x": 1560,
+      "y": 32380,
+      "name": "Custom Piano Arrangements／客製歌曲改編 — Mobile 390",
+      "context": "Custom Piano Arrangements Internal Page — Mobile 390 — Ready for Review",
+      "clip": true,
+      "width": 390,
+      "height": 7783,
+      "fill": "$cp-cream",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "eiLZo",
+          "name": "Custom Arrangements Mobile Navigation",
+          "width": "fill_container",
+          "height": 76,
+          "fill": "$cp-paper",
+          "stroke": "$cp-line",
+          "strokeWidth": {
+            "bottom": 1
+          },
+          "padding": [
+            16,
+            18
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "HpJbP",
+              "name": "Mobile Brand",
+              "gap": 9,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "h7TF9",
+                  "name": "Brand Dot",
+                  "fill": "$cp-orange",
+                  "width": 18,
+                  "height": 18,
+                  "stroke": "$cp-coffee",
+                  "strokeWidth": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "IowxC",
+                  "name": "Brand Wordmark",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "BzaUK",
+                      "name": "Crazy Piano Logo",
+                      "fill": "$cp-ink",
+                      "content": "CRAZY PIANO",
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 13,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.4
+                    },
+                    {
+                      "type": "text",
+                      "id": "Yjr6E",
+                      "name": "瘋鋼琴 Logo",
+                      "fill": "$cp-burgundy",
+                      "content": "瘋鋼琴",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 11,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "toyiR",
+              "name": "Mobile Navigation Actions",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "f9bfGy",
+                  "name": "Language Switch",
+                  "height": 42,
+                  "fill": "$cp-cream",
+                  "cornerRadius": 21,
+                  "stroke": "$cp-coffee",
+                  "strokeWidth": 1,
+                  "padding": [
+                    0,
+                    12
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "iWSuK",
+                      "name": "Language Label",
+                      "fill": "$cp-coffee",
+                      "content": "中／EN",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "fORmn",
+                  "name": "Hamburger Menu Button",
+                  "width": 42,
+                  "height": 42,
+                  "fill": "$cp-burgundy",
+                  "cornerRadius": 21,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "Q3FBfI",
+                      "name": "Hamburger Menu Icon",
+                      "width": 22,
+                      "height": 22,
+                      "icon": "menu",
+                      "library": "lucide",
+                      "fill": "$cp-paper"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "WwxG7",
+          "name": "Custom Mobile — Hero",
+          "width": "fill_container",
+          "fill": "$cp-mustard",
+          "stroke": "#00000000",
+          "layout": "vertical",
+          "gap": 18,
+          "padding": [
+            34,
+            20,
+            40,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "J03men",
+              "name": "Mobile Custom Hero Kicker",
+              "fill": "$cp-coffee",
+              "textGrowth": "fixed-width",
+              "width": 350,
+              "content": "01 — CUSTOM ARRANGEMENTS",
+              "lineHeight": 1.4,
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 10,
+              "fontWeight": "700",
+              "letterSpacing": 0.7
+            },
+            {
+              "type": "text",
+              "id": "FT3Ij",
+              "name": "Mobile Custom Hero English",
+              "fill": "$cp-ink",
+              "textGrowth": "fixed-width",
+              "width": 350,
+              "content": "PLAY WHAT\nYOU LOVE.",
+              "lineHeight": 0.94,
+              "fontFamily": "Playfair Display",
+              "fontSize": 48,
+              "fontWeight": "800",
+              "letterSpacing": -1
+            },
+            {
+              "type": "text",
+              "id": "a5cnI9",
+              "name": "Mobile Custom Hero Chinese",
+              "fill": "$cp-burgundy",
+              "textGrowth": "fixed-width",
+              "width": 350,
+              "content": "客製歌曲改編",
+              "lineHeight": 1.25,
+              "fontFamily": "Noto Serif TC",
+              "fontSize": 31,
+              "fontWeight": "700",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "text",
+              "id": "mh74X",
+              "name": "Mobile Custom Hero Core Message",
+              "fill": "$cp-ink",
+              "textGrowth": "fixed-width",
+              "width": 350,
+              "content": "把你喜歡的歌，\n變成真的彈得起來的版本。",
+              "lineHeight": 1.5,
+              "fontFamily": "Noto Serif TC",
+              "fontSize": 22,
+              "fontWeight": "700",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "text",
+              "id": "eJpUu",
+              "name": "Mobile Custom Hero Description",
+              "fill": "$cp-coffee",
+              "textGrowth": "fixed-width",
+              "width": 350,
+              "content": "依學生程度、手型、閱讀能力與目標，將喜歡的歌曲調整成合適版本；在喜歡的音樂裡建立真正的基本功。",
+              "lineHeight": 1.65,
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 17,
+              "fontWeight": "700",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "frame",
+              "id": "HYlPA",
+              "name": "Mobile Custom Hero Score Preview",
+              "context": "Teacher performance portrait — local asset",
+              "width": 350,
+              "height": 330,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "pen-assets/lessons/custom-example-01-adapted.jpg",
+                "mode": "fit"
+              },
+              "cornerRadius": [
+                6,
+                6,
+                28,
+                6
+              ],
+              "stroke": "$cp-coffee",
+              "strokeWidth": 2
+            },
+            {
+              "type": "frame",
+              "id": "VQCkQ",
+              "name": "Mobile Adult Hero Age Badge",
+              "width": 350,
+              "height": 48,
+              "fill": "$cp-paper",
+              "cornerRadius": 24,
+              "stroke": "$cp-coffee",
+              "strokeWidth": 1,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "PL6Sj",
+                  "name": "Mobile Custom Hero Badge",
+                  "fill": "$cp-burgundy",
+                  "content": "POP・FILM・YOUR FAVORITES",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 14,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.4
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "BJiRn",
+              "name": "Mobile Adult Hero Trial CTA",
+              "context": "Primary CTA — Book a Trial Lesson",
+              "width": 350,
+              "height": 56,
+              "fill": "$cp-burgundy",
+              "cornerRadius": 3,
+              "stroke": "$cp-coffee",
+              "strokeWidth": 1,
+              "padding": [
+                0,
+                18
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "wDvbE",
+                  "name": "Mobile Custom Hero CTA",
+                  "fill": "$cp-paper",
+                  "content": "Book a Trial Lesson / 預約試課",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.4
+                },
+                {
+                  "type": "icon",
+                  "id": "Bbmmo",
+                  "name": "Mobile Adult Hero Trial CTA Arrow",
+                  "width": 21,
+                  "height": 21,
+                  "icon": "arrow-up-right",
+                  "library": "lucide",
+                  "fill": "$cp-paper"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "eYto9",
+          "name": "Custom Mobile — Who It Is For",
+          "width": "fill_container",
+          "fill": "$cp-paper",
+          "stroke": "#00000000",
+          "layout": "vertical",
+          "gap": 18,
+          "padding": [
+            40,
+            20,
+            42,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "O41dg",
+              "name": "Mobile Custom Audience Kicker",
+              "fill": "$cp-orange",
+              "textGrowth": "fixed-width",
+              "width": 350,
+              "content": "02 — WHO IS IT FOR?",
+              "lineHeight": 1.45,
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 10,
+              "fontWeight": "700",
+              "letterSpacing": 0.7
+            },
+            {
+              "type": "text",
+              "id": "GzOrH",
+              "name": "Mobile Custom Audience Title",
+              "fill": "$cp-ink",
+              "textGrowth": "fixed-width",
+              "width": 350,
+              "content": "讓喜歡的音樂，\n成為開始練琴的理由。",
+              "lineHeight": 1.3,
+              "fontFamily": "Noto Serif TC",
+              "fontSize": 30,
+              "fontWeight": "700",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "text",
+              "id": "r69gzd",
+              "name": "Mobile Custom Audience Intro",
+              "fill": "$cp-muted",
+              "textGrowth": "fixed-width",
+              "width": 350,
+              "content": "把學生真正想彈的音樂，也納入有方向的學習。",
+              "lineHeight": 1.6,
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 17,
+              "fontWeight": "700",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "frame",
+              "id": "ubDTX",
+              "name": "適合誰 Mobile Card 1",
+              "width": 350,
+              "fill": "$cp-mustard",
+              "cornerRadius": 3,
+              "stroke": "$cp-coffee",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 18,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "hQTLQ",
+                  "name": "Custom Mobile Preparing Card 1 Label",
+                  "fill": "$cp-ink",
+                  "content": "FAVORITES",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 10,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.6
+                },
+                {
+                  "type": "text",
+                  "id": "irAnL",
+                  "name": "Custom Mobile Preparing Card 1 Title",
+                  "fill": "$cp-ink",
+                  "textGrowth": "fixed-width",
+                  "width": 314,
+                  "content": "想彈喜歡的作品",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 21,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "e95wUk",
+                  "name": "Custom Mobile Preparing Card 1 Description",
+                  "fill": "$cp-ink",
+                  "textGrowth": "fixed-width",
+                  "width": 314,
+                  "content": "流行、動漫與電影配樂，都能成為課程素材。",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "pjwsC",
+              "name": "適合誰 Mobile Card 2",
+              "width": 350,
+              "fill": "$cp-orange",
+              "cornerRadius": 3,
+              "stroke": "$cp-coffee",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 18,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "OvVqE",
+                  "name": "Custom Mobile Preparing Card 2 Label",
+                  "fill": "$cp-paper",
+                  "content": "OWN PACE",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 10,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.6
+                },
+                {
+                  "type": "text",
+                  "id": "yHArC",
+                  "name": "Custom Mobile Preparing Card 2 Title",
+                  "fill": "$cp-paper",
+                  "textGrowth": "fixed-width",
+                  "width": 314,
+                  "content": "不想只照制式教材",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 21,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "l3rUqr",
+                  "name": "Custom Mobile Preparing Card 2 Description",
+                  "fill": "$cp-paper",
+                  "textGrowth": "fixed-width",
+                  "width": 314,
+                  "content": "依目前程度與目標安排個人化進度。",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "F3rl6",
+              "name": "適合誰 Mobile Card 3",
+              "width": 350,
+              "fill": "$cp-green",
+              "cornerRadius": 3,
+              "stroke": "$cp-coffee",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 18,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "aLLzr",
+                  "name": "Custom Mobile Preparing Card 3 Label",
+                  "fill": "$cp-paper",
+                  "content": "MOTIVATION",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 10,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.6
+                },
+                {
+                  "type": "text",
+                  "id": "nsJmK",
+                  "name": "Custom Mobile Preparing Card 3 Title",
+                  "fill": "$cp-paper",
+                  "textGrowth": "fixed-width",
+                  "width": 314,
+                  "content": "兒童與成人都適合",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 21,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "qe9t3",
+                  "name": "Custom Mobile Preparing Card 3 Description",
+                  "fill": "$cp-paper",
+                  "textGrowth": "fixed-width",
+                  "width": 314,
+                  "content": "用喜歡的音樂提高持續學習的動機。",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "AORtb",
+              "name": "適合誰 Mobile Card 4",
+              "width": 350,
+              "fill": "$cp-burgundy",
+              "cornerRadius": 3,
+              "stroke": "$cp-coffee",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 18,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "CAI5e",
+                  "name": "Custom Mobile Preparing Card 4 Label",
+                  "fill": "$cp-paper",
+                  "content": "BOTH / AND",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 10,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.6
+                },
+                {
+                  "type": "text",
+                  "id": "ltCLb",
+                  "name": "Custom Mobile Preparing Card 4 Title",
+                  "fill": "$cp-paper",
+                  "textGrowth": "fixed-width",
+                  "width": 314,
+                  "content": "興趣也要兼顧視譜",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 21,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "dBNnA",
+                  "name": "Custom Mobile Preparing Card 4 Description",
+                  "fill": "$cp-paper",
+                  "textGrowth": "fixed-width",
+                  "width": 314,
+                  "content": "同時建立閱讀、節奏與協調能力。",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "BAZGi",
+          "name": "Custom Mobile — How I Arrange",
+          "width": "fill_container",
+          "fill": "$cp-burgundy",
+          "stroke": "#00000000",
+          "layout": "vertical",
+          "gap": 18,
+          "padding": [
+            40,
+            20,
+            42,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "QnfOU",
+              "name": "Mobile Custom Arrange Kicker",
+              "fill": "$cp-mustard",
+              "textGrowth": "fixed-width",
+              "width": 350,
+              "content": "03 — HOW I ARRANGE",
+              "lineHeight": 1.45,
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 10,
+              "fontWeight": "700",
+              "letterSpacing": 0.7
+            },
+            {
+              "type": "text",
+              "id": "VmCWL",
+              "name": "Mobile Custom Arrange Title",
+              "fill": "$cp-paper",
+              "textGrowth": "fixed-width",
+              "width": 350,
+              "content": "不是大量刪音，\n而是重新安排。",
+              "lineHeight": 1.3,
+              "fontFamily": "Noto Serif TC",
+              "fontSize": 30,
+              "fontWeight": "700",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "frame",
+              "id": "b5tIe",
+              "name": "你會學到什麼 Mobile Card 1",
+              "width": 350,
+              "fill": "$cp-mustard",
+              "cornerRadius": 2,
+              "stroke": "$cp-coffee",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 18,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Y0JHK",
+                  "name": "Custom Mobile ABRSM Card 1 Label",
+                  "fill": "$cp-ink",
+                  "content": "LEVEL",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 10,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "W1MdiD",
+                  "name": "Custom Mobile ABRSM Card 1 Title",
+                  "fill": "$cp-ink",
+                  "textGrowth": "fixed-width",
+                  "width": 314,
+                  "content": "依程度調整難度",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 22,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "E9h45F",
+                  "name": "Custom Mobile ABRSM Card 1 Description",
+                  "fill": "$cp-ink",
+                  "textGrowth": "fixed-width",
+                  "width": 314,
+                  "content": "從音域、節奏、手型與閱讀能力找出可掌握的版本。",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "v3W9p",
+              "name": "你會學到什麼 Mobile Card 2",
+              "width": 350,
+              "fill": "$cp-orange",
+              "cornerRadius": 2,
+              "stroke": "$cp-coffee",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 18,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "T9nKue",
+                  "name": "Custom Mobile ABRSM Card 2 Label",
+                  "fill": "$cp-paper",
+                  "content": "MELODY",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 10,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "cZ4Tn",
+                  "name": "Custom Mobile ABRSM Card 2 Title",
+                  "fill": "$cp-paper",
+                  "textGrowth": "fixed-width",
+                  "width": 314,
+                  "content": "保留旋律特色",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 22,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "G6kHf",
+                  "name": "Custom Mobile ABRSM Card 2 Description",
+                  "fill": "$cp-paper",
+                  "textGrowth": "fixed-width",
+                  "width": 314,
+                  "content": "留下旋律、節奏辨識與原曲個性。",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "A2NTi0",
+              "name": "你會學到什麼 Mobile Card 3",
+              "width": 350,
+              "fill": "$cp-paper",
+              "cornerRadius": 2,
+              "stroke": "$cp-coffee",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 18,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "p4zn37",
+                  "name": "Custom Mobile ABRSM Card 3 Label",
+                  "fill": "$cp-ink",
+                  "content": "TEXTURE",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 10,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "SSFIX",
+                  "name": "Custom Mobile ABRSM Card 3 Title",
+                  "fill": "$cp-ink",
+                  "textGrowth": "fixed-width",
+                  "width": 314,
+                  "content": "簡化和聲與伴奏",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 22,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "tWp2V",
+                  "name": "Custom Mobile ABRSM Card 3 Description",
+                  "fill": "$cp-ink",
+                  "textGrowth": "fixed-width",
+                  "width": 314,
+                  "content": "重新安排左右手配置與技巧門檻。",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "NkN36",
+              "name": "你會學到什麼 Mobile Card 4",
+              "width": 350,
+              "fill": "$cp-green",
+              "cornerRadius": 2,
+              "stroke": "$cp-coffee",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 18,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Od1so",
+                  "name": "Custom Mobile ABRSM Card 4 Label",
+                  "fill": "$cp-paper",
+                  "content": "SKILL",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 10,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "us6EP",
+                  "name": "Custom Mobile ABRSM Card 4 Title",
+                  "fill": "$cp-paper",
+                  "textGrowth": "fixed-width",
+                  "width": 314,
+                  "content": "兼顧視譜與技巧",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 22,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "zOpWI",
+                  "name": "Custom Mobile ABRSM Card 4 Description",
+                  "fill": "$cp-paper",
+                  "textGrowth": "fixed-width",
+                  "width": 314,
+                  "content": "讓譜真正用來練閱讀、節奏與協調。",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ccioF",
+          "name": "Custom Mobile — Favorite Song to Skills",
+          "width": "fill_container",
+          "fill": "$cp-paper",
+          "stroke": "#00000000",
+          "layout": "vertical",
+          "gap": 18,
+          "padding": [
+            40,
+            20,
+            42,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "skr9C",
+              "name": "Mobile Custom Skills Kicker",
+              "fill": "$cp-orange",
+              "textGrowth": "fixed-width",
+              "width": 350,
+              "content": "04 — FAVORITE SONG → SKILLS",
+              "lineHeight": 1.45,
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 10,
+              "fontWeight": "700",
+              "letterSpacing": 0.7
+            },
+            {
+              "type": "text",
+              "id": "hY1Ki",
+              "name": "Mobile Custom Skills Title",
+              "fill": "$cp-ink",
+              "textGrowth": "fixed-width",
+              "width": 350,
+              "content": "喜歡的歌，\n也可以成為教材。",
+              "lineHeight": 1.3,
+              "fontFamily": "Noto Serif TC",
+              "fontSize": 30,
+              "fontWeight": "700",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "text",
+              "id": "EIydG",
+              "name": "Mobile Custom Skills Description",
+              "fill": "$cp-muted",
+              "textGrowth": "fixed-width",
+              "width": 350,
+              "content": "不只完成一首歌，也把閱讀、節奏、協調與理解留下來。",
+              "lineHeight": 1.65,
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 17,
+              "fontWeight": "700",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "frame",
+              "id": "TZtuM",
+              "name": "視譜基礎 Mobile Card 1",
+              "width": 350,
+              "fill": "$cp-orange",
+              "cornerRadius": 2,
+              "stroke": "$cp-coffee",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 8,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "vFLCj",
+                  "name": "Custom Mobile Score Step 1 Title",
+                  "fill": "$cp-paper",
+                  "textGrowth": "fixed-width",
+                  "width": 318,
+                  "content": "Favorite／喜歡的歌",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 20,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "o9ukH",
+                  "name": "Custom Mobile Score Step 1 Body",
+                  "fill": "$cp-paper",
+                  "textGrowth": "fixed-width",
+                  "width": 318,
+                  "content": "從真正想彈的音樂開始",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "I1khuA",
+              "name": "視譜基礎 Mobile Card 2",
+              "width": 350,
+              "fill": "$cp-cream",
+              "cornerRadius": 2,
+              "stroke": "$cp-coffee",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 8,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "kZHWx",
+                  "name": "Custom Mobile Score Step 2 Title",
+                  "fill": "$cp-ink",
+                  "textGrowth": "fixed-width",
+                  "width": 318,
+                  "content": "Read／看譜",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 20,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "MwuPh",
+                  "name": "Custom Mobile Score Step 2 Body",
+                  "fill": "$cp-muted",
+                  "textGrowth": "fixed-width",
+                  "width": 318,
+                  "content": "連結譜面、聲音與鍵盤",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Dzf7R",
+              "name": "視譜基礎 Mobile Card 3",
+              "width": 350,
+              "fill": "$cp-green",
+              "cornerRadius": 2,
+              "stroke": "$cp-coffee",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 8,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "j8kzt",
+                  "name": "Custom Mobile Score Step 3 Title",
+                  "fill": "$cp-paper",
+                  "textGrowth": "fixed-width",
+                  "width": 318,
+                  "content": "Rhythm／節奏",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 20,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "d1ncW",
+                  "name": "Custom Mobile Score Step 3 Body",
+                  "fill": "$cp-paper",
+                  "textGrowth": "fixed-width",
+                  "width": 318,
+                  "content": "理解拍點、律動與節奏組合",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "vxZmP",
+              "name": "視譜基礎 Mobile Card 4",
+              "width": 350,
+              "fill": "$cp-orange",
+              "cornerRadius": 2,
+              "stroke": "$cp-coffee",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 8,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "rdqO0",
+                  "name": "Custom Mobile Score Step 4 Title",
+                  "fill": "$cp-paper",
+                  "textGrowth": "fixed-width",
+                  "width": 318,
+                  "content": "Hands／雙手",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 20,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "xBmn1",
+                  "name": "Custom Mobile Score Step 4 Body",
+                  "fill": "$cp-paper",
+                  "textGrowth": "fixed-width",
+                  "width": 318,
+                  "content": "整理左右手配置與協調",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "COkdY",
+              "name": "視譜基礎 Mobile Card 5",
+              "width": 350,
+              "fill": "$cp-cream",
+              "cornerRadius": 2,
+              "stroke": "$cp-coffee",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 8,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "gM6s4",
+                  "name": "Custom Mobile Score Step 5 Title",
+                  "fill": "$cp-ink",
+                  "textGrowth": "fixed-width",
+                  "width": 318,
+                  "content": "Understand／理解",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 20,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "bgMJW",
+                  "name": "Custom Mobile Score Step 5 Body",
+                  "fill": "$cp-muted",
+                  "textGrowth": "fixed-width",
+                  "width": 318,
+                  "content": "理解旋律、和聲與伴奏",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "xn3Jt",
+              "name": "視譜基礎 Mobile Card 6",
+              "width": 350,
+              "fill": "$cp-green",
+              "cornerRadius": 2,
+              "stroke": "$cp-coffee",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 8,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "a9rqES",
+                  "name": "Custom Mobile Score Step 6 Title",
+                  "fill": "$cp-paper",
+                  "textGrowth": "fixed-width",
+                  "width": 318,
+                  "content": "Play／完成",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 20,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "YsD0g",
+                  "name": "Custom Mobile Score Step 6 Body",
+                  "fill": "$cp-paper",
+                  "textGrowth": "fixed-width",
+                  "width": 318,
+                  "content": "在可掌握範圍累積成功經驗",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "JdQhF",
+          "name": "Custom Mobile — Before and After",
+          "width": "fill_container",
+          "fill": "$cp-paper",
+          "stroke": "#00000000",
+          "layout": "vertical",
+          "gap": 18,
+          "padding": [
+            40,
+            20,
+            42,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "p1IG3",
+              "name": "Mobile Custom Example Kicker",
+              "fill": "$cp-burgundy",
+              "textGrowth": "fixed-width",
+              "width": 350,
+              "content": "05 — BEFORE / AFTER · EXAMPLE 01",
+              "lineHeight": 1.45,
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 10,
+              "fontWeight": "700",
+              "letterSpacing": 0.7
+            },
+            {
+              "type": "text",
+              "id": "r8G1Kj",
+              "name": "Mobile Custom Example Title",
+              "fill": "$cp-ink",
+              "textGrowth": "fixed-width",
+              "width": 350,
+              "content": "同一首音樂，\n找到現在彈得起來的入口。",
+              "lineHeight": 1.3,
+              "fontFamily": "Noto Serif TC",
+              "fontSize": 30,
+              "fontWeight": "700",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "text",
+              "id": "Oh5Bc",
+              "name": "Mobile Custom Example Intro",
+              "fill": "$cp-coffee",
+              "textGrowth": "fixed-width",
+              "width": 350,
+              "content": "原版較複雜；改編後保留音樂特色，讓學生在可掌握的範圍內建立成功經驗。",
+              "lineHeight": 1.6,
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 17,
+              "fontWeight": "700",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "frame",
+              "id": "V15IiR",
+              "name": "基本技巧 Mobile Card 1",
+              "width": 350,
+              "height": 470,
+              "fill": "$cp-cream",
+              "cornerRadius": 2,
+              "stroke": "$cp-coffee",
+              "strokeWidth": 2,
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "GM65u",
+                  "name": "Mobile Custom Original Label",
+                  "fill": "$cp-orange",
+                  "content": "ORIGINAL / 原版",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "H4coP",
+                  "name": "Mobile Custom Original Score",
+                  "context": "Original score example — local asset",
+                  "width": "fill_container",
+                  "height": 300,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "pen-assets/lessons/custom-example-01-original.jpg",
+                    "mode": "fit"
+                  },
+                  "cornerRadius": 2,
+                  "stroke": "$cp-paper",
+                  "strokeWidth": 3
+                },
+                {
+                  "type": "text",
+                  "id": "vtAq0",
+                  "name": "Mobile Custom Original Caption",
+                  "fill": "$cp-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "節奏、音域與伴奏配置較複雜。",
+                  "lineHeight": 1.55,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "M56DvC",
+              "name": "基本技巧 Mobile Card 2",
+              "width": 350,
+              "height": 500,
+              "fill": "$cp-cream",
+              "cornerRadius": 2,
+              "stroke": "$cp-coffee",
+              "strokeWidth": 2,
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "F4cduJ",
+                  "name": "Mobile Custom Adapted Label",
+                  "fill": "$cp-green",
+                  "content": "ADAPTED / 改編後版本",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "B84fsG",
+                  "name": "Mobile Custom Adapted Score",
+                  "context": "Adapted score example — local asset",
+                  "width": "fill_container",
+                  "height": 300,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "pen-assets/lessons/custom-example-01-adapted.jpg",
+                    "mode": "fit"
+                  },
+                  "cornerRadius": 2,
+                  "stroke": "$cp-paper",
+                  "strokeWidth": 3
+                },
+                {
+                  "type": "text",
+                  "id": "h5ZEs",
+                  "name": "Mobile Custom Adapted Caption",
+                  "fill": "$cp-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "保留特色，重新安排成適合目前程度的版本。",
+                  "lineHeight": 1.55,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "e31bfC",
+          "name": "Custom Mobile — Teaching Value",
+          "width": "fill_container",
+          "fill": "$cp-cream",
+          "stroke": "#00000000",
+          "layout": "vertical",
+          "gap": 18,
+          "padding": [
+            40,
+            20,
+            42,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "spY7e",
+              "name": "Mobile Custom Value Kicker",
+              "fill": "$cp-burgundy",
+              "textGrowth": "fixed-width",
+              "width": 350,
+              "content": "06 — WHY IT WORKS",
+              "lineHeight": 1.45,
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 10,
+              "fontWeight": "700",
+              "letterSpacing": 0.7
+            },
+            {
+              "type": "text",
+              "id": "myn0Y",
+              "name": "Mobile Custom Value Title",
+              "fill": "$cp-ink",
+              "textGrowth": "fixed-width",
+              "width": 350,
+              "content": "興趣與基本功，\n可以一起前進。",
+              "lineHeight": 1.3,
+              "fontFamily": "Noto Serif TC",
+              "fontSize": 30,
+              "fontWeight": "700",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "text",
+              "id": "oIVLU",
+              "name": "Mobile Custom Value Intro",
+              "fill": "$cp-muted",
+              "textGrowth": "fixed-width",
+              "width": 350,
+              "content": "把學習目標放進真正想彈的音樂裡。",
+              "lineHeight": 1.6,
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 17,
+              "fontWeight": "700",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "frame",
+              "id": "F8KDzR",
+              "name": "教材 Mobile Card 1",
+              "width": 350,
+              "fill": "$cp-mustard",
+              "cornerRadius": 2,
+              "stroke": "$cp-coffee",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 8,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "LyA1T",
+                  "name": "Custom Mobile Stage Card 1 Label",
+                  "fill": "$cp-burgundy",
+                  "content": "MOTIVATION",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 10,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.4
+                },
+                {
+                  "type": "text",
+                  "id": "wPoKS",
+                  "name": "Custom Mobile Stage Card 1 Title",
+                  "fill": "$cp-ink",
+                  "textGrowth": "fixed-width",
+                  "width": 318,
+                  "content": "提高學習動機",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 20,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "eQrYp",
+                  "name": "Custom Mobile Stage Card 1 Body",
+                  "fill": "$cp-muted",
+                  "textGrowth": "fixed-width",
+                  "width": 318,
+                  "content": "因為真的想彈，更願意投入練習。",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "eDchV",
+              "name": "教材 Mobile Card 2",
+              "width": 350,
+              "fill": "$cp-paper",
+              "cornerRadius": 2,
+              "stroke": "$cp-coffee",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 8,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Yh7sR",
+                  "name": "Custom Mobile Stage Card 2 Label",
+                  "fill": "$cp-burgundy",
+                  "content": "READING",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 10,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.4
+                },
+                {
+                  "type": "text",
+                  "id": "UKqlk",
+                  "name": "Custom Mobile Stage Card 2 Title",
+                  "fill": "$cp-ink",
+                  "textGrowth": "fixed-width",
+                  "width": 318,
+                  "content": "建立看譜能力",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 20,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "Q4v9Y",
+                  "name": "Custom Mobile Stage Card 2 Body",
+                  "fill": "$cp-muted",
+                  "textGrowth": "fixed-width",
+                  "width": 318,
+                  "content": "把熟悉的聲音連結到譜面與鍵盤。",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ZPyMD",
+              "name": "教材 Mobile Card 3",
+              "width": 350,
+              "fill": "$cp-orange",
+              "cornerRadius": 2,
+              "stroke": "$cp-coffee",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 8,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "HiyYv",
+                  "name": "Custom Mobile Stage Card 3 Label",
+                  "fill": "$cp-paper",
+                  "content": "RHYTHM",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 10,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.4
+                },
+                {
+                  "type": "text",
+                  "id": "y7rMhA",
+                  "name": "Custom Mobile Stage Card 3 Title",
+                  "fill": "$cp-paper",
+                  "textGrowth": "fixed-width",
+                  "width": 318,
+                  "content": "培養節奏與拍感",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 20,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "TAcvU",
+                  "name": "Custom Mobile Stage Card 3 Body",
+                  "fill": "$cp-paper",
+                  "textGrowth": "fixed-width",
+                  "width": 318,
+                  "content": "從歌曲律動理解拍點與節奏。",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "fIySg",
+              "name": "教材 Mobile Card 4",
+              "width": 350,
+              "fill": "$cp-green",
+              "cornerRadius": 2,
+              "stroke": "$cp-coffee",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 8,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "KY6dU",
+                  "name": "Custom Mobile Stage Card 4 Label",
+                  "fill": "$cp-paper",
+                  "content": "COORDINATION",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 10,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.4
+                },
+                {
+                  "type": "text",
+                  "id": "AgDwi",
+                  "name": "Custom Mobile Stage Card 4 Title",
+                  "fill": "$cp-paper",
+                  "textGrowth": "fixed-width",
+                  "width": 318,
+                  "content": "訓練左右手協調",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 20,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "zOCJV",
+                  "name": "Custom Mobile Stage Card 4 Body",
+                  "fill": "$cp-paper",
+                  "textGrowth": "fixed-width",
+                  "width": 318,
+                  "content": "用合適難度整理雙手配置。",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "sx9qx",
+              "name": "教材 Mobile Card 5",
+              "width": 350,
+              "fill": "$cp-burgundy",
+              "cornerRadius": 2,
+              "stroke": "$cp-coffee",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 8,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "M6av0",
+                  "name": "Custom Mobile Stage Card 5 Label",
+                  "fill": "$cp-paper",
+                  "content": "UNDERSTANDING",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 10,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.4
+                },
+                {
+                  "type": "text",
+                  "id": "N8UEL",
+                  "name": "Custom Mobile Stage Card 5 Title",
+                  "fill": "$cp-paper",
+                  "textGrowth": "fixed-width",
+                  "width": 318,
+                  "content": "建立音樂理解",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 20,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "LcRhl",
+                  "name": "Custom Mobile Stage Card 5 Body",
+                  "fill": "$cp-paper",
+                  "textGrowth": "fixed-width",
+                  "width": 318,
+                  "content": "知道旋律與伴奏如何合作。",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "nVkv7",
+          "name": "Custom Mobile — Core Philosophy",
+          "width": "fill_container",
+          "height": 720,
+          "fill": "$cp-green",
+          "layout": "vertical",
+          "gap": 18,
+          "padding": [
+            40,
+            20,
+            42,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "v5Oz0h",
+              "name": "Mobile Custom Philosophy Kicker",
+              "fill": "$cp-mustard",
+              "textGrowth": "fixed-width",
+              "width": 350,
+              "content": "07 — INTEREST × FUNDAMENTALS",
+              "lineHeight": 1.45,
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 10,
+              "fontWeight": "700",
+              "letterSpacing": 0.7
+            },
+            {
+              "type": "text",
+              "id": "VhaOh",
+              "name": "Mobile Custom Philosophy Title",
+              "fill": "$cp-paper",
+              "textGrowth": "fixed-width",
+              "width": 350,
+              "content": "不是只會一首歌，\n而是讓能力留下來。",
+              "lineHeight": 1.3,
+              "fontFamily": "Noto Serif TC",
+              "fontSize": 30,
+              "fontWeight": "700",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "text",
+              "id": "nBpqk",
+              "name": "Mobile Custom Philosophy Body",
+              "fill": "$cp-paper",
+              "textGrowth": "fixed-width",
+              "width": 350,
+              "content": "改編譜會成為真正的教材：在喜歡的音樂裡練看譜、節奏、雙手協調與音樂理解。",
+              "lineHeight": 1.65,
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 17,
+              "fontWeight": "700",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "frame",
+              "id": "ydQ1G",
+              "name": "Mobile Custom Philosophy Score",
+              "context": "Teacher performance portrait — local asset",
+              "width": 350,
+              "height": 230,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "pen-assets/lessons/custom-example-01-adapted.jpg",
+                "mode": "fit"
+              },
+              "cornerRadius": 2,
+              "stroke": "$cp-paper",
+              "strokeWidth": 3
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Zqm93",
+          "name": "Custom Mobile — FAQ",
+          "width": "fill_container",
+          "fill": "$cp-paper",
+          "stroke": "#00000000",
+          "layout": "vertical",
+          "gap": 18,
+          "padding": [
+            40,
+            20,
+            42,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "gndDW",
+              "name": "Mobile Custom FAQ Kicker",
+              "fill": "$cp-burgundy",
+              "textGrowth": "fixed-width",
+              "width": 350,
+              "content": "08 — FAQ",
+              "lineHeight": 1.45,
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 10,
+              "fontWeight": "700",
+              "letterSpacing": 0.7
+            },
+            {
+              "type": "text",
+              "id": "XmSr4",
+              "name": "Mobile Custom FAQ Title",
+              "fill": "$cp-ink",
+              "textGrowth": "fixed-width",
+              "width": 350,
+              "content": "開始之前，\n常會問的事。",
+              "lineHeight": 1.3,
+              "fontFamily": "Noto Serif TC",
+              "fontSize": 30,
+              "fontWeight": "700",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "frame",
+              "id": "y5g0G",
+              "name": "Adult FAQ Mobile Accordion",
+              "width": 350,
+              "fill": "#00000000",
+              "stroke": "#00000000",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "z4zEw",
+                  "name": "Adult FAQ Mobile Item 1",
+                  "context": "Accordion item — tap to collapse",
+                  "width": 350,
+                  "fill": "$cp-cream",
+                  "cornerRadius": 2,
+                  "stroke": "$cp-coffee",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    18,
+                    16
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "bACTa",
+                      "name": "Adult FAQ Mobile Question Row 1",
+                      "width": 318,
+                      "fill": "#00000000",
+                      "stroke": "#00000000",
+                      "gap": 12,
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "mJxcE",
+                          "name": "Mobile Custom FAQ Question 1",
+                          "fill": "$cp-ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "一定要會很多基礎才能開始嗎？",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 17,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.5
+                        },
+                        {
+                          "type": "icon",
+                          "id": "r991XZ",
+                          "name": "Adult FAQ Mobile Toggle 1",
+                          "width": 21,
+                          "height": 21,
+                          "icon": "minus",
+                          "library": "lucide",
+                          "fill": "$cp-burgundy"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "mHmUv",
+                      "name": "Mobile Custom FAQ Answer 1",
+                      "fill": "$cp-muted",
+                      "textGrowth": "fixed-width",
+                      "width": 318,
+                      "content": "不用。會先看目前的閱讀、節奏與彈奏能力，再決定適合的起點。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 17,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "OJLeK",
+                  "name": "Adult FAQ Mobile Item 2",
+                  "context": "Accordion item — tap to expand",
+                  "width": 350,
+                  "fill": "#F2E2C8",
+                  "cornerRadius": 2,
+                  "stroke": "$cp-coffee",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    18,
+                    16
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "bdjfE",
+                      "name": "Adult FAQ Mobile Question Row 2",
+                      "width": 318,
+                      "fill": "#00000000",
+                      "stroke": "#00000000",
+                      "gap": 12,
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "q9Zkt",
+                          "name": "Mobile Custom FAQ Question 2",
+                          "fill": "$cp-ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "可以指定想彈的曲子嗎？",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 17,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.5
+                        },
+                        {
+                          "type": "icon",
+                          "id": "m7YLPj",
+                          "name": "Adult FAQ Mobile Toggle 2",
+                          "width": 21,
+                          "height": 21,
+                          "icon": "plus",
+                          "library": "lucide",
+                          "fill": "$cp-burgundy"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "wO0IA",
+                  "name": "Adult FAQ Mobile Item 3",
+                  "context": "Accordion item — tap to expand",
+                  "width": 350,
+                  "fill": "#F2E2C8",
+                  "cornerRadius": 2,
+                  "stroke": "$cp-coffee",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    18,
+                    16
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "m4t9J",
+                      "name": "Adult FAQ Mobile Question Row 3",
+                      "width": 318,
+                      "fill": "#00000000",
+                      "stroke": "#00000000",
+                      "gap": 12,
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "NmRRt",
+                          "name": "Mobile Custom FAQ Question 3",
+                          "fill": "$cp-ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "兒童也可以用這種方式學嗎？",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 17,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.5
+                        },
+                        {
+                          "type": "icon",
+                          "id": "Ih6q5",
+                          "name": "Adult FAQ Mobile Toggle 3",
+                          "width": 21,
+                          "height": 21,
+                          "icon": "plus",
+                          "library": "lucide",
+                          "fill": "$cp-burgundy"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "yf6Ve",
+                  "name": "Adult FAQ Mobile Item 4",
+                  "context": "Accordion item — tap to expand",
+                  "width": 350,
+                  "fill": "#F2E2C8",
+                  "cornerRadius": 2,
+                  "stroke": "$cp-coffee",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    18,
+                    16
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "p9Xfh",
+                      "name": "Adult FAQ Mobile Question Row 4",
+                      "width": 318,
+                      "fill": "#00000000",
+                      "stroke": "#00000000",
+                      "gap": 12,
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "iDF71",
+                          "name": "Mobile Custom FAQ Question 4",
+                          "fill": "$cp-ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "會不會只學會一首歌、不會看譜？",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 17,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.5
+                        },
+                        {
+                          "type": "icon",
+                          "id": "kEiwR",
+                          "name": "Adult FAQ Mobile Toggle 4",
+                          "width": 21,
+                          "height": 21,
+                          "icon": "plus",
+                          "library": "lucide",
+                          "fill": "$cp-burgundy"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "hnD6I",
+          "name": "Custom Mobile — Book a Trial Lesson CTA",
+          "width": "fill_container",
+          "fill": "$cp-mustard",
+          "stroke": "#00000000",
+          "layout": "vertical",
+          "gap": 18,
+          "padding": [
+            42,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "SLfRW",
+              "name": "Mobile Custom CTA Kicker",
+              "fill": "$cp-burgundy",
+              "textGrowth": "fixed-width",
+              "width": 350,
+              "content": "09 — START WITH A SONG",
+              "lineHeight": 1.45,
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 10,
+              "fontWeight": "700",
+              "letterSpacing": 0.7
+            },
+            {
+              "type": "text",
+              "id": "GJT25",
+              "name": "Mobile Custom CTA Title",
+              "fill": "$cp-ink",
+              "textGrowth": "fixed-width",
+              "width": 350,
+              "content": "告訴我，\n你最想彈哪一首。",
+              "lineHeight": 1.25,
+              "fontFamily": "Noto Serif TC",
+              "fontSize": 34,
+              "fontWeight": "700",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "text",
+              "id": "CPV1V",
+              "name": "Mobile Custom CTA Body",
+              "fill": "$cp-coffee",
+              "textGrowth": "fixed-width",
+              "width": 350,
+              "content": "告訴我歌曲、現在的程度與目標，一起規劃適合的版本與方向。\nNo pressure. Just music.",
+              "lineHeight": 1.65,
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 17,
+              "fontWeight": "700",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "frame",
+              "id": "IZyvL",
+              "name": "Mobile Adult Trial CTA Button",
+              "context": "Primary CTA — Book a Trial Lesson",
+              "width": 350,
+              "height": 56,
+              "fill": "$cp-burgundy",
+              "cornerRadius": 3,
+              "stroke": "$cp-coffee",
+              "strokeWidth": 1,
+              "padding": [
+                0,
+                18
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "YDh5a",
+                  "name": "Mobile Custom CTA Button Label",
+                  "fill": "$cp-paper",
+                  "content": "Book a Trial Lesson / 預約試課",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.4
+                },
+                {
+                  "type": "icon",
+                  "id": "he9HT",
+                  "name": "Mobile Adult Trial CTA Button Arrow",
+                  "width": 21,
+                  "height": 21,
+                  "icon": "arrow-up-right",
+                  "library": "lucide",
+                  "fill": "$cp-paper"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "vJKj3",
+          "name": "Custom Arrangements Mobile Footer",
+          "width": "fill_container",
+          "fill": "$cp-coffee",
+          "stroke": "#00000000",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            34,
+            20,
+            28,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "VONpO",
+              "name": "Footer Brand",
+              "fill": "$cp-paper",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "CRAZY PIANO\n瘋鋼琴",
+              "lineHeight": 1.05,
+              "fontFamily": "Noto Serif TC",
+              "fontSize": 30,
+              "fontWeight": "700",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "text",
+              "id": "H4Ofn9",
+              "name": "Footer Tagline",
+              "fill": "$cp-paper",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Play it your way.",
+              "lineHeight": 1.4,
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 17,
+              "fontWeight": "normal",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "frame",
+              "id": "WmwXc",
+              "name": "Footer Link Groups",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "stroke": "#00000000",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "nCOaY",
+                  "name": "Footer Group QUICK LINKS",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "stroke": "#00000000",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "YfrwB",
+                      "name": "Footer QUICK LINKS Heading",
+                      "fill": "$cp-mustard",
+                      "content": "QUICK LINKS",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.8
+                    },
+                    {
+                      "type": "text",
+                      "id": "Qq5Mq",
+                      "name": "Footer QUICK LINKS",
+                      "fill": "$cp-paper",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "About　Lessons　YouTube\nContact　中文 / English",
+                      "lineHeight": 1.75,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 16,
+                      "fontWeight": "normal",
+                      "letterSpacing": 0.5
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "iFTue",
+              "name": "Footer Copyright",
+              "fill": "$cp-line",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "© 2026 CRAZY PIANO / DR. HSU. ALL RIGHTS RESERVED.",
+              "lineHeight": 1.5,
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "letterSpacing": 0.3
+            }
+          ]
+        }
+      ]
     }
   ],
   "themes": {

@@ -8,7 +8,7 @@ Logical asset root:
 
 `pen-assets/`
 
-pen.dev automatically serializes local `file:///D:/...` URLs into one normalized internal form beginning with `../../../../D:/CrazyPiano/pen-assets/`. All 22 nodes use that single normalized form; no legacy `hsu 個人網站-assets/` references remain.
+pen.dev uses the project-local `pen-assets/` root for all formal design assets. No legacy `hsu 個人網站-assets/` or direct `03/_photos/` references are used by the repaired pages.
 
 Original source files remain in place. The files in this directory are copies used by the `.pen` design.
 
@@ -30,6 +30,10 @@ Original source files remain in place. The files in this directory are copies us
 | lessons | `lessons/adult-piano-teacher.png` | `D:\CrazyPiano\pen-assets\profile\hsu-minpiyer-hero-enhanced.png` |
 | lessons | `lessons/exams-competition-judging-2023.jpg` | `D:\CrazyPiano\pen-assets\gallery\competition-judging-students-certificates-2023.jpg` |
 | lessons | `lessons/exams-hero-teacher.png` | `D:\CrazyPiano\pen-assets\profile\hsu-minpiyer-hero-enhanced.png` |
+| lessons | `lessons/custom-example-01-original.jpg` | `D:\CrazyPiano\source-materials\custom-arrangements\example-01\original.jpg` |
+| lessons | `lessons/custom-example-01-adapted.jpg` | `D:\CrazyPiano\source-materials\custom-arrangements\example-01\adapted.jpg` |
+
+The adapted score image is currently usable in the design, but the source still contains visible editing-selection marks. Replace it with a cleaner official export when available, keeping the same canonical asset filename.
 
 ## Image node inventory (before repair)
 

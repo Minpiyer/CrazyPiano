@@ -248,6 +248,15 @@
 
 詳細頁不做成純文字長頁，延續 Crazy Piano 的 Warm Retro、Jazz Editorial Collage 與 Mid-century Modern 設計語言，以及 Burnt Orange、Warm Red、Mustard Yellow、Coffee Brown、Cream 色彩系統。
 
+## 內頁設計進度
+
+- Kids Piano Lessons／兒童鋼琴課：Desktop 1440、Mobile 390 完成。
+- Adult Piano Lessons／成人鋼琴課：Desktop 1440、Mobile 390 完成。
+- Exams & Competitions／檢定與比賽：Desktop 1440、Mobile 390 完成。
+- Custom Piano Arrangements／客製歌曲改編：Desktop 1440、Mobile 390 完成。
+
+客製歌曲改編頁採用 `pen-assets/lessons/custom-example-01-original.jpg` 與 `pen-assets/lessons/custom-example-01-adapted.jpg` 作為 Example 01。`adapted` 素材仍建議補一份沒有編輯選取標記的乾淨正式輸出。
+
 ## 後續仍需確認
 
 - 四個 Lessons 詳細頁的正式 URL slug。
