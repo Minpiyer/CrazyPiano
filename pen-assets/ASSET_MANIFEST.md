@@ -32,8 +32,20 @@ Original source files remain in place. The files in this directory are copies us
 | lessons | `lessons/exams-hero-teacher.png` | `D:\CrazyPiano\pen-assets\profile\hsu-minpiyer-hero-enhanced.png` |
 | lessons | `lessons/custom-example-01-original.jpg` | `D:\CrazyPiano\source-materials\custom-arrangements\example-01\original.jpg` |
 | lessons | `lessons/custom-example-01-adapted.jpg` | `D:\CrazyPiano\source-materials\custom-arrangements\example-01\adapted.jpg` |
+| custom-arrangements | `custom-arrangements/example-01-higher-difficulty.jpg` | `D:\CrazyPiano\source-materials\custom-arrangements\example-01\original.jpg` |
+| custom-arrangements | `custom-arrangements/example-01-custom-version.jpg` | `D:\CrazyPiano\source-materials\custom-arrangements\example-01\adapted.jpg` |
+| custom-arrangements | `custom-arrangements/transcription-sample-01-watermarked.jpg` | Preview derived from `D:\CrazyPiano\source-materials\transcribed\transcription-01.jpg` (散步) |
+| custom-arrangements | `custom-arrangements/transcription-sample-02-watermarked.jpg` | Preview derived from `D:\CrazyPiano\source-materials\transcribed\transcription-02.jpg` (A Whole New World) |
+| custom-arrangements | `custom-arrangements/transcription-sample-03-watermarked.jpg` | Preview derived from `D:\CrazyPiano\source-materials\transcribed\transcription-03.jpg` (這麼多年) |
 
 The adapted score image is currently usable in the design, but the source still contains visible editing-selection marks. Replace it with a cleaner official export when available, keeping the same canonical asset filename.
+
+## Custom scores and transcription preview policy
+
+- The two `example-01` files are project-local copies used for the higher-difficulty/custom-version comparison. The source files remain unchanged.
+- The three transcription previews are reduced-size JPEGs with three low-opacity diagonal `Crazy Piano / Sample` watermarks.
+- Preview images are for on-page portfolio display only. The design does not expose download controls or full-resolution source files.
+- Full source scores remain under `source-materials/` and are not modified by the preview-generation process.
 
 ## Image node inventory (before repair)
 
