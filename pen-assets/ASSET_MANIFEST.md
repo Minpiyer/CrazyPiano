@@ -18,6 +18,8 @@ Original source files remain in place. The files in this directory are copies us
 |---|---|---|
 | profile | `profile/hsu-minpiyer-hero-enhanced.png` | `D:\CrazyPiano\assets\hsu-minpiyer-hero-enhanced.png` |
 | about | `about/about-teacher-student-stage-2024.jpg` | `D:\CrazyPiano\03\_photos\About Me\about-teacher-student-stage-2024.jpg` |
+| about | `about/about-teacher-piano-portrait.png` | Copy of `D:\CrazyPiano\pen-assets\profile\hsu-minpiyer-hero-enhanced.png` |
+| about | `about/about-teaching-in-action-piano-cajon.jpg` | `D:\CrazyPiano\source-materials\S__33800200.jpg` |
 | youtube | `youtube/youtube-sight-reading-1d5kKyn0e0s.jpg` | `D:\CrazyPiano\03\_photos\Video Portfolio\youtube-sight-reading-1d5kKyn0e0s.jpg` |
 | youtube | `youtube/youtube-abrsm-MHoITHYaKqo.jpg` | `D:\CrazyPiano\03\_photos\Video Portfolio\youtube-abrsm-MHoITHYaKqo.jpg` |
 | youtube | `youtube/youtube-kapustin-j7VB2m2s4wE.jpg` | `D:\CrazyPiano\03\_photos\Video Portfolio\youtube-kapustin-j7VB2m2s4wE.jpg` |
@@ -37,6 +39,19 @@ Original source files remain in place. The files in this directory are copies us
 | custom-arrangements | `custom-arrangements/transcription-sample-01-watermarked.jpg` | Preview derived from `D:\CrazyPiano\source-materials\transcribed\transcription-01.jpg` (散步) |
 | custom-arrangements | `custom-arrangements/transcription-sample-02-watermarked.jpg` | Preview derived from `D:\CrazyPiano\source-materials\transcribed\transcription-02.jpg` (A Whole New World) |
 | custom-arrangements | `custom-arrangements/transcription-sample-03-watermarked.jpg` | Preview derived from `D:\CrazyPiano\source-materials\transcribed\transcription-03.jpg` (這麼多年) |
+| gallery | `gallery/gallery-teaching-adult-lesson.jpg` | `D:\CrazyPiano\source-materials\gallery\teaching\S__33955851_0.jpg` |
+| gallery | `gallery/gallery-ensemble-piano-drums.jpg` | `D:\CrazyPiano\source-materials\gallery\ensemble\S__33955843_0.jpg` |
+| gallery | `gallery/gallery-ensemble-violin-piano.jpg` | `D:\CrazyPiano\source-materials\gallery\ensemble\S__33955849_0.jpg` |
+| gallery | `gallery/gallery-ensemble-teacher-student-stage.jpg` | `D:\CrazyPiano\source-materials\gallery\ensemble\S__33955860_0.jpg` |
+| gallery | `gallery/gallery-posture-child-hand-position.jpg` | `D:\CrazyPiano\source-materials\gallery\posture\S__33955855_0.jpg` |
+| gallery | `gallery/gallery-posture-video-preview.jpg` | `D:\CrazyPiano\source-materials\gallery\posture\S__33955856_0.jpg` |
+| gallery | `gallery/gallery-recital-student-solo-stage.jpg` | `D:\CrazyPiano\source-materials\gallery\recital\S__33955859_0.jpg` |
+| gallery | `gallery/gallery-recital-teacher-students-group.jpg` | `D:\CrazyPiano\source-materials\gallery\recital\S__33955864.jpg` |
+| gallery | `gallery/gallery-performance-teacher-studio-piano.jpg` | `D:\CrazyPiano\source-materials\gallery\performace\S__33955844_0.jpg` |
+| gallery | `gallery/gallery-performance-teacher-recital-hall.jpg` | `D:\CrazyPiano\source-materials\gallery\performace\S__33955845_0.jpg` |
+| gallery | `gallery/gallery-performance-editorial-piano-reflection.jpg` | `D:\CrazyPiano\source-materials\gallery\performace\S__33955846_0.jpg` |
+| gallery | `gallery/gallery-judging-event-portrait.jpg` | `D:\CrazyPiano\source-materials\gallery\judging\S__33955854_0.jpg` |
+| gallery | `gallery/gallery-judging-live-session.jpg` | `D:\CrazyPiano\source-materials\gallery\judging\CEC123BD-A49F-4C27-918A-8EB2A1C76C82.jpg` |
 
 The adapted score image is currently usable in the design, but the source still contains visible editing-selection marks. Replace it with a cleaner official export when available, keeping the same canonical asset filename.
 
