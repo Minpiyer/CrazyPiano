@@ -1,5 +1,5 @@
 {
-  "version": "2.19",
+  "version": "2.20",
   "children": [
     {
       "type": "frame",
@@ -371,7 +371,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "pen-assets/profile/hsu-minpiyer-hero-enhanced.png",
-                "mode": "fill"
+                "mode": "cover"
               },
               "stroke": "$cp-coffee",
               "strokeWidth": 3
@@ -1297,7 +1297,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "pen-assets/about/about-teacher-student-stage-2024.jpg",
-                "mode": "fill"
+                "mode": "cover"
               },
               "stroke": "$cp-coffee",
               "strokeWidth": 3
@@ -1728,7 +1728,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "pen-assets/youtube/youtube-sight-reading-1d5kKyn0e0s.jpg",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "stroke": "$cp-coffee",
                   "strokeWidth": 3,
@@ -1885,7 +1885,7 @@
                             "type": "image",
                             "enabled": true,
                             "url": "pen-assets/youtube/youtube-abrsm-MHoITHYaKqo.jpg",
-                            "mode": "fill"
+                            "mode": "cover"
                           }
                         },
                         {
@@ -1972,7 +1972,7 @@
                             "type": "image",
                             "enabled": true,
                             "url": "pen-assets/youtube/youtube-kapustin-j7VB2m2s4wE.jpg",
-                            "mode": "fill"
+                            "mode": "cover"
                           }
                         },
                         {
@@ -2059,7 +2059,7 @@
                             "type": "image",
                             "enabled": true,
                             "url": "pen-assets/youtube/youtube-zankyosanka-jbpx7LJPVLw.jpg",
-                            "mode": "fill"
+                            "mode": "cover"
                           }
                         },
                         {
@@ -2207,7 +2207,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "pen-assets/gallery/hero-student-recital-group-2024.jpg",
-                "mode": "fill"
+                "mode": "cover"
               },
               "stroke": "$cp-coffee",
               "strokeWidth": 3
@@ -2232,7 +2232,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "pen-assets/gallery/performance-young-student-piano-2024.jpg",
-                "mode": "fill"
+                "mode": "cover"
               },
               "stroke": "$cp-coffee",
               "strokeWidth": 3
@@ -2251,7 +2251,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "pen-assets/gallery/performance-teen-student-piano-2024.jpg",
-                "mode": "fill"
+                "mode": "cover"
               },
               "stroke": "$cp-coffee",
               "strokeWidth": 3
@@ -2276,7 +2276,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "pen-assets/gallery/competition-judging-students-certificates-2023.jpg",
-                "mode": "fill"
+                "mode": "cover"
               },
               "stroke": "$cp-coffee",
               "strokeWidth": 3
@@ -5118,7 +5118,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "pen-assets/profile/hsu-minpiyer-hero-enhanced.png",
-                "mode": "fill"
+                "mode": "cover"
               },
               "cornerRadius": [
                 6,
@@ -5900,7 +5900,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "pen-assets/about/about-teacher-student-stage-2024.jpg",
-                "mode": "fill"
+                "mode": "cover"
               },
               "cornerRadius": [
                 4,
@@ -6200,7 +6200,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "pen-assets/youtube/youtube-sight-reading-1d5kKyn0e0s.jpg",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "stroke": "#00000000",
                   "children": [
@@ -6308,7 +6308,7 @@
                         "type": "image",
                         "enabled": true,
                         "url": "pen-assets/youtube/youtube-abrsm-MHoITHYaKqo.jpg",
-                        "mode": "fill"
+                        "mode": "cover"
                       },
                       "stroke": "#00000000"
                     },
@@ -6376,7 +6376,7 @@
                         "type": "image",
                         "enabled": true,
                         "url": "pen-assets/youtube/youtube-kapustin-j7VB2m2s4wE.jpg",
-                        "mode": "fill"
+                        "mode": "cover"
                       },
                       "stroke": "#00000000"
                     },
@@ -6444,7 +6444,7 @@
                         "type": "image",
                         "enabled": true,
                         "url": "pen-assets/youtube/youtube-zankyosanka-jbpx7LJPVLw.jpg",
-                        "mode": "fill"
+                        "mode": "cover"
                       },
                       "stroke": "#00000000"
                     },
@@ -6560,7 +6560,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "pen-assets/gallery/hero-student-recital-group-2024.jpg",
-                "mode": "fill"
+                "mode": "cover"
               },
               "cornerRadius": [
                 4,
@@ -6590,7 +6590,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "pen-assets/gallery/performance-young-student-piano-2024.jpg",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "stroke": "$cp-coffee",
                   "strokeWidth": 1
@@ -6605,7 +6605,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "pen-assets/gallery/performance-teen-student-piano-2024.jpg",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "stroke": "$cp-coffee",
                   "strokeWidth": 1
@@ -6622,7 +6622,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "pen-assets/gallery/competition-judging-students-certificates-2023.jpg",
-                "mode": "fill"
+                "mode": "cover"
               },
               "stroke": "$cp-coffee",
               "strokeWidth": 2
@@ -8497,7 +8497,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "pen-assets/lessons/kids-piano-student-2024.jpg",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "cornerRadius": [
                     6,
@@ -11513,7 +11513,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "pen-assets/lessons/kids-piano-student-2024.jpg",
-                "mode": "fill"
+                "mode": "cover"
               },
               "cornerRadius": [
                 6,
@@ -14203,7 +14203,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "pen-assets/lessons/adult-piano-teacher.png",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "cornerRadius": [
                     6,
@@ -17404,7 +17404,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "pen-assets/lessons/adult-piano-teacher.png",
-                "mode": "fill"
+                "mode": "cover"
               },
               "cornerRadius": [
                 6,
@@ -20259,7 +20259,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "pen-assets/lessons/exams-hero-teacher.png",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "cornerRadius": [
                     6,
@@ -22008,7 +22008,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "pen-assets/lessons/exams-competition-judging-2023.jpg",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "cornerRadius": 2,
                   "stroke": "$cp-paper",
@@ -23145,7 +23145,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "pen-assets/lessons/exams-hero-teacher.png",
-                "mode": "fill"
+                "mode": "cover"
               },
               "cornerRadius": [
                 6,
@@ -24756,7 +24756,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "pen-assets/lessons/exams-competition-judging-2023.jpg",
-                "mode": "fill"
+                "mode": "cover"
               },
               "cornerRadius": 2,
               "stroke": "$cp-paper",
@@ -25746,7 +25746,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "pen-assets/custom-arrangements/example-01-custom-version.jpg",
-                    "mode": "fit"
+                    "mode": "contain"
                   },
                   "cornerRadius": [
                     6,
@@ -26876,7 +26876,7 @@
                         "type": "image",
                         "enabled": true,
                         "url": "pen-assets/custom-arrangements/example-01-higher-difficulty.jpg",
-                        "mode": "fit"
+                        "mode": "contain"
                       },
                       "cornerRadius": 2,
                       "stroke": "$cp-paper",
@@ -26932,7 +26932,7 @@
                         "type": "image",
                         "enabled": true,
                         "url": "pen-assets/custom-arrangements/example-01-custom-version.jpg",
-                        "mode": "fit"
+                        "mode": "contain"
                       },
                       "cornerRadius": 2,
                       "stroke": "$cp-paper",
@@ -27358,7 +27358,7 @@
                         "type": "image",
                         "enabled": true,
                         "url": "pen-assets/custom-arrangements/transcription-sample-01-watermarked.jpg",
-                        "mode": "fit"
+                        "mode": "contain"
                       },
                       "stroke": "#D7A62C",
                       "strokeWidth": 4
@@ -27439,7 +27439,7 @@
                         "type": "image",
                         "enabled": true,
                         "url": "pen-assets/custom-arrangements/transcription-sample-02-watermarked.jpg",
-                        "mode": "fit"
+                        "mode": "contain"
                       },
                       "stroke": "#D85C2F",
                       "strokeWidth": 4
@@ -27520,7 +27520,7 @@
                         "type": "image",
                         "enabled": true,
                         "url": "pen-assets/custom-arrangements/transcription-sample-03-watermarked.jpg",
-                        "mode": "fit"
+                        "mode": "contain"
                       },
                       "stroke": "#48634B",
                       "strokeWidth": 4
@@ -28023,7 +28023,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "pen-assets/custom-arrangements/example-01-custom-version.jpg",
-                    "mode": "fit"
+                    "mode": "contain"
                   },
                   "cornerRadius": 2,
                   "stroke": "$cp-paper",
@@ -29086,7 +29086,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "pen-assets/custom-arrangements/example-01-custom-version.jpg",
-                "mode": "fit"
+                "mode": "contain"
               },
               "cornerRadius": [
                 6,
@@ -30115,7 +30115,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "pen-assets/custom-arrangements/example-01-higher-difficulty.jpg",
-                    "mode": "fit"
+                    "mode": "contain"
                   },
                   "cornerRadius": 2,
                   "stroke": "$cp-paper",
@@ -30171,7 +30171,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "pen-assets/custom-arrangements/example-01-custom-version.jpg",
-                    "mode": "fit"
+                    "mode": "contain"
                   },
                   "cornerRadius": 2,
                   "stroke": "$cp-paper",
@@ -30527,7 +30527,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "pen-assets/custom-arrangements/transcription-sample-01-watermarked.jpg",
-                    "mode": "fit"
+                    "mode": "contain"
                   },
                   "stroke": "#D7A62C",
                   "strokeWidth": 4
@@ -30606,7 +30606,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "pen-assets/custom-arrangements/transcription-sample-02-watermarked.jpg",
-                    "mode": "fit"
+                    "mode": "contain"
                   },
                   "stroke": "#D85C2F",
                   "strokeWidth": 4
@@ -30685,7 +30685,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "pen-assets/custom-arrangements/transcription-sample-03-watermarked.jpg",
-                    "mode": "fit"
+                    "mode": "contain"
                   },
                   "stroke": "#48634B",
                   "strokeWidth": 4
@@ -31155,7 +31155,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "pen-assets/custom-arrangements/example-01-custom-version.jpg",
-                "mode": "fit"
+                "mode": "contain"
               },
               "cornerRadius": 2,
               "stroke": "$cp-paper",
@@ -32010,7 +32010,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "pen-assets/about/about-teacher-piano-portrait.png",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "stroke": "#7B2D32",
                   "strokeWidth": 4
@@ -32890,7 +32890,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "pen-assets/about/about-teaching-in-action-piano-cajon.jpg",
-                "mode": "fill"
+                "mode": "cover"
               },
               "stroke": "#D7A62C",
               "strokeWidth": 5
@@ -33973,7 +33973,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "pen-assets/about/about-teacher-piano-portrait.png",
-                "mode": "fill"
+                "mode": "cover"
               },
               "stroke": "#7B2D32",
               "strokeWidth": 4
@@ -34716,7 +34716,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "pen-assets/about/about-teaching-in-action-piano-cajon.jpg",
-                "mode": "fill"
+                "mode": "cover"
               },
               "stroke": "#D7A62C",
               "strokeWidth": 4
@@ -35684,7 +35684,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "pen-assets/gallery/gallery-ensemble-piano-drums.jpg",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "stroke": "$cp-coffee",
                   "strokeWidth": 2
@@ -35869,7 +35869,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "pen-assets/gallery/gallery-teaching-adult-lesson.jpg",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "stroke": "$cp-coffee",
                   "strokeWidth": 2
@@ -36019,7 +36019,7 @@
                         "type": "image",
                         "enabled": true,
                         "url": "pen-assets/gallery/gallery-ensemble-violin-piano.jpg",
-                        "mode": "fill"
+                        "mode": "cover"
                       },
                       "stroke": "$cp-paper",
                       "strokeWidth": 2
@@ -36055,7 +36055,7 @@
                         "type": "image",
                         "enabled": true,
                         "url": "pen-assets/gallery/gallery-ensemble-teacher-student-stage.jpg",
-                        "mode": "fill"
+                        "mode": "cover"
                       },
                       "stroke": "$cp-mustard",
                       "strokeWidth": 2
@@ -36176,7 +36176,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "pen-assets/gallery/gallery-posture-child-hand-position.jpg",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "stroke": "$cp-coffee",
                   "strokeWidth": 2
@@ -36206,7 +36206,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "pen-assets/gallery/gallery-posture-video-preview.jpg",
-                    "mode": "fill"
+                    "mode": "cover"
                   }
                 },
                 {
@@ -36385,7 +36385,7 @@
                         "type": "image",
                         "enabled": true,
                         "url": "pen-assets/gallery/gallery-recital-student-solo-stage.jpg",
-                        "mode": "fill"
+                        "mode": "cover"
                       },
                       "stroke": "$cp-coffee",
                       "strokeWidth": 2
@@ -36421,7 +36421,7 @@
                         "type": "image",
                         "enabled": true,
                         "url": "pen-assets/gallery/gallery-recital-teacher-students-group.jpg",
-                        "mode": "fill"
+                        "mode": "cover"
                       },
                       "stroke": "$cp-burgundy",
                       "strokeWidth": 2
@@ -36547,7 +36547,7 @@
                         "type": "image",
                         "enabled": true,
                         "url": "pen-assets/gallery/gallery-performance-teacher-studio-piano.jpg",
-                        "mode": "fill"
+                        "mode": "cover"
                       },
                       "stroke": "$cp-coffee",
                       "strokeWidth": 2
@@ -36583,7 +36583,7 @@
                         "type": "image",
                         "enabled": true,
                         "url": "pen-assets/gallery/gallery-performance-teacher-recital-hall.jpg",
-                        "mode": "fill"
+                        "mode": "cover"
                       },
                       "stroke": "$cp-paper",
                       "strokeWidth": 2
@@ -36702,7 +36702,7 @@
                         "type": "image",
                         "enabled": true,
                         "url": "pen-assets/gallery/gallery-judging-live-session.jpg",
-                        "mode": "fill"
+                        "mode": "cover"
                       },
                       "stroke": "$cp-mustard",
                       "strokeWidth": 2
@@ -36738,7 +36738,7 @@
                         "type": "image",
                         "enabled": true,
                         "url": "pen-assets/gallery/gallery-judging-event-portrait.jpg",
-                        "mode": "fill"
+                        "mode": "cover"
                       },
                       "stroke": "$cp-paper",
                       "strokeWidth": 2
@@ -36828,7 +36828,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "pen-assets/gallery/gallery-performance-editorial-piano-reflection.jpg",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "stroke": "$cp-coffee",
                   "strokeWidth": 2
@@ -37609,7 +37609,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "pen-assets/gallery/gallery-ensemble-piano-drums.jpg",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "stroke": "$cp-coffee",
                   "strokeWidth": 2
@@ -37762,7 +37762,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "pen-assets/gallery/gallery-teaching-adult-lesson.jpg",
-                "mode": "fill"
+                "mode": "cover"
               },
               "stroke": "$cp-coffee",
               "strokeWidth": 2
@@ -37870,7 +37870,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "pen-assets/gallery/gallery-ensemble-violin-piano.jpg",
-                "mode": "fill"
+                "mode": "cover"
               },
               "stroke": "$cp-paper",
               "strokeWidth": 2
@@ -37898,7 +37898,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "pen-assets/gallery/gallery-ensemble-teacher-student-stage.jpg",
-                "mode": "fill"
+                "mode": "cover"
               },
               "stroke": "$cp-mustard",
               "strokeWidth": 2
@@ -38004,7 +38004,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "pen-assets/gallery/gallery-posture-child-hand-position.jpg",
-                "mode": "fill"
+                "mode": "cover"
               },
               "stroke": "$cp-coffee",
               "strokeWidth": 2
@@ -38032,7 +38032,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "pen-assets/gallery/gallery-posture-video-preview.jpg",
-                    "mode": "fill"
+                    "mode": "cover"
                   }
                 },
                 {
@@ -38178,7 +38178,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "pen-assets/gallery/gallery-recital-student-solo-stage.jpg",
-                "mode": "fill"
+                "mode": "cover"
               },
               "stroke": "$cp-coffee",
               "strokeWidth": 2
@@ -38206,7 +38206,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "pen-assets/gallery/gallery-recital-teacher-students-group.jpg",
-                "mode": "fill"
+                "mode": "cover"
               },
               "stroke": "$cp-burgundy",
               "strokeWidth": 2
@@ -38286,7 +38286,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "pen-assets/gallery/gallery-performance-teacher-studio-piano.jpg",
-                "mode": "fill"
+                "mode": "cover"
               },
               "stroke": "$cp-coffee",
               "strokeWidth": 2
@@ -38311,7 +38311,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "pen-assets/gallery/gallery-performance-teacher-recital-hall.jpg",
-                "mode": "fill"
+                "mode": "cover"
               },
               "stroke": "$cp-paper",
               "strokeWidth": 2
@@ -38391,7 +38391,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "pen-assets/gallery/gallery-judging-live-session.jpg",
-                "mode": "fill"
+                "mode": "cover"
               },
               "stroke": "$cp-mustard",
               "strokeWidth": 2
@@ -38419,7 +38419,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "pen-assets/gallery/gallery-judging-event-portrait.jpg",
-                "mode": "fill"
+                "mode": "cover"
               },
               "stroke": "$cp-paper",
               "strokeWidth": 2
@@ -38509,7 +38509,7 @@
                 "type": "image",
                 "enabled": true,
                 "url": "pen-assets/gallery/gallery-performance-editorial-piano-reflection.jpg",
-                "mode": "fill"
+                "mode": "cover"
               },
               "stroke": "$cp-coffee",
               "strokeWidth": 2
@@ -41929,6 +41929,4275 @@
             {
               "type": "text",
               "id": "R2k3K",
+              "name": "Footer Copyright",
+              "fill": "$cp-line",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "© 2026 CRAZY PIANO / DR. HSU. ALL RIGHTS RESERVED.",
+              "lineHeight": 1.5,
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "letterSpacing": 0.3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "uxvaS",
+      "x": 0,
+      "y": 64116,
+      "name": "FAQ／常見問題 — Desktop 1440",
+      "clip": true,
+      "width": 1440,
+      "height": 5336,
+      "fill": "#F7EBD5",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "J3StnK",
+          "name": "FAQ Desktop Navigation",
+          "width": "fill_container",
+          "height": 96,
+          "fill": "$cp-paper",
+          "stroke": "$cp-coffee",
+          "strokeWidth": {
+            "bottom": 2
+          },
+          "padding": [
+            22,
+            56
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "E3CxrT",
+              "name": "Brand Lockup",
+              "gap": 14,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "XFUWE",
+                  "name": "Brand Vinyl Mark",
+                  "fill": "$cp-orange",
+                  "width": 42,
+                  "height": 42,
+                  "stroke": "$cp-coffee",
+                  "strokeWidth": 2
+                },
+                {
+                  "type": "text",
+                  "id": "BSLLW",
+                  "name": "Brand Name",
+                  "fill": "$cp-ink",
+                  "content": "CRAZY PIANO  瘋鋼琴",
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 24,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.4
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "CmH0S",
+              "name": "Primary Navigation Links",
+              "gap": 30,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "h1atIC",
+                  "name": "Navigation Link 1",
+                  "fill": "$cp-ink",
+                  "content": "教學特色",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 17,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "A4GPM4",
+                  "name": "Navigation Link 2",
+                  "fill": "$cp-ink",
+                  "content": "課程",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 17,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "K3tiY",
+                  "name": "Navigation Link 3",
+                  "fill": "$cp-ink",
+                  "content": "關於徐老師",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 17,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "TiIgz",
+                  "name": "Navigation Link 4",
+                  "fill": "$cp-ink",
+                  "content": "作品集",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 17,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "kJJZc",
+                  "name": "Navigation Link 5",
+                  "fill": "$cp-ink",
+                  "content": "學費",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 17,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "q7pfZn",
+                  "name": "Language Switcher",
+                  "fill": "$cp-cream",
+                  "cornerRadius": 999,
+                  "stroke": "$cp-coffee",
+                  "strokeWidth": 1,
+                  "gap": 7,
+                  "padding": [
+                    9,
+                    13
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "nZxas",
+                      "name": "Language Switcher Label",
+                      "fill": "$cp-coffee",
+                      "content": "中 / EN",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "fQZzH",
+              "name": "Header Trial Button",
+              "fill": "$cp-burgundy",
+              "cornerRadius": 4,
+              "stroke": "$cp-coffee",
+              "strokeWidth": 2,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#4A3026",
+                "offset": {
+                  "x": 4,
+                  "y": 4
+                }
+              },
+              "padding": [
+                13,
+                19
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "chYfe",
+                  "name": "Header Trial Button Label",
+                  "fill": "$cp-paper",
+                  "content": "預約試課 ↗",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "A7rl9j",
+          "name": "FAQ Desktop — Hero",
+          "width": "fill_container",
+          "height": 620,
+          "fill": "#D7A62C",
+          "gap": 80,
+          "padding": [
+            66,
+            84
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "RsXa9",
+              "name": "FAQ Desktop Hero Copy",
+              "width": 760,
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 18,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "FqBll",
+                  "name": "FAQ Desktop Hero Kicker",
+                  "fill": "#4A3026",
+                  "content": "01 — FAQ",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 12,
+                  "fontWeight": "700",
+                  "letterSpacing": 1.3
+                },
+                {
+                  "type": "text",
+                  "id": "ZqXsw",
+                  "name": "FAQ Desktop Hero English",
+                  "fill": "#2C211C",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "FREQUENTLY\nASKED",
+                  "lineHeight": 0.94,
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 64,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "text",
+                  "id": "begFY",
+                  "name": "FAQ Desktop Hero Title",
+                  "fill": "#7B2D32",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "上課前，\n你可能會想知道這些。",
+                  "lineHeight": 1.24,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 40,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "MaRve",
+                  "name": "FAQ Desktop Hero Body",
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": 650,
+                  "content": "如果你的情況不在下面，也可以直接告訴我目前程度與想學的內容。",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 19,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "S3uqW",
+              "name": "FAQ Desktop Hero Mark",
+              "width": 390,
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "TdJgu",
+                  "name": "FAQ Desktop Hero Mark Inner",
+                  "width": 210,
+                  "height": 210,
+                  "fill": "#7B2D32",
+                  "cornerRadius": 105,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "drMci",
+                      "name": "FAQ Desktop Question Mark",
+                      "fill": "#FFF8EC",
+                      "content": "?",
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 96,
+                      "fontWeight": "800"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "h2GVhu",
+                  "name": "FAQ Desktop Hero Note",
+                  "fill": "#4A3026",
+                  "content": "CLEAR ANSWERS · NO HARD SELL",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "xRPm0",
+          "name": "FAQ Desktop — GETTING STARTED",
+          "width": "fill_container",
+          "height": 520,
+          "fill": "#FFF8EC",
+          "gap": 70,
+          "padding": [
+            64,
+            84
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "wU0rd",
+              "name": "FAQ Desktop GETTING STARTED Heading",
+              "width": 350,
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 18,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "iu5a6",
+                  "name": "FAQ Desktop GETTING STARTED Number",
+                  "fill": "#7B2D32",
+                  "content": "02 — GETTING STARTED",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "Qox0Z",
+                  "name": "FAQ Desktop GETTING STARTED Title",
+                  "fill": "#2C211C",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "開始學鋼琴",
+                  "lineHeight": 1.25,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 34,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "xnsli",
+                  "name": "FAQ Desktop GETTING STARTED Note",
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "點選問題查看回答",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "zJrqE",
+              "name": "FAQ Desktop GETTING STARTED Accordion",
+              "width": 820,
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ugrYd",
+                  "name": "FAQ Desktop G1",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 168,
+                  "fill": "#7B2D32",
+                  "cornerRadius": 2,
+                  "stroke": "#7B2D32",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    20,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "S3QQk",
+                      "name": "FAQ Desktop G1 Header",
+                      "width": "fill_container",
+                      "height": 58,
+                      "gap": 18,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "thE9v",
+                          "name": "FAQ Desktop G1 Question",
+                          "fill": "#FFF8EC",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "完全沒有學過鋼琴，也可以開始嗎？",
+                          "lineHeight": 1.45,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "MHZk6",
+                          "name": "FAQ Desktop G1 Toggle",
+                          "fill": "#D7A62C",
+                          "content": "−",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 24,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "bcSaO",
+                      "name": "FAQ Desktop G1 Divider",
+                      "width": "fill_container",
+                      "height": 1,
+                      "fill": "#D7A62C"
+                    },
+                    {
+                      "type": "text",
+                      "id": "KyBp5",
+                      "name": "FAQ Desktop G1 Answer",
+                      "fill": "#FFF8EC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "可以。會先從目前的閱讀能力、節奏感與手部使用開始，逐步建立看譜、基本技巧與演奏習慣。",
+                      "lineHeight": 1.65,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 17,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "wfiYe",
+                  "name": "FAQ Desktop G2",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 76,
+                  "fill": "#FFF8EC",
+                  "cornerRadius": 2,
+                  "stroke": "#4A3026",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    3,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "unOhS",
+                      "name": "FAQ Desktop G2 Header",
+                      "width": "fill_container",
+                      "height": 70,
+                      "gap": 18,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "A2toB",
+                          "name": "FAQ Desktop G2 Question",
+                          "fill": "#2C211C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "線上課幾歲開始比較適合？",
+                          "lineHeight": 1.45,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "S6UPvU",
+                          "name": "FAQ Desktop G2 Toggle",
+                          "fill": "#7B2D32",
+                          "content": "＋",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 24,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "RJ2WL",
+                  "name": "FAQ Desktop G3",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 76,
+                  "fill": "#FFF8EC",
+                  "cornerRadius": 2,
+                  "stroke": "#4A3026",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    3,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "taBz5",
+                      "name": "FAQ Desktop G3 Header",
+                      "width": "fill_container",
+                      "height": 70,
+                      "gap": 18,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "p7VthM",
+                          "name": "FAQ Desktop G3 Question",
+                          "fill": "#2C211C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "成人現在才開始會不會太晚？",
+                          "lineHeight": 1.45,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "jGcGY",
+                          "name": "FAQ Desktop G3 Toggle",
+                          "fill": "#7B2D32",
+                          "content": "＋",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 24,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ybN0P",
+          "name": "FAQ Desktop — LESSON CONTENT",
+          "width": "fill_container",
+          "height": 550,
+          "fill": "#F7EBD5",
+          "gap": 70,
+          "padding": [
+            64,
+            84
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "qMGE7",
+              "name": "FAQ Desktop LESSON CONTENT Heading",
+              "width": 350,
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 18,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Ci2Ll",
+                  "name": "FAQ Desktop LESSON CONTENT Number",
+                  "fill": "#7B2D32",
+                  "content": "03 — LESSON CONTENT",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "UBw0b",
+                  "name": "FAQ Desktop LESSON CONTENT Title",
+                  "fill": "#2C211C",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "課程內容",
+                  "lineHeight": 1.25,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 34,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "C6kUZ0",
+                  "name": "FAQ Desktop LESSON CONTENT Note",
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "點選問題查看回答",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "tJIR8",
+              "name": "FAQ Desktop LESSON CONTENT Accordion",
+              "width": 820,
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "edz6y",
+                  "name": "FAQ Desktop L1",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 190,
+                  "fill": "#7B2D32",
+                  "cornerRadius": 2,
+                  "stroke": "#7B2D32",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    20,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "qa34m",
+                      "name": "FAQ Desktop L1 Header",
+                      "width": "fill_container",
+                      "height": 58,
+                      "gap": 18,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "GIDpz",
+                          "name": "FAQ Desktop L1 Question",
+                          "fill": "#FFF8EC",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "一定要學古典音樂嗎？",
+                          "lineHeight": 1.45,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "w4sJBv",
+                          "name": "FAQ Desktop L1 Toggle",
+                          "fill": "#D7A62C",
+                          "content": "−",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 24,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "GIxik",
+                      "name": "FAQ Desktop L1 Divider",
+                      "width": "fill_container",
+                      "height": 1,
+                      "fill": "#D7A62C"
+                    },
+                    {
+                      "type": "text",
+                      "id": "lMylY",
+                      "name": "FAQ Desktop L1 Answer",
+                      "fill": "#FFF8EC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "不一定。古典、流行、檢定曲目或學生真正喜歡的歌曲，都可以依程度安排進課程。但看譜、節奏與基本技巧仍然會持續建立。",
+                      "lineHeight": 1.65,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 17,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "qCmhK",
+                  "name": "FAQ Desktop L2",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 76,
+                  "fill": "#FFF8EC",
+                  "cornerRadius": 2,
+                  "stroke": "#4A3026",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    3,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "SWY3L",
+                      "name": "FAQ Desktop L2 Header",
+                      "width": "fill_container",
+                      "height": 70,
+                      "gap": 18,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "zrNfT",
+                          "name": "FAQ Desktop L2 Question",
+                          "fill": "#2C211C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "一定要照固定教材上課嗎？",
+                          "lineHeight": 1.45,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "nf5RG",
+                          "name": "FAQ Desktop L2 Toggle",
+                          "fill": "#7B2D32",
+                          "content": "＋",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 24,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "LBeoF",
+                  "name": "FAQ Desktop L3",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 76,
+                  "fill": "#FFF8EC",
+                  "cornerRadius": 2,
+                  "stroke": "#4A3026",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    3,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "fGDHb",
+                      "name": "FAQ Desktop L3 Header",
+                      "width": "fill_container",
+                      "height": 70,
+                      "gap": 18,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "q60wk",
+                          "name": "FAQ Desktop L3 Question",
+                          "fill": "#2C211C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "可以只學我喜歡的歌嗎？",
+                          "lineHeight": 1.45,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "UQ95z",
+                          "name": "FAQ Desktop L3 Toggle",
+                          "fill": "#7B2D32",
+                          "content": "＋",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 24,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "j6rNl3",
+          "name": "FAQ Desktop — EXAMS & COMPETITIONS",
+          "width": "fill_container",
+          "height": 530,
+          "fill": "#FFF8EC",
+          "gap": 70,
+          "padding": [
+            64,
+            84
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "mhnWH",
+              "name": "FAQ Desktop EXAMS & COMPETITIONS Heading",
+              "width": 350,
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 18,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "v4kGNI",
+                  "name": "FAQ Desktop EXAMS & COMPETITIONS Number",
+                  "fill": "#7B2D32",
+                  "content": "04 — EXAMS & COMPETITIONS",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "J2eo7",
+                  "name": "FAQ Desktop EXAMS & COMPETITIONS Title",
+                  "fill": "#2C211C",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "檢定與比賽",
+                  "lineHeight": 1.25,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 34,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "ZlZsM",
+                  "name": "FAQ Desktop EXAMS & COMPETITIONS Note",
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "點選問題查看回答",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "EIe37",
+              "name": "FAQ Desktop EXAMS & COMPETITIONS Accordion",
+              "width": 820,
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "QdM8U",
+                  "name": "FAQ Desktop E1",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 76,
+                  "fill": "#FFF8EC",
+                  "cornerRadius": 2,
+                  "stroke": "#4A3026",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    3,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ohNXS",
+                      "name": "FAQ Desktop E1 Header",
+                      "width": "fill_container",
+                      "height": 70,
+                      "gap": 18,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "i7GXY2",
+                          "name": "FAQ Desktop E1 Question",
+                          "fill": "#2C211C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "可以準備 ABRSM 嗎？",
+                          "lineHeight": 1.45,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "nJWkk",
+                          "name": "FAQ Desktop E1 Toggle",
+                          "fill": "#7B2D32",
+                          "content": "＋",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 24,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Yz8pW",
+                  "name": "FAQ Desktop E2",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 76,
+                  "fill": "#FFF8EC",
+                  "cornerRadius": 2,
+                  "stroke": "#4A3026",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    3,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "a1cmZ",
+                      "name": "FAQ Desktop E2 Header",
+                      "width": "fill_container",
+                      "height": 70,
+                      "gap": 18,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "m93ATK",
+                          "name": "FAQ Desktop E2 Question",
+                          "fill": "#2C211C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "可以準備比賽嗎？",
+                          "lineHeight": 1.45,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Y34La",
+                          "name": "FAQ Desktop E2 Toggle",
+                          "fill": "#7B2D32",
+                          "content": "＋",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 24,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "L7Dw1w",
+                  "name": "FAQ Desktop E3",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 176,
+                  "fill": "#7B2D32",
+                  "cornerRadius": 2,
+                  "stroke": "#7B2D32",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    20,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "lCX7p",
+                      "name": "FAQ Desktop E3 Header",
+                      "width": "fill_container",
+                      "height": 58,
+                      "gap": 18,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "gOVCR",
+                          "name": "FAQ Desktop E3 Question",
+                          "fill": "#FFF8EC",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "可以保證通過檢定或比賽得獎嗎？",
+                          "lineHeight": 1.45,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "tEf5m",
+                          "name": "FAQ Desktop E3 Toggle",
+                          "fill": "#D7A62C",
+                          "content": "−",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 24,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "pwKWi",
+                      "name": "FAQ Desktop E3 Divider",
+                      "width": "fill_container",
+                      "height": 1,
+                      "fill": "#D7A62C"
+                    },
+                    {
+                      "type": "text",
+                      "id": "wo2Xx",
+                      "name": "FAQ Desktop E3 Answer",
+                      "fill": "#FFF8EC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "不會保證結果。課程會協助學生依照實際要求充分準備，但考試與比賽結果仍受到多種因素影響。",
+                      "lineHeight": 1.65,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 17,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "SMIKP",
+          "name": "FAQ Desktop — CUSTOM SCORES",
+          "width": "fill_container",
+          "height": 540,
+          "fill": "#F7EBD5",
+          "gap": 70,
+          "padding": [
+            64,
+            84
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "TLA8q",
+              "name": "FAQ Desktop CUSTOM SCORES Heading",
+              "width": 350,
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 18,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "FsU63",
+                  "name": "FAQ Desktop CUSTOM SCORES Number",
+                  "fill": "#7B2D32",
+                  "content": "05 — CUSTOM SCORES",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "nvA6B",
+                  "name": "FAQ Desktop CUSTOM SCORES Title",
+                  "fill": "#2C211C",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "客製樂譜與改編",
+                  "lineHeight": 1.25,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 34,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "fRq4E",
+                  "name": "FAQ Desktop CUSTOM SCORES Note",
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "點選問題查看回答",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "IBmmH",
+              "name": "FAQ Desktop CUSTOM SCORES Accordion",
+              "width": 820,
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "z5Ewj",
+                  "name": "FAQ Desktop C1",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 76,
+                  "fill": "#FFF8EC",
+                  "cornerRadius": 2,
+                  "stroke": "#4A3026",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    3,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "mRQou",
+                      "name": "FAQ Desktop C1 Header",
+                      "width": "fill_container",
+                      "height": 70,
+                      "gap": 18,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "uWApP",
+                          "name": "FAQ Desktop C1 Question",
+                          "fill": "#2C211C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "如果想彈的歌曲沒有樂譜怎麼辦？",
+                          "lineHeight": 1.45,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ALHm9",
+                          "name": "FAQ Desktop C1 Toggle",
+                          "fill": "#7B2D32",
+                          "content": "＋",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 24,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Z2Qx1o",
+                  "name": "FAQ Desktop C2",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 184,
+                  "fill": "#7B2D32",
+                  "cornerRadius": 2,
+                  "stroke": "#7B2D32",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    20,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "xyvxb",
+                      "name": "FAQ Desktop C2 Header",
+                      "width": "fill_container",
+                      "height": 58,
+                      "gap": 18,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "G4yvY",
+                          "name": "FAQ Desktop C2 Question",
+                          "fill": "#FFF8EC",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "如果現有樂譜太難怎麼辦？",
+                          "lineHeight": 1.45,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "hg0jv",
+                          "name": "FAQ Desktop C2 Toggle",
+                          "fill": "#D7A62C",
+                          "content": "−",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 24,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "eLWmx",
+                      "name": "FAQ Desktop C2 Divider",
+                      "width": "fill_container",
+                      "height": 1,
+                      "fill": "#D7A62C"
+                    },
+                    {
+                      "type": "text",
+                      "id": "A0GVbd",
+                      "name": "FAQ Desktop C2 Answer",
+                      "fill": "#FFF8EC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "可以依學生目前程度，重新調整伴奏、和聲、節奏、左右手配置與技術難度，製作較適合學習的客製版本。",
+                      "lineHeight": 1.65,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 17,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "UTjT3",
+                  "name": "FAQ Desktop C3",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 76,
+                  "fill": "#FFF8EC",
+                  "cornerRadius": 2,
+                  "stroke": "#4A3026",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    3,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "dmfZ7",
+                      "name": "FAQ Desktop C3 Header",
+                      "width": "fill_container",
+                      "height": 70,
+                      "gap": 18,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "bt6Yi",
+                          "name": "FAQ Desktop C3 Question",
+                          "fill": "#2C211C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "是不是所有歌曲都能客製？",
+                          "lineHeight": 1.45,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "VUWG6",
+                          "name": "FAQ Desktop C3 Toggle",
+                          "fill": "#7B2D32",
+                          "content": "＋",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 24,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "zRQBe",
+          "name": "FAQ Desktop — ONLINE LESSONS",
+          "width": "fill_container",
+          "height": 440,
+          "fill": "#FFF8EC",
+          "gap": 70,
+          "padding": [
+            64,
+            84
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "dxUtA",
+              "name": "FAQ Desktop ONLINE LESSONS Heading",
+              "width": 350,
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 18,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "XooZF",
+                  "name": "FAQ Desktop ONLINE LESSONS Number",
+                  "fill": "#7B2D32",
+                  "content": "06 — ONLINE LESSONS",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "nB6CL",
+                  "name": "FAQ Desktop ONLINE LESSONS Title",
+                  "fill": "#2C211C",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "線上課程",
+                  "lineHeight": 1.25,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 34,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "OVPp1",
+                  "name": "FAQ Desktop ONLINE LESSONS Note",
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "點選問題查看回答",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "pvC4I",
+              "name": "FAQ Desktop ONLINE LESSONS Accordion",
+              "width": 820,
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "M3rZL",
+                  "name": "FAQ Desktop O1",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 160,
+                  "fill": "#7B2D32",
+                  "cornerRadius": 2,
+                  "stroke": "#7B2D32",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    20,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "LLLoS",
+                      "name": "FAQ Desktop O1 Header",
+                      "width": "fill_container",
+                      "height": 58,
+                      "gap": 18,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "haVy6",
+                          "name": "FAQ Desktop O1 Question",
+                          "fill": "#FFF8EC",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "線上課可以學哪些內容？",
+                          "lineHeight": 1.45,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "CHVAj",
+                          "name": "FAQ Desktop O1 Toggle",
+                          "fill": "#D7A62C",
+                          "content": "−",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 24,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "dzyw3",
+                      "name": "FAQ Desktop O1 Divider",
+                      "width": "fill_container",
+                      "height": 1,
+                      "fill": "#D7A62C"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Jd3rR",
+                      "name": "FAQ Desktop O1 Answer",
+                      "fill": "#FFF8EC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "依學生程度，可安排古典、流行、視譜、技巧、ABRSM、比賽準備與客製歌曲等內容。",
+                      "lineHeight": 1.65,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 17,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "E2qZIi",
+                  "name": "FAQ Desktop O2",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 76,
+                  "fill": "#FFF8EC",
+                  "cornerRadius": 2,
+                  "stroke": "#4A3026",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    3,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "f5L5F",
+                      "name": "FAQ Desktop O2 Header",
+                      "width": "fill_container",
+                      "height": 70,
+                      "gap": 18,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "jYYU7",
+                          "name": "FAQ Desktop O2 Question",
+                          "fill": "#2C211C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "線上課和實體課會差很多嗎？",
+                          "lineHeight": 1.45,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "m3Jtui",
+                          "name": "FAQ Desktop O2 Toggle",
+                          "fill": "#7B2D32",
+                          "content": "＋",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 24,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "lrUMx",
+          "name": "FAQ Desktop — FEES & BOOKING",
+          "width": "fill_container",
+          "height": 1000,
+          "fill": "#F7EBD5",
+          "gap": 70,
+          "padding": [
+            64,
+            84
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "sAZm1",
+              "name": "FAQ Desktop FEES & BOOKING Heading",
+              "width": 350,
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 18,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "lX1e1",
+                  "name": "FAQ Desktop FEES & BOOKING Number",
+                  "fill": "#7B2D32",
+                  "content": "07 — FEES & BOOKING",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "MpMfh",
+                  "name": "FAQ Desktop FEES & BOOKING Title",
+                  "fill": "#2C211C",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "費用與預約",
+                  "lineHeight": 1.25,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 34,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "aMmuT",
+                  "name": "FAQ Desktop FEES & BOOKING Note",
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "點選問題查看回答",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "y6w0u",
+              "name": "FAQ Desktop FEES & BOOKING Accordion",
+              "width": 820,
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "rJ9b3",
+                  "name": "FAQ Desktop F1",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 230,
+                  "fill": "#7B2D32",
+                  "cornerRadius": 2,
+                  "stroke": "#7B2D32",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    20,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "kkmyh",
+                      "name": "FAQ Desktop F1 Header",
+                      "width": "fill_container",
+                      "height": 58,
+                      "gap": 18,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "m8HaZ",
+                          "name": "FAQ Desktop F1 Question",
+                          "fill": "#FFF8EC",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "課程費用是多少？",
+                          "lineHeight": 1.45,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "o7kCpd",
+                          "name": "FAQ Desktop F1 Toggle",
+                          "fill": "#D7A62C",
+                          "content": "−",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 24,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "dIHY1",
+                      "name": "FAQ Desktop F1 Divider",
+                      "width": "fill_container",
+                      "height": 1,
+                      "fill": "#D7A62C"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ldBNe",
+                      "name": "FAQ Desktop F1 Answer",
+                      "fill": "#FFF8EC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Taiwan：NT$1,200–1,500\nNorth America：From US$50\nOther Asia：Contact\n實際安排會依學生需求確認。",
+                      "lineHeight": 1.65,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 17,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "boXag",
+                  "name": "FAQ Desktop F2",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 76,
+                  "fill": "#FFF8EC",
+                  "cornerRadius": 2,
+                  "stroke": "#4A3026",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    3,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "eWGN2",
+                      "name": "FAQ Desktop F2 Header",
+                      "width": "fill_container",
+                      "height": 70,
+                      "gap": 18,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ejhY4",
+                          "name": "FAQ Desktop F2 Question",
+                          "fill": "#2C211C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "為什麼費用會有範圍？",
+                          "lineHeight": 1.45,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "R1Z1e",
+                          "name": "FAQ Desktop F2 Toggle",
+                          "fill": "#7B2D32",
+                          "content": "＋",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 24,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "aAOCN",
+                  "name": "FAQ Desktop F3",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 76,
+                  "fill": "#FFF8EC",
+                  "cornerRadius": 2,
+                  "stroke": "#4A3026",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    3,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "LSflE",
+                      "name": "FAQ Desktop F3 Header",
+                      "width": "fill_container",
+                      "height": 70,
+                      "gap": 18,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "KdmJV",
+                          "name": "FAQ Desktop F3 Question",
+                          "fill": "#2C211C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "怎麼開始？",
+                          "lineHeight": 1.45,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "z9RqDY",
+                          "name": "FAQ Desktop F3 Toggle",
+                          "fill": "#7B2D32",
+                          "content": "＋",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 24,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ERdDx",
+                  "name": "FAQ Desktop F4",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 194,
+                  "fill": "#7B2D32",
+                  "cornerRadius": 2,
+                  "stroke": "#7B2D32",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    20,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "bEZbc",
+                      "name": "FAQ Desktop F4 Header",
+                      "width": "fill_container",
+                      "height": 58,
+                      "gap": 18,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "V2sALQ",
+                          "name": "FAQ Desktop F4 Question",
+                          "fill": "#FFF8EC",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "試上課多久？費用怎麼算？",
+                          "lineHeight": 1.45,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "KnJB9",
+                          "name": "FAQ Desktop F4 Toggle",
+                          "fill": "#D7A62C",
+                          "content": "−",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 24,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "uIqZo",
+                      "name": "FAQ Desktop F4 Divider",
+                      "width": "fill_container",
+                      "height": 1,
+                      "fill": "#D7A62C"
+                    },
+                    {
+                      "type": "text",
+                      "id": "H2dGkv",
+                      "name": "FAQ Desktop F4 Answer",
+                      "fill": "#FFF8EC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "試上為 50 分鐘，與正式課程採相同單堂費用。希望有足夠時間了解學生目前程度與學習目標，也讓學生實際體驗完整的上課方式。",
+                      "lineHeight": 1.65,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 17,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "UReso",
+                  "name": "FAQ Desktop F5",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 245,
+                  "fill": "#7B2D32",
+                  "cornerRadius": 2,
+                  "stroke": "#7B2D32",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    20,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "YWZzS",
+                      "name": "FAQ Desktop F5 Header",
+                      "width": "fill_container",
+                      "height": 58,
+                      "gap": 18,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "gMbE6",
+                          "name": "FAQ Desktop F5 Question",
+                          "fill": "#FFF8EC",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "要怎麼聯絡老師？",
+                          "lineHeight": 1.45,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "lmQWU",
+                          "name": "FAQ Desktop F5 Toggle",
+                          "fill": "#D7A62C",
+                          "content": "−",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 24,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "IO7vu",
+                      "name": "FAQ Desktop F5 Divider",
+                      "width": "fill_container",
+                      "height": 1,
+                      "fill": "#D7A62C"
+                    },
+                    {
+                      "type": "text",
+                      "id": "H3YOY",
+                      "name": "FAQ Desktop F5 Answer",
+                      "fill": "#FFF8EC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "可使用 Email 或 LINE 聯絡。\nEmail：minpiyer@gmail.com\nLINE：可掃描網站 Contact 頁面的 QR Code 加好友。\nYouTube「瘋鋼琴」可查看實際教學與演奏內容。",
+                      "lineHeight": 1.65,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 17,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "HGjJF",
+          "name": "FAQ Desktop — Final CTA",
+          "width": "fill_container",
+          "height": 610,
+          "fill": "#7B2D32",
+          "gap": 100,
+          "padding": [
+            76,
+            84
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "HFzqh",
+              "name": "FAQ Desktop CTA Copy",
+              "width": 760,
+              "layout": "vertical",
+              "gap": 22,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "FtLtO",
+                  "name": "FAQ Desktop CTA Kicker",
+                  "fill": "#FFF8EC",
+                  "content": "08 — STILL CURIOUS?",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1.1
+                },
+                {
+                  "type": "text",
+                  "id": "ZjjsL",
+                  "name": "FAQ Desktop CTA Title",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "還有其他問題？",
+                  "lineHeight": 1.2,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 44,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "UuW4a",
+                  "name": "FAQ Desktop CTA Body",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": 700,
+                  "content": "告訴我目前程度與想學的內容，通常就可以很快確認適合的方向。",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 19,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "DRVVh",
+                  "name": "FAQ Desktop Trial Button",
+                  "height": 54,
+                  "fill": "#D7A62C",
+                  "cornerRadius": 3,
+                  "gap": 10,
+                  "padding": [
+                    14,
+                    20
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "G7rL8",
+                      "name": "FAQ Desktop Trial Button EN",
+                      "fill": "#4A3026",
+                      "content": "BOOK A TRIAL LESSON",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "trvPb",
+                      "name": "FAQ Desktop Trial Button ZH",
+                      "fill": "#4A3026",
+                      "content": "預約試課",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Z5m3x",
+              "name": "FAQ Desktop CTA Quote",
+              "width": 300,
+              "height": 300,
+              "fill": "#D85C2F",
+              "cornerRadius": 150,
+              "stroke": "#D7A62C",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "x8EKgf",
+                  "name": "FAQ Desktop CTA Quote Text",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "No pressure.\nJust music.",
+                  "lineHeight": 1.25,
+                  "textAlign": "center",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "A4Zqa",
+          "name": "FAQ Desktop Footer",
+          "width": "fill_container",
+          "height": 430,
+          "fill": "$cp-coffee",
+          "layout": "vertical",
+          "gap": 44,
+          "padding": [
+            58,
+            58,
+            34,
+            58
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "EZ1C0",
+              "name": "Footer Main Row",
+              "width": "fill_container",
+              "height": "fill_container",
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Huoyq",
+                  "name": "Footer Brand",
+                  "width": 520,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ke9t3",
+                      "name": "Footer Brand Name",
+                      "fill": "$cp-paper",
+                      "content": "CRAZY PIANO\n瘋鋼琴",
+                      "lineHeight": 0.95,
+                      "fontFamily": "Noto Serif TC",
+                      "fontSize": 57,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "KPYQy",
+                      "name": "Footer Brand Tagline",
+                      "fill": "#FFF8ECC0",
+                      "content": "Play it your way.\n把技巧練好，也把音樂變成自己的。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 18,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ei3vj",
+                  "name": "Footer Navigation Columns",
+                  "width": 700,
+                  "gap": 56,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "KbpzJ",
+                      "name": "Footer Column 1",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 13,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "nf6BH",
+                          "name": "Footer Column 1 Heading",
+                          "fill": "$cp-mustard",
+                          "content": "EXPLORE",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 13,
+                          "fontWeight": "700",
+                          "letterSpacing": 1.3
+                        },
+                        {
+                          "type": "text",
+                          "id": "JBRQi",
+                          "name": "Footer Column 1 Link 1",
+                          "fill": "$cp-paper",
+                          "content": "關於徐老師",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "EXNEc",
+                          "name": "Footer Column 1 Link 2",
+                          "fill": "$cp-paper",
+                          "content": "課程",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "rmsja",
+                          "name": "Footer Column 1 Link 3",
+                          "fill": "$cp-paper",
+                          "content": "學費",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "o7lefe",
+                          "name": "Footer Column 1 Link 4",
+                          "fill": "$cp-paper",
+                          "content": "學生故事",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ekVeO",
+                      "name": "Footer Column 2",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 13,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "yZAOV",
+                          "name": "Footer Column 2 Heading",
+                          "fill": "$cp-mustard",
+                          "content": "LESSONS",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 13,
+                          "fontWeight": "700",
+                          "letterSpacing": 1.3
+                        },
+                        {
+                          "type": "text",
+                          "id": "o07Kp",
+                          "name": "Footer Column 2 Link 1",
+                          "fill": "$cp-paper",
+                          "content": "兒童鋼琴",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "JzIFu",
+                          "name": "Footer Column 2 Link 2",
+                          "fill": "$cp-paper",
+                          "content": "成人鋼琴",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Lb1ZR",
+                          "name": "Footer Column 2 Link 3",
+                          "fill": "$cp-paper",
+                          "content": "ABRSM 檢定",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ZAzRD",
+                          "name": "Footer Column 2 Link 4",
+                          "fill": "$cp-paper",
+                          "content": "客製改編",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "bhVDb",
+                      "name": "Footer Column 3",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 13,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "liaJx",
+                          "name": "Footer Column 3 Heading",
+                          "fill": "$cp-mustard",
+                          "content": "CONNECT",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 13,
+                          "fontWeight": "700",
+                          "letterSpacing": 1.3
+                        },
+                        {
+                          "type": "text",
+                          "id": "Da4Dg",
+                          "name": "Footer Column 3 Link 1",
+                          "fill": "$cp-paper",
+                          "content": "YouTube",
+                          "fontFamily": "Funnel Sans",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "kCcer",
+                          "name": "Footer Column 3 Link 2",
+                          "fill": "$cp-paper",
+                          "content": "Instagram",
+                          "fontFamily": "Funnel Sans",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "TxAIH",
+                          "name": "Footer Column 3 Link 3",
+                          "fill": "$cp-paper",
+                          "content": "minpiyer@gmail.com",
+                          "fontFamily": "Funnel Sans",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "AKOfq",
+                          "name": "Footer Column 3 Link 4",
+                          "fill": "$cp-paper",
+                          "content": "預約試課",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "wfDdD",
+              "name": "Footer Bottom Row",
+              "width": "fill_container",
+              "stroke": "#FFF8EC55",
+              "strokeWidth": {
+                "top": 1
+              },
+              "padding": [
+                18,
+                0,
+                0,
+                0
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "mKLGc",
+                  "name": "Footer Copyright",
+                  "fill": "#FFF8ECAA",
+                  "content": "© 2026 CRAZY PIANO / DR. HSU. ALL RIGHTS RESERVED.",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "UklMI",
+                  "name": "Footer Location",
+                  "fill": "#FFF8ECAA",
+                  "content": "TAIPEI ↔ WORLDWIDE ONLINE",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "MKbCV",
+      "x": 2070,
+      "y": 64116,
+      "name": "FAQ／常見問題 — Mobile 390",
+      "clip": true,
+      "width": 390,
+      "height": 5952,
+      "fill": "#F7EBD5",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "y1sIv3",
+          "name": "FAQ Mobile Navigation",
+          "width": "fill_container",
+          "height": 76,
+          "fill": "$cp-paper",
+          "stroke": "$cp-line",
+          "strokeWidth": {
+            "bottom": 1
+          },
+          "padding": [
+            16,
+            18
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "hw3JQ",
+              "name": "Mobile Brand",
+              "gap": 9,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "KKNWf",
+                  "name": "Brand Dot",
+                  "fill": "$cp-orange",
+                  "width": 18,
+                  "height": 18,
+                  "stroke": "$cp-coffee",
+                  "strokeWidth": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "O5Lvr",
+                  "name": "Brand Wordmark",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "T8VK9",
+                      "name": "Crazy Piano Logo",
+                      "fill": "$cp-ink",
+                      "content": "CRAZY PIANO",
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 13,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.4
+                    },
+                    {
+                      "type": "text",
+                      "id": "R7LJVi",
+                      "name": "瘋鋼琴 Logo",
+                      "fill": "$cp-burgundy",
+                      "content": "瘋鋼琴",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 11,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "GJIGH",
+              "name": "Mobile Navigation Actions",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "VsFzs",
+                  "name": "Language Switch",
+                  "height": 42,
+                  "fill": "$cp-cream",
+                  "cornerRadius": 21,
+                  "stroke": "$cp-coffee",
+                  "strokeWidth": 1,
+                  "padding": [
+                    0,
+                    12
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "WTwy2",
+                      "name": "Language Label",
+                      "fill": "$cp-coffee",
+                      "content": "中／EN",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "elgCC",
+                  "name": "Hamburger Menu Button",
+                  "width": 42,
+                  "height": 42,
+                  "fill": "$cp-burgundy",
+                  "cornerRadius": 21,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "E8Z4x",
+                      "name": "Hamburger Menu Icon",
+                      "width": 22,
+                      "height": 22,
+                      "icon": "menu",
+                      "library": "lucide",
+                      "fill": "$cp-paper"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "qupbU",
+          "name": "FAQ Mobile — Hero",
+          "width": "fill_container",
+          "height": 560,
+          "fill": "#D7A62C",
+          "layout": "vertical",
+          "gap": 18,
+          "padding": [
+            42,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "t9M82x",
+              "name": "FAQ Mobile Hero Kicker",
+              "fill": "#4A3026",
+              "content": "01 — FAQ",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 11,
+              "fontWeight": "700",
+              "letterSpacing": 1
+            },
+            {
+              "type": "text",
+              "id": "TNvoQ",
+              "name": "FAQ Mobile Hero English",
+              "fill": "#2C211C",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "FREQUENTLY ASKED",
+              "lineHeight": 1,
+              "fontFamily": "Playfair Display",
+              "fontSize": 37,
+              "fontWeight": "800"
+            },
+            {
+              "type": "text",
+              "id": "E2H3oP",
+              "name": "FAQ Mobile Hero Title",
+              "fill": "#7B2D32",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "上課前，\n你可能會想知道這些。",
+              "lineHeight": 1.28,
+              "fontFamily": "Noto Serif TC",
+              "fontSize": 31,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "WT95R",
+              "name": "FAQ Mobile Hero Body",
+              "fill": "#4A3026",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "如果你的情況不在下面，也可以直接告訴我目前程度與想學的內容。",
+              "lineHeight": 1.7,
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 17,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "Yz5WN",
+              "name": "FAQ Mobile Hero Mark",
+              "width": "fill_container",
+              "height": 112,
+              "fill": "#48634B",
+              "gap": 22,
+              "padding": [
+                18,
+                22
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "mNkGN",
+                  "name": "FAQ Mobile Question Mark",
+                  "fill": "#FFF8EC",
+                  "content": "?",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 54,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "text",
+                  "id": "n5M9O3",
+                  "name": "FAQ Mobile Hero Note",
+                  "fill": "#FFF8EC",
+                  "content": "CLEAR ANSWERS",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 10,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Z37RxN",
+          "name": "FAQ Mobile — GETTING STARTED",
+          "width": "fill_container",
+          "height": 610,
+          "fill": "#FFF8EC",
+          "layout": "vertical",
+          "gap": 18,
+          "padding": [
+            48,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "RwqXc",
+              "name": "FAQ Mobile GETTING STARTED Number",
+              "fill": "#7B2D32",
+              "content": "02 — GETTING STARTED",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 10,
+              "fontWeight": "700",
+              "letterSpacing": 0.8
+            },
+            {
+              "type": "text",
+              "id": "sO36X",
+              "name": "FAQ Mobile GETTING STARTED Title",
+              "fill": "#2C211C",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "開始學鋼琴",
+              "lineHeight": 1.3,
+              "fontFamily": "Noto Serif TC",
+              "fontSize": 28,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "iN3jF",
+              "name": "FAQ Mobile GETTING STARTED Accordion",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "OIac1",
+                  "name": "FAQ Mobile G1",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 226,
+                  "fill": "#7B2D32",
+                  "cornerRadius": 2,
+                  "stroke": "#7B2D32",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "bn6AL",
+                      "name": "FAQ Mobile G1 Header",
+                      "width": "fill_container",
+                      "height": 76,
+                      "gap": 14,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "a2NdO",
+                          "name": "FAQ Mobile G1 Question",
+                          "fill": "#FFF8EC",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "完全沒有學過鋼琴，也可以開始嗎？",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 17,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Kauax",
+                          "name": "FAQ Mobile G1 Toggle",
+                          "fill": "#D7A62C",
+                          "content": "−",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 23,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "J7CW8",
+                      "name": "FAQ Mobile G1 Divider",
+                      "width": "fill_container",
+                      "height": 1,
+                      "fill": "#D7A62C"
+                    },
+                    {
+                      "type": "text",
+                      "id": "gDD5V",
+                      "name": "FAQ Mobile G1 Answer",
+                      "fill": "#FFF8EC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "可以。會先從目前的閱讀能力、節奏感與手部使用開始，逐步建立看譜、基本技巧與演奏習慣。",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 16,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "IQ01L",
+                  "name": "FAQ Mobile G2",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 94,
+                  "fill": "#FFF8EC",
+                  "cornerRadius": 2,
+                  "stroke": "#4A3026",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    3,
+                    18
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "oQfet",
+                      "name": "FAQ Mobile G2 Header",
+                      "width": "fill_container",
+                      "height": 88,
+                      "gap": 14,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Km6Pi",
+                          "name": "FAQ Mobile G2 Question",
+                          "fill": "#2C211C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "線上課幾歲開始比較適合？",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 17,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "E6Tif",
+                          "name": "FAQ Mobile G2 Toggle",
+                          "fill": "#7B2D32",
+                          "content": "＋",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 23,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "cWONP",
+                  "name": "FAQ Mobile G3",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 94,
+                  "fill": "#FFF8EC",
+                  "cornerRadius": 2,
+                  "stroke": "#4A3026",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    3,
+                    18
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Rkn61",
+                      "name": "FAQ Mobile G3 Header",
+                      "width": "fill_container",
+                      "height": 88,
+                      "gap": 14,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "meLuB",
+                          "name": "FAQ Mobile G3 Question",
+                          "fill": "#2C211C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "成人現在才開始會不會太晚？",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 17,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "OhSeS",
+                          "name": "FAQ Mobile G3 Toggle",
+                          "fill": "#7B2D32",
+                          "content": "＋",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 23,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Qrxk9",
+          "name": "FAQ Mobile — LESSON CONTENT",
+          "width": "fill_container",
+          "height": 650,
+          "fill": "#F7EBD5",
+          "layout": "vertical",
+          "gap": 18,
+          "padding": [
+            48,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "ViFZj",
+              "name": "FAQ Mobile LESSON CONTENT Number",
+              "fill": "#7B2D32",
+              "content": "03 — LESSON CONTENT",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 10,
+              "fontWeight": "700",
+              "letterSpacing": 0.8
+            },
+            {
+              "type": "text",
+              "id": "TAy0l",
+              "name": "FAQ Mobile LESSON CONTENT Title",
+              "fill": "#2C211C",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "課程內容",
+              "lineHeight": 1.3,
+              "fontFamily": "Noto Serif TC",
+              "fontSize": 28,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "Y98Bg",
+              "name": "FAQ Mobile LESSON CONTENT Accordion",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "M13wcc",
+                  "name": "FAQ Mobile L1",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 265,
+                  "fill": "#7B2D32",
+                  "cornerRadius": 2,
+                  "stroke": "#7B2D32",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "jznmM",
+                      "name": "FAQ Mobile L1 Header",
+                      "width": "fill_container",
+                      "height": 76,
+                      "gap": 14,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "x5iyx",
+                          "name": "FAQ Mobile L1 Question",
+                          "fill": "#FFF8EC",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "一定要學古典音樂嗎？",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 17,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "o0zdOo",
+                          "name": "FAQ Mobile L1 Toggle",
+                          "fill": "#D7A62C",
+                          "content": "−",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 23,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Cg4Ar",
+                      "name": "FAQ Mobile L1 Divider",
+                      "width": "fill_container",
+                      "height": 1,
+                      "fill": "#D7A62C"
+                    },
+                    {
+                      "type": "text",
+                      "id": "wn5Bq",
+                      "name": "FAQ Mobile L1 Answer",
+                      "fill": "#FFF8EC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "不一定。古典、流行、檢定曲目或學生真正喜歡的歌曲，都可以依程度安排進課程。但看譜、節奏與基本技巧仍然會持續建立。",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 16,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "W2LMU",
+                  "name": "FAQ Mobile L2",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 94,
+                  "fill": "#FFF8EC",
+                  "cornerRadius": 2,
+                  "stroke": "#4A3026",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    3,
+                    18
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "moSv4",
+                      "name": "FAQ Mobile L2 Header",
+                      "width": "fill_container",
+                      "height": 88,
+                      "gap": 14,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "W2R1e",
+                          "name": "FAQ Mobile L2 Question",
+                          "fill": "#2C211C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "一定要照固定教材上課嗎？",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 17,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "X8TI3",
+                          "name": "FAQ Mobile L2 Toggle",
+                          "fill": "#7B2D32",
+                          "content": "＋",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 23,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "skxlK",
+                  "name": "FAQ Mobile L3",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 94,
+                  "fill": "#FFF8EC",
+                  "cornerRadius": 2,
+                  "stroke": "#4A3026",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    3,
+                    18
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "oEKQD",
+                      "name": "FAQ Mobile L3 Header",
+                      "width": "fill_container",
+                      "height": 88,
+                      "gap": 14,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "E88yyK",
+                          "name": "FAQ Mobile L3 Question",
+                          "fill": "#2C211C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "可以只學我喜歡的歌嗎？",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 17,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "aNIoK",
+                          "name": "FAQ Mobile L3 Toggle",
+                          "fill": "#7B2D32",
+                          "content": "＋",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 23,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "phe7q",
+          "name": "FAQ Mobile — EXAMS & COMPETITIONS",
+          "width": "fill_container",
+          "height": 630,
+          "fill": "#FFF8EC",
+          "layout": "vertical",
+          "gap": 18,
+          "padding": [
+            48,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "ADvj3",
+              "name": "FAQ Mobile EXAMS & COMPETITIONS Number",
+              "fill": "#7B2D32",
+              "content": "04 — EXAMS & COMPETITIONS",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 10,
+              "fontWeight": "700",
+              "letterSpacing": 0.8
+            },
+            {
+              "type": "text",
+              "id": "EuZG1",
+              "name": "FAQ Mobile EXAMS & COMPETITIONS Title",
+              "fill": "#2C211C",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "檢定與比賽",
+              "lineHeight": 1.3,
+              "fontFamily": "Noto Serif TC",
+              "fontSize": 28,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "wsNcD",
+              "name": "FAQ Mobile EXAMS & COMPETITIONS Accordion",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "urUU1",
+                  "name": "FAQ Mobile E1",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 94,
+                  "fill": "#FFF8EC",
+                  "cornerRadius": 2,
+                  "stroke": "#4A3026",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    3,
+                    18
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "dkp75",
+                      "name": "FAQ Mobile E1 Header",
+                      "width": "fill_container",
+                      "height": 88,
+                      "gap": 14,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "qtkfx",
+                          "name": "FAQ Mobile E1 Question",
+                          "fill": "#2C211C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "可以準備 ABRSM 嗎？",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 17,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "O8CVmp",
+                          "name": "FAQ Mobile E1 Toggle",
+                          "fill": "#7B2D32",
+                          "content": "＋",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 23,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "wx8Zr",
+                  "name": "FAQ Mobile E2",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 94,
+                  "fill": "#FFF8EC",
+                  "cornerRadius": 2,
+                  "stroke": "#4A3026",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    3,
+                    18
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "e1Ihy7",
+                      "name": "FAQ Mobile E2 Header",
+                      "width": "fill_container",
+                      "height": 88,
+                      "gap": 14,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "NwCvy",
+                          "name": "FAQ Mobile E2 Question",
+                          "fill": "#2C211C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "可以準備比賽嗎？",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 17,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "bndvP",
+                          "name": "FAQ Mobile E2 Toggle",
+                          "fill": "#7B2D32",
+                          "content": "＋",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 23,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "abCUO",
+                  "name": "FAQ Mobile E3",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 246,
+                  "fill": "#7B2D32",
+                  "cornerRadius": 2,
+                  "stroke": "#7B2D32",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "OYwoR",
+                      "name": "FAQ Mobile E3 Header",
+                      "width": "fill_container",
+                      "height": 76,
+                      "gap": 14,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Bxkwe",
+                          "name": "FAQ Mobile E3 Question",
+                          "fill": "#FFF8EC",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "可以保證通過檢定或比賽得獎嗎？",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 17,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "kilhW",
+                          "name": "FAQ Mobile E3 Toggle",
+                          "fill": "#D7A62C",
+                          "content": "−",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 23,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "zMVtF",
+                      "name": "FAQ Mobile E3 Divider",
+                      "width": "fill_container",
+                      "height": 1,
+                      "fill": "#D7A62C"
+                    },
+                    {
+                      "type": "text",
+                      "id": "l0lRz",
+                      "name": "FAQ Mobile E3 Answer",
+                      "fill": "#FFF8EC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "不會保證結果。課程會協助學生依照實際要求充分準備，但考試與比賽結果仍受到多種因素影響。",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 16,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "rWLhQ",
+          "name": "FAQ Mobile — CUSTOM SCORES",
+          "width": "fill_container",
+          "height": 640,
+          "fill": "#F7EBD5",
+          "layout": "vertical",
+          "gap": 18,
+          "padding": [
+            48,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "uKBwb",
+              "name": "FAQ Mobile CUSTOM SCORES Number",
+              "fill": "#7B2D32",
+              "content": "05 — CUSTOM SCORES",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 10,
+              "fontWeight": "700",
+              "letterSpacing": 0.8
+            },
+            {
+              "type": "text",
+              "id": "Xsfgm",
+              "name": "FAQ Mobile CUSTOM SCORES Title",
+              "fill": "#2C211C",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "客製樂譜與改編",
+              "lineHeight": 1.3,
+              "fontFamily": "Noto Serif TC",
+              "fontSize": 28,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "gRY3s",
+              "name": "FAQ Mobile CUSTOM SCORES Accordion",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "cOlZ5",
+                  "name": "FAQ Mobile C1",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 94,
+                  "fill": "#FFF8EC",
+                  "cornerRadius": 2,
+                  "stroke": "#4A3026",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    3,
+                    18
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "IgrWj",
+                      "name": "FAQ Mobile C1 Header",
+                      "width": "fill_container",
+                      "height": 88,
+                      "gap": 14,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Xy74m",
+                          "name": "FAQ Mobile C1 Question",
+                          "fill": "#2C211C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "如果想彈的歌曲沒有樂譜怎麼辦？",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 17,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ttagW",
+                          "name": "FAQ Mobile C1 Toggle",
+                          "fill": "#7B2D32",
+                          "content": "＋",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 23,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "rnTGq",
+                  "name": "FAQ Mobile C2",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 258,
+                  "fill": "#7B2D32",
+                  "cornerRadius": 2,
+                  "stroke": "#7B2D32",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "xzHvr",
+                      "name": "FAQ Mobile C2 Header",
+                      "width": "fill_container",
+                      "height": 76,
+                      "gap": 14,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "si5gV",
+                          "name": "FAQ Mobile C2 Question",
+                          "fill": "#FFF8EC",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "如果現有樂譜太難怎麼辦？",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 17,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "CN4LF",
+                          "name": "FAQ Mobile C2 Toggle",
+                          "fill": "#D7A62C",
+                          "content": "−",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 23,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ZK8F8",
+                      "name": "FAQ Mobile C2 Divider",
+                      "width": "fill_container",
+                      "height": 1,
+                      "fill": "#D7A62C"
+                    },
+                    {
+                      "type": "text",
+                      "id": "byWSN",
+                      "name": "FAQ Mobile C2 Answer",
+                      "fill": "#FFF8EC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "可以依學生目前程度，重新調整伴奏、和聲、節奏、左右手配置與技術難度，製作較適合學習的客製版本。",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 16,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "v74dfr",
+                  "name": "FAQ Mobile C3",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 94,
+                  "fill": "#FFF8EC",
+                  "cornerRadius": 2,
+                  "stroke": "#4A3026",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    3,
+                    18
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "GGGvg",
+                      "name": "FAQ Mobile C3 Header",
+                      "width": "fill_container",
+                      "height": 88,
+                      "gap": 14,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "g1VJ3",
+                          "name": "FAQ Mobile C3 Question",
+                          "fill": "#2C211C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "是不是所有歌曲都能客製？",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 17,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "BEZCe",
+                          "name": "FAQ Mobile C3 Toggle",
+                          "fill": "#7B2D32",
+                          "content": "＋",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 23,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "CUNza",
+          "name": "FAQ Mobile — ONLINE LESSONS",
+          "width": "fill_container",
+          "height": 500,
+          "fill": "#FFF8EC",
+          "layout": "vertical",
+          "gap": 18,
+          "padding": [
+            48,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "NpPeU",
+              "name": "FAQ Mobile ONLINE LESSONS Number",
+              "fill": "#7B2D32",
+              "content": "06 — ONLINE LESSONS",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 10,
+              "fontWeight": "700",
+              "letterSpacing": 0.8
+            },
+            {
+              "type": "text",
+              "id": "n6i9IG",
+              "name": "FAQ Mobile ONLINE LESSONS Title",
+              "fill": "#2C211C",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "線上課程",
+              "lineHeight": 1.3,
+              "fontFamily": "Noto Serif TC",
+              "fontSize": 28,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "fPmH0",
+              "name": "FAQ Mobile ONLINE LESSONS Accordion",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "WLq5J",
+                  "name": "FAQ Mobile O1",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 220,
+                  "fill": "#7B2D32",
+                  "cornerRadius": 2,
+                  "stroke": "#7B2D32",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "z2Doc",
+                      "name": "FAQ Mobile O1 Header",
+                      "width": "fill_container",
+                      "height": 76,
+                      "gap": 14,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "vOkad",
+                          "name": "FAQ Mobile O1 Question",
+                          "fill": "#FFF8EC",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "線上課可以學哪些內容？",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 17,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Qd7Zm",
+                          "name": "FAQ Mobile O1 Toggle",
+                          "fill": "#D7A62C",
+                          "content": "−",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 23,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "QTD3G",
+                      "name": "FAQ Mobile O1 Divider",
+                      "width": "fill_container",
+                      "height": 1,
+                      "fill": "#D7A62C"
+                    },
+                    {
+                      "type": "text",
+                      "id": "QCLE6",
+                      "name": "FAQ Mobile O1 Answer",
+                      "fill": "#FFF8EC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "依學生程度，可安排古典、流行、視譜、技巧、ABRSM、比賽準備與客製歌曲等內容。",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 16,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "uliX5",
+                  "name": "FAQ Mobile O2",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 94,
+                  "fill": "#FFF8EC",
+                  "cornerRadius": 2,
+                  "stroke": "#4A3026",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    3,
+                    18
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "DDevr",
+                      "name": "FAQ Mobile O2 Header",
+                      "width": "fill_container",
+                      "height": 88,
+                      "gap": 14,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "zZtIm",
+                          "name": "FAQ Mobile O2 Question",
+                          "fill": "#2C211C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "線上課和實體課會差很多嗎？",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 17,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "KNIJw",
+                          "name": "FAQ Mobile O2 Toggle",
+                          "fill": "#7B2D32",
+                          "content": "＋",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 23,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "C60kX",
+          "name": "FAQ Mobile — FEES & BOOKING",
+          "width": "fill_container",
+          "height": 1400,
+          "fill": "#F7EBD5",
+          "layout": "vertical",
+          "gap": 18,
+          "padding": [
+            48,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "e6lYQ",
+              "name": "FAQ Mobile FEES & BOOKING Number",
+              "fill": "#7B2D32",
+              "content": "07 — FEES & BOOKING",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 10,
+              "fontWeight": "700",
+              "letterSpacing": 0.8
+            },
+            {
+              "type": "text",
+              "id": "vEaCo",
+              "name": "FAQ Mobile FEES & BOOKING Title",
+              "fill": "#2C211C",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "費用與預約",
+              "lineHeight": 1.3,
+              "fontFamily": "Noto Serif TC",
+              "fontSize": 28,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "FkySS",
+              "name": "FAQ Mobile FEES & BOOKING Accordion",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "h5I1gv",
+                  "name": "FAQ Mobile F1",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 300,
+                  "fill": "#7B2D32",
+                  "cornerRadius": 2,
+                  "stroke": "#7B2D32",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "CuTK8",
+                      "name": "FAQ Mobile F1 Header",
+                      "width": "fill_container",
+                      "height": 76,
+                      "gap": 14,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "pUew7",
+                          "name": "FAQ Mobile F1 Question",
+                          "fill": "#FFF8EC",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "課程費用是多少？",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 17,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "aheYI",
+                          "name": "FAQ Mobile F1 Toggle",
+                          "fill": "#D7A62C",
+                          "content": "−",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 23,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "N3AgS",
+                      "name": "FAQ Mobile F1 Divider",
+                      "width": "fill_container",
+                      "height": 1,
+                      "fill": "#D7A62C"
+                    },
+                    {
+                      "type": "text",
+                      "id": "pHJaA",
+                      "name": "FAQ Mobile F1 Answer",
+                      "fill": "#FFF8EC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Taiwan：NT$1,200–1,500\nNorth America：From US$50\nOther Asia：Contact\n實際安排會依學生需求確認。",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 16,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "y88BOc",
+                  "name": "FAQ Mobile F2",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 94,
+                  "fill": "#FFF8EC",
+                  "cornerRadius": 2,
+                  "stroke": "#4A3026",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    3,
+                    18
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "kr17y",
+                      "name": "FAQ Mobile F2 Header",
+                      "width": "fill_container",
+                      "height": 88,
+                      "gap": 14,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ViLZZ",
+                          "name": "FAQ Mobile F2 Question",
+                          "fill": "#2C211C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "為什麼費用會有範圍？",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 17,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "jF24A",
+                          "name": "FAQ Mobile F2 Toggle",
+                          "fill": "#7B2D32",
+                          "content": "＋",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 23,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "EwFHL",
+                  "name": "FAQ Mobile F3",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 94,
+                  "fill": "#FFF8EC",
+                  "cornerRadius": 2,
+                  "stroke": "#4A3026",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    3,
+                    18
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "jhJFk",
+                      "name": "FAQ Mobile F3 Header",
+                      "width": "fill_container",
+                      "height": 88,
+                      "gap": 14,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "YX84A",
+                          "name": "FAQ Mobile F3 Question",
+                          "fill": "#2C211C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "怎麼開始？",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 17,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "X6xC5",
+                          "name": "FAQ Mobile F3 Toggle",
+                          "fill": "#7B2D32",
+                          "content": "＋",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 23,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "K3gPSY",
+                  "name": "FAQ Mobile F4",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 282,
+                  "fill": "#7B2D32",
+                  "cornerRadius": 2,
+                  "stroke": "#7B2D32",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "u1CNj",
+                      "name": "FAQ Mobile F4 Header",
+                      "width": "fill_container",
+                      "height": 76,
+                      "gap": 14,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Sx4ea",
+                          "name": "FAQ Mobile F4 Question",
+                          "fill": "#FFF8EC",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "試上課多久？費用怎麼算？",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 17,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "od9op",
+                          "name": "FAQ Mobile F4 Toggle",
+                          "fill": "#D7A62C",
+                          "content": "−",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 23,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "vv2To",
+                      "name": "FAQ Mobile F4 Divider",
+                      "width": "fill_container",
+                      "height": 1,
+                      "fill": "#D7A62C"
+                    },
+                    {
+                      "type": "text",
+                      "id": "R9rJ3i",
+                      "name": "FAQ Mobile F4 Answer",
+                      "fill": "#FFF8EC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "試上為 50 分鐘，與正式課程採相同單堂費用。希望有足夠時間了解學生目前程度與學習目標，也讓學生實際體驗完整的上課方式。",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 16,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "dEuiV",
+                  "name": "FAQ Mobile F5",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 360,
+                  "fill": "#7B2D32",
+                  "cornerRadius": 2,
+                  "stroke": "#7B2D32",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "DoWpu",
+                      "name": "FAQ Mobile F5 Header",
+                      "width": "fill_container",
+                      "height": 76,
+                      "gap": 14,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "oYrgN",
+                          "name": "FAQ Mobile F5 Question",
+                          "fill": "#FFF8EC",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "要怎麼聯絡老師？",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 17,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "hnx3n",
+                          "name": "FAQ Mobile F5 Toggle",
+                          "fill": "#D7A62C",
+                          "content": "−",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 23,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "KQuFC",
+                      "name": "FAQ Mobile F5 Divider",
+                      "width": "fill_container",
+                      "height": 1,
+                      "fill": "#D7A62C"
+                    },
+                    {
+                      "type": "text",
+                      "id": "c8FmRL",
+                      "name": "FAQ Mobile F5 Answer",
+                      "fill": "#FFF8EC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "可使用 Email 或 LINE 聯絡。\nEmail：minpiyer@gmail.com\nLINE：可掃描網站 Contact 頁面的 QR Code 加好友。\nYouTube「瘋鋼琴」可查看實際教學與演奏內容。",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 16,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "efXG1",
+          "name": "FAQ Mobile — Final CTA",
+          "width": "fill_container",
+          "height": 560,
+          "fill": "#7B2D32",
+          "layout": "vertical",
+          "gap": 22,
+          "padding": [
+            52,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "YiO17",
+              "name": "FAQ Mobile CTA Kicker",
+              "fill": "#FFF8EC",
+              "content": "08 — STILL CURIOUS?",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 10,
+              "fontWeight": "700",
+              "letterSpacing": 0.8
+            },
+            {
+              "type": "text",
+              "id": "NLo74",
+              "name": "FAQ Mobile CTA Title",
+              "fill": "#FFF8EC",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "還有其他問題？",
+              "lineHeight": 1.25,
+              "fontFamily": "Noto Serif TC",
+              "fontSize": 31,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "WyXI2",
+              "name": "FAQ Mobile CTA Body",
+              "fill": "#FFF8EC",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "告訴我目前程度與想學的內容，通常就可以很快確認適合的方向。",
+              "lineHeight": 1.7,
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 17,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "MwG0i",
+              "name": "FAQ Mobile Trial Button",
+              "height": 54,
+              "fill": "#D7A62C",
+              "cornerRadius": 3,
+              "gap": 10,
+              "padding": [
+                14,
+                20
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "mDMjV",
+                  "name": "FAQ Mobile Trial Button EN",
+                  "fill": "#4A3026",
+                  "content": "BOOK A TRIAL LESSON",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 13,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "s40BDZ",
+                  "name": "FAQ Mobile Trial Button ZH",
+                  "fill": "#4A3026",
+                  "content": "預約試課",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "g1i5Tf",
+              "name": "FAQ Mobile CTA Quote",
+              "fill": "#D7A62C",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "No pressure. Just music.",
+              "lineHeight": 1.3,
+              "textAlign": "center",
+              "fontFamily": "Playfair Display",
+              "fontSize": 20,
+              "fontWeight": "700"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "gDFWi",
+          "name": "FAQ Mobile Footer",
+          "width": "fill_container",
+          "fill": "$cp-coffee",
+          "stroke": "#00000000",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            34,
+            20,
+            28,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "YhdgR",
+              "name": "Footer Brand",
+              "fill": "$cp-paper",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "CRAZY PIANO\n瘋鋼琴",
+              "lineHeight": 1.05,
+              "fontFamily": "Noto Serif TC",
+              "fontSize": 30,
+              "fontWeight": "700",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "text",
+              "id": "LNcoW",
+              "name": "Footer Tagline",
+              "fill": "$cp-paper",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Play it your way.",
+              "lineHeight": 1.4,
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 17,
+              "fontWeight": "normal",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "frame",
+              "id": "JbUUc",
+              "name": "Footer Link Groups",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "stroke": "#00000000",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "uQT3S",
+                  "name": "Footer Group QUICK LINKS",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "stroke": "#00000000",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Z69Us",
+                      "name": "Footer QUICK LINKS Heading",
+                      "fill": "$cp-mustard",
+                      "content": "QUICK LINKS",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.8
+                    },
+                    {
+                      "type": "text",
+                      "id": "rtr5H",
+                      "name": "Footer QUICK LINKS",
+                      "fill": "$cp-paper",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "About　Lessons　YouTube\nContact　中文 / English",
+                      "lineHeight": 1.75,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 16,
+                      "fontWeight": "normal",
+                      "letterSpacing": 0.5
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "jRhQN",
               "name": "Footer Copyright",
               "fill": "$cp-line",
               "textGrowth": "fixed-width",
