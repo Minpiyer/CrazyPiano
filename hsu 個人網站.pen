@@ -38827,6 +38827,3122 @@
           ]
         }
       ]
+    },
+    {
+      "type": "frame",
+      "id": "dV9kU",
+      "x": 0,
+      "y": 58510,
+      "name": "Lesson Fees／課程費用 — Desktop 1440",
+      "width": 1440,
+      "height": 4326,
+      "fill": "#F7EBD5",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "yQBQ3",
+          "name": "Lesson Fees Desktop Navigation",
+          "width": "fill_container",
+          "height": 96,
+          "fill": "$cp-paper",
+          "stroke": "$cp-coffee",
+          "strokeWidth": {
+            "bottom": 2
+          },
+          "padding": [
+            22,
+            56
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "NZqpb",
+              "name": "Brand Lockup",
+              "gap": 14,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "Vk7EX",
+                  "name": "Brand Vinyl Mark",
+                  "fill": "$cp-orange",
+                  "width": 42,
+                  "height": 42,
+                  "stroke": "$cp-coffee",
+                  "strokeWidth": 2
+                },
+                {
+                  "type": "text",
+                  "id": "sxeOe",
+                  "name": "Brand Name",
+                  "fill": "$cp-ink",
+                  "content": "CRAZY PIANO  瘋鋼琴",
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 24,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.4
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "akt9Z",
+              "name": "Primary Navigation Links",
+              "gap": 30,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "hTjAU",
+                  "name": "Navigation Link 1",
+                  "fill": "$cp-ink",
+                  "content": "教學特色",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 17,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "ckJ0m",
+                  "name": "Navigation Link 2",
+                  "fill": "$cp-ink",
+                  "content": "課程",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 17,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "AyIjt",
+                  "name": "Navigation Link 3",
+                  "fill": "$cp-ink",
+                  "content": "關於徐老師",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 17,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "YJACU",
+                  "name": "Navigation Link 4",
+                  "fill": "$cp-ink",
+                  "content": "作品集",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 17,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "u5X4a",
+                  "name": "Navigation Link 5",
+                  "fill": "$cp-ink",
+                  "content": "學費",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 17,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "M9oH9b",
+                  "name": "Language Switcher",
+                  "fill": "$cp-cream",
+                  "cornerRadius": 999,
+                  "stroke": "$cp-coffee",
+                  "strokeWidth": 1,
+                  "gap": 7,
+                  "padding": [
+                    9,
+                    13
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "BbEjC",
+                      "name": "Language Switcher Label",
+                      "fill": "$cp-coffee",
+                      "content": "中 / EN",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "l0d0S",
+              "name": "Header Trial Button",
+              "fill": "$cp-burgundy",
+              "cornerRadius": 4,
+              "stroke": "$cp-coffee",
+              "strokeWidth": 2,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#4A3026",
+                "offset": {
+                  "x": 4,
+                  "y": 4
+                }
+              },
+              "padding": [
+                13,
+                19
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "P9pdVH",
+                  "name": "Header Trial Button Label",
+                  "fill": "$cp-paper",
+                  "content": "預約試課 ↗",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "lelpv",
+          "name": "Lesson Fees Desktop — Hero",
+          "width": "fill_container",
+          "height": 720,
+          "fill": "#D7A62C",
+          "gap": 64,
+          "padding": [
+            68,
+            84
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "ca7Yq",
+              "name": "Lesson Fees Desktop Hero Copy",
+              "width": 700,
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "CHiPL",
+                  "name": "Lesson Fees Desktop Hero Kicker",
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "01 — LESSON FEES",
+                  "lineHeight": 1,
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 12,
+                  "fontWeight": "700",
+                  "letterSpacing": 1.3
+                },
+                {
+                  "type": "text",
+                  "id": "I3Esw",
+                  "name": "Lesson Fees Desktop Hero English",
+                  "fill": "#2C211C",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "LESSON\nFEES",
+                  "lineHeight": 0.92,
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 68,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "text",
+                  "id": "WamMy",
+                  "name": "Lesson Fees Desktop Hero Title",
+                  "fill": "#7B2D32",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "先找到適合你的\n學習方式。",
+                  "lineHeight": 1.25,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 42,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "dfq5M",
+                  "name": "Lesson Fees Desktop Hero Body",
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": 610,
+                  "content": "每個人的程度、目標與想彈的音樂都不同。\n以下提供基本課程費用範圍，實際內容會依學生需求安排。",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 19,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "pRQSk",
+              "name": "Lesson Fees Desktop Hero Note",
+              "width": 440,
+              "height": 350,
+              "fill": "#48634B",
+              "cornerRadius": 3,
+              "stroke": "#4A3026",
+              "layout": "vertical",
+              "gap": 24,
+              "padding": [
+                34,
+                32
+              ],
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "VMYUS",
+                  "name": "Fee Pill CLEAR · FLEXIBLE · PERSONAL",
+                  "height": 34,
+                  "fill": "#FFF8EC",
+                  "cornerRadius": 18,
+                  "stroke": "#4A3026",
+                  "padding": [
+                    8,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "lPujv",
+                      "name": "Fee Pill Text",
+                      "fill": "#4A3026",
+                      "textGrowth": "fixed-width",
+                      "width": 230,
+                      "content": "CLEAR · FLEXIBLE · PERSONAL",
+                      "lineHeight": 1,
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 12,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.8
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "RbLFj",
+                  "name": "Lesson Fees Desktop Hero Note Title",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "清楚的費用，\n個人化的內容。",
+                  "lineHeight": 1.25,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 30,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "s2Bo6E",
+                  "name": "Lesson Fees Desktop Hero Note Body",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "地區不同，費用呈現不同；教學品質與課程安排仍以學生真正需要的內容為核心。",
+                  "lineHeight": 1.65,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 17,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "wBz9n",
+          "name": "Lesson Fees Desktop — Fees",
+          "width": "fill_container",
+          "height": 760,
+          "fill": "#FFF8EC",
+          "layout": "vertical",
+          "gap": 30,
+          "padding": [
+            70,
+            84
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "OSRG4",
+              "name": "Lesson Fees Desktop Fees Heading",
+              "width": "fill_container",
+              "height": 110,
+              "gap": 30,
+              "justifyContent": "space_between",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "dRwNG",
+                  "name": "Lesson Fees Desktop Fees Heading Copy",
+                  "width": 720,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Ulfka",
+                      "name": "Lesson Fees Desktop Fees Kicker",
+                      "fill": "#7B2D32",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "02 — LESSON FEES",
+                      "lineHeight": 1,
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 1.2
+                    },
+                    {
+                      "type": "text",
+                      "id": "vDsF6",
+                      "name": "Lesson Fees Desktop Fees Title",
+                      "fill": "#2C211C",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "基本課程費用",
+                      "lineHeight": 1.25,
+                      "fontFamily": "Noto Serif TC",
+                      "fontSize": 38,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "Vi7j6",
+                  "name": "Lesson Fees Desktop Fees Intro",
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": 320,
+                  "content": "三個地區是不同授課地區，\n不是不同等級或方案。",
+                  "lineHeight": 1.45,
+                  "textAlign": "right",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Z77u7P",
+              "name": "Lesson Fees Desktop Fee Cards",
+              "width": "fill_container",
+              "height": 360,
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "nz8MK",
+                  "name": "Taiwan Fee Card",
+                  "width": "fill_container",
+                  "height": 360,
+                  "fill": "#D7A62C",
+                  "cornerRadius": 3,
+                  "stroke": "#4A3026",
+                  "layout": "vertical",
+                  "gap": 18,
+                  "padding": [
+                    30,
+                    28
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "gAoCj",
+                      "name": "Taiwan Fee Card Kicker",
+                      "fill": "#4A3026",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "TAIWAN",
+                      "lineHeight": 1,
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 1.2
+                    },
+                    {
+                      "type": "text",
+                      "id": "TKjhQ",
+                      "name": "Taiwan Fee Card Title",
+                      "fill": "#4A3026",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "台灣",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Noto Serif TC",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "b6Ixp9",
+                      "name": "Taiwan Fee Card Price",
+                      "fill": "#4A3026",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "NT$1,200–1,500",
+                      "lineHeight": 1,
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 44,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "PDzzY",
+                      "name": "Taiwan Fee Card Rule",
+                      "width": "fill_container",
+                      "height": 1,
+                      "fill": "#4A3026"
+                    },
+                    {
+                      "type": "text",
+                      "id": "g0ELMf",
+                      "name": "Taiwan Fee Card Body",
+                      "fill": "#4A3026",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "依程度、課程內容與學習目標安排。",
+                      "lineHeight": 1.65,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 17,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "avy84",
+                  "name": "North America Fee Card",
+                  "width": "fill_container",
+                  "height": 360,
+                  "fill": "#7B2D32",
+                  "cornerRadius": 3,
+                  "stroke": "#FFF8EC",
+                  "layout": "vertical",
+                  "gap": 18,
+                  "padding": [
+                    30,
+                    28
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "qi1ZE",
+                      "name": "North America Fee Card Kicker",
+                      "fill": "#FFF8EC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "NORTH AMERICA",
+                      "lineHeight": 1,
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 1.2
+                    },
+                    {
+                      "type": "text",
+                      "id": "TENtH",
+                      "name": "North America Fee Card Title",
+                      "fill": "#FFF8EC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "北美線上",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Noto Serif TC",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "YoyfZ",
+                      "name": "North America Fee Card Price",
+                      "fill": "#FFF8EC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "From US$50",
+                      "lineHeight": 1,
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 44,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "t2SKO",
+                      "name": "North America Fee Card Rule",
+                      "width": "fill_container",
+                      "height": 1,
+                      "fill": "#FFF8EC"
+                    },
+                    {
+                      "type": "text",
+                      "id": "m0n7hM",
+                      "name": "North America Fee Card Body",
+                      "fill": "#FFF8EC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Online piano lessons，依學生程度與需求安排。",
+                      "lineHeight": 1.65,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 17,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "XePuu",
+                  "name": "Other Asia Fee Card",
+                  "width": "fill_container",
+                  "height": 360,
+                  "fill": "#48634B",
+                  "cornerRadius": 3,
+                  "stroke": "#FFF8EC",
+                  "layout": "vertical",
+                  "gap": 18,
+                  "padding": [
+                    30,
+                    28
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "NOgEc",
+                      "name": "Other Asia Fee Card Kicker",
+                      "fill": "#FFF8EC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "OTHER ASIA",
+                      "lineHeight": 1,
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 1.2
+                    },
+                    {
+                      "type": "text",
+                      "id": "Yyzbu",
+                      "name": "Other Asia Fee Card Title",
+                      "fill": "#FFF8EC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "其他亞洲地區",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Noto Serif TC",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Nerd6",
+                      "name": "Other Asia Fee Card Price",
+                      "fill": "#FFF8EC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Contact",
+                      "lineHeight": 1,
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 44,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "o6YeW",
+                      "name": "Other Asia Fee Card Rule",
+                      "width": "fill_container",
+                      "height": 1,
+                      "fill": "#FFF8EC"
+                    },
+                    {
+                      "type": "text",
+                      "id": "PcdZW",
+                      "name": "Other Asia Fee Card Body",
+                      "fill": "#FFF8EC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "請提供所在地區、目前程度與學習需求，再確認適合的課程方式。",
+                      "lineHeight": 1.65,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 17,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "kBcKd",
+              "name": "Lesson Fees Desktop Fee Note",
+              "fill": "#4A3026",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "實際課程安排與費用，以確認學生需求後為準。",
+              "lineHeight": 1.5,
+              "textAlign": "right",
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 14,
+              "fontWeight": "500"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "yTUvq",
+          "name": "Lesson Fees Desktop — What Lessons Include",
+          "width": "fill_container",
+          "height": 650,
+          "fill": "#7B2D32",
+          "gap": 62,
+          "padding": [
+            74,
+            84
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "PH4SN",
+              "name": "Lesson Fees Desktop Include Heading",
+              "width": 380,
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "P0OXbK",
+                  "name": "Lesson Fees Desktop Include Kicker",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "03 — WHAT CAN LESSONS INCLUDE",
+                  "lineHeight": 1,
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1.2
+                },
+                {
+                  "type": "text",
+                  "id": "GfILd",
+                  "name": "Lesson Fees Desktop Include Title",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "課程內容，\n跟著你的目標走。",
+                  "lineHeight": 1.2,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 40,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "N6cqN",
+                  "name": "Lesson Fees Desktop Include Body",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "以下不是每堂課全部都要學，\n而是依學生的程度與目標安排。",
+                  "lineHeight": 1.65,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 18,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "G0Dtte",
+              "name": "Lesson Fees Desktop Include Grid",
+              "width": 790,
+              "height": 316,
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "z1knf",
+                  "name": "Lesson Fees Desktop Include Row 1",
+                  "width": "fill_container",
+                  "height": 150,
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "I8hKSg",
+                      "name": "Sight-reading Card",
+                      "width": "fill_container",
+                      "height": 150,
+                      "fill": "#D7A62C",
+                      "cornerRadius": 2,
+                      "stroke": "#4A3026",
+                      "layout": "vertical",
+                      "gap": 14,
+                      "padding": [
+                        24,
+                        22
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "E5SDM0",
+                          "name": "Sight-reading Card EN",
+                          "fill": "#4A3026",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "SIGHT-READING",
+                          "lineHeight": 1,
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "tAJ9t",
+                          "name": "Sight-reading Card ZH",
+                          "fill": "#4A3026",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "視譜能力",
+                          "lineHeight": 1.3,
+                          "fontFamily": "Noto Serif TC",
+                          "fontSize": 22,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "q4oJ4h",
+                      "name": "Technique Card",
+                      "width": "fill_container",
+                      "height": 150,
+                      "fill": "#FFF8EC",
+                      "cornerRadius": 2,
+                      "stroke": "#4A3026",
+                      "layout": "vertical",
+                      "gap": 14,
+                      "padding": [
+                        24,
+                        22
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "RHJ3H",
+                          "name": "Technique Card EN",
+                          "fill": "#4A3026",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "TECHNIQUE",
+                          "lineHeight": 1,
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "c4DFqD",
+                          "name": "Technique Card ZH",
+                          "fill": "#4A3026",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "基本技巧",
+                          "lineHeight": 1.3,
+                          "fontFamily": "Noto Serif TC",
+                          "fontSize": 22,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "YK6Gx",
+                      "name": "Classical Pop Card",
+                      "width": "fill_container",
+                      "height": 150,
+                      "fill": "#D85C2F",
+                      "cornerRadius": 2,
+                      "stroke": "#FFF8EC",
+                      "layout": "vertical",
+                      "gap": 14,
+                      "padding": [
+                        24,
+                        22
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Mhaim",
+                          "name": "Classical Pop Card EN",
+                          "fill": "#FFF8EC",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "CLASSICAL / POP",
+                          "lineHeight": 1,
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "oEQKj",
+                          "name": "Classical Pop Card ZH",
+                          "fill": "#FFF8EC",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "古典／流行",
+                          "lineHeight": 1.3,
+                          "fontFamily": "Noto Serif TC",
+                          "fontSize": 22,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "XqzXE",
+                  "name": "Lesson Fees Desktop Include Row 2",
+                  "width": "fill_container",
+                  "height": 150,
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "dfxF2",
+                      "name": "ABRSM Card",
+                      "width": "fill_container",
+                      "height": 150,
+                      "fill": "#FFF8EC",
+                      "cornerRadius": 2,
+                      "stroke": "#4A3026",
+                      "layout": "vertical",
+                      "gap": 14,
+                      "padding": [
+                        24,
+                        22
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Dyq9K",
+                          "name": "ABRSM Card EN",
+                          "fill": "#4A3026",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "ABRSM",
+                          "lineHeight": 1,
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "m9ZW2",
+                          "name": "ABRSM Card ZH",
+                          "fill": "#4A3026",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "檢定準備",
+                          "lineHeight": 1.3,
+                          "fontFamily": "Noto Serif TC",
+                          "fontSize": 22,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "gvJ1H",
+                      "name": "Competitions Card",
+                      "width": "fill_container",
+                      "height": 150,
+                      "fill": "#D7A62C",
+                      "cornerRadius": 2,
+                      "stroke": "#4A3026",
+                      "layout": "vertical",
+                      "gap": 14,
+                      "padding": [
+                        24,
+                        22
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "DZGIh",
+                          "name": "Competitions Card EN",
+                          "fill": "#4A3026",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "COMPETITIONS",
+                          "lineHeight": 1,
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "jBrMM",
+                          "name": "Competitions Card ZH",
+                          "fill": "#4A3026",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "比賽準備",
+                          "lineHeight": 1.3,
+                          "fontFamily": "Noto Serif TC",
+                          "fontSize": 22,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "SYYHY",
+                      "name": "Custom Scores Card",
+                      "width": "fill_container",
+                      "height": 150,
+                      "fill": "#48634B",
+                      "cornerRadius": 2,
+                      "stroke": "#FFF8EC",
+                      "layout": "vertical",
+                      "gap": 14,
+                      "padding": [
+                        24,
+                        22
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "AFoj9",
+                          "name": "Custom Scores Card EN",
+                          "fill": "#FFF8EC",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "CUSTOM SCORES",
+                          "lineHeight": 1,
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "B0DbC",
+                          "name": "Custom Scores Card ZH",
+                          "fill": "#FFF8EC",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "客製樂譜與改編",
+                          "lineHeight": 1.3,
+                          "fontFamily": "Noto Serif TC",
+                          "fontSize": 22,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "riK2D",
+          "name": "Lesson Fees Desktop — Online Lessons",
+          "width": "fill_container",
+          "height": 520,
+          "fill": "#F7EBD5",
+          "gap": 80,
+          "padding": [
+            76,
+            84
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "nb0ht",
+              "name": "Lesson Fees Desktop Online Copy",
+              "width": 620,
+              "layout": "vertical",
+              "gap": 18,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Cnp2T",
+                  "name": "Lesson Fees Desktop Online Kicker",
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "04 — ONLINE LESSONS",
+                  "lineHeight": 1,
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1.2
+                },
+                {
+                  "type": "text",
+                  "id": "eEzTY",
+                  "name": "Lesson Fees Desktop Online Title",
+                  "fill": "#2C211C",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "距離不同，\n學習仍可以很具體。",
+                  "lineHeight": 1.24,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 38,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "ot9l6",
+                  "name": "Lesson Fees Desktop Online Body",
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": 600,
+                  "content": "線上課建議 7 歲以上。兒童與成人皆可依程度安排，課程可包含古典、流行、視譜、檢定與客製歌曲等內容。",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 18,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "WOzX4",
+              "name": "Lesson Fees Desktop Online Facts",
+              "width": 500,
+              "height": 230,
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "cdOo4",
+                  "name": "Online Fact Age",
+                  "width": "fill_container",
+                  "height": 110,
+                  "fill": "#D85C2F",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    22,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "uvNeK",
+                      "name": "Online Fact Age EN",
+                      "fill": "#FFF8EC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "AGE",
+                      "lineHeight": 1,
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "t5yja",
+                      "name": "Online Fact Age ZH",
+                      "fill": "#FFF8EC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "線上課建議 7 歲以上",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Noto Serif TC",
+                      "fontSize": 21,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "q3pfQ",
+                  "name": "Online Fact Students",
+                  "width": "fill_container",
+                  "height": 110,
+                  "fill": "#48634B",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    22,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "GM2Q1",
+                      "name": "Online Fact Students EN",
+                      "fill": "#FFF8EC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "STUDENTS",
+                      "lineHeight": 1,
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "gt09Y",
+                      "name": "Online Fact Students ZH",
+                      "fill": "#FFF8EC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "兒童與成人皆可",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Noto Serif TC",
+                      "fontSize": 21,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "sMZ97",
+          "name": "Lesson Fees Desktop — Why a Range",
+          "width": "fill_container",
+          "height": 500,
+          "fill": "#FFF8EC",
+          "gap": 100,
+          "padding": [
+            72,
+            84
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "XbjIs",
+              "name": "Lesson Fees Desktop Why Title",
+              "width": 430,
+              "layout": "vertical",
+              "gap": 18,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "q1vjiP",
+                  "name": "Lesson Fees Desktop Why Kicker",
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "05 — WHY A RANGE?",
+                  "lineHeight": 1,
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1.2
+                },
+                {
+                  "type": "text",
+                  "id": "owIFE",
+                  "name": "Lesson Fees Desktop Why Heading",
+                  "fill": "#7B2D32",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "為什麼費用\n會有範圍？",
+                  "lineHeight": 1.2,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 40,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "R02MaI",
+              "name": "Lesson Fees Desktop Why Body",
+              "width": 650,
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "xtzhE",
+                  "name": "Lesson Fees Desktop Why Paragraph",
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "不同學生需要的課程準備不同。一般學習、檢定／比賽、特定曲目或客製樂譜，老師課前需要準備的內容也可能不同。",
+                  "lineHeight": 1.75,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 19,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "IMQPs",
+                  "name": "Lesson Fees Desktop Why Callout",
+                  "width": "fill_container",
+                  "height": 110,
+                  "fill": "#D85C2F",
+                  "padding": [
+                    25,
+                    28
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "tW65B",
+                      "name": "Lesson Fees Desktop Why Callout Text",
+                      "fill": "#FFF8EC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "費用範圍反映的是課程準備方式，\n不是把學生分成不同等級。",
+                      "lineHeight": 1.55,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "E2g7B",
+          "name": "Lesson Fees Desktop — How to Start",
+          "width": "fill_container",
+          "height": 650,
+          "fill": "#7B2D32",
+          "gap": 100,
+          "padding": [
+            78,
+            84
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "p5QjBg",
+              "name": "Lesson Fees Desktop Start Copy",
+              "width": 760,
+              "layout": "vertical",
+              "gap": 22,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "IG5Qr",
+                  "name": "Lesson Fees Desktop Start Kicker",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "06 — HOW TO START",
+                  "lineHeight": 1,
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1.2
+                },
+                {
+                  "type": "text",
+                  "id": "ZlYkj",
+                  "name": "Lesson Fees Desktop Start Title",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "不知道自己\n適合哪一種？",
+                  "lineHeight": 1.18,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 44,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "OgXFF",
+                  "name": "Lesson Fees Desktop Start Body",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": 690,
+                  "content": "先告訴我目前程度、所在地區，以及最想學的內容，再一起確認適合的課程方式。",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 19,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "i2oUfX",
+                  "name": "Lesson Fees Desktop Trial Button",
+                  "height": 54,
+                  "fill": "#D7A62C",
+                  "cornerRadius": 3,
+                  "gap": 10,
+                  "padding": [
+                    14,
+                    20
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "gOK87",
+                      "name": "Lesson Fees Desktop Trial Button EN",
+                      "fill": "#4A3026",
+                      "textGrowth": "fixed-width",
+                      "width": 182,
+                      "content": "BOOK A TRIAL LESSON",
+                      "lineHeight": 1,
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 14,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "ifbxv",
+                      "name": "Lesson Fees Desktop Trial Button ZH",
+                      "fill": "#4A3026",
+                      "textGrowth": "fixed-width",
+                      "width": 72,
+                      "content": "預約試課",
+                      "lineHeight": 1,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Avt0C",
+              "name": "Lesson Fees Desktop Start Disc",
+              "width": 280,
+              "height": 280,
+              "fill": "#D7A62C",
+              "cornerRadius": 140,
+              "stroke": "#FFF8EC",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "f5rtEj",
+                  "name": "Lesson Fees Desktop Disc Inner",
+                  "width": 130,
+                  "height": 130,
+                  "fill": "#D85C2F",
+                  "cornerRadius": 65,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "gpRuX",
+                      "name": "Lesson Fees Desktop Disc Text",
+                      "fill": "#FFF8EC",
+                      "textGrowth": "fixed-width",
+                      "width": 115,
+                      "content": "NO PRESSURE.\nJUST MUSIC.",
+                      "lineHeight": 1.2,
+                      "textAlign": "center",
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "d3vZrr",
+          "name": "Lesson Fees Desktop Footer",
+          "width": "fill_container",
+          "height": 430,
+          "fill": "$cp-coffee",
+          "layout": "vertical",
+          "gap": 44,
+          "padding": [
+            58,
+            58,
+            34,
+            58
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "zntxG",
+              "name": "Footer Main Row",
+              "width": "fill_container",
+              "height": "fill_container",
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "UqrYf",
+                  "name": "Footer Brand",
+                  "width": 520,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "pRxxW",
+                      "name": "Footer Brand Name",
+                      "fill": "$cp-paper",
+                      "content": "CRAZY PIANO\n瘋鋼琴",
+                      "lineHeight": 0.95,
+                      "fontFamily": "Noto Serif TC",
+                      "fontSize": 57,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "nDeKG",
+                      "name": "Footer Brand Tagline",
+                      "fill": "#FFF8ECC0",
+                      "content": "Play it your way.\n把技巧練好，也把音樂變成自己的。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 18,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "xnERo",
+                  "name": "Footer Navigation Columns",
+                  "width": 700,
+                  "gap": 56,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "mLZFV",
+                      "name": "Footer Column 1",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 13,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "HgXIk",
+                          "name": "Footer Column 1 Heading",
+                          "fill": "$cp-mustard",
+                          "content": "EXPLORE",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 13,
+                          "fontWeight": "700",
+                          "letterSpacing": 1.3
+                        },
+                        {
+                          "type": "text",
+                          "id": "PJsv9",
+                          "name": "Footer Column 1 Link 1",
+                          "fill": "$cp-paper",
+                          "content": "關於徐老師",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "BuSrs",
+                          "name": "Footer Column 1 Link 2",
+                          "fill": "$cp-paper",
+                          "content": "課程",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "w4o3b7",
+                          "name": "Footer Column 1 Link 3",
+                          "fill": "$cp-paper",
+                          "content": "學費",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "EatwU",
+                          "name": "Footer Column 1 Link 4",
+                          "fill": "$cp-paper",
+                          "content": "學生故事",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "TiCzQ",
+                      "name": "Footer Column 2",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 13,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "XzA5J",
+                          "name": "Footer Column 2 Heading",
+                          "fill": "$cp-mustard",
+                          "content": "LESSONS",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 13,
+                          "fontWeight": "700",
+                          "letterSpacing": 1.3
+                        },
+                        {
+                          "type": "text",
+                          "id": "n8O8ok",
+                          "name": "Footer Column 2 Link 1",
+                          "fill": "$cp-paper",
+                          "content": "兒童鋼琴",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "k9kC03",
+                          "name": "Footer Column 2 Link 2",
+                          "fill": "$cp-paper",
+                          "content": "成人鋼琴",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Z1rOH",
+                          "name": "Footer Column 2 Link 3",
+                          "fill": "$cp-paper",
+                          "content": "ABRSM 檢定",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "mrc1t",
+                          "name": "Footer Column 2 Link 4",
+                          "fill": "$cp-paper",
+                          "content": "客製改編",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "etHlj",
+                      "name": "Footer Column 3",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 13,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "z02a3V",
+                          "name": "Footer Column 3 Heading",
+                          "fill": "$cp-mustard",
+                          "content": "CONNECT",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 13,
+                          "fontWeight": "700",
+                          "letterSpacing": 1.3
+                        },
+                        {
+                          "type": "text",
+                          "id": "R4Lvtn",
+                          "name": "Footer Column 3 Link 1",
+                          "fill": "$cp-paper",
+                          "content": "YouTube",
+                          "fontFamily": "Funnel Sans",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "EVY22",
+                          "name": "Footer Column 3 Link 2",
+                          "fill": "$cp-paper",
+                          "content": "Instagram",
+                          "fontFamily": "Funnel Sans",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "K2h0N",
+                          "name": "Footer Column 3 Link 3",
+                          "fill": "$cp-paper",
+                          "content": "minpiyer@gmail.com",
+                          "fontFamily": "Funnel Sans",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "DjaiM",
+                          "name": "Footer Column 3 Link 4",
+                          "fill": "$cp-paper",
+                          "content": "預約試課",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "SumtS",
+              "name": "Footer Bottom Row",
+              "width": "fill_container",
+              "stroke": "#FFF8EC55",
+              "strokeWidth": {
+                "top": 1
+              },
+              "padding": [
+                18,
+                0,
+                0,
+                0
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "gql9Q",
+                  "name": "Footer Copyright",
+                  "fill": "#FFF8ECAA",
+                  "content": "© 2026 CRAZY PIANO / DR. HSU. ALL RIGHTS RESERVED.",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "S1QkZ",
+                  "name": "Footer Location",
+                  "fill": "#FFF8ECAA",
+                  "content": "TAIPEI ↔ WORLDWIDE ONLINE",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "UmriV",
+      "x": 2070,
+      "y": 58510,
+      "name": "Lesson Fees／課程費用 — Mobile 390",
+      "width": 390,
+      "height": 5396,
+      "fill": "#F7EBD5",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "dT8S8",
+          "name": "Lesson Fees Mobile Navigation",
+          "width": "fill_container",
+          "height": 76,
+          "fill": "$cp-paper",
+          "stroke": "$cp-line",
+          "strokeWidth": {
+            "bottom": 1
+          },
+          "padding": [
+            16,
+            18
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "zAkSm",
+              "name": "Mobile Brand",
+              "gap": 9,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "d5BnM",
+                  "name": "Brand Dot",
+                  "fill": "$cp-orange",
+                  "width": 18,
+                  "height": 18,
+                  "stroke": "$cp-coffee",
+                  "strokeWidth": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "rH2Cd",
+                  "name": "Brand Wordmark",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "g1jPMv",
+                      "name": "Crazy Piano Logo",
+                      "fill": "$cp-ink",
+                      "content": "CRAZY PIANO",
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 13,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.4
+                    },
+                    {
+                      "type": "text",
+                      "id": "ttg73",
+                      "name": "瘋鋼琴 Logo",
+                      "fill": "$cp-burgundy",
+                      "content": "瘋鋼琴",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 11,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "sGvmX",
+              "name": "Mobile Navigation Actions",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "y22RP",
+                  "name": "Language Switch",
+                  "height": 42,
+                  "fill": "$cp-cream",
+                  "cornerRadius": 21,
+                  "stroke": "$cp-coffee",
+                  "strokeWidth": 1,
+                  "padding": [
+                    0,
+                    12
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "T62mEc",
+                      "name": "Language Label",
+                      "fill": "$cp-coffee",
+                      "content": "中／EN",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "mEFJY",
+                  "name": "Hamburger Menu Button",
+                  "width": 42,
+                  "height": 42,
+                  "fill": "$cp-burgundy",
+                  "cornerRadius": 21,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "BqwsX",
+                      "name": "Hamburger Menu Icon",
+                      "width": 22,
+                      "height": 22,
+                      "icon": "menu",
+                      "library": "lucide",
+                      "fill": "$cp-paper"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "k7fKS",
+          "name": "Lesson Fees Mobile — Hero",
+          "width": "fill_container",
+          "height": 600,
+          "fill": "#D7A62C",
+          "layout": "vertical",
+          "gap": 17,
+          "padding": [
+            42,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "YBvna",
+              "name": "Lesson Fees Mobile Hero Kicker",
+              "fill": "#4A3026",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "01 — LESSON FEES",
+              "lineHeight": 1,
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 11,
+              "fontWeight": "700",
+              "letterSpacing": 1.1
+            },
+            {
+              "type": "text",
+              "id": "SC61e",
+              "name": "Lesson Fees Mobile Hero English",
+              "fill": "#2C211C",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "LESSON FEES",
+              "lineHeight": 1,
+              "fontFamily": "Playfair Display",
+              "fontSize": 38,
+              "fontWeight": "800"
+            },
+            {
+              "type": "text",
+              "id": "q3kLRQ",
+              "name": "Lesson Fees Mobile Hero Title",
+              "fill": "#7B2D32",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "先找到適合你的\n學習方式。",
+              "lineHeight": 1.25,
+              "fontFamily": "Noto Serif TC",
+              "fontSize": 32,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "PwAvi",
+              "name": "Lesson Fees Mobile Hero Body",
+              "fill": "#4A3026",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "每個人的程度、目標與想彈的音樂都不同。以下提供基本課程費用範圍，實際內容會依學生需求安排。",
+              "lineHeight": 1.65,
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 17,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "KWO4y",
+              "name": "Lesson Fees Mobile Hero Note",
+              "width": "fill_container",
+              "height": 145,
+              "fill": "#48634B",
+              "layout": "vertical",
+              "gap": 16,
+              "padding": 22,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "PPRag",
+                  "name": "Fee Pill CLEAR · FLEXIBLE",
+                  "height": 38,
+                  "fill": "#FFF8EC",
+                  "cornerRadius": 18,
+                  "stroke": "#4A3026",
+                  "padding": [
+                    9,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "xvfy8",
+                      "name": "Fee Pill Text",
+                      "fill": "#4A3026",
+                      "textGrowth": "fixed-width",
+                      "width": 145,
+                      "content": "CLEAR · FLEXIBLE",
+                      "lineHeight": 1,
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 12,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.8
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "a29yl",
+                  "name": "Lesson Fees Mobile Hero Note Text",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "清楚的費用，\n個人化的內容。",
+                  "lineHeight": 1.3,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 23,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "lhjRd",
+          "name": "Lesson Fees Mobile — Fees",
+          "width": "fill_container",
+          "height": 1380,
+          "fill": "#FFF8EC",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            52,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "Xx4FO",
+              "name": "Lesson Fees Mobile Fees Kicker",
+              "fill": "#7B2D32",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "02 — LESSON FEES",
+              "lineHeight": 1,
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 11,
+              "fontWeight": "700",
+              "letterSpacing": 1.1
+            },
+            {
+              "type": "text",
+              "id": "c6P5Fa",
+              "name": "Lesson Fees Mobile Fees Title",
+              "fill": "#2C211C",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "基本課程費用",
+              "lineHeight": 1.25,
+              "fontFamily": "Noto Serif TC",
+              "fontSize": 30,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "Kyi58",
+              "name": "Lesson Fees Mobile Fees Intro",
+              "fill": "#4A3026",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "三個地區是不同授課地區，不是不同等級或方案。",
+              "lineHeight": 1.6,
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 16,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "KIOdP",
+              "name": "Mobile Taiwan Fee Card",
+              "width": "fill_container",
+              "height": 360,
+              "fill": "#D7A62C",
+              "cornerRadius": 3,
+              "stroke": "#4A3026",
+              "layout": "vertical",
+              "gap": 18,
+              "padding": [
+                30,
+                28
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "i2tsTx",
+                  "name": "Mobile Taiwan Fee Card Kicker",
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "TAIWAN",
+                  "lineHeight": 1,
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1.2
+                },
+                {
+                  "type": "text",
+                  "id": "bkHuR",
+                  "name": "Mobile Taiwan Fee Card Title",
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "台灣",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 24,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "VsadN",
+                  "name": "Mobile Taiwan Fee Card Price",
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "NT$1,200–1,500",
+                  "lineHeight": 1,
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 34,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "frame",
+                  "id": "BoAR0",
+                  "name": "Mobile Taiwan Fee Card Rule",
+                  "width": "fill_container",
+                  "height": 1,
+                  "fill": "#4A3026"
+                },
+                {
+                  "type": "text",
+                  "id": "ggaqb",
+                  "name": "Mobile Taiwan Fee Card Body",
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "依程度、課程內容與學習目標安排。",
+                  "lineHeight": 1.65,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 17,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "gXUqr",
+              "name": "Mobile North America Fee Card",
+              "width": "fill_container",
+              "height": 360,
+              "fill": "#7B2D32",
+              "cornerRadius": 3,
+              "stroke": "#FFF8EC",
+              "layout": "vertical",
+              "gap": 18,
+              "padding": [
+                30,
+                28
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "iXIf3",
+                  "name": "Mobile North America Fee Card Kicker",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "NORTH AMERICA",
+                  "lineHeight": 1,
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1.2
+                },
+                {
+                  "type": "text",
+                  "id": "ETXir",
+                  "name": "Mobile North America Fee Card Title",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "北美線上",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 24,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "ZplhM",
+                  "name": "Mobile North America Fee Card Price",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "From US$50",
+                  "lineHeight": 1,
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 38,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "frame",
+                  "id": "B8Aa2G",
+                  "name": "Mobile North America Fee Card Rule",
+                  "width": "fill_container",
+                  "height": 1,
+                  "fill": "#FFF8EC"
+                },
+                {
+                  "type": "text",
+                  "id": "OUkJ1",
+                  "name": "Mobile North America Fee Card Body",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Online piano lessons，依學生程度與需求安排。",
+                  "lineHeight": 1.65,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 17,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "n0sHHX",
+              "name": "Mobile Other Asia Fee Card",
+              "width": "fill_container",
+              "height": 360,
+              "fill": "#48634B",
+              "cornerRadius": 3,
+              "stroke": "#FFF8EC",
+              "layout": "vertical",
+              "gap": 18,
+              "padding": [
+                30,
+                28
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ZdyO4",
+                  "name": "Mobile Other Asia Fee Card Kicker",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "OTHER ASIA",
+                  "lineHeight": 1,
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1.2
+                },
+                {
+                  "type": "text",
+                  "id": "l9BWS",
+                  "name": "Mobile Other Asia Fee Card Title",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "其他亞洲地區",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 24,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "C9Rmm",
+                  "name": "Mobile Other Asia Fee Card Price",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Contact",
+                  "lineHeight": 1,
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 38,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "frame",
+                  "id": "y8KSOT",
+                  "name": "Mobile Other Asia Fee Card Rule",
+                  "width": "fill_container",
+                  "height": 1,
+                  "fill": "#FFF8EC"
+                },
+                {
+                  "type": "text",
+                  "id": "LzaUc",
+                  "name": "Mobile Other Asia Fee Card Body",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "請提供所在地區、目前程度與學習需求，再確認適合的課程方式。",
+                  "lineHeight": 1.65,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 17,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "obJGY",
+              "name": "Lesson Fees Mobile Fee Note",
+              "fill": "#4A3026",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "實際課程安排與費用，以確認學生需求後為準。",
+              "lineHeight": 1.55,
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 14,
+              "fontWeight": "500"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "abV6z",
+          "name": "Lesson Fees Mobile — What Lessons Include",
+          "width": "fill_container",
+          "height": 1240,
+          "fill": "#7B2D32",
+          "layout": "vertical",
+          "gap": 14,
+          "padding": [
+            52,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "kYid0",
+              "name": "Lesson Fees Mobile Include Kicker",
+              "fill": "#FFF8EC",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "03 — WHAT CAN LESSONS INCLUDE",
+              "lineHeight": 1,
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 10,
+              "fontWeight": "700",
+              "letterSpacing": 0.8
+            },
+            {
+              "type": "text",
+              "id": "oJBVz",
+              "name": "Lesson Fees Mobile Include Title",
+              "fill": "#FFF8EC",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "課程內容，\n跟著你的目標走。",
+              "lineHeight": 1.25,
+              "fontFamily": "Noto Serif TC",
+              "fontSize": 30,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "M4WQiW",
+              "name": "Lesson Fees Mobile Include Body",
+              "fill": "#FFF8EC",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "以下不是每堂課全部都要學，而是依學生的程度與目標安排。",
+              "lineHeight": 1.65,
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 17,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "r3bREv",
+              "name": "Mobile Sight-reading Card",
+              "width": "fill_container",
+              "height": 150,
+              "fill": "#D7A62C",
+              "cornerRadius": 2,
+              "stroke": "#4A3026",
+              "layout": "vertical",
+              "gap": 14,
+              "padding": [
+                24,
+                22
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "UJB2n",
+                  "name": "Mobile Sight-reading Card EN",
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "SIGHT-READING",
+                  "lineHeight": 1,
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "Bmabl",
+                  "name": "Mobile Sight-reading Card ZH",
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "視譜能力",
+                  "lineHeight": 1.3,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 22,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "heuSu",
+              "name": "Mobile Technique Card",
+              "width": "fill_container",
+              "height": 150,
+              "fill": "#FFF8EC",
+              "cornerRadius": 2,
+              "stroke": "#4A3026",
+              "layout": "vertical",
+              "gap": 14,
+              "padding": [
+                24,
+                22
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Qo070",
+                  "name": "Mobile Technique Card EN",
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "TECHNIQUE",
+                  "lineHeight": 1,
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "ildtE",
+                  "name": "Mobile Technique Card ZH",
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "基本技巧",
+                  "lineHeight": 1.3,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 22,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "VN6SP",
+              "name": "Mobile Classical Pop Card",
+              "width": "fill_container",
+              "height": 150,
+              "fill": "#D85C2F",
+              "cornerRadius": 2,
+              "stroke": "#FFF8EC",
+              "layout": "vertical",
+              "gap": 14,
+              "padding": [
+                24,
+                22
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "r3V0O",
+                  "name": "Mobile Classical Pop Card EN",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "CLASSICAL / POP",
+                  "lineHeight": 1,
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "vGnQE",
+                  "name": "Mobile Classical Pop Card ZH",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "古典／流行",
+                  "lineHeight": 1.3,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 22,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "KTCbG",
+              "name": "Mobile ABRSM Card",
+              "width": "fill_container",
+              "height": 150,
+              "fill": "#FFF8EC",
+              "cornerRadius": 2,
+              "stroke": "#4A3026",
+              "layout": "vertical",
+              "gap": 14,
+              "padding": [
+                24,
+                22
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "BzZ78",
+                  "name": "Mobile ABRSM Card EN",
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "ABRSM",
+                  "lineHeight": 1,
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "XTOkJ",
+                  "name": "Mobile ABRSM Card ZH",
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "檢定準備",
+                  "lineHeight": 1.3,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 22,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "LNHEG",
+              "name": "Mobile Competitions Card",
+              "width": "fill_container",
+              "height": 150,
+              "fill": "#D7A62C",
+              "cornerRadius": 2,
+              "stroke": "#4A3026",
+              "layout": "vertical",
+              "gap": 14,
+              "padding": [
+                24,
+                22
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "L0v1Tv",
+                  "name": "Mobile Competitions Card EN",
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "COMPETITIONS",
+                  "lineHeight": 1,
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "qc0IR",
+                  "name": "Mobile Competitions Card ZH",
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "比賽準備",
+                  "lineHeight": 1.3,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 22,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Z5LyB",
+              "name": "Mobile Custom Scores Card",
+              "width": "fill_container",
+              "height": 150,
+              "fill": "#48634B",
+              "cornerRadius": 2,
+              "stroke": "#FFF8EC",
+              "layout": "vertical",
+              "gap": 14,
+              "padding": [
+                24,
+                22
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "zam8j",
+                  "name": "Mobile Custom Scores Card EN",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "CUSTOM SCORES",
+                  "lineHeight": 1,
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "odXd3",
+                  "name": "Mobile Custom Scores Card ZH",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "客製樂譜與改編",
+                  "lineHeight": 1.3,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 22,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "OZz03",
+          "name": "Lesson Fees Mobile — Online Lessons",
+          "width": "fill_container",
+          "height": 620,
+          "fill": "#F7EBD5",
+          "layout": "vertical",
+          "gap": 18,
+          "padding": [
+            52,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "tFnBc",
+              "name": "Lesson Fees Mobile Online Kicker",
+              "fill": "#4A3026",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "04 — ONLINE LESSONS",
+              "lineHeight": 1,
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 11,
+              "fontWeight": "700",
+              "letterSpacing": 1.1
+            },
+            {
+              "type": "text",
+              "id": "ub0dN",
+              "name": "Lesson Fees Mobile Online Title",
+              "fill": "#2C211C",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "距離不同，\n學習仍可以很具體。",
+              "lineHeight": 1.3,
+              "fontFamily": "Noto Serif TC",
+              "fontSize": 29,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "brRGn",
+              "name": "Lesson Fees Mobile Online Body",
+              "fill": "#4A3026",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "線上課建議 7 歲以上。兒童與成人皆可依程度安排，課程可包含古典、流行、視譜、檢定與客製歌曲等內容。",
+              "lineHeight": 1.7,
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 17,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "K09vG",
+              "name": "Lesson Fees Mobile Online Age",
+              "width": "fill_container",
+              "height": 106,
+              "fill": "#D85C2F",
+              "layout": "vertical",
+              "gap": 10,
+              "padding": [
+                20,
+                22
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "cSuvg",
+                  "name": "Lesson Fees Mobile Online Age EN",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "AGE",
+                  "lineHeight": 1,
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "aQitN",
+                  "name": "Lesson Fees Mobile Online Age ZH",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "線上課建議 7 歲以上",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 20,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "MHk4N",
+              "name": "Lesson Fees Mobile Online Students",
+              "width": "fill_container",
+              "height": 106,
+              "fill": "#48634B",
+              "layout": "vertical",
+              "gap": 10,
+              "padding": [
+                20,
+                22
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "rnPqU",
+                  "name": "Lesson Fees Mobile Online Students EN",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "STUDENTS",
+                  "lineHeight": 1,
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "UmClG",
+                  "name": "Lesson Fees Mobile Online Students ZH",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "兒童與成人皆可",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 20,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ruU54",
+          "name": "Lesson Fees Mobile — Why a Range",
+          "width": "fill_container",
+          "height": 500,
+          "fill": "#FFF8EC",
+          "layout": "vertical",
+          "gap": 18,
+          "padding": [
+            52,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "FB9Iv",
+              "name": "Lesson Fees Mobile Why Kicker",
+              "fill": "#4A3026",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "05 — WHY A RANGE?",
+              "lineHeight": 1,
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 11,
+              "fontWeight": "700",
+              "letterSpacing": 1.1
+            },
+            {
+              "type": "text",
+              "id": "vHPxE",
+              "name": "Lesson Fees Mobile Why Title",
+              "fill": "#7B2D32",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "為什麼費用會有範圍？",
+              "lineHeight": 1.3,
+              "fontFamily": "Noto Serif TC",
+              "fontSize": 29,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "XcOii",
+              "name": "Lesson Fees Mobile Why Body",
+              "fill": "#4A3026",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "不同學生需要的課程準備不同。一般學習、檢定／比賽、特定曲目或客製樂譜，老師課前需要準備的內容也可能不同。",
+              "lineHeight": 1.7,
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 17,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "h9WzP",
+              "name": "Lesson Fees Mobile Why Callout",
+              "width": "fill_container",
+              "height": 118,
+              "fill": "#D85C2F",
+              "padding": [
+                20,
+                22
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ksg22",
+                  "name": "Lesson Fees Mobile Why Callout Text",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "費用範圍反映的是課程準備方式，不是把學生分成不同等級。",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Y4MBrU",
+          "name": "Lesson Fees Mobile — How to Start",
+          "width": "fill_container",
+          "height": 560,
+          "fill": "#7B2D32",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            52,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "nrK6e",
+              "name": "Lesson Fees Mobile Start Kicker",
+              "fill": "#FFF8EC",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "06 — HOW TO START",
+              "lineHeight": 1,
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 11,
+              "fontWeight": "700",
+              "letterSpacing": 1.1
+            },
+            {
+              "type": "text",
+              "id": "OxM6u",
+              "name": "Lesson Fees Mobile Start Title",
+              "fill": "#FFF8EC",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "不知道自己\n適合哪一種？",
+              "lineHeight": 1.25,
+              "fontFamily": "Noto Serif TC",
+              "fontSize": 32,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "V4XI2N",
+              "name": "Lesson Fees Mobile Start Body",
+              "fill": "#FFF8EC",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "先告訴我目前程度、所在地區，以及最想學的內容，再一起確認適合的課程方式。",
+              "lineHeight": 1.7,
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 17,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "qGjM0",
+              "name": "Lesson Fees Mobile Trial Button",
+              "height": 54,
+              "fill": "#D7A62C",
+              "cornerRadius": 3,
+              "gap": 10,
+              "padding": [
+                14,
+                20
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "n5w7ji",
+                  "name": "Lesson Fees Mobile Trial Button EN",
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": 182,
+                  "content": "BOOK A TRIAL LESSON",
+                  "lineHeight": 1,
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 14,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "yJuo2",
+                  "name": "Lesson Fees Mobile Trial Button ZH",
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": 72,
+                  "content": "預約試課",
+                  "lineHeight": 1,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "YR20l",
+              "name": "Lesson Fees Mobile Small Note",
+              "width": "fill_container",
+              "height": 78,
+              "fill": "#48634B",
+              "padding": 18,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "MK4av",
+                  "name": "Lesson Fees Mobile Small Note Text",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "實際課程安排與費用，以確認學生需求後為準。",
+                  "lineHeight": 1.55,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "JDHrp",
+          "name": "Lesson Fees Mobile Footer",
+          "width": "fill_container",
+          "fill": "$cp-coffee",
+          "stroke": "#00000000",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            34,
+            20,
+            28,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "rhDur",
+              "name": "Footer Brand",
+              "fill": "$cp-paper",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "CRAZY PIANO\n瘋鋼琴",
+              "lineHeight": 1.05,
+              "fontFamily": "Noto Serif TC",
+              "fontSize": 30,
+              "fontWeight": "700",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "text",
+              "id": "y560S7",
+              "name": "Footer Tagline",
+              "fill": "$cp-paper",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Play it your way.",
+              "lineHeight": 1.4,
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 17,
+              "fontWeight": "normal",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "frame",
+              "id": "kY1Xn",
+              "name": "Footer Link Groups",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "stroke": "#00000000",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ADxe4",
+                  "name": "Footer Group QUICK LINKS",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "stroke": "#00000000",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "IxI5E",
+                      "name": "Footer QUICK LINKS Heading",
+                      "fill": "$cp-mustard",
+                      "content": "QUICK LINKS",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.8
+                    },
+                    {
+                      "type": "text",
+                      "id": "N0pkex",
+                      "name": "Footer QUICK LINKS",
+                      "fill": "$cp-paper",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "About　Lessons　YouTube\nContact　中文 / English",
+                      "lineHeight": 1.75,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 16,
+                      "fontWeight": "normal",
+                      "letterSpacing": 0.5
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "R2k3K",
+              "name": "Footer Copyright",
+              "fill": "$cp-line",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "© 2026 CRAZY PIANO / DR. HSU. ALL RIGHTS RESERVED.",
+              "lineHeight": 1.5,
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "letterSpacing": 0.3
+            }
+          ]
+        }
+      ]
     }
   ],
   "themes": {
