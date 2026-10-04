@@ -46212,6 +46212,5024 @@
           ]
         }
       ]
+    },
+    {
+      "type": "frame",
+      "id": "t8xYs",
+      "x": 0,
+      "y": 70248,
+      "name": "Contact／聯絡與預約 — Desktop 1440",
+      "clip": true,
+      "width": 1440,
+      "height": 6016,
+      "fill": "#F7EBD5",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "G4IpFb",
+          "name": "Contact Desktop Navigation",
+          "width": "fill_container",
+          "height": 96,
+          "fill": "$cp-paper",
+          "stroke": "$cp-coffee",
+          "strokeWidth": {
+            "bottom": 2
+          },
+          "padding": [
+            22,
+            56
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "WeqHj",
+              "name": "Brand Lockup",
+              "gap": 14,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "VsuIN",
+                  "name": "Brand Vinyl Mark",
+                  "fill": "$cp-orange",
+                  "width": 42,
+                  "height": 42,
+                  "stroke": "$cp-coffee",
+                  "strokeWidth": 2
+                },
+                {
+                  "type": "text",
+                  "id": "s7suo",
+                  "name": "Brand Name",
+                  "fill": "$cp-ink",
+                  "content": "CRAZY PIANO  瘋鋼琴",
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 24,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.4
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "vq2GH",
+              "name": "Primary Navigation Links",
+              "gap": 30,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "moJMd",
+                  "name": "Navigation Link 1",
+                  "fill": "$cp-ink",
+                  "content": "教學特色",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 17,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "hWf3Q",
+                  "name": "Navigation Link 2",
+                  "fill": "$cp-ink",
+                  "content": "課程",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 17,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "m8A5J",
+                  "name": "Navigation Link 3",
+                  "fill": "$cp-ink",
+                  "content": "關於徐老師",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 17,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "cKiM5",
+                  "name": "Navigation Link 4",
+                  "fill": "$cp-ink",
+                  "content": "作品集",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 17,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "VYSLK",
+                  "name": "Navigation Link 5",
+                  "fill": "$cp-ink",
+                  "content": "學費",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 17,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "hwtdI",
+                  "name": "Language Switcher",
+                  "fill": "$cp-cream",
+                  "cornerRadius": 999,
+                  "stroke": "$cp-coffee",
+                  "strokeWidth": 1,
+                  "gap": 7,
+                  "padding": [
+                    9,
+                    13
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Vc7At",
+                      "name": "Language Switcher Label",
+                      "fill": "$cp-coffee",
+                      "content": "中 / EN",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "v37fd",
+              "name": "Header Trial Button",
+              "fill": "$cp-burgundy",
+              "cornerRadius": 4,
+              "stroke": "$cp-coffee",
+              "strokeWidth": 2,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#4A3026",
+                "offset": {
+                  "x": 4,
+                  "y": 4
+                }
+              },
+              "padding": [
+                13,
+                19
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "wyHbh",
+                  "name": "Header Trial Button Label",
+                  "fill": "$cp-paper",
+                  "content": "預約試課 ↗",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "frRHT",
+          "name": "Contact Desktop — Hero",
+          "width": "fill_container",
+          "height": 720,
+          "fill": "#D7A62C",
+          "gap": 70,
+          "padding": [
+            66,
+            84
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "DQttb",
+              "name": "Contact Desktop Hero Copy",
+              "width": 760,
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "WdLbf",
+                  "name": "Contact Desktop Hero Kicker",
+                  "fill": "#4A3026",
+                  "content": "01 — CONTACT / BOOK A LESSON",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 12,
+                  "fontWeight": "700",
+                  "letterSpacing": 1.2
+                },
+                {
+                  "type": "text",
+                  "id": "nYV23",
+                  "name": "Contact Desktop Hero English",
+                  "fill": "#2C211C",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "LET'S TALK\nMUSIC.",
+                  "lineHeight": 0.95,
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 66,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "text",
+                  "id": "DWy5O",
+                  "name": "Contact Desktop Hero Title",
+                  "fill": "#7B2D32",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "先告訴我，\n你想彈什麼。",
+                  "lineHeight": 1.23,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 42,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "hzhdk",
+                  "name": "Contact Desktop Hero Body",
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": 680,
+                  "content": "不需要先知道自己適合哪一種課程。告訴我目前程度、所在地區與想學的內容，再一起確認適合的方式。",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 19,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "Arosp",
+                  "name": "Contact Desktop Hero Button",
+                  "height": 54,
+                  "fill": "#7B2D32",
+                  "cornerRadius": 3,
+                  "gap": 10,
+                  "padding": [
+                    14,
+                    20
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "kDr8F",
+                      "name": "Contact Desktop Hero Button EN",
+                      "fill": "#FFF8EC",
+                      "content": "BOOK A TRIAL LESSON",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "h58xtm",
+                      "name": "Contact Desktop Hero Button ZH",
+                      "fill": "#FFF8EC",
+                      "content": "預約試課",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "PCikg",
+              "name": "Contact Desktop Hero Poster",
+              "width": 430,
+              "height": 500,
+              "fill": "#D85C2F",
+              "cornerRadius": 3,
+              "stroke": "#4A3026",
+              "layout": "vertical",
+              "gap": 22,
+              "padding": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "KpSLG",
+                  "name": "Contact Hero Chip",
+                  "height": 34,
+                  "fill": "#FFF8EC",
+                  "cornerRadius": 17,
+                  "stroke": "#4A3026",
+                  "padding": [
+                    9,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "k5xOTv",
+                      "name": "Contact Hero Chip Text",
+                      "fill": "#4A3026",
+                      "content": "START WHERE YOU ARE",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.7
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "fCuXS",
+                  "name": "Contact Hero Poster Title",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "50 MINUTES",
+                  "lineHeight": 1,
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 52,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "text",
+                  "id": "FbQJt",
+                  "name": "Contact Hero Poster Body",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Trial lesson\nSame single-lesson fee",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 17,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "hQauu",
+                  "name": "Contact Hero Record",
+                  "width": 180,
+                  "height": 180,
+                  "fill": "#7B2D32",
+                  "cornerRadius": 90,
+                  "stroke": "#FFF8EC",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "jIMRV",
+                      "name": "Contact Hero Record Center",
+                      "width": 54,
+                      "height": 54,
+                      "fill": "#D7A62C",
+                      "cornerRadius": 27
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "S513KF",
+          "name": "Contact Desktop — First Message",
+          "width": "fill_container",
+          "height": 640,
+          "fill": "#FFF8EC",
+          "gap": 60,
+          "padding": [
+            70,
+            84
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "lCfFS",
+              "name": "Contact Desktop First Message Copy",
+              "width": 470,
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "sW682",
+                  "name": "Contact Desktop First Message Kicker",
+                  "fill": "#7B2D32",
+                  "content": "02 — FIRST MESSAGE",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1.1
+                },
+                {
+                  "type": "text",
+                  "id": "RukYm",
+                  "name": "Contact Desktop First Message Title",
+                  "fill": "#2C211C",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "第一次聯絡，\n可以先告訴我這些。",
+                  "lineHeight": 1.25,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 38,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "SJr2y",
+                  "name": "Contact Desktop First Message Body",
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "不用整理成正式履歷，幾個基本資訊就能幫助我們更快找到適合的方向。",
+                  "lineHeight": 1.65,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 18,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "fsD5g",
+              "name": "Contact Desktop First Message Grid",
+              "width": 790,
+              "height": 454,
+              "layout": "vertical",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "K6QpSS",
+                  "name": "Contact Desktop First Row",
+                  "width": "fill_container",
+                  "height": 220,
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "JdH9u",
+                      "name": "Contact Name Card",
+                      "width": "fill_container",
+                      "height": 220,
+                      "fill": "#D7A62C",
+                      "cornerRadius": 2,
+                      "stroke": "#4A3026",
+                      "layout": "vertical",
+                      "gap": 14,
+                      "padding": [
+                        26,
+                        24
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "e4gonj",
+                          "name": "Contact Name Card EN",
+                          "fill": "#4A3026",
+                          "content": "NAME",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "h1yLt",
+                          "name": "Contact Name Card ZH",
+                          "fill": "#4A3026",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "姓名",
+                          "lineHeight": 1.3,
+                          "fontFamily": "Noto Serif TC",
+                          "fontSize": 23,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Q5d8I",
+                          "name": "Contact Name Card Body",
+                          "fill": "#4A3026",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "如何稱呼你／學生",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "vUD74",
+                      "name": "Contact Age Card",
+                      "width": "fill_container",
+                      "height": 220,
+                      "fill": "#FFF8EC",
+                      "cornerRadius": 2,
+                      "stroke": "#4A3026",
+                      "layout": "vertical",
+                      "gap": 14,
+                      "padding": [
+                        26,
+                        24
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "OlSJ4",
+                          "name": "Contact Age Card EN",
+                          "fill": "#4A3026",
+                          "content": "AGE",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "mPy0B",
+                          "name": "Contact Age Card ZH",
+                          "fill": "#4A3026",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "年齡",
+                          "lineHeight": 1.3,
+                          "fontFamily": "Noto Serif TC",
+                          "fontSize": 23,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "NEYL1",
+                          "name": "Contact Age Card Body",
+                          "fill": "#4A3026",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "線上兒童課建議 7 歲以上",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Hqay0",
+                      "name": "Contact Location Card",
+                      "width": "fill_container",
+                      "height": 220,
+                      "fill": "#48634B",
+                      "cornerRadius": 2,
+                      "stroke": "#FFF8EC",
+                      "layout": "vertical",
+                      "gap": 14,
+                      "padding": [
+                        26,
+                        24
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "L7pVAY",
+                          "name": "Contact Location Card EN",
+                          "fill": "#FFF8EC",
+                          "content": "LOCATION",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "BIdgI",
+                          "name": "Contact Location Card ZH",
+                          "fill": "#FFF8EC",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "所在地區",
+                          "lineHeight": 1.3,
+                          "fontFamily": "Noto Serif TC",
+                          "fontSize": 23,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "yz9F0",
+                          "name": "Contact Location Card Body",
+                          "fill": "#FFF8EC",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "台灣／北美／其他亞洲地區",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ntXTh",
+                  "name": "Contact Desktop Second Row",
+                  "width": "fill_container",
+                  "height": 220,
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "v6DMR",
+                      "name": "Contact Level Card",
+                      "width": "fill_container",
+                      "height": 220,
+                      "fill": "#FFF8EC",
+                      "cornerRadius": 2,
+                      "stroke": "#4A3026",
+                      "layout": "vertical",
+                      "gap": 14,
+                      "padding": [
+                        26,
+                        24
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "L9ZnG",
+                          "name": "Contact Level Card EN",
+                          "fill": "#4A3026",
+                          "content": "CURRENT LEVEL",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "Bo8gB",
+                          "name": "Contact Level Card ZH",
+                          "fill": "#4A3026",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "目前程度",
+                          "lineHeight": 1.3,
+                          "fontFamily": "Noto Serif TC",
+                          "fontSize": 23,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "a8BuVJ",
+                          "name": "Contact Level Card Body",
+                          "fill": "#4A3026",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "第一次學／以前學過／已有基礎",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "FmbVN",
+                      "name": "Contact Goal Card",
+                      "width": "fill_container",
+                      "height": 220,
+                      "fill": "#D85C2F",
+                      "cornerRadius": 2,
+                      "stroke": "#FFF8EC",
+                      "layout": "vertical",
+                      "gap": 14,
+                      "padding": [
+                        26,
+                        24
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "s17HH",
+                          "name": "Contact Goal Card EN",
+                          "fill": "#FFF8EC",
+                          "content": "GOAL",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "B57ED",
+                          "name": "Contact Goal Card ZH",
+                          "fill": "#FFF8EC",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "想學的內容／目標",
+                          "lineHeight": 1.3,
+                          "fontFamily": "Noto Serif TC",
+                          "fontSize": 23,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "LYlYV",
+                          "name": "Contact Goal Card Body",
+                          "fill": "#FFF8EC",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "古典、流行、ABRSM、比賽",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "R3lls",
+                      "name": "Contact Repertoire Card",
+                      "width": "fill_container",
+                      "height": 220,
+                      "fill": "#D7A62C",
+                      "cornerRadius": 2,
+                      "stroke": "#4A3026",
+                      "layout": "vertical",
+                      "gap": 14,
+                      "padding": [
+                        26,
+                        24
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "DVhIB",
+                          "name": "Contact Repertoire Card EN",
+                          "fill": "#4A3026",
+                          "content": "REPERTOIRE",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "uSewd",
+                          "name": "Contact Repertoire Card ZH",
+                          "fill": "#4A3026",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "是否有特定曲目",
+                          "lineHeight": 1.3,
+                          "fontFamily": "Noto Serif TC",
+                          "fontSize": 23,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "sF2zQ",
+                          "name": "Contact Repertoire Card Body",
+                          "fill": "#4A3026",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "有一首很想彈的歌，也可以",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "GdYTo",
+          "name": "Contact Desktop — Trial Lesson",
+          "width": "fill_container",
+          "height": 620,
+          "fill": "#7B2D32",
+          "gap": 110,
+          "padding": [
+            72,
+            84
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "zEOpq",
+              "name": "Contact Desktop Trial Number",
+              "width": 430,
+              "height": 430,
+              "fill": "#D7A62C",
+              "cornerRadius": 215,
+              "stroke": "#4A3026",
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 34,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "WhWQm",
+                  "name": "Contact Desktop Trial Number Label",
+                  "fill": "#4A3026",
+                  "content": "TRIAL LESSON",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 12,
+                  "fontWeight": "700",
+                  "letterSpacing": 1.1
+                },
+                {
+                  "type": "text",
+                  "id": "C4LfC",
+                  "name": "Contact Desktop Trial Number Big",
+                  "fill": "#7B2D32",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "50",
+                  "lineHeight": 0.8,
+                  "textAlign": "center",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 150,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "text",
+                  "id": "nQbGt",
+                  "name": "Contact Desktop Trial Minutes",
+                  "fill": "#7B2D32",
+                  "content": "MINUTES",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 24,
+                  "fontWeight": "700",
+                  "letterSpacing": 2
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "kdZ94",
+              "name": "Contact Desktop Trial Copy",
+              "width": 650,
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "P6B6f",
+                  "name": "Contact Desktop Trial Kicker",
+                  "fill": "#FFF8EC",
+                  "content": "03 — TRIAL LESSON",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "j2R1u9",
+                  "name": "Contact Desktop Trial Title",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Trial Lesson｜50 分鐘",
+                  "lineHeight": 1.25,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 38,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "f78jZ",
+                  "name": "Contact Desktop Trial Body",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "試上課程與正式課程時間相同，採相同單堂費用。\n\n50 分鐘可以實際了解學生目前的程度、學習目標與上課方式，也讓學生完整體驗真正的課程內容。",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 19,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "GD4v1",
+                  "name": "Contact Desktop Trial Fee Note",
+                  "width": "fill_container",
+                  "height": 88,
+                  "fill": "#FFF8EC",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": [
+                    17,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "n0PRY",
+                      "name": "Contact Desktop Trial Fee EN",
+                      "fill": "#4A3026",
+                      "content": "SAME SINGLE-LESSON FEE",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 12,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.7
+                    },
+                    {
+                      "type": "text",
+                      "id": "NPfr7",
+                      "name": "Contact Desktop Trial Fee ZH",
+                      "fill": "#4A3026",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "與正式單堂課程使用相同收費",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 17,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "WRXEY",
+          "name": "Contact Desktop — Contact Options",
+          "width": "fill_container",
+          "height": 700,
+          "fill": "#F7EBD5",
+          "layout": "vertical",
+          "gap": 30,
+          "padding": [
+            70,
+            84
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "tTyYD",
+              "name": "Contact Desktop Options Heading",
+              "width": "fill_container",
+              "height": 120,
+              "layout": "vertical",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "diP8F",
+                  "name": "Contact Desktop Options Kicker",
+                  "fill": "#7B2D32",
+                  "content": "04 — CONTACT OPTIONS",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1.1
+                },
+                {
+                  "type": "text",
+                  "id": "qyJiu",
+                  "name": "Contact Desktop Options Title",
+                  "fill": "#2C211C",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "選一個最方便的方式。",
+                  "lineHeight": 1.25,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 38,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "FPIsO",
+                  "name": "Contact Desktop Options Body",
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "LINE 使用 QR Code 加好友，不公開 LINE ID。",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 17,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "iUYt8",
+              "name": "Contact Desktop Options Grid",
+              "width": "fill_container",
+              "height": 430,
+              "gap": 20,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ZXbgm",
+                  "name": "Contact Desktop Email Card",
+                  "width": 370,
+                  "height": 360,
+                  "fill": "#D85C2F",
+                  "stroke": "#4A3026",
+                  "layout": "vertical",
+                  "gap": 22,
+                  "padding": [
+                    32,
+                    28
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "emKuj",
+                      "name": "Contact Desktop Email Label",
+                      "fill": "#FFF8EC",
+                      "content": "EMAIL",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "byJOq",
+                      "name": "Contact Desktop Email Address",
+                      "fill": "#FFF8EC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "minpiyer@gmail.com",
+                      "lineHeight": 1.2,
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "a14tkM",
+                      "name": "Contact Desktop Email Body",
+                      "fill": "#FFF8EC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "適合海外學生與一般課程詢問。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 17,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "cmLcf",
+                  "name": "Contact Desktop Line Card",
+                  "width": 420,
+                  "height": 430,
+                  "fill": "#FFF8EC",
+                  "stroke": "#4A3026",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    22,
+                    28
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "d0A9JC",
+                      "name": "Contact Desktop Line Label",
+                      "fill": "#4A3026",
+                      "content": "LINE",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Rk6qV",
+                      "name": "Contact Desktop Line QR",
+                      "width": 330,
+                      "height": 241,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "pen-assets/contact/line-add-friend-qr.jpeg",
+                        "mode": "contain"
+                      },
+                      "stroke": "#4A3026"
+                    },
+                    {
+                      "type": "text",
+                      "id": "TWkzC",
+                      "name": "Contact Desktop Line Text",
+                      "fill": "#4A3026",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "掃描 QR Code 加好友",
+                      "lineHeight": 1.4,
+                      "textAlign": "center",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 17,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "dvBfv",
+                  "name": "Contact Desktop YouTube Card",
+                  "width": 370,
+                  "height": 360,
+                  "fill": "#48634B",
+                  "stroke": "#4A3026",
+                  "layout": "vertical",
+                  "gap": 22,
+                  "padding": [
+                    32,
+                    28
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "g6G2a",
+                      "name": "Contact Desktop YouTube Label",
+                      "fill": "#FFF8EC",
+                      "content": "YOUTUBE",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "YbwvX",
+                      "name": "Contact Desktop YouTube Name",
+                      "fill": "#FFF8EC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "瘋鋼琴",
+                      "lineHeight": 1.2,
+                      "fontFamily": "Noto Serif TC",
+                      "fontSize": 34,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "KmnPl",
+                      "name": "Contact Desktop YouTube Body",
+                      "fill": "#FFF8EC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "看看實際教學、演奏與教學影片。",
+                      "lineHeight": 1.65,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 17,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "iFEJk",
+                      "name": "Contact Desktop YouTube Channel",
+                      "fill": "#D7A62C",
+                      "content": "YOUTUBE.COM/@CRAZYPIANO5945 ↗",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.3
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Ba2lJ",
+          "name": "Contact Desktop — Teaching on YouTube",
+          "width": "fill_container",
+          "height": 800,
+          "fill": "#7B2D32",
+          "layout": "vertical",
+          "gap": 26,
+          "padding": [
+            66,
+            84
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "N4kuzg",
+              "name": "Contact Desktop Videos Heading",
+              "width": "fill_container",
+              "height": 150,
+              "layout": "vertical",
+              "gap": 15,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "RQrpy",
+                  "name": "Contact Desktop Videos Kicker",
+                  "fill": "#FFF8EC",
+                  "content": "05 — TEACHING ON YOUTUBE",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1.1
+                },
+                {
+                  "type": "text",
+                  "id": "NMs7e",
+                  "name": "Contact Desktop Videos Title",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "先看看我是怎麼教的。",
+                  "lineHeight": 1.25,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 38,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "dWte3",
+                  "name": "Contact Desktop Videos Body",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": 800,
+                  "content": "從基本技巧、音階，到巴哈與作品理解，可以先從實際教學影片了解我的教學方式。",
+                  "lineHeight": 1.65,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 18,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "cp3WZ",
+              "name": "Contact Desktop Video Grid",
+              "width": "fill_container",
+              "height": 465,
+              "gap": 18,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "zsVgH",
+                  "name": "Contact Desktop Video Scales",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 465,
+                  "fill": "#FFF8EC",
+                  "cornerRadius": 2,
+                  "stroke": "#4A3026",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    16,
+                    16,
+                    20,
+                    16
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "THqxD",
+                      "name": "Contact Desktop Video Scales Thumbnail",
+                      "width": "fill_container",
+                      "height": 245,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "pen-assets/contact/youtube-scales-khoVWNOrBEU.jpg",
+                        "mode": "contain"
+                      },
+                      "stroke": "#4A3026",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "fNvRJ",
+                          "name": "Contact Desktop Video Scales Play",
+                          "width": 58,
+                          "height": 58,
+                          "fill": "#7B2D32",
+                          "cornerRadius": 29,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "C0Uys",
+                              "name": "Contact Desktop Video Scales Play Icon",
+                              "fill": "#FFF8EC",
+                              "content": "▶",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 24,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "Q6BuMh",
+                      "name": "Contact Desktop Video Scales Tag",
+                      "fill": "#7B2D32",
+                      "content": "SCALES / TECHNIQUE",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.8
+                    },
+                    {
+                      "type": "text",
+                      "id": "iM7ia",
+                      "name": "Contact Desktop Video Scales Title",
+                      "fill": "#2C211C",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "[瘋鋼琴] 如何了解音階",
+                      "lineHeight": 1.45,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "j8xaNl",
+                      "name": "Contact Desktop Video Scales Link",
+                      "fill": "#4A3026",
+                      "content": "WATCH ON YOUTUBE ↗",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 12,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.4
+                    },
+                    {
+                      "type": "text",
+                      "id": "fmA5Z",
+                      "name": "Contact Desktop Video Scales URL",
+                      "opacity": 0,
+                      "fill": "#4A3026",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "https://www.youtube.com/watch?v=khoVWNOrBEU",
+                      "lineHeight": 1.2,
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 8,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "JvfiM",
+                  "name": "Contact Desktop Video Bach Intro",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 465,
+                  "fill": "#FFF8EC",
+                  "cornerRadius": 2,
+                  "stroke": "#4A3026",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    16,
+                    16,
+                    20,
+                    16
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "U9ZoL",
+                      "name": "Contact Desktop Video Bach Intro Thumbnail",
+                      "width": "fill_container",
+                      "height": 245,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "pen-assets/contact/youtube-bach-introduction-cMOq9T46eBY.jpg",
+                        "mode": "contain"
+                      },
+                      "stroke": "#4A3026",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "mPfxp",
+                          "name": "Contact Desktop Video Bach Intro Play",
+                          "width": 58,
+                          "height": 58,
+                          "fill": "#7B2D32",
+                          "cornerRadius": 29,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "X1dp8",
+                              "name": "Contact Desktop Video Bach Intro Play Icon",
+                              "fill": "#FFF8EC",
+                              "content": "▶",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 24,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "HbN2s",
+                      "name": "Contact Desktop Video Bach Intro Tag",
+                      "fill": "#7B2D32",
+                      "content": "BACH / INTERPRETATION",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.8
+                    },
+                    {
+                      "type": "text",
+                      "id": "Eigc9",
+                      "name": "Contact Desktop Video Bach Intro Title",
+                      "fill": "#2C211C",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "[瘋鋼琴] 認識巴哈初步與其學習的要點～最後有下期預告演奏樂曲！",
+                      "lineHeight": 1.45,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "eMMYk",
+                      "name": "Contact Desktop Video Bach Intro Link",
+                      "fill": "#4A3026",
+                      "content": "WATCH ON YOUTUBE ↗",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 12,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.4
+                    },
+                    {
+                      "type": "text",
+                      "id": "U4wJP",
+                      "name": "Contact Desktop Video Bach Intro URL",
+                      "opacity": 0,
+                      "fill": "#4A3026",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "https://www.youtube.com/watch?v=cMOq9T46eBY",
+                      "lineHeight": 1.2,
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 8,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "XQiLo",
+                  "name": "Contact Desktop Video Bach Practice",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 465,
+                  "fill": "#FFF8EC",
+                  "cornerRadius": 2,
+                  "stroke": "#4A3026",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    16,
+                    16,
+                    20,
+                    16
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "k1utMg",
+                      "name": "Contact Desktop Video Bach Practice Thumbnail",
+                      "width": "fill_container",
+                      "height": 245,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "pen-assets/contact/youtube-bach-practice-hlusAJ9v_vI.jpg",
+                        "mode": "contain"
+                      },
+                      "stroke": "#4A3026",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "AfWZ2",
+                          "name": "Contact Desktop Video Bach Practice Play",
+                          "width": 58,
+                          "height": 58,
+                          "fill": "#7B2D32",
+                          "cornerRadius": 29,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "g9r43j",
+                              "name": "Contact Desktop Video Bach Practice Play Icon",
+                              "fill": "#FFF8EC",
+                              "content": "▶",
+                              "fontFamily": "Noto Sans TC",
+                              "fontSize": 24,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "hUPVv",
+                      "name": "Contact Desktop Video Bach Practice Tag",
+                      "fill": "#7B2D32",
+                      "content": "BACH / TEACHING",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.8
+                    },
+                    {
+                      "type": "text",
+                      "id": "ijmav",
+                      "name": "Contact Desktop Video Bach Practice Title",
+                      "fill": "#2C211C",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "[瘋鋼琴]巴哈初步講解練習方法及詮釋要點。以第一冊No.15 為例 。最後學生示範演奏",
+                      "lineHeight": 1.45,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "UWKUC",
+                      "name": "Contact Desktop Video Bach Practice Link",
+                      "fill": "#4A3026",
+                      "content": "WATCH ON YOUTUBE ↗",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 12,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.4
+                    },
+                    {
+                      "type": "text",
+                      "id": "WGByQ",
+                      "name": "Contact Desktop Video Bach Practice URL",
+                      "opacity": 0,
+                      "fill": "#4A3026",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "https://www.youtube.com/watch?v=hlusAJ9v_vI",
+                      "lineHeight": 1.2,
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 8,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "xgEvk",
+              "name": "Contact Desktop Channel Link",
+              "fill": "#D7A62C",
+              "content": "YOUTUBE｜瘋鋼琴  →  @CRAZYPIANO5945",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 12,
+              "fontWeight": "700",
+              "letterSpacing": 0.6
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "szlbB",
+          "name": "Contact Desktop — Contact Form",
+          "width": "fill_container",
+          "height": 880,
+          "fill": "#FFF8EC",
+          "gap": 80,
+          "padding": [
+            70,
+            84
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "r7pTt",
+              "name": "Contact Desktop Form Heading",
+              "width": 430,
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "HSQPQ",
+                  "name": "Contact Desktop Form Kicker",
+                  "fill": "#7B2D32",
+                  "content": "06 — CONTACT FORM",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1.1
+                },
+                {
+                  "type": "text",
+                  "id": "cXr2W",
+                  "name": "Contact Desktop Form Title",
+                  "fill": "#2C211C",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "把你的情況\n簡單告訴我。",
+                  "lineHeight": 1.25,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 38,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "DyFsD",
+                  "name": "Contact Desktop Form Body",
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "目前為設計預覽。正式網站需要在 Next.js 開發階段串接表單後端，才會真正送出。",
+                  "lineHeight": 1.65,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 17,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "jYWXl",
+                  "name": "Contact Desktop Form Note",
+                  "width": "fill_container",
+                  "height": 86,
+                  "fill": "#48634B",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": [
+                    16,
+                    18
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "j6a14",
+                      "name": "Contact Desktop Form Note EN",
+                      "fill": "#FFF8EC",
+                      "content": "IMPLEMENTATION NOTE",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.8
+                    },
+                    {
+                      "type": "text",
+                      "id": "z04dtz",
+                      "name": "Contact Desktop Form Note Text",
+                      "fill": "#FFF8EC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Form backend required during Next.js development.",
+                      "lineHeight": 1.4,
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "U0TyVf",
+              "name": "Contact Desktop Form Panel",
+              "width": 760,
+              "height": 700,
+              "fill": "#D7A62C",
+              "stroke": "#4A3026",
+              "layout": "vertical",
+              "gap": 14,
+              "padding": 28,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "u8CFLx",
+                  "name": "Contact Desktop Form Row 1",
+                  "width": "fill_container",
+                  "height": 92,
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "bSjja",
+                      "name": "Contact Form Name",
+                      "width": "fill_container",
+                      "height": 92,
+                      "fill": "#FFF8EC",
+                      "cornerRadius": 2,
+                      "stroke": "#4A3026",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": [
+                        17,
+                        18
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "dEtvB",
+                          "name": "Contact Form Name Label",
+                          "fill": "#4A3026",
+                          "content": "NAME／姓名",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.8
+                        },
+                        {
+                          "type": "text",
+                          "id": "iB0Nl",
+                          "name": "Contact Form Name Placeholder",
+                          "fill": "#806A5D",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "你的姓名",
+                          "lineHeight": 1.4,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "euAeR",
+                      "name": "Contact Form Email",
+                      "width": "fill_container",
+                      "height": 92,
+                      "fill": "#FFF8EC",
+                      "cornerRadius": 2,
+                      "stroke": "#4A3026",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": [
+                        17,
+                        18
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "y77cS",
+                          "name": "Contact Form Email Label",
+                          "fill": "#4A3026",
+                          "content": "EMAIL",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.8
+                        },
+                        {
+                          "type": "text",
+                          "id": "CoDRn",
+                          "name": "Contact Form Email Placeholder",
+                          "fill": "#806A5D",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "name@example.com",
+                          "lineHeight": 1.4,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "eo6Mv",
+                  "name": "Contact Desktop Form Row 2",
+                  "width": "fill_container",
+                  "height": 92,
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "qHgmw",
+                      "name": "Contact Form Location",
+                      "width": "fill_container",
+                      "height": 92,
+                      "fill": "#FFF8EC",
+                      "cornerRadius": 2,
+                      "stroke": "#4A3026",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": [
+                        17,
+                        18
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "GTR0T",
+                          "name": "Contact Form Location Label",
+                          "fill": "#4A3026",
+                          "content": "LOCATION／所在地區",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.8
+                        },
+                        {
+                          "type": "text",
+                          "id": "VlS2a",
+                          "name": "Contact Form Location Placeholder",
+                          "fill": "#806A5D",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Taiwan / North America / Other Asia",
+                          "lineHeight": 1.4,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "c31vz7",
+                      "name": "Contact Form Age",
+                      "width": "fill_container",
+                      "height": 92,
+                      "fill": "#FFF8EC",
+                      "cornerRadius": 2,
+                      "stroke": "#4A3026",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": [
+                        17,
+                        18
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "zM0yf",
+                          "name": "Contact Form Age Label",
+                          "fill": "#4A3026",
+                          "content": "AGE／年齡",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.8
+                        },
+                        {
+                          "type": "text",
+                          "id": "k6Lfg",
+                          "name": "Contact Form Age Placeholder",
+                          "fill": "#806A5D",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "學生年齡",
+                          "lineHeight": 1.4,
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "XGP67",
+                  "name": "Contact Form Level",
+                  "width": "fill_container",
+                  "height": 92,
+                  "fill": "#FFF8EC",
+                  "cornerRadius": 2,
+                  "stroke": "#4A3026",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    17,
+                    18
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "DRid8",
+                      "name": "Contact Form Level Label",
+                      "fill": "#4A3026",
+                      "content": "CURRENT LEVEL／目前程度",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.8
+                    },
+                    {
+                      "type": "text",
+                      "id": "r9Hk6Y",
+                      "name": "Contact Form Level Placeholder",
+                      "fill": "#806A5D",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "第一次學／以前學過／已有基礎",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 16,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "PfSUZ",
+                  "name": "Contact Form Learn",
+                  "width": "fill_container",
+                  "height": 92,
+                  "fill": "#FFF8EC",
+                  "cornerRadius": 2,
+                  "stroke": "#4A3026",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    17,
+                    18
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "o5L8oZ",
+                      "name": "Contact Form Learn Label",
+                      "fill": "#4A3026",
+                      "content": "WHAT WOULD YOU LIKE TO LEARN?／想學什麼？",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.8
+                    },
+                    {
+                      "type": "text",
+                      "id": "trtKZ",
+                      "name": "Contact Form Learn Placeholder",
+                      "fill": "#806A5D",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "古典、流行、ABRSM、比賽、特定曲目",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 16,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Djhw5",
+                  "name": "Contact Form Message",
+                  "width": "fill_container",
+                  "height": 130,
+                  "fill": "#FFF8EC",
+                  "cornerRadius": 2,
+                  "stroke": "#4A3026",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    17,
+                    18
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "dT09F",
+                      "name": "Contact Form Message Label",
+                      "fill": "#4A3026",
+                      "content": "MESSAGE／補充訊息",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.8
+                    },
+                    {
+                      "type": "text",
+                      "id": "F8XLqw",
+                      "name": "Contact Form Message Placeholder",
+                      "fill": "#806A5D",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "還有什麼希望老師先知道的嗎？",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 16,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "sALa9",
+                  "name": "Contact Desktop Form Actions",
+                  "width": "fill_container",
+                  "height": 60,
+                  "gap": 18,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "r09cVV",
+                      "name": "Contact Desktop Send Button",
+                      "height": 54,
+                      "fill": "#D85C2F",
+                      "cornerRadius": 3,
+                      "gap": 10,
+                      "padding": [
+                        14,
+                        20
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "P5SJ2b",
+                          "name": "Contact Desktop Send Button EN",
+                          "fill": "#FFF8EC",
+                          "content": "SEND INQUIRY",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 13,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "aHcr5",
+                          "name": "Contact Desktop Send Button ZH",
+                          "fill": "#FFF8EC",
+                          "content": "送出詢問",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "CBm31",
+                      "name": "Contact Desktop Form Disabled Note",
+                      "fill": "#4A3026",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "設計預覽｜目前尚未連接寄信功能",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "iJYhk",
+          "name": "Contact Desktop — What Happens Next",
+          "width": "fill_container",
+          "height": 520,
+          "fill": "#F7EBD5",
+          "layout": "vertical",
+          "gap": 28,
+          "padding": [
+            64,
+            84
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "lwOHq",
+              "name": "Contact Desktop Next Kicker",
+              "fill": "#4A3026",
+              "content": "07 — WHAT HAPPENS NEXT",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 11,
+              "fontWeight": "700",
+              "letterSpacing": 1.1
+            },
+            {
+              "type": "text",
+              "id": "dlN22",
+              "name": "Contact Desktop Next Title",
+              "fill": "#2C211C",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "聯絡之後呢？",
+              "lineHeight": 1.25,
+              "fontFamily": "Noto Serif TC",
+              "fontSize": 38,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "J7eb1n",
+              "name": "Contact Desktop Next Steps",
+              "width": "fill_container",
+              "height": 220,
+              "gap": 18,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "t3OgP",
+                  "name": "Contact Step One",
+                  "width": "fill_container",
+                  "height": 220,
+                  "fill": "#D7A62C",
+                  "cornerRadius": 2,
+                  "stroke": "#4A3026",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    26,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "yYltJ",
+                      "name": "Contact Step One EN",
+                      "fill": "#4A3026",
+                      "content": "01 — TELL ME ABOUT YOU",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "aX9Ht",
+                      "name": "Contact Step One ZH",
+                      "fill": "#4A3026",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "告訴我目前狀況",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Noto Serif TC",
+                      "fontSize": 23,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "cEvwO",
+                      "name": "Contact Step One Body",
+                      "fill": "#4A3026",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "年齡、程度、所在地區與想學的內容",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 16,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "dWjMz",
+                  "name": "Contact Step Two",
+                  "width": "fill_container",
+                  "height": 220,
+                  "fill": "#D85C2F",
+                  "cornerRadius": 2,
+                  "stroke": "#FFF8EC",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    26,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "eeW7z",
+                      "name": "Contact Step Two EN",
+                      "fill": "#FFF8EC",
+                      "content": "02 — CONFIRM DIRECTION",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "wwTlV",
+                      "name": "Contact Step Two ZH",
+                      "fill": "#FFF8EC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "確認課程方向與費用",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Noto Serif TC",
+                      "fontSize": 23,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "F4BPfm",
+                      "name": "Contact Step Two Body",
+                      "fill": "#FFF8EC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "依需求確認適合的學習方式",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 16,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "BrHQE",
+                  "name": "Contact Step Three",
+                  "width": "fill_container",
+                  "height": 220,
+                  "fill": "#48634B",
+                  "cornerRadius": 2,
+                  "stroke": "#FFF8EC",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    26,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "msmya",
+                      "name": "Contact Step Three EN",
+                      "fill": "#FFF8EC",
+                      "content": "03 — BOOK A TRIAL",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "Q4Yg9",
+                      "name": "Contact Step Three ZH",
+                      "fill": "#FFF8EC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "安排 50 分鐘試上",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Noto Serif TC",
+                      "fontSize": 23,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "nMLGb",
+                      "name": "Contact Step Three Body",
+                      "fill": "#FFF8EC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "完整體驗實際的課程內容",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 16,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "sbybC",
+          "name": "Contact Desktop — Final CTA",
+          "width": "fill_container",
+          "height": 610,
+          "fill": "#7B2D32",
+          "gap": 100,
+          "padding": [
+            76,
+            84
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "I1Ofk6",
+              "name": "Contact Desktop CTA Copy",
+              "width": 780,
+              "layout": "vertical",
+              "gap": 22,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "QPTw3",
+                  "name": "Contact Desktop CTA Kicker",
+                  "fill": "#FFF8EC",
+                  "content": "08 — START HERE",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1.1
+                },
+                {
+                  "type": "text",
+                  "id": "JIQwt",
+                  "name": "Contact Desktop CTA Title",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "從你現在的位置\n開始就好。",
+                  "lineHeight": 1.2,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 44,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "hdgdX",
+                  "name": "Contact Desktop CTA Body",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": 700,
+                  "content": "第一次學、重新開始、準備檢定，或只是有一首一直很想彈的歌，都可以先聊聊。",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 19,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "apWyA",
+                  "name": "Contact Desktop CTA Button",
+                  "height": 54,
+                  "fill": "#D7A62C",
+                  "cornerRadius": 3,
+                  "gap": 10,
+                  "padding": [
+                    14,
+                    20
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "y7CTD",
+                      "name": "Contact Desktop CTA Button EN",
+                      "fill": "#4A3026",
+                      "content": "BOOK A TRIAL LESSON",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "TiYpo",
+                      "name": "Contact Desktop CTA Button ZH",
+                      "fill": "#4A3026",
+                      "content": "預約試課",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "snyTe",
+              "name": "Contact Desktop CTA Quote",
+              "width": 300,
+              "height": 300,
+              "fill": "#D85C2F",
+              "cornerRadius": 150,
+              "stroke": "#D7A62C",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "d99sgq",
+                  "name": "Contact Desktop CTA Quote Text",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "No pressure.\nJust music.",
+                  "lineHeight": 1.25,
+                  "textAlign": "center",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ksXts",
+          "name": "Contact Desktop Footer",
+          "width": "fill_container",
+          "height": 430,
+          "fill": "$cp-coffee",
+          "layout": "vertical",
+          "gap": 44,
+          "padding": [
+            58,
+            58,
+            34,
+            58
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "LA62r",
+              "name": "Footer Main Row",
+              "width": "fill_container",
+              "height": "fill_container",
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "WUseg",
+                  "name": "Footer Brand",
+                  "width": 520,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "u6CZG",
+                      "name": "Footer Brand Name",
+                      "fill": "$cp-paper",
+                      "content": "CRAZY PIANO\n瘋鋼琴",
+                      "lineHeight": 0.95,
+                      "fontFamily": "Noto Serif TC",
+                      "fontSize": 57,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "e6Vij9",
+                      "name": "Footer Brand Tagline",
+                      "fill": "#FFF8ECC0",
+                      "content": "Play it your way.\n把技巧練好，也把音樂變成自己的。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 18,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "q3opb",
+                  "name": "Footer Navigation Columns",
+                  "width": 700,
+                  "gap": 56,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "w5RSK7",
+                      "name": "Footer Column 1",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 13,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "B98ks",
+                          "name": "Footer Column 1 Heading",
+                          "fill": "$cp-mustard",
+                          "content": "EXPLORE",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 13,
+                          "fontWeight": "700",
+                          "letterSpacing": 1.3
+                        },
+                        {
+                          "type": "text",
+                          "id": "F2i9H",
+                          "name": "Footer Column 1 Link 1",
+                          "fill": "$cp-paper",
+                          "content": "關於徐老師",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "D4AVI",
+                          "name": "Footer Column 1 Link 2",
+                          "fill": "$cp-paper",
+                          "content": "課程",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "sBJVp",
+                          "name": "Footer Column 1 Link 3",
+                          "fill": "$cp-paper",
+                          "content": "學費",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "TXaQC",
+                          "name": "Footer Column 1 Link 4",
+                          "fill": "$cp-paper",
+                          "content": "學生故事",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "APZSs",
+                      "name": "Footer Column 2",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 13,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "rTG6i",
+                          "name": "Footer Column 2 Heading",
+                          "fill": "$cp-mustard",
+                          "content": "LESSONS",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 13,
+                          "fontWeight": "700",
+                          "letterSpacing": 1.3
+                        },
+                        {
+                          "type": "text",
+                          "id": "ZR7MQ",
+                          "name": "Footer Column 2 Link 1",
+                          "fill": "$cp-paper",
+                          "content": "兒童鋼琴",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "DHnz6",
+                          "name": "Footer Column 2 Link 2",
+                          "fill": "$cp-paper",
+                          "content": "成人鋼琴",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "hyNCK",
+                          "name": "Footer Column 2 Link 3",
+                          "fill": "$cp-paper",
+                          "content": "ABRSM 檢定",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "rge9X",
+                          "name": "Footer Column 2 Link 4",
+                          "fill": "$cp-paper",
+                          "content": "客製改編",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "VwRiO",
+                      "name": "Footer Column 3",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 13,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "csqWV",
+                          "name": "Footer Column 3 Heading",
+                          "fill": "$cp-mustard",
+                          "content": "CONNECT",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 13,
+                          "fontWeight": "700",
+                          "letterSpacing": 1.3
+                        },
+                        {
+                          "type": "text",
+                          "id": "P6Iuv2",
+                          "name": "Footer Column 3 Link 1",
+                          "fill": "$cp-paper",
+                          "content": "YouTube",
+                          "fontFamily": "Funnel Sans",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Gdoda",
+                          "name": "Footer Column 3 Link 2",
+                          "fill": "$cp-paper",
+                          "content": "Instagram",
+                          "fontFamily": "Funnel Sans",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "gZdHD",
+                          "name": "Footer Column 3 Link 3",
+                          "fill": "$cp-paper",
+                          "content": "minpiyer@gmail.com",
+                          "fontFamily": "Funnel Sans",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "MRWzu",
+                          "name": "Footer Column 3 Link 4",
+                          "fill": "$cp-paper",
+                          "content": "預約試課",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "U6IUi2",
+              "name": "Footer Bottom Row",
+              "width": "fill_container",
+              "stroke": "#FFF8EC55",
+              "strokeWidth": {
+                "top": 1
+              },
+              "padding": [
+                18,
+                0,
+                0,
+                0
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "SnPfP",
+                  "name": "Footer Copyright",
+                  "fill": "#FFF8ECAA",
+                  "content": "© 2026 CRAZY PIANO / DR. HSU. ALL RIGHTS RESERVED.",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "fURE0",
+                  "name": "Footer Location",
+                  "fill": "#FFF8ECAA",
+                  "content": "TAIPEI ↔ WORLDWIDE ONLINE",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "xUKF5",
+      "x": 2070,
+      "y": 70248,
+      "name": "Contact／聯絡與預約 — Mobile 390",
+      "clip": true,
+      "width": 390,
+      "height": 8862,
+      "fill": "#F7EBD5",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "yqVj5",
+          "name": "Contact Mobile Navigation",
+          "width": "fill_container",
+          "height": 76,
+          "fill": "$cp-paper",
+          "stroke": "$cp-line",
+          "strokeWidth": {
+            "bottom": 1
+          },
+          "padding": [
+            16,
+            18
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "N2IOz",
+              "name": "Mobile Brand",
+              "gap": 9,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "v3bMYi",
+                  "name": "Brand Dot",
+                  "fill": "$cp-orange",
+                  "width": 18,
+                  "height": 18,
+                  "stroke": "$cp-coffee",
+                  "strokeWidth": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "Zq7x4",
+                  "name": "Brand Wordmark",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Dr09i",
+                      "name": "Crazy Piano Logo",
+                      "fill": "$cp-ink",
+                      "content": "CRAZY PIANO",
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 13,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.4
+                    },
+                    {
+                      "type": "text",
+                      "id": "gh0jv",
+                      "name": "瘋鋼琴 Logo",
+                      "fill": "$cp-burgundy",
+                      "content": "瘋鋼琴",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 11,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "eLaz2",
+              "name": "Mobile Navigation Actions",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "CyKaR",
+                  "name": "Language Switch",
+                  "height": 42,
+                  "fill": "$cp-cream",
+                  "cornerRadius": 21,
+                  "stroke": "$cp-coffee",
+                  "strokeWidth": 1,
+                  "padding": [
+                    0,
+                    12
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "iUplh",
+                      "name": "Language Label",
+                      "fill": "$cp-coffee",
+                      "content": "中／EN",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "W40POt",
+                  "name": "Hamburger Menu Button",
+                  "width": 42,
+                  "height": 42,
+                  "fill": "$cp-burgundy",
+                  "cornerRadius": 21,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "MayKW",
+                      "name": "Hamburger Menu Icon",
+                      "width": 22,
+                      "height": 22,
+                      "icon": "menu",
+                      "library": "lucide",
+                      "fill": "$cp-paper"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "JfObX",
+          "name": "Contact Mobile — Hero",
+          "width": "fill_container",
+          "height": 610,
+          "fill": "#D7A62C",
+          "layout": "vertical",
+          "gap": 18,
+          "padding": [
+            42,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "Ye86h",
+              "name": "Contact Mobile Hero Kicker",
+              "fill": "#4A3026",
+              "content": "01 — CONTACT / BOOK A LESSON",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 10,
+              "fontWeight": "700",
+              "letterSpacing": 0.8
+            },
+            {
+              "type": "text",
+              "id": "x1yhfM",
+              "name": "Contact Mobile Hero English",
+              "fill": "#2C211C",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "LET'S TALK MUSIC.",
+              "lineHeight": 1,
+              "fontFamily": "Playfair Display",
+              "fontSize": 38,
+              "fontWeight": "800"
+            },
+            {
+              "type": "text",
+              "id": "COnK3",
+              "name": "Contact Mobile Hero Title",
+              "fill": "#7B2D32",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "先告訴我，\n你想彈什麼。",
+              "lineHeight": 1.25,
+              "fontFamily": "Noto Serif TC",
+              "fontSize": 32,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "sQY5i",
+              "name": "Contact Mobile Hero Body",
+              "fill": "#4A3026",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "不需要先知道自己適合哪一種課程。告訴我目前程度、所在地區與想學的內容，再一起確認適合的方式。",
+              "lineHeight": 1.7,
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 17,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "C7PwL",
+              "name": "Contact Mobile Hero Button",
+              "height": 54,
+              "fill": "#7B2D32",
+              "cornerRadius": 3,
+              "gap": 10,
+              "padding": [
+                14,
+                20
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "d3RaYI",
+                  "name": "Contact Mobile Hero Button EN",
+                  "fill": "#FFF8EC",
+                  "content": "BOOK A TRIAL LESSON",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 13,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "C1BUK",
+                  "name": "Contact Mobile Hero Button ZH",
+                  "fill": "#FFF8EC",
+                  "content": "預約試課",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Rq2Xh",
+          "name": "Contact Mobile — First Message",
+          "width": "fill_container",
+          "height": 1640,
+          "fill": "#FFF8EC",
+          "layout": "vertical",
+          "gap": 14,
+          "padding": [
+            50,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "subka",
+              "name": "Contact Mobile First Kicker",
+              "fill": "#7B2D32",
+              "content": "02 — FIRST MESSAGE",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 10,
+              "fontWeight": "700",
+              "letterSpacing": 0.8
+            },
+            {
+              "type": "text",
+              "id": "a1IQTi",
+              "name": "Contact Mobile First Title",
+              "fill": "#2C211C",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "第一次聯絡，\n可以先告訴我這些。",
+              "lineHeight": 1.3,
+              "fontFamily": "Noto Serif TC",
+              "fontSize": 29,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "SVrXl",
+              "name": "Contact Mobile First Body",
+              "fill": "#4A3026",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "不用整理成正式履歷，幾個基本資訊就能幫助我們更快找到適合的方向。",
+              "lineHeight": 1.7,
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 17,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "OKKMo",
+              "name": "Mobile Contact Name",
+              "width": "fill_container",
+              "height": 220,
+              "fill": "#D7A62C",
+              "cornerRadius": 2,
+              "stroke": "#4A3026",
+              "layout": "vertical",
+              "gap": 14,
+              "padding": [
+                26,
+                24
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "xVcEE",
+                  "name": "Mobile Contact Name EN",
+                  "fill": "#4A3026",
+                  "content": "NAME",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "seNFL",
+                  "name": "Mobile Contact Name ZH",
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "姓名",
+                  "lineHeight": 1.3,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 23,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "V6YuV",
+                  "name": "Mobile Contact Name Body",
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "如何稱呼你／學生",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "eNmFG",
+              "name": "Mobile Contact Age",
+              "width": "fill_container",
+              "height": 220,
+              "fill": "#FFF8EC",
+              "cornerRadius": 2,
+              "stroke": "#4A3026",
+              "layout": "vertical",
+              "gap": 14,
+              "padding": [
+                26,
+                24
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "OHf7G",
+                  "name": "Mobile Contact Age EN",
+                  "fill": "#4A3026",
+                  "content": "AGE",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "NMHSn",
+                  "name": "Mobile Contact Age ZH",
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "年齡",
+                  "lineHeight": 1.3,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 23,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "kw1bU",
+                  "name": "Mobile Contact Age Body",
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "線上兒童課建議 7 歲以上",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "o7Y9FI",
+              "name": "Mobile Contact Location",
+              "width": "fill_container",
+              "height": 220,
+              "fill": "#48634B",
+              "cornerRadius": 2,
+              "stroke": "#FFF8EC",
+              "layout": "vertical",
+              "gap": 14,
+              "padding": [
+                26,
+                24
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "FW5C3",
+                  "name": "Mobile Contact Location EN",
+                  "fill": "#FFF8EC",
+                  "content": "LOCATION",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "jXJuS",
+                  "name": "Mobile Contact Location ZH",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "所在地區",
+                  "lineHeight": 1.3,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 23,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "SmWpo",
+                  "name": "Mobile Contact Location Body",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "台灣／北美／其他亞洲地區",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ZadVV",
+              "name": "Mobile Contact Level",
+              "width": "fill_container",
+              "height": 220,
+              "fill": "#FFF8EC",
+              "cornerRadius": 2,
+              "stroke": "#4A3026",
+              "layout": "vertical",
+              "gap": 14,
+              "padding": [
+                26,
+                24
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "JbNvF",
+                  "name": "Mobile Contact Level EN",
+                  "fill": "#4A3026",
+                  "content": "CURRENT LEVEL",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "OuVl1",
+                  "name": "Mobile Contact Level ZH",
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "目前程度",
+                  "lineHeight": 1.3,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 23,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "j8uJE",
+                  "name": "Mobile Contact Level Body",
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "第一次學／以前學過／已有基礎",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "clnDg",
+              "name": "Mobile Contact Goal",
+              "width": "fill_container",
+              "height": 220,
+              "fill": "#D85C2F",
+              "cornerRadius": 2,
+              "stroke": "#FFF8EC",
+              "layout": "vertical",
+              "gap": 14,
+              "padding": [
+                26,
+                24
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "DXqhp",
+                  "name": "Mobile Contact Goal EN",
+                  "fill": "#FFF8EC",
+                  "content": "GOAL",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "qi3CB",
+                  "name": "Mobile Contact Goal ZH",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "想學的內容／目標",
+                  "lineHeight": 1.3,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 23,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "oM5kL",
+                  "name": "Mobile Contact Goal Body",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "古典、流行、ABRSM、比賽",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "LVyJZ",
+              "name": "Mobile Contact Repertoire",
+              "width": "fill_container",
+              "height": 220,
+              "fill": "#D7A62C",
+              "cornerRadius": 2,
+              "stroke": "#4A3026",
+              "layout": "vertical",
+              "gap": 14,
+              "padding": [
+                26,
+                24
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "qxEnS",
+                  "name": "Mobile Contact Repertoire EN",
+                  "fill": "#4A3026",
+                  "content": "REPERTOIRE",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "oBBDr",
+                  "name": "Mobile Contact Repertoire ZH",
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "是否有特定曲目",
+                  "lineHeight": 1.3,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 23,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "V3XgWd",
+                  "name": "Mobile Contact Repertoire Body",
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "有一首很想彈的歌，也可以",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ucaDY",
+          "name": "Contact Mobile — Trial Lesson",
+          "width": "fill_container",
+          "height": 600,
+          "fill": "#7B2D32",
+          "layout": "vertical",
+          "gap": 18,
+          "padding": [
+            50,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "T3zPPp",
+              "name": "Contact Mobile Trial Kicker",
+              "fill": "#FFF8EC",
+              "content": "03 — TRIAL LESSON",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 10,
+              "fontWeight": "700",
+              "letterSpacing": 0.8
+            },
+            {
+              "type": "text",
+              "id": "Hx6cW",
+              "name": "Contact Mobile Trial Big",
+              "fill": "#D7A62C",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "50 MINUTES",
+              "lineHeight": 1,
+              "fontFamily": "Playfair Display",
+              "fontSize": 48,
+              "fontWeight": "800"
+            },
+            {
+              "type": "text",
+              "id": "eMWrb",
+              "name": "Contact Mobile Trial Title",
+              "fill": "#FFF8EC",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Trial Lesson｜50 分鐘",
+              "lineHeight": 1.3,
+              "fontFamily": "Noto Serif TC",
+              "fontSize": 28,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "osR2A",
+              "name": "Contact Mobile Trial Body",
+              "fill": "#FFF8EC",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "試上課程與正式課程時間相同，採相同單堂費用。\n\n50 分鐘可以實際了解學生目前的程度、學習目標與上課方式，也讓學生完整體驗真正的課程內容。",
+              "lineHeight": 1.7,
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 17,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "NjuBL",
+              "name": "Contact Mobile Trial Fee",
+              "width": "fill_container",
+              "height": 88,
+              "fill": "#D7A62C",
+              "layout": "vertical",
+              "gap": 8,
+              "padding": [
+                16,
+                18
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Z8APG",
+                  "name": "Contact Mobile Trial Fee EN",
+                  "fill": "#4A3026",
+                  "content": "SAME SINGLE-LESSON FEE",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.6
+                },
+                {
+                  "type": "text",
+                  "id": "O7cYWl",
+                  "name": "Contact Mobile Trial Fee ZH",
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "與正式單堂課程使用相同收費",
+                  "lineHeight": 1.45,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "DVPWW",
+          "name": "Contact Mobile — Contact Options",
+          "width": "fill_container",
+          "height": 1150,
+          "fill": "#F7EBD5",
+          "layout": "vertical",
+          "gap": 18,
+          "padding": [
+            50,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "v4bHRv",
+              "name": "Contact Mobile Options Kicker",
+              "fill": "#7B2D32",
+              "content": "04 — CONTACT OPTIONS",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 10,
+              "fontWeight": "700",
+              "letterSpacing": 0.8
+            },
+            {
+              "type": "text",
+              "id": "reFM1",
+              "name": "Contact Mobile Options Title",
+              "fill": "#2C211C",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "選一個最方便的方式。",
+              "lineHeight": 1.3,
+              "fontFamily": "Noto Serif TC",
+              "fontSize": 29,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "z54du3",
+              "name": "Contact Mobile Line Card",
+              "width": "fill_container",
+              "height": 470,
+              "fill": "#FFF8EC",
+              "stroke": "#4A3026",
+              "layout": "vertical",
+              "gap": 14,
+              "padding": 20,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "JbWzB",
+                  "name": "Contact Mobile Line Label",
+                  "fill": "#4A3026",
+                  "content": "LINE",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "TeYcg",
+                  "name": "Contact Mobile Line QR",
+                  "width": 310,
+                  "height": 227,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "pen-assets/contact/line-add-friend-qr.jpeg",
+                    "mode": "contain"
+                  },
+                  "stroke": "#4A3026"
+                },
+                {
+                  "type": "text",
+                  "id": "akt9y",
+                  "name": "Contact Mobile Line Text",
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "掃描 QR Code 加好友",
+                  "lineHeight": 1.4,
+                  "textAlign": "center",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 17,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "sTVgl",
+                  "name": "Contact Mobile Line Add Button",
+                  "height": 54,
+                  "fill": "#48634B",
+                  "cornerRadius": 3,
+                  "gap": 10,
+                  "padding": [
+                    14,
+                    20
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "cgws7",
+                      "name": "Contact Mobile Line Add Button EN",
+                      "fill": "#FFF8EC",
+                      "content": "LINE / ADD FRIEND",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "SC96j",
+                      "name": "Contact Mobile Line Add Button ZH",
+                      "fill": "#FFF8EC",
+                      "content": "加入好友",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "CfW4O",
+                  "name": "Contact Mobile Line URL Note",
+                  "fill": "#7B2D32",
+                  "content": "URL NEEDED FOR IMPLEMENTATION",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 10,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.4
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "jmcR9",
+              "name": "Contact Mobile Email Card",
+              "width": "fill_container",
+              "height": 210,
+              "fill": "#D85C2F",
+              "layout": "vertical",
+              "gap": 18,
+              "padding": [
+                24,
+                22
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "zfhCj",
+                  "name": "Contact Mobile Email Label",
+                  "fill": "#FFF8EC",
+                  "content": "EMAIL",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "fTLjm",
+                  "name": "Contact Mobile Email Address",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "minpiyer@gmail.com",
+                  "lineHeight": 1.2,
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 25,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "njXV1",
+                  "name": "Contact Mobile Email Body",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "適合海外學生與一般課程詢問。",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 17,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "m8S6A",
+              "name": "Contact Mobile Channel Card",
+              "width": "fill_container",
+              "height": 240,
+              "fill": "#48634B",
+              "layout": "vertical",
+              "gap": 15,
+              "padding": [
+                24,
+                22
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "iNVHu",
+                  "name": "Contact Mobile Channel Label",
+                  "fill": "#FFF8EC",
+                  "content": "YOUTUBE",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "lJpos",
+                  "name": "Contact Mobile Channel Name",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "瘋鋼琴",
+                  "lineHeight": 1.2,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 29,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "B5HXZk",
+                  "name": "Contact Mobile Channel Body",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "看看實際教學、演奏與教學影片。",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 17,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "WsGSd",
+                  "name": "Contact Mobile Channel URL",
+                  "fill": "#D7A62C",
+                  "content": "@CRAZYPIANO5945 ↗",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "oN31U",
+          "name": "Contact Mobile — Teaching on YouTube",
+          "width": "fill_container",
+          "height": 1740,
+          "fill": "#7B2D32",
+          "layout": "vertical",
+          "gap": 18,
+          "padding": [
+            50,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "A6o1A",
+              "name": "Contact Mobile Videos Kicker",
+              "fill": "#FFF8EC",
+              "content": "05 — TEACHING ON YOUTUBE",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 10,
+              "fontWeight": "700",
+              "letterSpacing": 0.8
+            },
+            {
+              "type": "text",
+              "id": "nn8q6",
+              "name": "Contact Mobile Videos Title",
+              "fill": "#FFF8EC",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "先看看我是怎麼教的。",
+              "lineHeight": 1.3,
+              "fontFamily": "Noto Serif TC",
+              "fontSize": 29,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "zrDfR",
+              "name": "Contact Mobile Videos Body",
+              "fill": "#FFF8EC",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "從基本技巧、音階，到巴哈與作品理解，可以先從實際教學影片了解我的教學方式。",
+              "lineHeight": 1.7,
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 17,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "X0gGnE",
+              "name": "Contact Mobile Video Scales",
+              "clip": true,
+              "width": "fill_container",
+              "height": 440,
+              "fill": "#FFF8EC",
+              "cornerRadius": 2,
+              "stroke": "#4A3026",
+              "layout": "vertical",
+              "gap": 12,
+              "padding": [
+                14,
+                14,
+                18,
+                14
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "lDsaB",
+                  "name": "Contact Mobile Video Scales Thumbnail",
+                  "width": "fill_container",
+                  "height": 246,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "pen-assets/contact/youtube-scales-khoVWNOrBEU.jpg",
+                    "mode": "contain"
+                  },
+                  "stroke": "#4A3026",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "adz5R",
+                      "name": "Contact Mobile Video Scales Play",
+                      "width": 56,
+                      "height": 56,
+                      "fill": "#7B2D32",
+                      "cornerRadius": 28,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "lYDK3",
+                          "name": "Contact Mobile Video Scales Play Icon",
+                          "fill": "#FFF8EC",
+                          "content": "▶",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 22,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "BkHaF",
+                  "name": "Contact Mobile Video Scales Tag",
+                  "fill": "#7B2D32",
+                  "content": "SCALES / TECHNIQUE",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 10,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.7
+                },
+                {
+                  "type": "text",
+                  "id": "IbsWg",
+                  "name": "Contact Mobile Video Scales Title",
+                  "fill": "#2C211C",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "[瘋鋼琴] 如何了解音階",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 17,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "LX6DK",
+                  "name": "Contact Mobile Video Scales Link",
+                  "fill": "#4A3026",
+                  "content": "WATCH ON YOUTUBE ↗",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 12,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.4
+                },
+                {
+                  "type": "text",
+                  "id": "OurP1",
+                  "name": "Contact Mobile Video Scales URL",
+                  "opacity": 0,
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "https://www.youtube.com/watch?v=khoVWNOrBEU",
+                  "lineHeight": 1.2,
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 8,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "PIal0",
+              "name": "Contact Mobile Video Bach Intro",
+              "clip": true,
+              "width": "fill_container",
+              "height": 440,
+              "fill": "#FFF8EC",
+              "cornerRadius": 2,
+              "stroke": "#4A3026",
+              "layout": "vertical",
+              "gap": 12,
+              "padding": [
+                14,
+                14,
+                18,
+                14
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "H0sIQM",
+                  "name": "Contact Mobile Video Bach Intro Thumbnail",
+                  "width": "fill_container",
+                  "height": 246,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "pen-assets/contact/youtube-bach-introduction-cMOq9T46eBY.jpg",
+                    "mode": "contain"
+                  },
+                  "stroke": "#4A3026",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "VgUzw",
+                      "name": "Contact Mobile Video Bach Intro Play",
+                      "width": 56,
+                      "height": 56,
+                      "fill": "#7B2D32",
+                      "cornerRadius": 28,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "R45ZKX",
+                          "name": "Contact Mobile Video Bach Intro Play Icon",
+                          "fill": "#FFF8EC",
+                          "content": "▶",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 22,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "tVz4a",
+                  "name": "Contact Mobile Video Bach Intro Tag",
+                  "fill": "#7B2D32",
+                  "content": "BACH / INTERPRETATION",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 10,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.7
+                },
+                {
+                  "type": "text",
+                  "id": "Kekps",
+                  "name": "Contact Mobile Video Bach Intro Title",
+                  "fill": "#2C211C",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "[瘋鋼琴] 認識巴哈初步與其學習的要點～最後有下期預告演奏樂曲！",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 17,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "Q9qMY9",
+                  "name": "Contact Mobile Video Bach Intro Link",
+                  "fill": "#4A3026",
+                  "content": "WATCH ON YOUTUBE ↗",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 12,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.4
+                },
+                {
+                  "type": "text",
+                  "id": "o2GM6",
+                  "name": "Contact Mobile Video Bach Intro URL",
+                  "opacity": 0,
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "https://www.youtube.com/watch?v=cMOq9T46eBY",
+                  "lineHeight": 1.2,
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 8,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "FDt0x",
+              "name": "Contact Mobile Video Bach Practice",
+              "clip": true,
+              "width": "fill_container",
+              "height": 440,
+              "fill": "#FFF8EC",
+              "cornerRadius": 2,
+              "stroke": "#4A3026",
+              "layout": "vertical",
+              "gap": 12,
+              "padding": [
+                14,
+                14,
+                18,
+                14
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "NYHSa",
+                  "name": "Contact Mobile Video Bach Practice Thumbnail",
+                  "width": "fill_container",
+                  "height": 246,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "pen-assets/contact/youtube-bach-practice-hlusAJ9v_vI.jpg",
+                    "mode": "contain"
+                  },
+                  "stroke": "#4A3026",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Wa2xV",
+                      "name": "Contact Mobile Video Bach Practice Play",
+                      "width": 56,
+                      "height": 56,
+                      "fill": "#7B2D32",
+                      "cornerRadius": 28,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "c0KDr",
+                          "name": "Contact Mobile Video Bach Practice Play Icon",
+                          "fill": "#FFF8EC",
+                          "content": "▶",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 22,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "ogn7p",
+                  "name": "Contact Mobile Video Bach Practice Tag",
+                  "fill": "#7B2D32",
+                  "content": "BACH / TEACHING",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 10,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.7
+                },
+                {
+                  "type": "text",
+                  "id": "lhvE7",
+                  "name": "Contact Mobile Video Bach Practice Title",
+                  "fill": "#2C211C",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "[瘋鋼琴]巴哈初步講解練習方法及詮釋要點。以第一冊No.15 為例 。最後學生示範演奏",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 17,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "CIksA",
+                  "name": "Contact Mobile Video Bach Practice Link",
+                  "fill": "#4A3026",
+                  "content": "WATCH ON YOUTUBE ↗",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 12,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.4
+                },
+                {
+                  "type": "text",
+                  "id": "kqsuf",
+                  "name": "Contact Mobile Video Bach Practice URL",
+                  "opacity": 0,
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "https://www.youtube.com/watch?v=hlusAJ9v_vI",
+                  "lineHeight": 1.2,
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 8,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "Y89t1",
+              "name": "Contact Mobile Channel Link",
+              "fill": "#D7A62C",
+              "content": "YOUTUBE｜瘋鋼琴  →  @CRAZYPIANO5945",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 11,
+              "fontWeight": "700",
+              "letterSpacing": 0.3
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "JUqZ9",
+          "name": "Contact Mobile — Contact Form",
+          "width": "fill_container",
+          "height": 1310,
+          "fill": "#FFF8EC",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            50,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "x8qryF",
+              "name": "Contact Mobile Form Kicker",
+              "fill": "#7B2D32",
+              "content": "06 — CONTACT FORM",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 10,
+              "fontWeight": "700",
+              "letterSpacing": 0.8
+            },
+            {
+              "type": "text",
+              "id": "pbg0Y",
+              "name": "Contact Mobile Form Title",
+              "fill": "#2C211C",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "把你的情況\n簡單告訴我。",
+              "lineHeight": 1.3,
+              "fontFamily": "Noto Serif TC",
+              "fontSize": 29,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "eOppL",
+              "name": "Contact Mobile Form Body",
+              "fill": "#4A3026",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "目前為設計預覽。正式網站需要在 Next.js 開發階段串接表單後端，才會真正送出。",
+              "lineHeight": 1.7,
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 17,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "Fkoss",
+              "name": "Mobile Contact Form Name",
+              "width": "fill_container",
+              "height": 92,
+              "fill": "#FFF8EC",
+              "cornerRadius": 2,
+              "stroke": "#4A3026",
+              "layout": "vertical",
+              "gap": 12,
+              "padding": [
+                17,
+                18
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "hsXrv",
+                  "name": "Mobile Contact Form Name Label",
+                  "fill": "#4A3026",
+                  "content": "NAME／姓名",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.8
+                },
+                {
+                  "type": "text",
+                  "id": "xaTkD",
+                  "name": "Mobile Contact Form Name Placeholder",
+                  "fill": "#806A5D",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "你的姓名",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "oQUKP",
+              "name": "Mobile Contact Form Email",
+              "width": "fill_container",
+              "height": 92,
+              "fill": "#FFF8EC",
+              "cornerRadius": 2,
+              "stroke": "#4A3026",
+              "layout": "vertical",
+              "gap": 12,
+              "padding": [
+                17,
+                18
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "dRbe9",
+                  "name": "Mobile Contact Form Email Label",
+                  "fill": "#4A3026",
+                  "content": "EMAIL",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.8
+                },
+                {
+                  "type": "text",
+                  "id": "CMyh2",
+                  "name": "Mobile Contact Form Email Placeholder",
+                  "fill": "#806A5D",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "name@example.com",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Vy5IG",
+              "name": "Mobile Contact Form Location",
+              "width": "fill_container",
+              "height": 92,
+              "fill": "#FFF8EC",
+              "cornerRadius": 2,
+              "stroke": "#4A3026",
+              "layout": "vertical",
+              "gap": 12,
+              "padding": [
+                17,
+                18
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "OVDLG",
+                  "name": "Mobile Contact Form Location Label",
+                  "fill": "#4A3026",
+                  "content": "LOCATION／所在地區",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.8
+                },
+                {
+                  "type": "text",
+                  "id": "Pu07A",
+                  "name": "Mobile Contact Form Location Placeholder",
+                  "fill": "#806A5D",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Taiwan / North America / Other Asia",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "lV0Wa",
+              "name": "Mobile Contact Form Age",
+              "width": "fill_container",
+              "height": 92,
+              "fill": "#FFF8EC",
+              "cornerRadius": 2,
+              "stroke": "#4A3026",
+              "layout": "vertical",
+              "gap": 12,
+              "padding": [
+                17,
+                18
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "UbE1l",
+                  "name": "Mobile Contact Form Age Label",
+                  "fill": "#4A3026",
+                  "content": "AGE／年齡",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.8
+                },
+                {
+                  "type": "text",
+                  "id": "U1ocF",
+                  "name": "Mobile Contact Form Age Placeholder",
+                  "fill": "#806A5D",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "學生年齡",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ggIqz",
+              "name": "Mobile Contact Form Level",
+              "width": "fill_container",
+              "height": 92,
+              "fill": "#FFF8EC",
+              "cornerRadius": 2,
+              "stroke": "#4A3026",
+              "layout": "vertical",
+              "gap": 12,
+              "padding": [
+                17,
+                18
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "bmdLT",
+                  "name": "Mobile Contact Form Level Label",
+                  "fill": "#4A3026",
+                  "content": "CURRENT LEVEL／目前程度",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.8
+                },
+                {
+                  "type": "text",
+                  "id": "HtqDa",
+                  "name": "Mobile Contact Form Level Placeholder",
+                  "fill": "#806A5D",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "第一次學／以前學過／已有基礎",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "uxU2D",
+              "name": "Mobile Contact Form Learn",
+              "width": "fill_container",
+              "height": 92,
+              "fill": "#FFF8EC",
+              "cornerRadius": 2,
+              "stroke": "#4A3026",
+              "layout": "vertical",
+              "gap": 12,
+              "padding": [
+                17,
+                18
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ygcaM",
+                  "name": "Mobile Contact Form Learn Label",
+                  "fill": "#4A3026",
+                  "content": "WHAT WOULD YOU LIKE TO LEARN?／想學什麼？",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.8
+                },
+                {
+                  "type": "text",
+                  "id": "r4UVSO",
+                  "name": "Mobile Contact Form Learn Placeholder",
+                  "fill": "#806A5D",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "古典、流行、ABRSM、比賽、特定曲目",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "hKlPH",
+              "name": "Mobile Contact Form Message",
+              "width": "fill_container",
+              "height": 128,
+              "fill": "#FFF8EC",
+              "cornerRadius": 2,
+              "stroke": "#4A3026",
+              "layout": "vertical",
+              "gap": 12,
+              "padding": [
+                17,
+                18
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "TRQPE",
+                  "name": "Mobile Contact Form Message Label",
+                  "fill": "#4A3026",
+                  "content": "MESSAGE／補充訊息",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.8
+                },
+                {
+                  "type": "text",
+                  "id": "RBXsX",
+                  "name": "Mobile Contact Form Message Placeholder",
+                  "fill": "#806A5D",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "還有什麼希望老師先知道的嗎？",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "SVRkg",
+              "name": "Contact Mobile Send Button",
+              "height": 54,
+              "fill": "#D85C2F",
+              "cornerRadius": 3,
+              "gap": 10,
+              "padding": [
+                14,
+                20
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "aPBqS",
+                  "name": "Contact Mobile Send Button EN",
+                  "fill": "#FFF8EC",
+                  "content": "SEND INQUIRY",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 13,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "zFwcW",
+                  "name": "Contact Mobile Send Button ZH",
+                  "fill": "#FFF8EC",
+                  "content": "送出詢問",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "lZ5FJ",
+              "name": "Contact Mobile Form Note",
+              "width": "fill_container",
+              "height": 112,
+              "fill": "#48634B",
+              "layout": "vertical",
+              "gap": 7,
+              "padding": [
+                16,
+                18
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ntjAp",
+                  "name": "Contact Mobile Form Note EN",
+                  "fill": "#FFF8EC",
+                  "content": "IMPLEMENTATION NOTE",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 10,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.7
+                },
+                {
+                  "type": "text",
+                  "id": "kOySx",
+                  "name": "Contact Mobile Form Note Text",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Form backend required during Next.js development.",
+                  "lineHeight": 1.4,
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "Ex246",
+                  "name": "Contact Mobile Form Disabled Note",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "目前尚未連接寄信功能",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ahK4k",
+          "name": "Contact Mobile — What Happens Next",
+          "width": "fill_container",
+          "height": 850,
+          "fill": "#F7EBD5",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            50,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "dyhrK",
+              "name": "Contact Mobile Next Kicker",
+              "fill": "#4A3026",
+              "content": "07 — WHAT HAPPENS NEXT",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 10,
+              "fontWeight": "700",
+              "letterSpacing": 0.8
+            },
+            {
+              "type": "text",
+              "id": "N3z9w",
+              "name": "Contact Mobile Next Title",
+              "fill": "#2C211C",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "聯絡之後呢？",
+              "lineHeight": 1.3,
+              "fontFamily": "Noto Serif TC",
+              "fontSize": 29,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "t3FrR",
+              "name": "Mobile Contact Step One",
+              "width": "fill_container",
+              "height": 220,
+              "fill": "#D7A62C",
+              "cornerRadius": 2,
+              "stroke": "#4A3026",
+              "layout": "vertical",
+              "gap": 14,
+              "padding": [
+                26,
+                24
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "TWD3A",
+                  "name": "Mobile Contact Step One EN",
+                  "fill": "#4A3026",
+                  "content": "01 — TELL ME ABOUT YOU",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "m9Y7z",
+                  "name": "Mobile Contact Step One ZH",
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "告訴我目前狀況",
+                  "lineHeight": 1.3,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 23,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "N4FZjB",
+                  "name": "Mobile Contact Step One Body",
+                  "fill": "#4A3026",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "年齡、程度、所在地區與想學的內容",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "X5PPHm",
+              "name": "Mobile Contact Step Two",
+              "width": "fill_container",
+              "height": 220,
+              "fill": "#D85C2F",
+              "cornerRadius": 2,
+              "stroke": "#FFF8EC",
+              "layout": "vertical",
+              "gap": 14,
+              "padding": [
+                26,
+                24
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "WLOeB",
+                  "name": "Mobile Contact Step Two EN",
+                  "fill": "#FFF8EC",
+                  "content": "02 — CONFIRM DIRECTION",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "wsJpf",
+                  "name": "Mobile Contact Step Two ZH",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "確認課程方向與費用",
+                  "lineHeight": 1.3,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 23,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "Aq8oi",
+                  "name": "Mobile Contact Step Two Body",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "依需求確認適合的學習方式",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "I7w4b",
+              "name": "Mobile Contact Step Three",
+              "width": "fill_container",
+              "height": 220,
+              "fill": "#48634B",
+              "cornerRadius": 2,
+              "stroke": "#FFF8EC",
+              "layout": "vertical",
+              "gap": 14,
+              "padding": [
+                26,
+                24
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "cYZsw",
+                  "name": "Mobile Contact Step Three EN",
+                  "fill": "#FFF8EC",
+                  "content": "03 — BOOK A TRIAL",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "xTUWG",
+                  "name": "Mobile Contact Step Three ZH",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "安排 50 分鐘試上",
+                  "lineHeight": 1.3,
+                  "fontFamily": "Noto Serif TC",
+                  "fontSize": 23,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "IrZnQ",
+                  "name": "Mobile Contact Step Three Body",
+                  "fill": "#FFF8EC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "完整體驗實際的課程內容",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "fvP2X",
+          "name": "Contact Mobile — Final CTA",
+          "width": "fill_container",
+          "height": 560,
+          "fill": "#7B2D32",
+          "layout": "vertical",
+          "gap": 22,
+          "padding": [
+            50,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "NjJNr",
+              "name": "Contact Mobile CTA Kicker",
+              "fill": "#FFF8EC",
+              "content": "08 — START HERE",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 10,
+              "fontWeight": "700",
+              "letterSpacing": 0.8
+            },
+            {
+              "type": "text",
+              "id": "Ubzle",
+              "name": "Contact Mobile CTA Title",
+              "fill": "#FFF8EC",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "從你現在的位置\n開始就好。",
+              "lineHeight": 1.25,
+              "fontFamily": "Noto Serif TC",
+              "fontSize": 31,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "I03pUV",
+              "name": "Contact Mobile CTA Body",
+              "fill": "#FFF8EC",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "第一次學、重新開始、準備檢定，或只是有一首一直很想彈的歌，都可以先聊聊。",
+              "lineHeight": 1.7,
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 17,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "fsLsp",
+              "name": "Contact Mobile CTA Button",
+              "height": 54,
+              "fill": "#D7A62C",
+              "cornerRadius": 3,
+              "gap": 10,
+              "padding": [
+                14,
+                20
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "DeQp8",
+                  "name": "Contact Mobile CTA Button EN",
+                  "fill": "#4A3026",
+                  "content": "BOOK A TRIAL LESSON",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 13,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "Bj0hG",
+                  "name": "Contact Mobile CTA Button ZH",
+                  "fill": "#4A3026",
+                  "content": "預約試課",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 16,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "eK0nq",
+              "name": "Contact Mobile CTA Quote",
+              "fill": "#D7A62C",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "No pressure. Just music.",
+              "lineHeight": 1.3,
+              "textAlign": "center",
+              "fontFamily": "Playfair Display",
+              "fontSize": 20,
+              "fontWeight": "700"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "wuT9G",
+          "name": "Contact Mobile Footer",
+          "width": "fill_container",
+          "fill": "$cp-coffee",
+          "stroke": "#00000000",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            34,
+            20,
+            28,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "rZP6N",
+              "name": "Footer Brand",
+              "fill": "$cp-paper",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "CRAZY PIANO\n瘋鋼琴",
+              "lineHeight": 1.05,
+              "fontFamily": "Noto Serif TC",
+              "fontSize": 30,
+              "fontWeight": "700",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "text",
+              "id": "PrJSu",
+              "name": "Footer Tagline",
+              "fill": "$cp-paper",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Play it your way.",
+              "lineHeight": 1.4,
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 17,
+              "fontWeight": "normal",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "frame",
+              "id": "EqzFK",
+              "name": "Footer Link Groups",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "stroke": "#00000000",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "tS4Rz",
+                  "name": "Footer Group QUICK LINKS",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "stroke": "#00000000",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "nDla9",
+                      "name": "Footer QUICK LINKS Heading",
+                      "fill": "$cp-mustard",
+                      "content": "QUICK LINKS",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.8
+                    },
+                    {
+                      "type": "text",
+                      "id": "v9L0j",
+                      "name": "Footer QUICK LINKS",
+                      "fill": "$cp-paper",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "About　Lessons　YouTube\nContact　中文 / English",
+                      "lineHeight": 1.75,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 16,
+                      "fontWeight": "normal",
+                      "letterSpacing": 0.5
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "S6SiIL",
+              "name": "Footer Copyright",
+              "fill": "$cp-line",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "© 2026 CRAZY PIANO / DR. HSU. ALL RIGHTS RESERVED.",
+              "lineHeight": 1.5,
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "letterSpacing": 0.3
+            }
+          ]
+        }
+      ]
     }
   ],
   "themes": {

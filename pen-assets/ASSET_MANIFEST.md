@@ -52,6 +52,10 @@ Original source files remain in place. The files in this directory are copies us
 | gallery | `gallery/gallery-performance-editorial-piano-reflection.jpg` | `D:\CrazyPiano\source-materials\gallery\performace\S__33955846_0.jpg` |
 | gallery | `gallery/gallery-judging-event-portrait.jpg` | `D:\CrazyPiano\source-materials\gallery\judging\S__33955854_0.jpg` |
 | gallery | `gallery/gallery-judging-live-session.jpg` | `D:\CrazyPiano\source-materials\gallery\judging\CEC123BD-A49F-4C27-918A-8EB2A1C76C82.jpg` |
+| contact | `contact/line-add-friend-qr.jpeg` | `D:\CrazyPiano\source-materials\contact\line-Qr.jpeg` (copied without cropping, rotation, recoloring, filters, or distortion) |
+| contact | `contact/youtube-scales-khoVWNOrBEU.jpg` | Official YouTube thumbnail for `https://www.youtube.com/watch?v=khoVWNOrBEU` |
+| contact | `contact/youtube-bach-introduction-cMOq9T46eBY.jpg` | Official YouTube thumbnail for `https://www.youtube.com/watch?v=cMOq9T46eBY` |
+| contact | `contact/youtube-bach-practice-hlusAJ9v_vI.jpg` | Official YouTube thumbnail for `https://www.youtube.com/watch?v=hlusAJ9v_vI` |
 
 The adapted score image is currently usable in the design, but the source still contains visible editing-selection marks. Replace it with a cleaner official export when available, keeping the same canonical asset filename.
 

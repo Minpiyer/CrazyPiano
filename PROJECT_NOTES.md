@@ -9,3 +9,5 @@
   - YouTube：瘋鋼琴
   - Trial Lesson：50 minutes
   - Trial fee：與正式單堂相同
+  - Implementation：LINE add-friend URL needed for implementation
+  - Implementation：Form backend required during Next.js development
