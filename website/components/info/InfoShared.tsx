@@ -2,13 +2,12 @@ import Link from "next/link";
 import type { ReactNode } from "react";
 import { routes } from "@/data/site";
 
-export function InfoHero({ eyebrow, title, intro, variant, children, ctaHref = routes.contact }: {
+export function InfoHero({ eyebrow, title, intro, variant, children }: {
   eyebrow: string;
   title: ReactNode;
   intro: string;
   variant: "fees" | "faq" | "contact";
   children: ReactNode;
-  ctaHref?: string;
 }) {
   return (
     <section className={`info-hero info-hero-${variant}`}>
@@ -18,7 +17,7 @@ export function InfoHero({ eyebrow, title, intro, variant, children, ctaHref = r
           <p className="eyebrow">{eyebrow}</p>
           <h1>{title}</h1>
           <p>{intro}</p>
-          <Link className="button button-burgundy" href={ctaHref}>Book a Trial Lesson／預約試課</Link>
+          <Link className="button button-burgundy" href={routes.contact}>Book a Trial Lesson／預約試課</Link>
         </div>
         <div className="info-hero-art" aria-hidden="true">{children}</div>
       </div>

@@ -19,7 +19,7 @@ const firstContact = ["姓名", "年齡", "所在地區", "目前程度", "想�
 export default function ContactPage() {
   return (
     <main id="main-content" className="info-page contact-page">
-      <InfoHero eyebrow="CONTACT / BOOK A LESSON" title={<>先告訴我，<br />你想彈什麼。</>} intro="不需要先知道自己適合哪一種課程。告訴我目前程度、所在地區與想學的內容，再一起確認適合的方式。" variant="contact" ctaHref="#contact-form">
+      <InfoHero eyebrow="CONTACT / BOOK A LESSON" title={<>先告訴我，<br />你想彈什麼。</>} intro="不需要先知道自己適合哪一種課程。告訴我目前程度、所在地區與想學的內容，再一起確認適合的方式。" variant="contact">
         <div className="contact-hero-note"><span>HELLO,</span><strong>LET&apos;S<br />MAKE MUSIC.</strong><em>No pressure. Just music.</em></div>
       </InfoHero>
 
