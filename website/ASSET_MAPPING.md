@@ -48,9 +48,20 @@ The Gallery page uses the approved editorial selection copied from `pen-assets/g
 
 Gallery posture video destination: `https://www.youtube.com/watch?v=BBhqRfK0UZU&t=114s`. The timestamp is intentionally preserved and the card opens YouTube without autoplay.
 
+## Contact assets
+
+| Website path | Design source | Usage |
+| --- | --- | --- |
+| `public/images/contact/line-add-friend-qr.jpeg` | `pen-assets/contact/line-add-friend-qr.jpeg` | Official LINE add-friend QR; preserve full image without crop, rotation, distortion, recoloring, or filters |
+| `public/images/contact/youtube-scales-khoVWNOrBEU.jpg` | `pen-assets/contact/youtube-scales-khoVWNOrBEU.jpg` | Teaching Portfolio: scales / technique |
+| `public/images/contact/youtube-bach-introduction-cMOq9T46eBY.jpg` | `pen-assets/contact/youtube-bach-introduction-cMOq9T46eBY.jpg` | Teaching Portfolio: Bach / interpretation |
+| `public/images/contact/youtube-bach-practice-hlusAJ9v_vI.jpg` | `pen-assets/contact/youtube-bach-practice-hlusAJ9v_vI.jpg` | Teaching Portfolio: Bach / teaching |
+
 ## Production reminders
 
 - Do not reference `source-materials` from application code.
 - Confirm all `Public use permission required` entries in `PHOTO_USAGE_REVIEW.md` before production launch.
 - Homepage Hero teacher photo is the approved final design image.
 - `custom-example-01-custom.jpg` currently preserves the source preview's editing selection marks. Replace it with a clean formal export when available.
+- LINE add-friend URL is required before production launch. Do not publish or infer the LINE ID.
+- Contact form backend is required before production launch; the current form is intentionally non-submitting.
