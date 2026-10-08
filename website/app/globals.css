@@ -878,7 +878,8 @@ h2 { font-size: clamp(2.25rem, 4.2vw, 3.65rem); }
 .contact-youtube { background: var(--green); color: var(--paper); }
 .line-qr { max-width: 420px; margin: 0 auto 22px; padding: 14px; border: 1px solid var(--ink); background: white; }
 .line-qr img { width: 100%; height: auto; object-fit: contain; }
-.contact-line button { width: 100%; min-height: 50px; padding: 10px; border: 1.5px solid var(--ink); background: #e5ddd1; color: #695e56; font-weight: 800; cursor: not-allowed; }
+.line-add-friend { width: 100%; min-height: 50px; display: grid; place-items: center; padding: 10px; border: 1.5px solid var(--ink); background: var(--mustard); color: var(--ink); font-weight: 800; box-shadow: 3px 4px 0 var(--ink); transition: transform .15s ease, box-shadow .15s ease; }
+.line-add-friend:hover, .line-add-friend:focus-visible { transform: translate(-1px,-1px); box-shadow: 5px 6px 0 var(--ink); }
 .implementation-note { margin: 14px 0 0; font-family: var(--font-mono); font-size: .7rem; line-height: 1.6; }
 .contact-videos { background: var(--burgundy); color: var(--paper); }
 .contact-video-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 22px; }
@@ -898,8 +899,14 @@ h2 { font-size: clamp(2.25rem, 4.2vw, 3.65rem); }
 .contact-field input, .contact-field textarea { width: 100%; border: 1.5px solid var(--ink); border-radius: 0; background: var(--paper); color: var(--ink); padding: 14px 15px; }
 .contact-field input { min-height: 52px; }
 .contact-field textarea { resize: vertical; }
+.required-mark { color: var(--burgundy); }
+.contact-honeypot { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
 .contact-submit { margin-top: 28px; }
 .contact-submit:disabled { opacity: .62; cursor: not-allowed; transform: none; box-shadow: 3px 4px 0 var(--ink); }
+.contact-form-status { margin: 18px 0 0; padding: 12px 14px; border-left: 4px solid var(--green); background: var(--paper); font-size: 1rem; line-height: 1.55; }
+.contact-form-status.is-error { border-left-color: var(--burgundy); color: var(--burgundy); }
+.contact-form-status.is-success { border-left-color: var(--green); color: var(--green); font-weight: 800; }
+.contact-form-status:focus { outline: 2px solid var(--ink); outline-offset: 3px; }
 .contact-next { background: var(--mustard); }
 .contact-next-grid { display: grid; grid-template-columns: repeat(3,1fr); margin: 0; padding: 0; border: 1.5px solid var(--ink); list-style: none; }
 .contact-next-grid li { min-height: 280px; display: flex; flex-direction: column; padding: 28px; border-right: 1.5px solid var(--ink); }

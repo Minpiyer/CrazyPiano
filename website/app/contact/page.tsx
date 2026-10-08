@@ -37,7 +37,7 @@ export default function ContactPage() {
         <InfoHeading index="03" eyebrow="CONTACT OPTIONS" title="選一個最方便的方式聯絡。" />
         <div className="contact-option-grid">
           <article className="contact-option contact-email"><span>EMAIL</span><h3>一般課程與海外學生詢問</h3><a href="mailto:minpiyer@gmail.com">minpiyer@gmail.com ↗</a></article>
-          <article className="contact-option contact-line"><span>LINE</span><h3>掃描 QR Code 加好友</h3><div className="line-qr"><Image src="/images/contact/line-add-friend-qr.jpeg" alt="Crazy Piano LINE 加好友 QR Code" width={1206} height={882} sizes="(max-width: 767px) 88vw, 360px" /></div><button type="button" disabled aria-disabled="true">LINE／Add Friend — URL PENDING</button><p className="implementation-note">LINE add-friend URL required before production launch. LINE ID 不公開。</p></article>
+          <article className="contact-option contact-line"><span>LINE</span><h3>掃描 QR Code 加好友</h3><div className="line-qr"><Image src="/images/contact/line-add-friend-qr.jpeg" alt="Crazy Piano LINE 加好友 QR Code" width={1206} height={882} sizes="(max-width: 767px) 88vw, 360px" loading="eager" /></div><a className="line-add-friend" href="https://line.me/ti/p/dXFpD4P63M" target="_blank" rel="noopener noreferrer">LINE／Add Friend ↗</a><p className="implementation-note">手機瀏覽時可直接開啟 LINE；LINE ID 不公開。</p></article>
           <article className="contact-option contact-youtube"><span>YOUTUBE</span><h3>瘋鋼琴</h3><p>看看實際教學、演奏與教學影片。</p><a href="https://www.youtube.com/@crazypiano5945" target="_blank" rel="noreferrer">YouTube｜瘋鋼琴 ↗</a></article>
         </div>
       </div></section>
@@ -48,7 +48,7 @@ export default function ContactPage() {
       </div></section>
 
       <section className="info-section contact-form-section section-pad" id="contact-form"><div className="container-wide">
-        <InfoHeading index="05" eyebrow="CONTACT FORM" title="把目前的想法先寫下來。" intro={<p>表單介面已完成；正式上線前仍需連接後端服務。</p>} />
+        <InfoHeading index="05" eyebrow="CONTACT FORM" title="把目前的想法先寫下來。" intro={<p>填寫目前程度與想學的內容，訊息會直接寄給徐老師。</p>} />
         <ContactForm />
       </div></section>
 

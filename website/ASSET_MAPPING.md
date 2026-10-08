@@ -57,11 +57,12 @@ Gallery posture video destination: `https://www.youtube.com/watch?v=BBhqRfK0UZU&
 | `public/images/contact/youtube-bach-introduction-cMOq9T46eBY.jpg` | `pen-assets/contact/youtube-bach-introduction-cMOq9T46eBY.jpg` | Teaching Portfolio: Bach / interpretation |
 | `public/images/contact/youtube-bach-practice-hlusAJ9v_vI.jpg` | `pen-assets/contact/youtube-bach-practice-hlusAJ9v_vI.jpg` | Teaching Portfolio: Bach / teaching |
 
+The official QR decodes to `https://line.me/ti/p/dXFpD4P63M`. The Contact page uses this exact URL for the desktop/mobile Add Friend link without exposing a LINE ID.
+
 ## Production reminders
 
 - Do not reference `source-materials` from application code.
 - Confirm all `Public use permission required` entries in `PHOTO_USAGE_REVIEW.md` before production launch.
 - Homepage Hero teacher photo is the approved final design image.
 - `custom-example-01-custom.jpg` currently preserves the source preview's editing selection marks. Replace it with a clean formal export when available.
-- LINE add-friend URL is required before production launch. Do not publish or infer the LINE ID.
-- Contact form backend is required before production launch; the current form is intentionally non-submitting.
+- Contact form backend is implemented at `app/api/contact/route.ts` with the Resend SDK. Production delivery requires server-side `RESEND_API_KEY` and a verified sender in `CONTACT_FROM_EMAIL`; neither value belongs in source control.
