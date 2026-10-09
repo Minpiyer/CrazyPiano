@@ -65,7 +65,7 @@ export default function GalleryPage() {
           <EditorialHeading index="04" eyebrow="RECITAL" title="從課堂走上舞台。" intro={<p>舞台不是只有最後的結果，也包含準備、專注，以及在觀眾面前把音樂完整說完的經驗。</p>} />
           <div className="gallery-recital-grid">
             <EditorialPhoto src="/images/gallery/gallery-recital-student-solo-stage.jpg" alt="學生在舞台鋼琴前獨奏" label="SOLO PERFORMANCE" caption="從第一個音到最後一次呼吸，練習獨立完成演奏。" permission />
-            <EditorialPhoto src="/images/gallery/gallery-recital-teacher-students-group.jpg" alt="徐老師與學生在鋼琴發表會後合照" label="AFTER THE RECITAL" caption="每一次上台，都是長時間準備被看見的時刻。" permission />
+            <EditorialPhoto src="/images/gallery/music-activity-teacher-stage-talk.jpg" alt="徐老師在音樂活動舞台上與觀眾分享" label="RECITAL NOTES" caption="演出前後的說明與交流，也是完整音樂活動的一部分。" />
           </div>
         </div>
       </section>

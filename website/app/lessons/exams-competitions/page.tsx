@@ -51,9 +51,8 @@ export default function ExamsCompetitionsPage() {
       </div></section>
 
       <section className="lesson-section judge-experience section-pad"><div className="container-wide">
-        <LessonImageBlock image="/images/lessons/exams-competition-judging-2023.jpg" alt="徐老師參與音樂檢定相關評審活動" label="06 — JUDGE / TEACHER EXPERIENCE" title={<>從演奏者，也從評審的角度<br />看音樂。</>} reverse>
-          <p>除了教學，也曾參與比賽或檢定相關評審工作。因此在準備時，不只從演奏者角度，也會注意評分要求與舞台呈現。</p>
-          <p className="permission-note">照片含未成年人：Public use permission required before production launch.</p>
+        <LessonImageBlock image="/images/gallery/music-activity-teacher-stage-talk.jpg" alt="徐老師在音樂活動舞台上分享教學與演奏經驗" label="06 — TEACHER EXPERIENCE" title={<>從演奏、教學與活動經驗<br />理解準備方向。</>} reverse>
+          <p>除了教學，也曾參與比賽或檢定相關評審工作。這張照片呈現音樂活動中的分享與交流；準備檢定與比賽時，則會結合演奏、教學與既有評審經驗，協助學生理解評分要求與舞台呈現。</p>
         </LessonImageBlock>
       </div></section>
 

@@ -142,12 +142,12 @@ export default function HomePage() {
 
       <section className="recital-gallery section-pad">
         <div className="container-wide">
-          <SectionHeading index="05" eyebrow="STUDENT RECITAL GALLERY" title={<>每一次上台，<br />都是勇氣被看見。</>} note="學生發表會、比賽與檢定紀錄。" />
+          <SectionHeading index="05" eyebrow="PERFORMANCE & RECITAL GALLERY" title={<>每一次上台，<br />都是勇氣被看見。</>} note="舞台演出、學習與音樂活動紀錄。" />
           <div className="gallery-collage" data-photo-permission="Public use permission required before production launch">
-            <figure className="gallery-main"><Image src="/images/gallery/hero-student-recital-group-2024.jpg" alt="學生發表會團體合照" fill sizes="(max-width: 767px) 92vw, 45vw" /></figure>
+            <figure className="gallery-main"><Image src="/images/gallery/homepage-performance-recital-stage.jpg" alt="徐老師在音樂廳舞台演奏平台鋼琴" fill sizes="(max-width: 767px) 92vw, 45vw" /></figure>
             <figure className="gallery-top"><Image src="/images/gallery/performance-young-student-piano-2024.jpg" alt="學生在舞台上演奏鋼琴" fill sizes="(max-width: 767px) 45vw, 24vw" /></figure>
             <figure className="gallery-bottom"><Image src="/images/gallery/performance-teen-student-piano-2024.jpg" alt="學生發表會鋼琴演奏" fill sizes="(max-width: 767px) 45vw, 24vw" /></figure>
-            <figure className="gallery-side"><Image src="/images/gallery/competition-judging-students-certificates-2023.jpg" alt="音樂活動與學生合照" fill sizes="(max-width: 767px) 45vw, 22vw" /></figure>
+            <figure className="gallery-side"><Image src="/images/gallery/music-activity-teacher-stage-talk.jpg" alt="徐老師在音樂活動舞台上分享演奏與學習經驗" fill sizes="(max-width: 767px) 45vw, 22vw" /></figure>
             <blockquote className="gallery-note"><small>RECITAL NOTES</small>不是完美才值得掌聲，<br />是努力本身就值得。</blockquote>
           </div>
           <Link className="text-link" href={routes.gallery}>VIEW ALL STORIES →</Link>

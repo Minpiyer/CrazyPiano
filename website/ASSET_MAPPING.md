@@ -17,7 +17,7 @@ The source assets remain unchanged.
 | `public/images/lessons/kids-piano-student-2024.jpg` | `pen-assets/lessons/kids-piano-student-2024.jpg` | Kids Piano Lessons hero and teaching block |
 | `public/images/lessons/adult-piano-teacher.png` | `pen-assets/lessons/adult-piano-teacher.png` | Adult Piano Lessons hero and teaching block |
 | `public/images/lessons/exams-hero-teacher.png` | `pen-assets/lessons/exams-hero-teacher.png` | Exams & Competitions hero |
-| `public/images/lessons/exams-competition-judging-2023.jpg` | `pen-assets/lessons/exams-competition-judging-2023.jpg` | Judge / Teacher Experience block |
+| `public/images/gallery/music-activity-teacher-stage-talk.jpg` | `source-materials/gallery/recital/S__33955862_0.jpg` | Exams Teacher Experience block; neutral music-activity context, not presented as a judging-session photograph |
 | `public/images/lessons/custom-example-01-difficult.jpg` | `pen-assets/lessons/custom-example-01-original.jpg` | Difficult score preview; website copy labels it 困難版 |
 | `public/images/lessons/custom-example-01-custom.jpg` | `pen-assets/lessons/custom-example-01-adapted.jpg` | Custom score preview; website copy labels it 客製版 |
 
@@ -39,12 +39,25 @@ The Gallery page uses the approved editorial selection copied from `pen-assets/g
 - `gallery-posture-child-hand-position.jpg`
 - `gallery-posture-video-preview.jpg`
 - `gallery-recital-student-solo-stage.jpg`
-- `gallery-recital-teacher-students-group.jpg`
+- `music-activity-teacher-stage-talk.jpg`
 - `gallery-performance-teacher-studio-piano.jpg`
 - `gallery-performance-teacher-recital-hall.jpg`
 - `gallery-performance-editorial-piano-reflection.jpg`
 - `gallery-judging-event-portrait.jpg`
 - `gallery-judging-live-session.jpg`
+
+## Production photo replacements — 2026-10-10
+
+The source files remain unchanged. Only the production-safe website copies below are referenced at runtime.
+
+| Removed production asset | New production asset | Source path | Replacement reason | Permission-risk reduction |
+| --- | --- | --- | --- | --- |
+| `public/images/gallery/hero-student-recital-group-2024.jpg` | `public/images/gallery/homepage-performance-recital-stage.jpg` | `source-materials/gallery/performace/S__33955852_0.jpg` | Replace the multi-student Homepage gallery hero with a neutral teacher performance image | Removes a group photo containing about ten identifiable minors from the deployed website |
+| `public/images/gallery/gallery-recital-teacher-students-group.jpg` | `public/images/gallery/music-activity-teacher-stage-talk.jpg` | `source-materials/gallery/recital/S__33955862_0.jpg` | Preserve the recital/activity narrative while making the teacher the principal identifiable subject | Removes a two-child group portrait; remaining audience details are low-identifiability |
+| `public/images/gallery/competition-judging-students-certificates-2023.jpg` | `public/images/gallery/music-activity-teacher-stage-talk.jpg` | `source-materials/gallery/recital/S__33955862_0.jpg` | Replace the Homepage certificate group with neutral music-activity context | Removes four identifiable minors and visible certificates |
+| `public/images/lessons/exams-competition-judging-2023.jpg` | `public/images/gallery/music-activity-teacher-stage-talk.jpg` | `source-materials/gallery/recital/S__33955862_0.jpg` | Present teacher/activity experience without implying that this photograph documents a judging session | Removes the route-specific alias of the same four-student certificate image |
+
+`public/images/gallery/gallery-judging-live-session.jpg` is intentionally retained for now and remains **REPLACEMENT STILL REQUIRED BEFORE PUBLIC LAUNCH**.
 
 Gallery posture video destination: `https://www.youtube.com/watch?v=BBhqRfK0UZU&t=114s`. The timestamp is intentionally preserved and the card opens YouTube without autoplay.
 
