@@ -19,7 +19,16 @@ The source assets remain unchanged.
 | `public/images/lessons/exams-hero-teacher.png` | `pen-assets/lessons/exams-hero-teacher.png` | Exams & Competitions hero |
 | `public/images/gallery/music-activity-teacher-stage-talk.jpg` | `source-materials/gallery/recital/S__33955862_0.jpg` | Exams Teacher Experience block; neutral music-activity context, not presented as a judging-session photograph |
 | `public/images/lessons/custom-example-01-difficult.jpg` | `pen-assets/lessons/custom-example-01-original.jpg` | Difficult score preview; website copy labels it 困難版 |
-| `public/images/lessons/custom-example-01-custom.jpg` | `pen-assets/lessons/custom-example-01-adapted.jpg` | Custom score preview; website copy labels it 客製版 |
+| `public/images/lessons/custom-example-01-custom.jpg` | `source-materials/custom-arrangements/example-01/custom-example-01-custom-clean.jpg` | Clean, production-safe Custom score preview; website copy labels it 客製版 |
+
+### Custom Scores clean preview — resolved 2026-10-11
+
+- Clean source: `source-materials/custom-arrangements/example-01/custom-example-01-custom-clean.jpg`
+- Production preview: `public/images/lessons/custom-example-01-custom.jpg`
+- Retired source: `source-materials/custom-arrangements/example-01/adapted.jpg`; the prior website copy showed orange selected notes, a blue cursor, gray control points, and an active editing selection.
+- Processing is deterministic only: proportional downscaling to `1280 × 1260`, JPEG preview compression, and three low-opacity diagonal `Crazy Piano / Sample` watermarks. No notes, text, rhythm, or musical content were redrawn or generated.
+- The source file remains unchanged. The public page provides no PDF, original editing file, full-resolution source, or score-download control.
+- Production blocker status: **RESOLVED**.
 
 ## About assets
 
@@ -77,5 +86,5 @@ The official QR decodes to `https://line.me/ti/p/dXFpD4P63M`. The Contact page u
 - Do not reference `source-materials` from application code.
 - Confirm all `Public use permission required` entries in `PHOTO_USAGE_REVIEW.md` before production launch.
 - Homepage Hero teacher photo is the approved final design image.
-- `custom-example-01-custom.jpg` currently preserves the source preview's editing selection marks. Replace it with a clean formal export when available.
+- Custom Scores clean preview blocker is **RESOLVED**. Keep the production preview watermarked and do not expose the clean full-resolution source or a score-download link.
 - Contact form backend is implemented at `app/api/contact/route.ts` with the Resend SDK. Production delivery requires server-side `RESEND_API_KEY` and a verified sender in `CONTACT_FROM_EMAIL`; neither value belongs in source control.
