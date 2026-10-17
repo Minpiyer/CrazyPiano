@@ -23,7 +23,7 @@ const faq = [
 export default function ExamsCompetitionsPage() {
   return (
     <main className="lesson-page lesson-page-exams" id="main-content">
-      <LessonHero eyebrow="EXAMS & COMPETITIONS／檢定與比賽" title={<>目標不同，<br />準備的方法也不同。</>} intro="依照不同檢定、比賽、曲目與準備時間，重新安排技術、音樂表現與練習方向。" core="不是只把曲子彈完，而是依照不同檢定與比賽的要求，設定真正需要完成的目標。" image="/images/lessons/exams-hero-teacher.png" imageAlt="徐老師在鋼琴前演奏與示範" variant="exams" badge={<><strong>ABRSM</strong><span>Grade 8 coaching</span></>} facts={["ABRSM 輔導經驗", "比賽／檢定準備", "演奏者 × 評審視角"]} />
+      <LessonHero eyebrow="EXAMS & COMPETITIONS／檢定與比賽" title={<>目標不同，<br />準備的方法也不同。</>} intro="依照不同檢定、比賽、曲目與準備時間，重新安排技術、音樂表現與練習方向。" core="不是只把曲子彈完，而是依照不同檢定與比賽的要求，設定真正需要完成的目標。" image="/images/lessons/exams-competition-ai-scene.png" imageAlt="鋼琴比賽活動場景的 AI 情境示意" imageNote="AI 情境示意" variant="exams" badge={<><strong>ABRSM</strong><span>Grade 8 coaching</span></>} facts={["ABRSM 輔導經驗", "比賽／檢定準備", "演奏者 × 評審視角"]} />
 
       <section className="lesson-section lesson-audience section-pad" id="lesson-overview"><div className="container-wide">
         <LessonHeading index="01" eyebrow="WHAT ARE YOU PREPARING FOR" title="先釐清這次真正要準備什麼。" intro="不同制度、舞台與時間條件，需要不同的練習配置。" />

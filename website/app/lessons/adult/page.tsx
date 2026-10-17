@@ -23,7 +23,7 @@ const faq = [
 export default function AdultPianoLessonsPage() {
   return (
     <main className="lesson-page lesson-page-adult" id="main-content">
-      <LessonHero eyebrow="ADULT PIANO LESSONS／成人鋼琴課" title={<>從你真正想彈的<br />音樂開始。</>} intro="不論零基礎、重新開始，或只是想完成一直很想彈的一首曲子，課程都可以依目前程度重新規劃。" core="成人學鋼琴，不需要重新走一條制式的路。課程可以從你現在的位置，以及你真正想彈的音樂開始。" image="/images/lessons/adult-piano-teacher.png" imageAlt="徐老師演奏鋼琴" variant="adult" badge={<><strong>START HERE</strong><span>從現在的位置</span></>} facts={["Beginner friendly", "Classical + Pop", "個人化學習路線"]} />
+      <LessonHero eyebrow="ADULT PIANO LESSONS／成人鋼琴課" title={<>從你真正想彈的<br />音樂開始。</>} intro="不論零基礎、重新開始，或只是想完成一直很想彈的一首曲子，課程都可以依目前程度重新規劃。" core="成人學鋼琴，不需要重新走一條制式的路。課程可以從你現在的位置，以及你真正想彈的音樂開始。" image="/images/lessons/adult-piano-lesson-ai.jpeg" imageAlt="成人在鋼琴前練習的 AI 情境示意" imageNote="AI 情境示意" variant="adult" badge={<><strong>START HERE</strong><span>從現在的位置</span></>} facts={["Beginner friendly", "Classical + Pop", "個人化學習路線"]} />
 
       <section className="lesson-section lesson-audience section-pad" id="lesson-overview"><div className="container-wide">
         <LessonHeading index="01" eyebrow="WHO IT'S FOR" title="不同背景，都可以找到自己的起點。" intro="成人學生的經驗差異很大；課程先理解你現在在哪裡，再決定下一步。" />

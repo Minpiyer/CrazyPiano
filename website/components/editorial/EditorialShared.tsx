@@ -29,7 +29,6 @@ export function EditorialHero({ eyebrow, title, intro, quote, image, imageAlt, v
         <div className="editorial-hero-visual">
           <div className="editorial-hero-image"><Image src={image} alt={imageAlt} fill preload sizes="(max-width: 900px) 92vw, 43vw" /></div>
           <div className="editorial-hero-badge">{badge}</div>
-          <span className="editorial-hero-circle" aria-hidden="true" />
         </div>
       </div>
     </section>

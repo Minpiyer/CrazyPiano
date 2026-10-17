@@ -15,8 +15,10 @@ The source assets remain unchanged.
 | Website path | Design source | Usage |
 | --- | --- | --- |
 | `public/images/lessons/kids-piano-student-2024.jpg` | `pen-assets/lessons/kids-piano-student-2024.jpg` | Kids Piano Lessons hero and teaching block |
-| `public/images/lessons/adult-piano-teacher.png` | `pen-assets/lessons/adult-piano-teacher.png` | Adult Piano Lessons hero and teaching block |
-| `public/images/lessons/exams-hero-teacher.png` | `pen-assets/lessons/exams-hero-teacher.png` | Exams & Competitions hero |
+| `public/images/lessons/adult-piano-teacher.png` | `pen-assets/lessons/adult-piano-teacher.png` | Adult Piano Lessons teaching block |
+| `public/images/lessons/adult-piano-lesson-ai.jpeg` | `photo-candidates/adult/adult-piano-lesson.jpeg` | Adult Piano Lessons hero; AI-generated scene, labeled `AI 情境示意` |
+| `public/images/lessons/exams-hero-teacher.png` | `pen-assets/lessons/exams-hero-teacher.png` | Previous Exams & Competitions hero; retained in assets but no longer referenced |
+| `public/images/lessons/exams-competition-ai-scene.png` | `photo-candidates/exams-competitions/piano-achievement.png` | Exams & Competitions hero; AI-generated activity scene, labeled `AI 情境示意`; does not represent a real award recipient or organizer endorsement |
 | `public/images/gallery/music-activity-teacher-stage-talk.jpg` | `source-materials/gallery/recital/S__33955862_0.jpg` | Exams Teacher Experience block; neutral music-activity context, not presented as a judging-session photograph |
 | `public/images/lessons/custom-example-01-difficult.jpg` | `pen-assets/lessons/custom-example-01-original.jpg` | Difficult score preview; website copy labels it 困難版 |
 | `public/images/lessons/custom-example-01-custom.jpg` | `source-materials/custom-arrangements/example-01/custom-example-01-custom-clean.jpg` | Clean, production-safe Custom score preview; website copy labels it 客製版 |

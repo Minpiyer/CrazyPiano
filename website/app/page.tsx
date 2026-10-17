@@ -62,7 +62,6 @@ export default function HomePage() {
             <div className="doctorate-sticker" aria-label="Doctor of Musical Arts 2018">
               <strong>DOCTOR OF</strong><span>MUSICAL ARTS • 2018</span>
             </div>
-            <div className="hero-circle" aria-hidden="true" />
           </div>
         </div>
         <div className="credential-ticker" aria-label="教師資歷">

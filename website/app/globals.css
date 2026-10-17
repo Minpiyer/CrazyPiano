@@ -114,7 +114,6 @@ h2 { font-size: clamp(2.25rem, 4.2vw, 3.65rem); }
 .doctorate-sticker { position: absolute; right: -16px; top: 0; width: 175px; aspect-ratio: 1.85; display: grid; place-content: center; text-align: center; border: 2px solid var(--ink); border-radius: 50%; background: var(--paper); transform: rotate(5deg); font-family: var(--font-mono); }
 .doctorate-sticker strong { font-size: 0.86rem; }
 .doctorate-sticker span { font-size: 0.68rem; }
-.hero-circle { position: absolute; width: 160px; height: 160px; left: 0; bottom: 2px; border: 2px solid var(--ink); border-radius: 50%; background: rgba(247, 235, 213, 0.42); }
 .credential-ticker { min-height: 70px; display: grid; grid-template-columns: repeat(4, 1fr); align-items: center; gap: 20px; padding: 15px max(40px, calc((100vw - 1320px) / 2)); background: var(--burgundy); color: var(--paper); font-family: var(--font-mono); font-size: 0.76rem; text-align: center; }
 
 /* Editorial sections */
@@ -261,12 +260,14 @@ h2 { font-size: clamp(2.25rem, 4.2vw, 3.65rem); }
 .lesson-hero-image { position: absolute; inset: 36px 10px 28px 40px; overflow: hidden; border: 2px solid var(--ink); background: var(--coffee); box-shadow: 12px 14px 0 var(--coffee); transform: rotate(1.2deg); }
 .lesson-hero-image img { object-fit: cover; }
 .lesson-hero-kids .lesson-hero-image img { object-position: 56% center; }
+.lesson-hero-adult .lesson-hero-image img { object-position: center 44%; }
+.lesson-hero-exams .lesson-hero-image img { object-fit: contain; object-position: center; }
 .lesson-hero-custom .lesson-hero-image img { object-fit: cover; object-position: top center; filter: sepia(.08); }
+.lesson-hero-image-note { position: absolute; left: 14px; bottom: 14px; z-index: 1; padding: 6px 9px; border: 1px solid var(--ink); background: rgb(255 248 236 / 90%); color: var(--ink); font-family: var(--font-mono); font-size: .66rem; font-weight: 700; letter-spacing: .06em; line-height: 1; }
 .lesson-hero-badge { position: absolute; right: -8px; top: 0; min-width: 180px; min-height: 96px; display: grid; place-content: center; text-align: center; padding: 18px; border: 2px solid var(--ink); border-radius: 50%; background: var(--paper); color: var(--ink); transform: rotate(5deg); font-family: var(--font-mono); }
 .lesson-hero-badge strong, .lesson-hero-badge span { display: block; }
 .lesson-hero-badge strong { font-size: .82rem; }
 .lesson-hero-badge span { font-size: .68rem; }
-.lesson-hero-shape { position: absolute; left: -5px; bottom: 0; width: 155px; aspect-ratio: 1; border: 2px solid currentColor; border-radius: 50%; background: rgba(247,235,213,.22); }
 
 .lesson-heading { display: grid; grid-template-columns: minmax(0,1.4fr) minmax(260px,.6fr); align-items: end; gap: 60px; margin-bottom: 52px; }
 .lesson-heading .eyebrow { margin-bottom: 14px; color: var(--coffee); }
@@ -416,7 +417,6 @@ h2 { font-size: clamp(2.25rem, 4.2vw, 3.65rem); }
 .editorial-hero-badge strong, .editorial-hero-badge span { display: block; }
 .editorial-hero-badge strong { font-size: .78rem; }
 .editorial-hero-badge span { font-size: .65rem; }
-.editorial-hero-circle { position: absolute; left: -5px; bottom: 0; width: 155px; aspect-ratio: 1; border: 2px solid currentColor; border-radius: 50%; background: rgba(255,248,236,.22); }
 .editorial-heading { display: grid; grid-template-columns: minmax(0,1.4fr) minmax(280px,.6fr); align-items: end; gap: 60px; margin-bottom: 52px; }
 .editorial-heading .eyebrow { margin-bottom: 14px; color: var(--coffee); }
 .editorial-heading h2 { max-width: 920px; margin-bottom: 0; }
@@ -471,8 +471,8 @@ h2 { font-size: clamp(2.25rem, 4.2vw, 3.65rem); }
 .about-why-copy blockquote { margin: 32px 0 0; padding: 24px; border: 1.5px solid var(--ink); background: var(--paper); font-family: var(--font-serif); font-size: 1.5rem; font-weight: 800; transform: rotate(-1deg); }
 .about-action { background: var(--cream); }
 .about-action-grid { display: grid; grid-template-columns: 1.1fr .9fr; gap: 70px; align-items: center; }
-.about-action-photo { position: relative; min-height: 600px; overflow: hidden; border: 2px solid var(--ink); box-shadow: 18px 18px 0 var(--orange); transform: rotate(-1deg); }
-.about-action-photo img { object-fit: cover; object-position: center; }
+.about-action-photo { position: relative; width: 100%; max-width: 500px; aspect-ratio: 3 / 2; justify-self: center; overflow: hidden; border: 2px solid var(--ink); background: var(--coffee); box-shadow: 18px 18px 0 var(--orange); transform: rotate(-1deg); }
+.about-action-photo img { object-fit: contain; object-position: center; }
 .about-action-copy h2 { margin: 14px 0 24px; }
 .about-action-copy > p:not(.eyebrow):not(.permission-note) { font-size: 1.08rem; }
 .about-action-copy blockquote { margin: 30px 0; color: var(--burgundy); font-family: var(--font-display); font-size: 2.5rem; font-weight: 800; transform: rotate(-3deg); }
@@ -617,7 +617,6 @@ h2 { font-size: clamp(2.25rem, 4.2vw, 3.65rem); }
   .philosophy-board { grid-template-columns: 1fr; }
   .philosophy-core { min-height: 170px; }
   .background-layout, .about-action-grid, .about-why-grid, .about-approachable-grid, .posture-layout, .moments-layout { grid-template-columns: 1fr; }
-  .about-action-photo { min-height: 560px; }
   .approachable-number { right: 0; }
   .gallery-feature-row { grid-template-columns: 1fr; }
   .gallery-margin-note { min-height: 190px; flex-direction: row; align-items: center; }
@@ -647,7 +646,6 @@ h2 { font-size: clamp(2.25rem, 4.2vw, 3.65rem); }
   .hero-visual { min-height: 480px; }
   .hero-image-frame { inset: 20px 22px 20px 22px; }
   .doctorate-sticker { right: -6px; width: 145px; }
-  .hero-circle { width: 110px; height: 110px; left: -10px; }
   .credential-ticker { grid-template-columns: 1fr; gap: 8px; padding-block: 20px; text-align: left; }
   .four-grid { grid-template-columns: 1fr; }
   .editorial-card { min-height: 235px; }
@@ -684,8 +682,8 @@ h2 { font-size: clamp(2.25rem, 4.2vw, 3.65rem); }
   .lesson-hero-intro { font-size: 1rem; }
   .lesson-hero-visual { min-height: 430px; }
   .lesson-hero-image { inset: 20px 16px 22px; }
+  .lesson-hero-image-note { left: 10px; bottom: 10px; }
   .lesson-hero-badge { right: -4px; min-width: 145px; min-height: 82px; }
-  .lesson-hero-shape { width: 105px; left: -8px; }
   .lesson-hero-facts { display: grid; }
   .lesson-hero-facts li { font-size: .78rem; }
   .lesson-heading h2 { font-size: clamp(2.1rem,10vw,3.15rem); }
@@ -723,7 +721,6 @@ h2 { font-size: clamp(2.25rem, 4.2vw, 3.65rem); }
   .editorial-hero-visual { min-height: 440px; }
   .editorial-hero-image { inset: 20px 16px 22px; }
   .editorial-hero-badge { right: -4px; min-width: 150px; min-height: 84px; }
-  .editorial-hero-circle { width: 105px; left: -8px; }
   .editorial-heading h2 { font-size: clamp(2.1rem,10vw,3.15rem); }
   .editorial-photo-image { min-height: 340px; }
   .editorial-final-grid { display: block; }
@@ -738,7 +735,7 @@ h2 { font-size: clamp(2.25rem, 4.2vw, 3.65rem); }
   .credential-ledger div { min-height: 130px; border-right: 0; }
   .about-why-grid { gap: 30px; }
   .about-action-grid { gap: 46px; }
-  .about-action-photo { min-height: 400px; box-shadow: 10px 12px 0 var(--orange); }
+  .about-action-photo { box-shadow: 10px 12px 0 var(--orange); }
   .about-path-grid { grid-template-columns: 1fr; }
   .about-path-card { min-height: 280px; }
   .about-approachable-grid { gap: 30px; }

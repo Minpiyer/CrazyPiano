@@ -10,12 +10,13 @@ type HeroProps = {
   core: string;
   image: string;
   imageAlt: string;
+  imageNote?: string;
   variant: "kids" | "adult" | "exams" | "custom";
   badge?: ReactNode;
   facts: readonly string[];
 };
 
-export function LessonHero({ eyebrow, title, intro, core, image, imageAlt, variant, badge, facts }: HeroProps) {
+export function LessonHero({ eyebrow, title, intro, core, image, imageAlt, imageNote, variant, badge, facts }: HeroProps) {
   return (
     <section className={`lesson-hero lesson-hero-${variant}`}>
       <div className="lesson-hero-grid container-wide">
@@ -38,9 +39,9 @@ export function LessonHero({ eyebrow, title, intro, core, image, imageAlt, varia
         <div className="lesson-hero-visual">
           <div className="lesson-hero-image">
             <Image src={image} alt={imageAlt} fill preload sizes="(max-width: 900px) 92vw, 43vw" />
+            {imageNote && <span className="lesson-hero-image-note">{imageNote}</span>}
           </div>
           {badge && <div className="lesson-hero-badge">{badge}</div>}
-          <span className="lesson-hero-shape" aria-hidden="true" />
         </div>
       </div>
     </section>

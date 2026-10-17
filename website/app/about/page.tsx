@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import teachingInAction from "@/public/images/about/about-teaching-in-action-piano-cajon.jpg";
 import { EditorialCta, EditorialHeading, EditorialHero } from "@/components/editorial/EditorialShared";
 
 export const metadata: Metadata = {
@@ -67,7 +68,7 @@ export default function AboutPage() {
 
       <section className="editorial-section about-action section-pad" data-photo-permission="Public use permission required before production launch">
         <div className="about-action-grid container-wide">
-          <div className="about-action-photo"><Image src="/images/about/about-teaching-in-action-piano-cajon.jpg" alt="徐老師彈鋼琴，學生以木箱鼓一起合奏" fill sizes="(max-width: 900px) 92vw, 52vw" /></div>
+          <div className="about-action-photo"><Image src={teachingInAction} alt="徐老師彈鋼琴，學生以木箱鼓一起合奏" fill sizes="(max-width: 600px) calc(100vw - 48px), 500px" /></div>
           <div className="about-action-copy"><p className="eyebrow">04 — TEACHING IN ACTION</p><h2>不只是上課，<br />也一起做音樂。</h2><p>課堂有時不只是老師坐在旁邊聽學生彈，也會透過合奏、節奏互動與實際示範，讓學生更直接理解拍感、聲音與彼此聆聽。</p><blockquote>Music is meant to be shared.</blockquote><p className="permission-note">Public use permission required before production launch.</p></div>
         </div>
       </section>
