@@ -1,13 +1,14 @@
-import type { Metadata } from "next";
 import Link from "next/link";
 import { EditorialCta } from "@/components/editorial/EditorialShared";
 import { InfoHeading, InfoHero } from "@/components/info/InfoShared";
 import { routes } from "@/data/site";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "課程費用｜Lesson Fees",
-  description: "Crazy Piano 一對一鋼琴課程費用：臺灣、北美線上與其他亞洲地區，依學生程度、目標與課程需求安排。",
-};
+export const metadata = createPageMetadata({
+  title: "鋼琴課程費用｜台灣與海外線上課",
+  description: "查看 Crazy Piano 一對一鋼琴課程費用：台灣 NT$1,200–1,500、北美線上課 From US$50；其他亞洲地區可依所在地與學習需求詢問。",
+  path: "/lesson-fees",
+});
 
 const fees = [
   { region: "TAIWAN", title: "台灣", price: "NT$1,200–1,500", body: "依程度、課程內容與學習目標安排。", tone: "fees-taiwan" },

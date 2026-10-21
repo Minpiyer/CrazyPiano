@@ -1,12 +1,13 @@
-import type { Metadata } from "next";
 import Image from "next/image";
 import { ContactForm } from "@/components/contact/ContactForm";
 import { InfoHeading, InfoHero } from "@/components/info/InfoShared";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "聯絡與預約｜Contact",
-  description: "聯絡 Crazy Piano 徐老師，預約 50 分鐘鋼琴試上課；可透過 Email 或 LINE 詢問兒童、成人、檢定與客製樂譜課程。",
-};
+export const metadata = createPageMetadata({
+  title: "聯絡徐家超｜預約 50 分鐘鋼琴試上課",
+  description: "聯絡 Crazy Piano 教師徐家超，預約 50 分鐘鋼琴試上課。可透過表單、Email 或 LINE 詢問兒童、成人、線上課、檢定與客製樂譜。",
+  path: "/contact",
+});
 
 const videos = [
   { category: "SCALES / TECHNIQUE", title: "[瘋鋼琴] 如何了解音階", url: "https://www.youtube.com/watch?v=khoVWNOrBEU", image: "/images/contact/youtube-scales-khoVWNOrBEU.jpg" },

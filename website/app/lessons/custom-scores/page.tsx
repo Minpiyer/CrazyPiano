@@ -1,12 +1,13 @@
-import type { Metadata } from "next";
 import Image from "next/image";
 import { LessonFaq } from "@/components/lessons/LessonFaq";
 import { EditorialCard, LessonFinalCta, LessonHeading, LessonHero } from "@/components/lessons/LessonShared";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "客製樂譜與改編｜Custom Piano Scores & Arrangements",
-  description: "Crazy Piano 客製樂譜與改編：依學生程度調整困難樂譜，或依音源聽寫、整理並編寫適合學習的鋼琴版本。",
-};
+export const metadata = createPageMetadata({
+  title: "鋼琴樂譜客製化與流行歌曲改編",
+  description: "Crazy Piano 依學生程度客製鋼琴樂譜，調整伴奏、和聲與技術難度；也可依音源聽寫、整理並編寫適合閱讀與學習的鋼琴版本。",
+  path: "/lessons/custom-scores",
+});
 
 const adjustmentItems = ["和聲", "伴奏型", "節奏複雜度", "左右手配置", "手部跨度", "音符密度", "技術難度"] as const;
 const faq = [

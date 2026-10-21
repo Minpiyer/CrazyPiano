@@ -1,11 +1,12 @@
-import type { Metadata } from "next";
 import { LessonFaq } from "@/components/lessons/LessonFaq";
 import { EditorialCard, LessonFinalCta, LessonHeading, LessonHero, LessonImageBlock } from "@/components/lessons/LessonShared";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "檢定與比賽｜Exams & Competitions",
-  description: "Crazy Piano 檢定與比賽鋼琴課，具 ABRSM 輔導與 Grade 8 指導經驗，依曲目、規則、時間與學生程度安排準備方向。",
-};
+export const metadata = createPageMetadata({
+  title: "ABRSM 檢定與音樂比賽準備",
+  description: "Crazy Piano 提供 ABRSM 檢定與鋼琴比賽準備。徐家超曾輔導學生至 Grade 8，課程依曲目、規則、時間與程度安排技巧、音樂表現及舞台準備。",
+  path: "/lessons/exams-competitions",
+});
 
 const process = [
   ["SCORE", "樂譜", "先讀懂譜面與作品資訊"], ["RHYTHM", "節奏", "建立準確而穩定的拍感"], ["TECHNIQUE", "技巧", "處理作品真正需要的動作"],

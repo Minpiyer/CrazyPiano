@@ -1,12 +1,13 @@
-import type { Metadata } from "next";
 import { EditorialCta } from "@/components/editorial/EditorialShared";
 import { FaqAccordion, type FaqGroup } from "@/components/faq/FaqAccordion";
 import { InfoHero } from "@/components/info/InfoShared";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "常見問題｜FAQ",
-  description: "Crazy Piano 鋼琴課常見問題：初學、兒童與成人課程、線上教學、ABRSM、比賽、客製樂譜、費用與試上方式。",
-};
+export const metadata = createPageMetadata({
+  title: "鋼琴課常見問題｜課程、費用與預約",
+  description: "Crazy Piano 常見問題整理：零基礎與成人學琴、兒童及線上課、ABRSM、比賽準備、客製樂譜、課程費用與 50 分鐘試上方式。",
+  path: "/faq",
+});
 
 const groups: readonly FaqGroup[] = [
   { label: "GETTING STARTED", title: "開始學鋼琴", items: [

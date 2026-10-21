@@ -1,11 +1,12 @@
-import type { Metadata } from "next";
 import Image from "next/image";
 import { EditorialCta, EditorialHeading, EditorialHero, EditorialPhoto } from "@/components/editorial/EditorialShared";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "教學現場｜Gallery",
-  description: "從鋼琴課堂、師生合奏、姿勢教學與學生舞台，到老師演奏及評審活動，看見 Crazy Piano 真正的教學現場。",
-};
+export const metadata = createPageMetadata({
+  title: "鋼琴教學現場與演奏作品｜Gallery",
+  description: "從鋼琴課堂、師生合奏、姿勢與技巧示範，到舞台演奏及音樂活動，透過照片與影片認識 Crazy Piano 的實際教學方式。",
+  path: "/gallery",
+});
 
 const postureVideo = {
   title: "【瘋鋼琴】如何使用正確手姿勢來彈琴，三個重點",

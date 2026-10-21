@@ -1,12 +1,13 @@
-import type { Metadata } from "next";
 import Image from "next/image";
 import teachingInAction from "@/public/images/about/about-teaching-in-action-piano-cajon.jpg";
 import { EditorialCta, EditorialHeading, EditorialHero } from "@/components/editorial/EditorialShared";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "關於徐老師｜About",
-  description: "認識 Crazy Piano 徐老師的鋼琴教學理念、專業背景與個人化教學方式：基礎要建立，學音樂的路線可以不同。",
-};
+export const metadata = createPageMetadata({
+  title: "關於徐家超與鋼琴教學理念",
+  description: "認識 Crazy Piano 教師徐家超的背景與教學理念：看懂音樂，彈你想彈的。建立視譜、節奏與技巧，曲目與學習路線則依每位學生調整。",
+  path: "/about",
+});
 
 const foundations = ["視譜能力", "節奏", "手型與身體使用", "技巧", "音樂理解"] as const;
 const flexiblePaths = ["學習曲目", "教材", "古典／流行比例", "檢定與比賽目標", "客製歌曲", "課程進度與方向"] as const;

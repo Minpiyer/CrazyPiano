@@ -1,11 +1,12 @@
-import type { Metadata } from "next";
 import { LessonFaq } from "@/components/lessons/LessonFaq";
 import { EditorialCard, LessonChecklist, LessonFinalCta, LessonHeading, LessonHero, LessonImageBlock } from "@/components/lessons/LessonShared";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "兒童鋼琴課｜Kids Piano Lessons",
-  description: "Crazy Piano 兒童鋼琴課，線上課建議 7 歲以上。從視譜、節奏、正確姿勢與基本技巧，建立看得懂、彈得對的基礎。",
-};
+export const metadata = createPageMetadata({
+  title: "兒童鋼琴課｜視譜、節奏與基本技巧",
+  description: "Crazy Piano 兒童鋼琴課，由徐家超依孩子程度安排視譜、節奏、坐姿、手型與基本技巧；線上課建議 7 歲以上，也能加入孩子喜歡的音樂。",
+  path: "/lessons/kids",
+});
 
 const scoreSkills = ["五線譜的基本結構", "音符位置與音名", "高音譜表", "低音譜表", "大譜表 Grand Staff", "高音與低音概念", "樂譜與鍵盤對應", "音階的基本組成", "基礎節奏", "基礎視譜能力"] as const;
 const techniqueSkills = ["正確坐姿", "自然手型", "手指落鍵與抬指", "手指力量的使用", "手腕如何配合", "避免過度僵硬"] as const;

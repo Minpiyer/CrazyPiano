@@ -1,13 +1,14 @@
-import type { Metadata } from "next";
 import Link from "next/link";
 import { LessonFaq } from "@/components/lessons/LessonFaq";
 import { EditorialCard, LessonChecklist, LessonFinalCta, LessonHeading, LessonHero, LessonImageBlock } from "@/components/lessons/LessonShared";
 import { routes } from "@/data/site";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "成人鋼琴課｜Adult Piano Lessons",
-  description: "Crazy Piano 成人鋼琴課，依目前程度、學習經驗與真正想彈的音樂安排。零基礎、重新開始、古典與流行皆可。",
-};
+export const metadata = createPageMetadata({
+  title: "成人鋼琴課｜零基礎、重拾鋼琴與喜愛曲目",
+  description: "Crazy Piano 成人鋼琴課依目前程度、過去經驗與想彈的音樂安排。零基礎、重新開始、古典或流行，都能從現在的位置建立視譜與技巧。",
+  path: "/lessons/adult",
+});
 
 const beginnerSkills = ["五線譜", "高音譜表與低音譜表", "大譜表 Grand Staff", "節奏與拍感", "基礎視譜", "正確坐姿", "自然手型", "手指與手腕的基本運用"] as const;
 const reviewPoints = ["過去學習經驗", "現在程度", "技巧狀況", "視譜狀況", "想彈的音樂", "學習目標"] as const;
