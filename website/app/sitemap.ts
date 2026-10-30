@@ -4,6 +4,12 @@ import { SITE_URL } from "@/lib/seo";
 const routes = [
   { path: "/", changeFrequency: "weekly", priority: 1 },
   { path: "/lessons/kids", changeFrequency: "monthly", priority: 0.9 },
+  { path: "/lessons/kids/posture", changeFrequency: "monthly", priority: 0.7 },
+  { path: "/lessons/kids/hand-shape", changeFrequency: "monthly", priority: 0.7 },
+  { path: "/lessons/kids/finger-action", changeFrequency: "monthly", priority: 0.7 },
+  { path: "/lessons/kids/power", changeFrequency: "monthly", priority: 0.7 },
+  { path: "/lessons/kids/wrist-arm", changeFrequency: "monthly", priority: 0.7 },
+  { path: "/lessons/kids/relaxation", changeFrequency: "monthly", priority: 0.7 },
   { path: "/lessons/adult", changeFrequency: "monthly", priority: 0.9 },
   { path: "/lessons/exams-competitions", changeFrequency: "monthly", priority: 0.9 },
   { path: "/lessons/custom-scores", changeFrequency: "monthly", priority: 0.9 },

@@ -283,6 +283,11 @@ h2 { font-size: clamp(2.25rem, 4.2vw, 3.65rem); }
 .lesson-editorial-card h3 { font-size: clamp(1.45rem,2.25vw,2rem); }
 .lesson-editorial-card > div { margin-top: auto; }
 .lesson-editorial-card p { margin-bottom: 0; }
+.kids-technique-card-link { display: block; height: 100%; }
+.kids-technique-card-link .lesson-editorial-card { height: 100%; transition: transform 160ms ease, box-shadow 160ms ease; }
+.kids-technique-card-link:hover .lesson-editorial-card, .kids-technique-card-link:focus-visible .lesson-editorial-card { transform: translate(-3px,-4px); box-shadow: 9px 10px 0 rgba(255,248,236,.22); }
+.kids-technique-card-link:focus-visible { outline-color: var(--mustard); }
+.kids-technique-card-action { display: block; margin-top: 18px; padding-top: 14px; border-top: 1px solid currentColor; font-family: var(--font-mono); font-size: .68rem; font-weight: 700; letter-spacing: .08em; }
 .lesson-tone-paper { background: var(--paper); color: var(--ink); }
 .lesson-tone-orange { background: var(--orange); color: var(--paper); }
 .lesson-tone-mustard { background: var(--mustard); color: var(--ink); }
@@ -332,6 +337,42 @@ h2 { font-size: clamp(2.25rem, 4.2vw, 3.65rem); }
 .lesson-record::before { content: ""; width: 34%; aspect-ratio: 1; border: 2px solid var(--paper); border-radius: 50%; background: var(--orange); }
 .lesson-record span { position: absolute; width: 16px; height: 16px; border-radius: 50%; background: var(--paper); }
 .lesson-hand-note { position: absolute; right: 120px; bottom: -40px; color: var(--coffee); font-family: var(--font-display); font-size: 2rem; font-style: italic; line-height: 1; transform: rotate(-7deg); }
+
+/* Kids technique guides */
+.kids-technique-page { background: var(--cream); }
+.kids-technique-hero { overflow: hidden; border-bottom: 12px solid var(--burgundy); background: var(--mustard); }
+.kids-technique-hero-grid { min-height: 560px; display: grid; grid-template-columns: minmax(0,1fr) 300px; gap: 80px; align-items: center; padding-block: 64px; }
+.kids-technique-hero h1 { max-width: 900px; margin: 16px 0 24px; font-size: clamp(4.4rem,8vw,8rem); }
+.kids-technique-summary { max-width: 720px; margin: 0; font-size: 1.2rem; line-height: 1.8; }
+.kids-technique-number { width: 280px; aspect-ratio: 1; display: grid; place-content: center; justify-items: center; border: 2px solid var(--ink); border-radius: 50%; background: var(--orange); color: var(--paper); box-shadow: 13px 15px 0 var(--coffee); transform: rotate(4deg); }
+.kids-technique-number span { font-family: var(--font-display); font-size: 8.5rem; line-height: .8; }
+.kids-technique-number small { margin-top: 24px; font-family: var(--font-mono); font-weight: 700; letter-spacing: .14em; }
+.kids-technique-content { border-bottom: 1px solid var(--line); }
+.kids-technique-reading-grid { display: grid; grid-template-columns: minmax(0,1.2fr) minmax(300px,.8fr); gap: 70px; align-items: start; }
+.kids-technique-copy h2 { max-width: 780px; margin: 16px 0 30px; }
+.kids-technique-copy > p:not(.eyebrow) { max-width: 800px; font-size: 1.08rem; line-height: 1.9; }
+.kids-technique-callout { padding: 34px; border: 2px solid var(--ink); background: var(--burgundy); color: var(--paper); box-shadow: 12px 14px 0 var(--orange); transform: rotate(1deg); }
+.kids-technique-callout blockquote { margin: 22px 0 0; font-family: var(--font-serif); font-size: clamp(1.6rem,3vw,2.45rem); font-weight: 800; line-height: 1.32; }
+.kids-technique-concepts { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); margin-top: 72px; border: 2px solid var(--ink); background: var(--paper); }
+.kids-technique-concepts div { min-height: 150px; display: flex; flex-direction: column; justify-content: space-between; gap: 26px; padding: 24px; border-right: 1.5px solid var(--ink); }
+.kids-technique-concepts div:last-child { border-right: 0; }
+.kids-technique-concepts span { font-family: var(--font-mono); font-size: .7rem; font-weight: 700; letter-spacing: .09em; }
+.kids-technique-concepts strong { font-family: var(--font-serif); font-size: 1.35rem; }
+.kids-technique-practice { display: grid; grid-template-columns: minmax(0,.78fr) minmax(0,1.22fr); gap: 70px; margin-top: 84px; padding: 50px; border: 2px solid var(--ink); background: var(--paper); box-shadow: 14px 16px 0 var(--mustard); }
+.kids-technique-practice-heading h2 { margin: 14px 0 22px; }
+.kids-technique-practice-heading p:last-child { margin-bottom: 0; font-size: 1.05rem; }
+.kids-technique-steps { margin: 0; padding: 0; border-top: 1.5px solid var(--ink); list-style: none; }
+.kids-technique-steps li { min-height: 72px; display: grid; grid-template-columns: 48px 1fr; align-items: center; gap: 16px; padding: 14px 8px; border-bottom: 1.5px solid var(--ink); }
+.kids-technique-steps span { font-family: var(--font-mono); font-size: .72rem; color: var(--burgundy); }
+.kids-technique-steps strong { font-size: 1rem; }
+.kids-technique-navigation { margin-top: 92px; padding-top: 34px; border-top: 2px solid var(--ink); }
+.kids-technique-back { width: fit-content; }
+.kids-technique-prev-next { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 18px; margin-top: 34px; }
+.kids-technique-prev-next a { min-height: 112px; display: flex; flex-direction: column; justify-content: space-between; padding: 22px; border: 1.5px solid var(--ink); background: var(--paper); box-shadow: var(--shadow); }
+.kids-technique-prev-next a:last-child { text-align: right; }
+.kids-technique-prev-next span { font-family: var(--font-mono); font-size: .68rem; font-weight: 700; letter-spacing: .1em; }
+.kids-technique-prev-next strong { font-family: var(--font-serif); font-size: 1.25rem; }
+.kids-technique-prev-next a:hover { background: var(--mustard); }
 
 /* Adult lesson details */
 .adult-returning, .adult-method { background: var(--green); }
@@ -604,6 +645,13 @@ h2 { font-size: clamp(2.25rem, 4.2vw, 3.65rem); }
   .lesson-review-grid, .abrsm-ledger { grid-template-columns: repeat(2,1fr); }
   .lesson-review-grid div:nth-child(3n), .abrsm-ledger div:nth-child(3n) { border-right: 1px solid rgba(255,248,236,.5); }
   .lesson-review-grid div:nth-child(2n), .abrsm-ledger div:nth-child(2n) { border-right: 0; }
+  .kids-technique-hero-grid { grid-template-columns: 1fr 230px; gap: 40px; }
+  .kids-technique-number { width: 220px; }
+  .kids-technique-number span { font-size: 6.5rem; }
+  .kids-technique-reading-grid, .kids-technique-practice { grid-template-columns: 1fr; }
+  .kids-technique-concepts { grid-template-columns: 1fr; }
+  .kids-technique-concepts div { min-height: 112px; border-right: 0; border-bottom: 1.5px solid var(--ink); }
+  .kids-technique-concepts div:last-child { border-bottom: 0; }
   .target-board { grid-template-columns: repeat(3,1fr); }
   .custom-adjust-grid { grid-template-columns: repeat(2,1fr); }
   .custom-adjust-grid div:nth-child(2n) { border-right: 0; }
@@ -702,6 +750,21 @@ h2 { font-size: clamp(2.25rem, 4.2vw, 3.65rem); }
   .lesson-final-grid h2 { font-size: clamp(3rem,14vw,4.4rem); }
   .lesson-record { width: 215px; margin: 48px 0 0 auto; }
   .lesson-hand-note { right: 90px; bottom: 35px; font-size: 1.65rem; }
+  .kids-technique-hero-grid { min-height: 0; grid-template-columns: 1fr; gap: 40px; padding-block: 48px; }
+  .kids-technique-hero h1 { font-size: clamp(3.7rem,18vw,5.3rem); }
+  .kids-technique-summary { font-size: 1.04rem; }
+  .kids-technique-number { width: 185px; justify-self: end; box-shadow: 9px 10px 0 var(--coffee); }
+  .kids-technique-number span { font-size: 5.2rem; }
+  .kids-technique-number small { margin-top: 16px; }
+  .kids-technique-reading-grid { gap: 38px; }
+  .kids-technique-copy > p:not(.eyebrow) { font-size: 1rem; }
+  .kids-technique-callout { padding: 25px; box-shadow: 9px 10px 0 var(--orange); }
+  .kids-technique-practice { gap: 30px; margin-top: 62px; padding: 26px 20px; box-shadow: 8px 10px 0 var(--mustard); }
+  .kids-technique-steps li { grid-template-columns: 38px 1fr; }
+  .kids-technique-navigation { margin-top: 70px; }
+  .kids-technique-back { width: 100%; }
+  .kids-technique-prev-next { grid-template-columns: 1fr; }
+  .kids-technique-prev-next > span:empty { display: none; }
   .music-process { grid-template-columns: 1fr; }
   .music-process li { min-height: 210px; border-right: 0; }
   .music-process li:not(:last-child)::after { right: 20px; top: auto; bottom: -13px; transform: rotate(90deg); }

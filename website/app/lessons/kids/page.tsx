@@ -1,5 +1,7 @@
+import Link from "next/link";
 import { LessonFaq } from "@/components/lessons/LessonFaq";
 import { EditorialCard, LessonChecklist, LessonFinalCta, LessonHeading, LessonHero, LessonImageBlock } from "@/components/lessons/LessonShared";
+import { kidsTechniques } from "@/data/kids-techniques";
 import { createPageMetadata } from "@/lib/seo";
 
 export const metadata = createPageMetadata({
@@ -9,7 +11,6 @@ export const metadata = createPageMetadata({
 });
 
 const scoreSkills = ["五線譜的基本結構", "音符位置與音名", "高音譜表", "低音譜表", "大譜表 Grand Staff", "高音與低音概念", "樂譜與鍵盤對應", "音階的基本組成", "基礎節奏", "基礎視譜能力"] as const;
-const techniqueSkills = ["正確坐姿", "自然手型", "手指落鍵與抬指", "手指力量的使用", "手腕如何配合", "避免過度僵硬"] as const;
 const materials = ["Faber Piano Adventures", "Hanon", "鋼琴小精靈", "鋼琴森林", "其他依年齡與程度安排的教材"] as const;
 const faq = [
   { question: "線上兒童課幾歲開始比較適合？", answer: "線上課建議 7 歲以上。實際仍會依孩子的專注力、閱讀能力與配合情況判斷。" },
@@ -39,10 +40,16 @@ export default function KidsPianoLessonsPage() {
         <p className="lesson-pull-quote">SEE → UNDERSTAND → PLAY<br /><span>看見、理解，再彈出來。</span></p>
       </div></section>
 
-      <section className="lesson-section lesson-technique section-pad"><div className="container-wide">
+      <section className="lesson-section lesson-technique section-pad" id="technique-foundations"><div className="container-wide">
         <LessonHeading index="03" eyebrow="POSTURE & TECHNIQUE" title="從第一堂課，就練習自然地使用身體。" intro="好的姿勢不是固定不動，而是讓手指、手腕與身體能有效率地支持音樂。" inverse />
         <div className="lesson-card-grid lesson-card-grid-3">
-          {techniqueSkills.map((skill, index) => <EditorialCard key={skill} label={`0${index + 1}`} title={skill} tone={index % 3 === 0 ? "orange" : index % 3 === 1 ? "paper" : "mustard"}><p>{index < 2 ? "從觀察與調整開始，建立可持續的彈奏方式。" : "配合曲目與練習，避免用力過度或只靠手指硬撐。"}</p></EditorialCard>)}
+          {kidsTechniques.map((technique, index) => (
+            <Link className="kids-technique-card-link" href={`/lessons/kids/${technique.slug}`} key={technique.slug} aria-label={`閱讀${technique.title}教學`}>
+              <EditorialCard label={technique.index} title={technique.title} tone={index % 3 === 0 ? "orange" : index % 3 === 1 ? "paper" : "mustard"}>
+                <p>{technique.cardDescription}</p><span className="kids-technique-card-action">READ THE GUIDE／閱讀教學 →</span>
+              </EditorialCard>
+            </Link>
+          ))}
         </div>
       </div></section>
 
