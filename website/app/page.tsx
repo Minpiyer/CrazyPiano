@@ -2,6 +2,14 @@ import Image from "next/image";
 import Link from "next/link";
 import { SectionHeading } from "@/components/SectionHeading";
 import { routes, videos } from "@/data/site";
+import { createPageMetadata } from "@/lib/seo";
+
+export const metadata = createPageMetadata({
+  title: "Crazy Piano／瘋鋼琴｜徐家超博士鋼琴教學",
+  description: "徐家超的 Crazy Piano 鋼琴教學：看懂音樂，彈你想彈的。提供兒童、成人與線上鋼琴課程，以及 ABRSM、比賽準備和客製樂譜改編。",
+  path: "/",
+  alternatePath: "/en",
+});
 
 const strengths = [
   ["01", "個人化進度", "從目標、程度與生活節奏出發，安排能持續累積的練習計畫。"],

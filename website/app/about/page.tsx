@@ -7,6 +7,7 @@ export const metadata = createPageMetadata({
   title: "關於徐家超與鋼琴教學理念",
   description: "認識 Crazy Piano 教師徐家超的背景與教學理念：看懂音樂，彈你想彈的。建立視譜、節奏與技巧，曲目與學習路線則依每位學生調整。",
   path: "/about",
+  alternatePath: "/en/about",
 });
 
 const foundations = ["視譜能力", "節奏", "手型與身體使用", "技巧", "音樂理解"] as const;

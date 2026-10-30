@@ -7,6 +7,7 @@ export const metadata = createPageMetadata({
   title: "聯絡徐家超｜預約 50 分鐘鋼琴試上課",
   description: "聯絡 Crazy Piano 教師徐家超，預約 50 分鐘鋼琴試上課。可透過表單、Email 或 LINE 詢問兒童、成人、線上課、檢定與客製樂譜。",
   path: "/contact",
+  alternatePath: "/en/contact",
 });
 
 const videos = [

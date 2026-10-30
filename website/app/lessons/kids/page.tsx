@@ -8,6 +8,7 @@ export const metadata = createPageMetadata({
   title: "兒童鋼琴課｜視譜、節奏與基本技巧",
   description: "Crazy Piano 兒童鋼琴課，由徐家超依孩子程度安排視譜、節奏、坐姿、手型與基本技巧；線上課建議 7 歲以上，也能加入孩子喜歡的音樂。",
   path: "/lessons/kids",
+  alternatePath: "/en/lessons/kids",
 });
 
 const scoreSkills = ["五線譜的基本結構", "音符位置與音名", "高音譜表", "低音譜表", "大譜表 Grand Staff", "高音與低音概念", "樂譜與鍵盤對應", "音階的基本組成", "基礎節奏", "基礎視譜能力"] as const;

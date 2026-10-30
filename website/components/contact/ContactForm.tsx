@@ -1,6 +1,7 @@
 "use client";
 
 import { FormEvent, useRef, useState } from "react";
+import type { SiteLocale } from "@/lib/i18n";
 
 const fields = [
   { id: "name", label: "Name／姓名", type: "text", autoComplete: "name", required: true, maxLength: 100 },
@@ -9,6 +10,15 @@ const fields = [
   { id: "age", label: "Age／年齡", type: "text", autoComplete: "off", required: false, maxLength: 30 },
   { id: "currentLevel", label: "Current Level／目前程度", type: "text", autoComplete: "off", required: false, maxLength: 200 },
   { id: "learningGoal", label: "What would you like to learn?／想學什麼？", type: "text", autoComplete: "off", required: true, maxLength: 1000 },
+] as const;
+
+const englishFields = [
+  { id: "name", label: "Name", type: "text", autoComplete: "name", required: true, maxLength: 100 },
+  { id: "email", label: "Email", type: "email", autoComplete: "email", required: true, maxLength: 254 },
+  { id: "location", label: "Location", type: "text", autoComplete: "country-name", required: false, maxLength: 120 },
+  { id: "age", label: "Age", type: "text", autoComplete: "off", required: false, maxLength: 30 },
+  { id: "currentLevel", label: "Current Level", type: "text", autoComplete: "off", required: false, maxLength: 200 },
+  { id: "learningGoal", label: "What would you like to learn?", type: "text", autoComplete: "off", required: true, maxLength: 1000 },
 ] as const;
 
 type SubmitState = "idle" | "submitting" | "success" | "error";
@@ -20,7 +30,17 @@ const statusCopy: Record<SubmitState, string> = {
   error: "傳送失敗，請稍後再試，或直接寄信至 minpiyer@gmail.com。",
 };
 
-export function ContactForm() {
+const englishStatusCopy: Record<SubmitState, string> = {
+  idle: "Required fields are marked with an asterisk. Your information is used only to reply to this lesson inquiry.",
+  submitting: "Sending…",
+  success: "Your message has been sent. Thank you for getting in touch.",
+  error: "The message could not be sent. Please try again later or email minpiyer@gmail.com directly.",
+};
+
+export function ContactForm({ locale = "zh-Hant" }: { locale?: SiteLocale }) {
+  const english = locale === "en";
+  const activeFields = english ? englishFields : fields;
+  const activeStatusCopy = english ? englishStatusCopy : statusCopy;
   const [submitState, setSubmitState] = useState<SubmitState>("idle");
   const statusRef = useRef<HTMLParagraphElement>(null);
 
@@ -67,7 +87,7 @@ export function ContactForm() {
   return (
     <form className="contact-form" aria-describedby="contact-form-status" onSubmit={handleSubmit}>
       <div className="contact-form-grid">
-        {fields.map((field) => (
+        {activeFields.map((field) => (
           <div className="contact-field" key={field.id}>
             <label htmlFor={field.id}>
               {field.label}
@@ -85,7 +105,7 @@ export function ContactForm() {
           </div>
         ))}
         <div className="contact-field contact-field-wide">
-          <label htmlFor="message">Message／補充訊息</label>
+          <label htmlFor="message">{english ? "Additional Message" : "Message／補充訊息"}</label>
           <textarea id="message" name="message" rows={6} maxLength={3000} disabled={isSubmitting} />
         </div>
         <div className="contact-honeypot" aria-hidden="true">
@@ -94,7 +114,7 @@ export function ContactForm() {
         </div>
       </div>
       <button className="button button-burgundy contact-submit" type="submit" disabled={isSubmitting} aria-disabled={isSubmitting}>
-        {isSubmitting ? "Sending／送出中…" : "Send Inquiry／送出詢問"}
+        {isSubmitting ? (english ? "Sending…" : "Sending／送出中…") : (english ? "Send Inquiry" : "Send Inquiry／送出詢問")}
       </button>
       <p
         className={`contact-form-status is-${submitState}`}
@@ -105,7 +125,7 @@ export function ContactForm() {
         ref={statusRef}
         tabIndex={-1}
       >
-        {statusCopy[submitState]}
+        {activeStatusCopy[submitState]}
       </p>
     </form>
   );

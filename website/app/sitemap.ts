@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { getLocalizedAlternates, localizedRoutePairs } from "@/lib/i18n";
 import { SITE_URL } from "@/lib/seo";
 
 const routes = [
@@ -21,9 +22,14 @@ const routes = [
 ] as const;
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return routes.map(({ path, changeFrequency, priority }) => ({
-    url: new URL(path, SITE_URL).toString(),
-    changeFrequency,
-    priority,
-  }));
+  return routes.flatMap(({ path, changeFrequency, priority }) => {
+    const pair = localizedRoutePairs.find(([zhPath]) => zhPath === path);
+    const pagePaths = pair ? [pair[0], pair[1]] : [path];
+    return pagePaths.map((pagePath) => ({
+      url: new URL(pagePath, SITE_URL).toString(),
+      changeFrequency,
+      priority,
+      alternates: pair ? { languages: getLocalizedAlternates(pair[0], pair[1]) } : undefined,
+    }));
+  });
 }

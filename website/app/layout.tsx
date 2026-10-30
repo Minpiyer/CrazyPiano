@@ -3,6 +3,7 @@ import { Analytics } from "@vercel/analytics/next";
 import { IBM_Plex_Mono, Noto_Sans_TC, Noto_Serif_TC, Playfair_Display } from "next/font/google";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
+import { LocalizedDocument } from "@/components/LocalizedDocument";
 import { DEFAULT_OG_IMAGE, SITE_NAME, SITE_URL } from "@/lib/seo";
 import "./globals.css";
 
@@ -52,7 +53,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="zh-Hant-TW" data-scroll-behavior="smooth">
       <body className={`${sans.variable} ${serif.variable} ${display.variable} ${mono.variable}`}>
-        <a className="skip-link" href="#main-content">跳到主要內容</a>
+        <LocalizedDocument />
         <SiteHeader />
         {children}
         <SiteFooter />

@@ -8,6 +8,7 @@ export const metadata = createPageMetadata({
   title: "成人鋼琴課｜零基礎、重拾鋼琴與喜愛曲目",
   description: "Crazy Piano 成人鋼琴課依目前程度、過去經驗與想彈的音樂安排。零基礎、重新開始、古典或流行，都能從現在的位置建立視譜與技巧。",
   path: "/lessons/adult",
+  alternatePath: "/en/lessons/adult",
 });
 
 const beginnerSkills = ["五線譜", "高音譜表與低音譜表", "大譜表 Grand Staff", "節奏與拍感", "基礎視譜", "正確坐姿", "自然手型", "手指與手腕的基本運用"] as const;

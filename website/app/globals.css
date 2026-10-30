@@ -83,7 +83,9 @@ h2 { font-size: clamp(2.25rem, 4.2vw, 3.65rem); }
 .lesson-menu a:hover { color: var(--ink); background: var(--mustard); }
 .lesson-menu small { color: var(--muted); font-size: 0.78rem; }
 .header-actions { display: flex; align-items: center; gap: 14px; }
-.language-switch { font-family: var(--font-mono); font-size: 0.72rem; white-space: nowrap; }
+.language-switch { display: inline-flex; align-items: center; font-family: var(--font-mono); font-size: 0.72rem; white-space: nowrap; }
+.language-switch a { padding: 6px 3px; color: var(--muted); }
+.language-switch a:hover, .language-switch a.is-active { color: var(--ink); text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 4px; }
 .menu-toggle { display: none; width: 44px; height: 44px; align-items: center; justify-content: center; flex-direction: column; gap: 7px; border: 1.5px solid var(--ink); background: var(--mustard); cursor: pointer; }
 .menu-toggle span { display: block; width: 21px; height: 2px; background: var(--ink); }
 .mobile-menu { display: none; }
@@ -230,6 +232,8 @@ h2 { font-size: clamp(2.25rem, 4.2vw, 3.65rem); }
 .footer-column h2 { margin: 0 0 10px; color: var(--mustard); font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.13em; }
 .footer-column a:hover { color: var(--mustard); text-decoration: underline; }
 .footer-column span { color: var(--cream); }
+.footer-language-switch { display: inline-flex; gap: 4px; }
+.footer-language-switch a:hover { color: var(--mustard); }
 .footer-bottom { display: flex; justify-content: space-between; gap: 25px; margin-top: 60px; padding-top: 20px; border-top: 1px solid rgba(255, 248, 236, 0.28); font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.08em; }
 
 /* Placeholder routes */

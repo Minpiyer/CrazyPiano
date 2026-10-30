@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import type { ReactNode } from "react";
 import { routes } from "@/data/site";
+import type { SiteLocale } from "@/lib/i18n";
 
 type HeroProps = {
   eyebrow: string;
@@ -14,25 +15,29 @@ type HeroProps = {
   variant: "kids" | "adult" | "exams" | "custom";
   badge?: ReactNode;
   facts: readonly string[];
+  locale?: SiteLocale;
 };
 
-export function LessonHero({ eyebrow, title, intro, core, image, imageAlt, imageNote, variant, badge, facts }: HeroProps) {
+export function LessonHero({ eyebrow, title, intro, core, image, imageAlt, imageNote, variant, badge, facts, locale = "zh-Hant" }: HeroProps) {
+  const english = locale === "en";
+  const homeHref = english ? "/en" : routes.home;
+  const contactHref = english ? "/en/contact" : routes.contact;
   return (
     <section className={`lesson-hero lesson-hero-${variant}`}>
       <div className="lesson-hero-grid container-wide">
         <div className="lesson-hero-copy">
-          <nav className="lesson-breadcrumb" aria-label="麵包屑導覽">
-            <Link href={routes.home}>HOME</Link><span aria-hidden="true">／</span><span>LESSONS</span>
+          <nav className="lesson-breadcrumb" aria-label={english ? "Breadcrumb" : "麵包屑導覽"}>
+            <Link href={homeHref}>HOME</Link><span aria-hidden="true">／</span><span>LESSONS</span>
           </nav>
           <p className="eyebrow">{eyebrow}</p>
           <h1>{title}</h1>
           <p className="lesson-hero-intro">{intro}</p>
           <blockquote>{core}</blockquote>
           <div className="button-row">
-            <Link className="button button-burgundy" href={routes.contact}>Book a Trial Lesson／預約試課</Link>
-            <a className="button button-paper" href="#lesson-overview">看看課程內容</a>
+            <Link className="button button-burgundy" href={contactHref}>{english ? "Book a Trial Lesson" : "Book a Trial Lesson／預約試課"}</Link>
+            <a className="button button-paper" href="#lesson-overview">{english ? "Explore the Lesson" : "看看課程內容"}</a>
           </div>
-          <ul className="lesson-hero-facts" aria-label="課程重點">
+          <ul className="lesson-hero-facts" aria-label={english ? "Lesson highlights" : "課程重點"}>
             {facts.map((fact) => <li key={fact}>{fact}</li>)}
           </ul>
         </div>
@@ -101,11 +106,12 @@ export function LessonImageBlock({ image, alt, label, title, children, reverse =
   );
 }
 
-export function LessonFinalCta({ title, children }: { title: ReactNode; children: ReactNode }) {
+export function LessonFinalCta({ title, children, locale = "zh-Hant" }: { title: ReactNode; children: ReactNode; locale?: SiteLocale }) {
+  const english = locale === "en";
   return (
     <section className="lesson-final-cta section-pad">
       <div className="lesson-final-grid container-wide">
-        <div><p className="eyebrow">START HERE</p><h2>{title}</h2><div className="lesson-final-copy">{children}</div><Link className="button button-burgundy" href={routes.contact}>Book a Trial Lesson／預約試課 ↗</Link></div>
+        <div><p className="eyebrow">START HERE</p><h2>{title}</h2><div className="lesson-final-copy">{children}</div><Link className="button button-burgundy" href={english ? "/en/contact" : routes.contact}>{english ? "Book a Trial Lesson ↗" : "Book a Trial Lesson／預約試課 ↗"}</Link></div>
         <div className="lesson-record" aria-hidden="true"><span /></div>
         <p className="lesson-hand-note">No pressure.<br />Just music.</p>
       </div>
