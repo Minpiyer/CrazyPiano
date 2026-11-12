@@ -10,6 +10,7 @@ const primaryLinks = [
   { href: routes.home, label: "Home" },
   { href: routes.about, label: "About" },
   { href: routes.gallery, label: "Gallery" },
+  { href: routes.events, label: "發表會活動" },
   { href: routes.fees, label: "Lesson Fees" },
   { href: routes.faq, label: "FAQ" },
   { href: routes.contact, label: "Contact" },
@@ -18,6 +19,7 @@ const primaryLinks = [
 const englishPrimaryLinks = [
   { href: "/en", label: "Home" },
   { href: "/en/about", label: "About" },
+  { href: "/en/events", label: "Recitals" },
   { href: "/en/contact", label: "Contact" },
 ] as const;
 

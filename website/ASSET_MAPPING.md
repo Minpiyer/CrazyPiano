@@ -72,6 +72,21 @@ The source files remain unchanged. Only the production-safe website copies below
 
 Gallery posture video destination: `https://www.youtube.com/watch?v=BBhqRfK0UZU&t=114s`. The timestamp is intentionally preserved and the card opens YouTube without autoplay.
 
+## 2026 Student Recital assets
+
+The source photographs remain unchanged in the user-provided Desktop folder `學生發表會節目單/發表會合照`. The website uses eight selected copies; `S__35651609_0.jpg` was excluded because the blurred, high-contrast audience view was not suitable for clear web presentation. The user confirmed public website permission for the people shown in the selected photographs.
+
+| Website path | Source filename | Usage |
+| --- | --- | --- |
+| `public/images/events/2026-student-recital/recital-group-photo.jpg` | `S__35651607_0.jpg` | Events overview, recital detail hero, and gallery |
+| `public/images/events/2026-student-recital/teacher-coaching-piano-duet.jpg` | `S__35651611_0.jpg` | Recital gallery: preparation and coaching |
+| `public/images/events/2026-student-recital/student-stage-performance.jpg` | `S__35651610_0.jpg` | Recital gallery: stage performance |
+| `public/images/events/2026-student-recital/teacher-student-after-recital.jpg` | `S__35651603_0.jpg` | Recital gallery: post-performance portrait |
+| `public/images/events/2026-student-recital/teacher-young-performers.jpg` | `S__35651604_0.jpg` | Recital gallery: teacher and performers |
+| `public/images/events/2026-student-recital/family-recital-moment.jpg` | `S__35651605_0.jpg` | Recital gallery: family and recital moment |
+| `public/images/events/2026-student-recital/family-stage-portrait.jpg` | `S__35651606_0.jpg` | Recital gallery: stage portrait |
+| `public/images/events/2026-student-recital/teacher-student-stage-portrait.jpg` | `S__35651608_0.jpg` | Recital gallery: teacher and performer portrait |
+
 ## Contact assets
 
 | Website path | Design source | Usage |

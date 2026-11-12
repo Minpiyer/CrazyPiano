@@ -3,6 +3,8 @@ export type SiteLocale = "zh-Hant" | "en";
 export const localizedRoutePairs = [
   ["/", "/en"],
   ["/about", "/en/about"],
+  ["/events", "/en/events"],
+  ["/events/2026-student-recital", "/en/events/2026-student-recital"],
   ["/lessons/kids", "/en/lessons/kids"],
   ["/lessons/adult", "/en/lessons/adult"],
   ["/contact", "/en/contact"],

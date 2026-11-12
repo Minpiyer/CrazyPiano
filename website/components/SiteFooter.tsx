@@ -20,6 +20,7 @@ export function SiteFooter() {
           <h2>EXPLORE</h2>
           <Link href={english ? "/en/about" : routes.about}>{english ? "About Dr. Hsu" : "關於徐老師"}</Link>
           {!english && <Link href={routes.gallery}>教學現場</Link>}
+          <Link href={english ? "/en/events" : routes.events}>{english ? "Recitals" : "發表會活動"}</Link>
           {!english && <Link href={routes.fees}>課程費用</Link>}
           {!english && <Link href={routes.faq}>常見問題</Link>}
         </div>
