@@ -5,20 +5,20 @@ import { recitalImages, studentRecital2026 } from "@/data/events";
 
 type EventPageProps = { locale: "zh-Hant" | "en" };
 
-export function EventsOverview({ locale }: EventPageProps) {
+export function PerformancesOverview({ locale }: EventPageProps) {
   const english = locale === "en";
-  const detailHref = english ? "/en/events/2026-student-recital" : "/events/2026-student-recital";
+  const detailHref = english ? "/en/performances/2026-student-recital" : "/performances/2026-student-recital";
 
   return (
     <main id="main-content" className="events-page">
       <section className="events-hero">
         <div className="events-hero-grid container-wide">
           <div className="events-hero-copy">
-            <p className="eyebrow">RECITAL ARCHIVE / {english ? "EVENTS" : "發表會活動"}</p>
-            <h1>{english ? <>A stage<br />built together.</> : <>把練習帶上舞台，<br />留下共同完成的聲音。</>}</h1>
+            <p className="eyebrow">PERFORMANCE ARCHIVE / {english ? "PERFORMANCES" : "展演活動"}</p>
+            <h1>{english ? "Performances" : "展演活動"}</h1>
             <p>{english
-              ? "A recital is more than a presentation of results. It is a stage experience shaped together by students, teacher, and families. This archive gathers those moments year by year."
-              : "發表會不只是展示成果，而是學生、老師與家庭共同完成的一次舞台經驗。這裡依年份整理每一次演出與活動紀錄。"}</p>
+              ? "From student recitals and personal performances to music events and special projects, this archive gathers the moments when music meets the stage."
+              : "從學生發表會、個人演出、校內外音樂活動到特別企劃，這裡整理每一次與鋼琴相關的展演紀錄。"}</p>
           </div>
           <figure className="events-hero-photo">
             <Image src={studentRecital2026.cover} alt={english ? "Performers and Dr. Hsu together on the recital stage" : "演出者與徐老師在發表會舞台合照"} width={1706} height={960} priority sizes="(max-width: 900px) 100vw, 48vw" />
@@ -30,7 +30,7 @@ export function EventsOverview({ locale }: EventPageProps) {
       <section className="events-index section-pad">
         <div className="container-wide">
           <header className="events-section-heading">
-            <p className="eyebrow">01 — {english ? "RECITALS & EVENTS" : "歷年活動"}</p>
+            <p className="eyebrow">01 — {english ? "PERFORMANCES & EVENTS" : "展演紀錄"}</p>
             <h2>{english ? "Stories from the stage." : "舞台上的每一次，都是學習的一部分。"}</h2>
           </header>
           <article className="event-record-card">
@@ -45,7 +45,7 @@ export function EventsOverview({ locale }: EventPageProps) {
                 <div><dt>{english ? "VENUE" : "地點"}</dt><dd>{studentRecital2026.venue}</dd></div>
               </dl>
               <p>{english ? "A record of the performances, preparation, and shared moments that made this recital day complete." : "記錄這一天的演出、準備，以及學生、老師與家庭共同完成的舞台時刻。"}</p>
-              <Link className="button button-burgundy" href={detailHref}>{english ? "View Recital Story" : "查看活動紀錄"}<span aria-hidden="true">↗</span></Link>
+              <Link className="button button-burgundy" href={detailHref}>{english ? "View Performance Story" : "查看展演紀錄"}<span aria-hidden="true">↗</span></Link>
             </div>
           </article>
         </div>
@@ -56,7 +56,9 @@ export function EventsOverview({ locale }: EventPageProps) {
 
 export function StudentRecital2026({ locale }: EventPageProps) {
   const english = locale === "en";
-  const eventsHref = english ? "/en/events" : "/events";
+  const performancesHref = english ? "/en/performances" : "/performances";
+  const performanceVideoUrl = studentRecital2026.performanceVideoUrl;
+  const gallerySectionNumber = performanceVideoUrl ? "05" : "04";
   const highlights = english
     ? [
         ["01", "Complete a performance", "Students brought their preparation onto the stage and carried each piece through as a complete performance."],
@@ -164,13 +166,24 @@ export function StudentRecital2026({ locale }: EventPageProps) {
 
       <section className="event-gallery-section section-pad">
         <div className="container-wide">
-          <header className="events-section-heading"><p className="eyebrow">04 — {english ? "SELECTED MOMENTS" : "精選照片"}</p><h2>{english ? "Moments before, during, and after the music." : "從準備、演出，到音樂結束之後。"}</h2><p>{english ? "Select any photograph to view it at a larger size." : "點選照片可放大查看。"}</p></header>
+          {performanceVideoUrl && (
+            <section className="event-video-link" aria-labelledby="performance-video-heading">
+              <div>
+                <p className="eyebrow">04 — {english ? "PERFORMANCE VIDEO" : "演出影片"}</p>
+                <h2 id="performance-video-heading">{english ? "Watch the performance." : "觀看這次的演出紀錄。"}</h2>
+              </div>
+              <a className="button button-burgundy" href={performanceVideoUrl} target="_blank" rel="noopener noreferrer">
+                {english ? "Watch on YouTube" : "觀看演出影片"}<span aria-hidden="true">↗</span>
+              </a>
+            </section>
+          )}
+          <header className="events-section-heading"><p className="eyebrow">{gallerySectionNumber} — {english ? "SELECTED MOMENTS" : "精選照片"}</p><h2>{english ? "Moments before, during, and after the music." : "從準備、演出，到音樂結束之後。"}</h2><p>{english ? "Select any photograph to view it at a larger size." : "點選照片可放大查看。"}</p></header>
           <EventGallery images={recitalImages} locale={locale} />
         </div>
       </section>
 
       <section className="event-back-section">
-        <div className="container-wide"><div><p className="eyebrow">RECITAL ARCHIVE</p><h2>{english ? "See every recital and event." : "回到歷年發表會活動。"}</h2></div><Link className="button button-burgundy" href={eventsHref}>{english ? "Back to Recitals" : "返回發表會活動"}<span aria-hidden="true">←</span></Link></div>
+        <div className="container-wide"><div><p className="eyebrow">PERFORMANCE ARCHIVE</p><h2>{english ? "See every performance and event." : "回到展演活動。"}</h2></div><Link className="button button-burgundy" href={performancesHref}>{english ? "Back to Performances" : "返回展演活動"}<span aria-hidden="true">←</span></Link></div>
       </section>
     </main>
   );

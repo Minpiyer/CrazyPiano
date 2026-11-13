@@ -19,6 +19,7 @@ export const studentRecital2026 = {
   poster: "/images/events/2026-student-recital/recital-poster-with-venue.png",
   programPreview: "/images/events/2026-student-recital/recital-program-preview.png",
   programPdf: "/images/events/2026-student-recital/recital-program.pdf",
+  performanceVideoUrl: null as string | null,
 } as const;
 
 export const recitalImages: RecitalImage[] = [
