@@ -113,9 +113,58 @@ export function StudentRecital2026({ locale }: EventPageProps) {
         </div>
       </section>
 
+      <section className="event-materials section-pad">
+        <div className="container-wide">
+          <header className="events-section-heading">
+            <p className="eyebrow">03 — {english ? "POSTER & PROGRAM" : "海報與節目單"}</p>
+            <h2>{english ? "The recital, from invitation to performance." : "從活動邀請，到當天的演出曲目。"}</h2>
+            <p>{english
+              ? "The original poster and program preserve how the recital was introduced and how the performances unfolded on the day."
+              : "保留這次發表會的正式海報與演出節目單，記錄活動資訊與當天的演出順序。"}</p>
+          </header>
+          <div className="event-material-grid">
+            <article className="event-material-card event-material-poster">
+              <a href={studentRecital2026.poster} target="_blank" rel="noreferrer" aria-label={english ? "Open the full 2026 recital poster" : "開啟 2026 發表會完整海報"}>
+                <Image
+                  src={studentRecital2026.poster}
+                  alt={english ? "Official poster for the 2026 student piano recital" : "2026 徐家超學生鋼琴發表會正式海報"}
+                  width={1672}
+                  height={941}
+                  sizes="(max-width: 900px) 100vw, 58vw"
+                />
+              </a>
+              <div className="event-material-copy">
+                <p className="eyebrow">POSTER / 2026</p>
+                <h3>{english ? "Recital Poster" : "發表會海報"}</h3>
+                <p>{english ? "Event date, start time, and venue details." : "活動日期、開始時間與場地資訊。"}</p>
+                <a className="button button-burgundy" href={studentRecital2026.poster} target="_blank" rel="noreferrer">{english ? "View Full Poster" : "查看完整海報"}<span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+
+            <article className="event-material-card event-material-program">
+              <a href={studentRecital2026.programPdf} target="_blank" rel="noreferrer" aria-label={english ? "Open the 2026 recital program PDF" : "開啟 2026 發表會節目單 PDF"}>
+                <Image
+                  src={studentRecital2026.programPreview}
+                  alt={english ? "Program for the 2026 student piano recital" : "2026 徐家超學生鋼琴發表會節目單"}
+                  width={910}
+                  height={1287}
+                  sizes="(max-width: 900px) 82vw, 30vw"
+                />
+              </a>
+              <div className="event-material-copy">
+                <p className="eyebrow">PROGRAM / 2026</p>
+                <h3>{english ? "Performance Program" : "演出節目單"}</h3>
+                <p>{english ? "The complete one-page program and performance order." : "完整單頁節目與當天演出順序。"}</p>
+                <a className="button button-burgundy" href={studentRecital2026.programPdf} target="_blank" rel="noreferrer">{english ? "Open Program PDF" : "開啟節目單 PDF"}<span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
       <section className="event-gallery-section section-pad">
         <div className="container-wide">
-          <header className="events-section-heading"><p className="eyebrow">03 — {english ? "SELECTED MOMENTS" : "精選照片"}</p><h2>{english ? "Moments before, during, and after the music." : "從準備、演出，到音樂結束之後。"}</h2><p>{english ? "Select any photograph to view it at a larger size." : "點選照片可放大查看。"}</p></header>
+          <header className="events-section-heading"><p className="eyebrow">04 — {english ? "SELECTED MOMENTS" : "精選照片"}</p><h2>{english ? "Moments before, during, and after the music." : "從準備、演出，到音樂結束之後。"}</h2><p>{english ? "Select any photograph to view it at a larger size." : "點選照片可放大查看。"}</p></header>
           <EventGallery images={recitalImages} locale={locale} />
         </div>
       </section>

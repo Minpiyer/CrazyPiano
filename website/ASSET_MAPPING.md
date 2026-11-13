@@ -86,6 +86,9 @@ The source photographs remain unchanged in the user-provided Desktop folder `學
 | `public/images/events/2026-student-recital/family-recital-moment.jpg` | `S__35651605_0.jpg` | Recital gallery: family and recital moment |
 | `public/images/events/2026-student-recital/family-stage-portrait.jpg` | `S__35651606_0.jpg` | Recital gallery: stage portrait |
 | `public/images/events/2026-student-recital/teacher-student-stage-portrait.jpg` | `S__35651608_0.jpg` | Recital gallery: teacher and performer portrait |
+| `public/images/events/2026-student-recital/recital-poster-with-venue.png` | `本次發表會海報_含地址版.png` | Official recital poster displayed in the event materials section; selected copy only, original Desktop source remains outside the repository |
+| `public/images/events/2026-student-recital/recital-program-preview.png` | Rendered from `徐家超學生鋼琴發表會_單頁節目單_A4最終姓名版.pdf` | Web preview for the official one-page performance program |
+| `public/images/events/2026-student-recital/recital-program.pdf` | `徐家超學生鋼琴發表會_單頁節目單_A4最終姓名版.pdf` | Official one-page program opened from the event page; selected copy only, source work files remain outside the repository |
 
 ## Contact assets
 

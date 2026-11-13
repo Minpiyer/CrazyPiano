@@ -16,6 +16,9 @@ export const studentRecital2026 = {
   enDate: "November 8, 2026",
   venue: "雅什藝文",
   cover: "/images/events/2026-student-recital/recital-group-photo.jpg",
+  poster: "/images/events/2026-student-recital/recital-poster-with-venue.png",
+  programPreview: "/images/events/2026-student-recital/recital-program-preview.png",
+  programPdf: "/images/events/2026-student-recital/recital-program.pdf",
 } as const;
 
 export const recitalImages: RecitalImage[] = [
