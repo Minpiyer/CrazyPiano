@@ -55,7 +55,7 @@ export default function GalleryPage() {
             <EditorialPhoto src="/images/gallery/gallery-posture-child-hand-position.jpg" alt="學生手指在鋼琴鍵盤上的近距離姿勢" label="HAND POSITION" caption="從手指落鍵、手腕配合到避免過度僵硬。" permission />
             <a className="technique-video-card" href={postureVideo.url} target="_blank" rel="noreferrer" aria-label={`${postureVideo.title}，在 YouTube 觀看`} data-photo-permission="Public use permission required before production launch">
               <div className="technique-video-image"><Image src={postureVideo.image} alt="正確手姿勢教學影片縮圖" fill sizes="(max-width: 900px) 92vw, 46vw" /><span className="gallery-play" aria-hidden="true">▶</span></div>
-              <div className="technique-video-copy"><span>TECHNIQUE／POSTURE VIDEO</span><h3>{postureVideo.title}</h3><strong>WATCH VIDEO ↗</strong></div>
+              <div className="technique-video-copy"><span>TECHNIQUE／POSTURE VIDEO</span><h3>{postureVideo.title}</h3><strong>觀看 ↗</strong></div>
             </a>
           </div>
         </div>

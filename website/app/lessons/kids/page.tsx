@@ -47,7 +47,7 @@ export default function KidsPianoLessonsPage() {
           {kidsTechniques.map((technique, index) => (
             <Link className="kids-technique-card-link" href={`/lessons/kids/${technique.slug}`} key={technique.slug} aria-label={`閱讀${technique.title}教學`}>
               <EditorialCard label={technique.index} title={technique.title} tone={index % 3 === 0 ? "orange" : index % 3 === 1 ? "paper" : "mustard"}>
-                <p>{technique.cardDescription}</p><span className="kids-technique-card-action">READ THE GUIDE／閱讀教學 →</span>
+                <p>{technique.cardDescription}</p><span className="kids-technique-card-action">閱讀教學 →</span>
               </EditorialCard>
             </Link>
           ))}

@@ -6,11 +6,11 @@ export function KidsTechniqueArticle({ technique, locale = "zh-Hant", techniques
   const english = locale === "en";
   return (
     <main className="kids-technique-page" id="main-content">
-      <section className="kids-technique-hero">
+      <section className={`kids-technique-hero kids-technique-hero-${technique.slug}`}>
         <div className="kids-technique-hero-grid container-wide">
           <div>
             <nav className="lesson-breadcrumb" aria-label={english ? "Breadcrumb" : "麵包屑導覽"}>
-              <Link href={english ? "/en" : "/"}>HOME</Link><span aria-hidden="true">／</span>
+              <Link href={english ? "/en" : "/"}>{english ? "HOME" : "首頁"}</Link><span aria-hidden="true">／</span>
               <Link href={english ? "/en/lessons/kids" : "/lessons/kids"}>{english ? "Kids Piano Lessons" : "兒童鋼琴課"}</Link><span aria-hidden="true">／</span>
               <span>{technique.title}</span>
             </nav>

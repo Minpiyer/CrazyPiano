@@ -7,19 +7,21 @@ import { lessonLinks, routes } from "@/data/site";
 import { getLanguageSwitchTarget, isEnglishPath } from "@/lib/i18n";
 
 const primaryLinks = [
-  { href: routes.home, label: "Home" },
-  { href: routes.about, label: "About" },
-  { href: routes.gallery, label: "Gallery" },
+  { href: routes.home, label: "首頁" },
+  { href: routes.about, label: "關於" },
+  { href: routes.gallery, label: "相簿" },
   { href: routes.performances, label: "展演活動" },
-  { href: routes.fees, label: "Lesson Fees" },
-  { href: routes.faq, label: "FAQ" },
-  { href: routes.contact, label: "Contact" },
+  { href: routes.scores, label: "編曲作品" },
+  { href: routes.fees, label: "課程費用" },
+  { href: routes.faq, label: "常見問題" },
+  { href: routes.contact, label: "聯絡" },
 ] as const;
 
 const englishPrimaryLinks = [
   { href: "/en", label: "Home" },
   { href: "/en/about", label: "About" },
   { href: "/en/performances", label: "Performances" },
+  { href: "/en/scores", label: "Arrangements" },
   { href: "/en/contact", label: "Contact" },
 ] as const;
 
@@ -63,7 +65,7 @@ export function SiteHeader() {
         </Link>
 
         <nav className="desktop-nav" aria-label={english ? "Main navigation" : "主要導覽"}>
-          <Link href={homeHref}>Home</Link>
+          <Link href={homeHref}>{english ? "Home" : "首頁"}</Link>
           <div className="nav-dropdown" ref={dropdownRef}>
             <button
               type="button"
@@ -71,7 +73,7 @@ export function SiteHeader() {
               aria-controls="desktop-lessons-menu"
               onClick={() => setDesktopLessonsOpen((open) => !open)}
             >
-              Lessons <span aria-hidden="true">⌄</span>
+              {english ? "Lessons" : "課程"} <span aria-hidden="true">⌄</span>
             </button>
             {desktopLessonsOpen && (
               <div className="lesson-menu" id="desktop-lessons-menu">
@@ -113,7 +115,7 @@ export function SiteHeader() {
 
       {mobileOpen && (
         <nav className="mobile-menu" id="mobile-menu" aria-label={english ? "Mobile navigation" : "行動版主要導覽"}>
-          <Link href={homeHref} onClick={closeMobile}>Home</Link>
+          <Link href={homeHref} onClick={closeMobile}>{english ? "Home" : "首頁"}</Link>
           <button
             type="button"
             className="mobile-lessons-toggle"
@@ -121,7 +123,7 @@ export function SiteHeader() {
             aria-controls="mobile-lessons-menu"
             onClick={() => setMobileLessonsOpen((open) => !open)}
           >
-            Lessons <span aria-hidden="true">{mobileLessonsOpen ? "−" : "+"}</span>
+            {english ? "Lessons" : "課程"} <span aria-hidden="true">{mobileLessonsOpen ? "−" : "+"}</span>
           </button>
           {mobileLessonsOpen && (
             <div className="mobile-lessons" id="mobile-lessons-menu">
@@ -137,7 +139,7 @@ export function SiteHeader() {
             <Link key={link.href} href={link.href} onClick={closeMobile}>{link.label}</Link>
           ))}
           <Link className="button button-burgundy mobile-trial" href={contactHref} onClick={closeMobile}>
-            {english ? "Book a Trial Lesson" : "Book a Trial Lesson／預約試課"}
+            {english ? "Book a Trial Lesson" : "預約試課"}
           </Link>
         </nav>
       )}

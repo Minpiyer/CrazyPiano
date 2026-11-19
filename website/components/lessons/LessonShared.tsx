@@ -27,14 +27,14 @@ export function LessonHero({ eyebrow, title, intro, core, image, imageAlt, image
       <div className="lesson-hero-grid container-wide">
         <div className="lesson-hero-copy">
           <nav className="lesson-breadcrumb" aria-label={english ? "Breadcrumb" : "麵包屑導覽"}>
-            <Link href={homeHref}>HOME</Link><span aria-hidden="true">／</span><span>LESSONS</span>
+            <Link href={homeHref}>{english ? "HOME" : "首頁"}</Link><span aria-hidden="true">／</span><span>{english ? "LESSONS" : "課程"}</span>
           </nav>
           <p className="eyebrow">{eyebrow}</p>
           <h1>{title}</h1>
           <p className="lesson-hero-intro">{intro}</p>
           <blockquote>{core}</blockquote>
           <div className="button-row">
-            <Link className="button button-burgundy" href={contactHref}>{english ? "Book a Trial Lesson" : "Book a Trial Lesson／預約試課"}</Link>
+            <Link className="button button-burgundy" href={contactHref}>{english ? "Book a Trial Lesson" : "預約試課"}</Link>
             <a className="button button-paper" href="#lesson-overview">{english ? "Explore the Lesson" : "看看課程內容"}</a>
           </div>
           <ul className="lesson-hero-facts" aria-label={english ? "Lesson highlights" : "課程重點"}>
@@ -111,7 +111,7 @@ export function LessonFinalCta({ title, children, locale = "zh-Hant" }: { title:
   return (
     <section className="lesson-final-cta section-pad">
       <div className="lesson-final-grid container-wide">
-        <div><p className="eyebrow">START HERE</p><h2>{title}</h2><div className="lesson-final-copy">{children}</div><Link className="button button-burgundy" href={english ? "/en/contact" : routes.contact}>{english ? "Book a Trial Lesson ↗" : "Book a Trial Lesson／預約試課 ↗"}</Link></div>
+        <div><p className="eyebrow">START HERE</p><h2>{title}</h2><div className="lesson-final-copy">{children}</div><Link className="button button-burgundy" href={english ? "/en/contact" : routes.contact}>{english ? "Book a Trial Lesson ↗" : "預約試課 ↗"}</Link></div>
         <div className="lesson-record" aria-hidden="true"><span /></div>
         <p className="lesson-hand-note">No pressure.<br />Just music.</p>
       </div>

@@ -17,19 +17,20 @@ export function SiteFooter() {
           <div>{english ? <>Play it your way.<br />Build the skills. Make the music yours.</> : <>Play it your way.<br />把技巧練好，也把音樂變成自己的。</>}</div>
         </div>
         <div className="footer-column">
-          <h2>EXPLORE</h2>
+          <h2>{english ? "EXPLORE" : "探索"}</h2>
           <Link href={english ? "/en/about" : routes.about}>{english ? "About Dr. Hsu" : "關於徐老師"}</Link>
           {!english && <Link href={routes.gallery}>教學現場</Link>}
           <Link href={english ? "/en/performances" : routes.performances}>{english ? "Performances" : "展演活動"}</Link>
+          <Link href={english ? "/en/scores" : routes.scores}>{english ? "Arrangements" : "編曲作品"}</Link>
           {!english && <Link href={routes.fees}>課程費用</Link>}
           {!english && <Link href={routes.faq}>常見問題</Link>}
         </div>
         <div className="footer-column">
-          <h2>LESSONS</h2>
+          <h2>{english ? "LESSONS" : "課程"}</h2>
           {english ? <><Link href="/en/lessons/kids">Kids Piano Lessons</Link><Link href="/en/lessons/adult">Adult Piano Lessons</Link></> : lessonLinks.map((link) => <Link key={link.href} href={link.href}>{link.zh}</Link>)}
         </div>
         <div className="footer-column">
-          <h2>CONNECT</h2>
+          <h2>{english ? "CONNECT" : "聯絡"}</h2>
           <a href="https://www.youtube.com/@crazypiano5945" target="_blank" rel="noreferrer">YouTube</a>
           <a href="mailto:minpiyer@gmail.com">minpiyer@gmail.com</a>
           <Link href={contactHref}>{english ? "Book a Trial Lesson" : "預約試課"}</Link>

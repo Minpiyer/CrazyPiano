@@ -3,6 +3,7 @@ export const routes = {
   about: "/about",
   gallery: "/gallery",
   performances: "/performances",
+  scores: "/scores",
   fees: "/lesson-fees",
   faq: "/faq",
   contact: "/contact",

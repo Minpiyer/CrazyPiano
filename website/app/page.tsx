@@ -53,8 +53,8 @@ export default function HomePage() {
             <h2>看懂音樂，彈你想彈的。</h2>
             <p className="hero-lead">視譜能力是基礎，其他都可以跟著你的興趣與目標改變。<br className="desktop-break" />古典、流行、檢定，或你最喜歡的那首歌，都可以成為課程的一部分。</p>
             <div className="button-row">
-              <Link className="button button-orange" href={routes.contact}>Book a Trial Lesson／預約試課</Link>
-              <Link className="button button-paper" href={routes.about}>Meet Dr. Hsu／認識徐老師</Link>
+              <Link className="button button-orange" href={routes.contact}>預約試課</Link>
+              <Link className="button button-paper" href={routes.about}>認識徐老師</Link>
             </div>
             <ul className="hero-facts" aria-label="教師專業摘要">
               <li>Doctor of Musical Arts</li>
@@ -122,7 +122,7 @@ export default function HomePage() {
               <div><small>TEACHING</small><strong>Teaching<br />since 2007</strong><span>Children • Teens • Adults</span></div>
               <div><small>EXPERIENCE</small><strong>ABRSM &<br />Judging</strong><span>Grade 8 coaching</span></div>
             </div>
-            <Link className="button button-coffee" href={routes.about}>完整介紹／Full Profile →</Link>
+            <Link className="button button-coffee" href={routes.about}>完整介紹 →</Link>
           </div>
         </div>
       </section>
@@ -133,13 +133,13 @@ export default function HomePage() {
           <div className="video-layout">
             <a className="video-featured" href={videos[0].url} target="_blank" rel="noreferrer">
               <div className="video-image"><Image src={videos[0].image} alt="合手彈奏與視奏能力教學影片縮圖" fill sizes="(max-width: 900px) 92vw, 58vw" /><span className="play-button" aria-hidden="true">▶</span></div>
-              <span className="video-meta">{videos[0].category} • {videos[0].duration}</span><h3>{videos[0].title}</h3><span className="watch-link">WATCH ON YOUTUBE ↗</span>
+              <span className="video-meta">{videos[0].category} • {videos[0].duration}</span><h3>{videos[0].title}</h3><span className="watch-link">前往 YouTube 觀看 ↗</span>
             </a>
             <div className="video-secondary-list">
               {videos.slice(1).map((video) => (
                 <a className="video-secondary" href={video.url} target="_blank" rel="noreferrer" key={video.url}>
                   <div className="video-thumb"><Image src={video.image} alt={`${video.title}影片縮圖`} fill sizes="(max-width: 900px) 35vw, 18vw" /><span aria-hidden="true">▶</span></div>
-                  <div><span className="video-meta">{video.category} • {video.duration}</span><h3>{video.title}</h3><span className="watch-link">WATCH ↗</span></div>
+                  <div><span className="video-meta">{video.category} • {video.duration}</span><h3>{video.title}</h3><span className="watch-link">觀看 ↗</span></div>
                 </a>
               ))}
             </div>
@@ -157,7 +157,7 @@ export default function HomePage() {
             <figure className="gallery-side"><Image src="/images/gallery/music-activity-teacher-stage-talk.jpg" alt="徐老師在音樂活動舞台上分享演奏與學習經驗" fill sizes="(max-width: 767px) 45vw, 22vw" /></figure>
             <blockquote className="gallery-note"><small>RECITAL NOTES</small>不是完美才值得掌聲，<br />是努力本身就值得。</blockquote>
           </div>
-          <Link className="text-link" href={routes.gallery}>VIEW ALL STORIES →</Link>
+          <Link className="text-link" href={routes.gallery}>查看全部內容 →</Link>
         </div>
       </section>
 
@@ -193,13 +193,13 @@ export default function HomePage() {
               <details key={question} open={index === 3}><summary>{question}<span aria-hidden="true">＋</span></summary><p>{answer}</p></details>
             ))}
           </div>
-          <Link className="text-link" href={routes.faq}>查看完整 FAQ →</Link>
+          <Link className="text-link" href={routes.faq}>查看全部常見問題 →</Link>
         </div>
       </section>
 
       <section className="final-cta section-pad">
         <div className="cta-inner container-wide">
-          <div><p className="eyebrow">09 — START HERE</p><h2>從你最想彈的<br />那一首開始。</h2><p>告訴我你的程度、想學的音樂與方便的時間。試課後，我們一起整理最適合你的學習方向。</p><Link className="button button-burgundy" href={routes.contact}>Book a Trial Lesson／預約試課 ↗</Link></div>
+          <div><p className="eyebrow">09 — START HERE</p><h2>從你最想彈的<br />那一首開始。</h2><p>告訴我你的程度、想學的音樂與方便的時間。試課後，我們一起整理最適合你的學習方向。</p><Link className="button button-burgundy" href={routes.contact}>預約試課 ↗</Link></div>
           <div className="record-graphic" aria-hidden="true"><span /></div>
           <p className="hand-note">No pressure.<br />Just music.</p>
         </div>

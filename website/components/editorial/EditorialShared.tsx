@@ -18,16 +18,17 @@ type EditorialHeroProps = {
 
 export function EditorialHero({ eyebrow, title, intro, quote, image, imageAlt, variant, badge, locale = "zh-Hant" }: EditorialHeroProps) {
   const english = locale === "en";
+  const breadcrumbLabel = english ? variant.toUpperCase() : variant === "about" ? "關於我" : "教學現場";
   return (
     <section className={`editorial-hero editorial-hero-${variant}`}>
       <div className="editorial-hero-grid container-wide">
         <div className="editorial-hero-copy">
-          <nav className="editorial-breadcrumb" aria-label={english ? "Breadcrumb" : "麵包屑導覽"}><Link href={english ? "/en" : routes.home}>HOME</Link><span>/</span><span>{variant.toUpperCase()}</span></nav>
+          <nav className="editorial-breadcrumb" aria-label={english ? "Breadcrumb" : "麵包屑導覽"}><Link href={english ? "/en" : routes.home}>{english ? "HOME" : "首頁"}</Link><span>/</span><span>{breadcrumbLabel}</span></nav>
           <p className="eyebrow">{eyebrow}</p>
           <h1>{title}</h1>
           <p className="editorial-hero-intro">{intro}</p>
           {quote && <blockquote>{quote}</blockquote>}
-          <Link className="button button-burgundy" href={english ? "/en/contact" : routes.contact}>{english ? "Book a Trial Lesson" : "Book a Trial Lesson／預約試課"}</Link>
+          <Link className="button button-burgundy" href={english ? "/en/contact" : routes.contact}>{english ? "Book a Trial Lesson" : "預約試課"}</Link>
         </div>
         <div className="editorial-hero-visual">
           <div className="editorial-hero-image"><Image src={image} alt={imageAlt} fill preload sizes="(max-width: 900px) 92vw, 43vw" /></div>
@@ -75,7 +76,7 @@ export function EditorialCta({ title, children, locale = "zh-Hant" }: { title: R
   return (
     <section className="editorial-final-cta section-pad">
       <div className="editorial-final-grid container-wide">
-        <div><p className="eyebrow">START HERE</p><h2>{title}</h2><div className="editorial-final-copy">{children}</div><Link className="button button-burgundy" href={english ? "/en/contact" : routes.contact}>{english ? "Book a Trial Lesson ↗" : "Book a Trial Lesson／預約試課 ↗"}</Link></div>
+        <div><p className="eyebrow">START HERE</p><h2>{title}</h2><div className="editorial-final-copy">{children}</div><Link className="button button-burgundy" href={english ? "/en/contact" : routes.contact}>{english ? "Book a Trial Lesson ↗" : "預約試課 ↗"}</Link></div>
         <div className="editorial-record" aria-hidden="true"><span /></div>
         <p className="editorial-hand-note">No pressure.<br />Just music.</p>
       </div>

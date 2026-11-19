@@ -101,6 +101,21 @@ The source photographs remain unchanged in the user-provided Desktop folder `學
 
 The official QR decodes to `https://line.me/ti/p/dXFpD4P63M`. The Contact page uses this exact URL for the desktop/mobile Add Friend link without exposing a LINE ID.
 
+## Arrangement portfolio previews
+
+The original PDFs remain in the local `Scores` source folder and are not copied into `public`. Only the six watermarked, web-sized previews below are available to the application. Each image is exported at a maximum width of 1400 px, compressed as WebP, and stamped with repeated low-opacity `CRAZY PIANO / ARRANGEMENT PREVIEW` watermarks. No PDF, full-resolution source, or score-download control is exposed by the website.
+
+| Website path | Source document and page | Usage |
+| --- | --- | --- |
+| `public/images/scores/prince-ali/primo-opening.webp` | `Scores/Prince Ali/Prince Ali 第一部・橫式 A4 合併版・音符放大版.pdf`, page 1 | Prince Ali overview card and primo opening preview |
+| `public/images/scores/prince-ali/secondo-opening.webp` | `Scores/Prince Ali/Prince Ali 第二部・橫式 A4 合併版・音符放大版.pdf`, page 1 | Prince Ali secondo opening preview |
+| `public/images/scores/prince-ali/development-detail.webp` | `Scores/Prince Ali/Prince Ali 第一部・橫式 A4 合併版・音符放大版.pdf`, page 6, cropped excerpt | Prince Ali development-detail preview |
+| `public/images/scores/remember-me/primo-opening.webp` | `Scores/可可夜總會/Remember me一部.pdf`, page 1 | Remember Me overview card and primo melodic-line preview |
+| `public/images/scores/remember-me/secondo-opening.webp` | `Scores/可可夜總會/Remember me 二部.pdf`, page 1 | Remember Me flowing-accompaniment preview |
+| `public/images/scores/remember-me/fast-passage-detail.webp` | `Scores/可可夜總會/Remember me一部.pdf`, page 2, cropped excerpt | Remember Me fast-note-group preview |
+
+These previews are for arrangement-portfolio context only. They do not imply that the underlying copyrighted compositions, complete arrangements, or distribution rights are offered for sale or download.
+
 ## Production reminders
 
 - Do not reference `source-materials` from application code.

@@ -30,7 +30,7 @@ export default function LessonFeesPage() {
 
       <section className="info-section fees-overview section-pad"><div className="container-wide">
         <InfoHeading index="01" eyebrow="LESSON FEES" title="清楚的費用，專注的一對一教學。" intro={<p>三個地區代表所在地與上課方式，不是不同等級的課程。</p>} />
-        <div className="fees-page-grid">{fees.map((fee) => <article className={`fees-page-card ${fee.tone}`} key={fee.region}><span>{fee.region}</span><h3>{fee.title}</h3><strong>{fee.price}</strong><p>{fee.body}</p><Link href={routes.contact}>Book a Trial Lesson／預約試課 ↗</Link></article>)}</div>
+        <div className="fees-page-grid">{fees.map((fee) => <article className={`fees-page-card ${fee.tone}`} key={fee.region}><span>{fee.region}</span><h3>{fee.title}</h3><strong>{fee.price}</strong><p>{fee.body}</p><Link href={routes.contact}>預約試課 ↗</Link></article>)}</div>
         <p className="fees-note">實際課程安排與費用，以確認學生需求後為準。</p>
       </div></section>
 

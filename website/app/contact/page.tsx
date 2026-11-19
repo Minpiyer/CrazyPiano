@@ -39,14 +39,14 @@ export default function ContactPage() {
         <InfoHeading index="03" eyebrow="CONTACT OPTIONS" title="選一個最方便的方式聯絡。" />
         <div className="contact-option-grid">
           <article className="contact-option contact-email"><span>EMAIL</span><h3>一般課程與海外學生詢問</h3><a href="mailto:minpiyer@gmail.com">minpiyer@gmail.com ↗</a></article>
-          <article className="contact-option contact-line"><span>LINE</span><h3>掃描 QR Code 加好友</h3><div className="line-qr"><Image src="/images/contact/line-add-friend-qr.jpeg" alt="Crazy Piano LINE 加好友 QR Code" width={1206} height={882} sizes="(max-width: 767px) 88vw, 360px" loading="eager" /></div><a className="line-add-friend" href="https://line.me/ti/p/dXFpD4P63M" target="_blank" rel="noopener noreferrer">LINE／Add Friend ↗</a><p className="implementation-note">手機瀏覽時可直接開啟 LINE；LINE ID 不公開。</p></article>
+          <article className="contact-option contact-line"><span>LINE</span><h3>掃描 QR Code 加好友</h3><div className="line-qr"><Image src="/images/contact/line-add-friend-qr.jpeg" alt="Crazy Piano LINE 加好友 QR Code" width={1206} height={882} sizes="(max-width: 767px) 88vw, 360px" loading="eager" /></div><a className="line-add-friend" href="https://line.me/ti/p/dXFpD4P63M" target="_blank" rel="noopener noreferrer">加入 LINE 好友 ↗</a><p className="implementation-note">手機瀏覽時可直接開啟 LINE；LINE ID 不公開。</p></article>
           <article className="contact-option contact-youtube"><span>YOUTUBE</span><h3>瘋鋼琴</h3><p>看看實際教學、演奏與教學影片。</p><a href="https://www.youtube.com/@crazypiano5945" target="_blank" rel="noreferrer">YouTube｜瘋鋼琴 ↗</a></article>
         </div>
       </div></section>
 
       <section className="info-section contact-videos section-pad"><div className="container-wide">
         <InfoHeading index="04" eyebrow="TEACHING ON YOUTUBE" title="先看看我是怎麼教的。" intro={<p>從基本技巧、音階，到巴哈與作品理解，可以先從實際教學影片了解我的教學方式。</p>} inverse />
-        <div className="contact-video-grid">{videos.map((video) => <a href={video.url} target="_blank" rel="noreferrer" className="contact-video-card" key={video.url}><div><Image src={video.image} alt={`${video.title}影片縮圖`} fill sizes="(max-width: 767px) 92vw, 31vw" /><span aria-hidden="true">▶</span></div><p>{video.category}</p><h3>{video.title}</h3><strong>WATCH ON YOUTUBE ↗</strong></a>)}</div>
+        <div className="contact-video-grid">{videos.map((video) => <a href={video.url} target="_blank" rel="noreferrer" className="contact-video-card" key={video.url}><div><Image src={video.image} alt={`${video.title}影片縮圖`} fill sizes="(max-width: 767px) 92vw, 31vw" /><span aria-hidden="true">▶</span></div><p>{video.category}</p><h3>{video.title}</h3><strong>前往 YouTube 觀看 ↗</strong></a>)}</div>
       </div></section>
 
       <section className="info-section contact-form-section section-pad" id="contact-form"><div className="container-wide">
@@ -59,7 +59,7 @@ export default function ContactPage() {
         <ol className="contact-next-grid"><li><span>01</span><strong>Tell Me About You</strong><p>告訴我目前狀況</p></li><li><span>02</span><strong>Confirm Lesson Direction</strong><p>確認課程方向與費用</p></li><li><span>03</span><strong>Book a 50-minute Trial</strong><p>安排 50 分鐘試上</p></li></ol>
       </div></section>
 
-      <section className="contact-final section-pad"><div className="container-wide"><p className="eyebrow">START HERE</p><h2>從你現在的位置開始就好。</h2><p>第一次學、重新開始、準備檢定，或只是有一首一直很想彈的歌，都可以先聊聊。</p><a className="button button-burgundy" href="mailto:minpiyer@gmail.com">Email Dr. Hsu／寄信詢問 ↗</a><blockquote>No pressure. Just music.</blockquote></div></section>
+      <section className="contact-final section-pad"><div className="container-wide"><p className="eyebrow">START HERE</p><h2>從你現在的位置開始就好。</h2><p>第一次學、重新開始、準備檢定，或只是有一首一直很想彈的歌，都可以先聊聊。</p><a className="button button-burgundy" href="mailto:minpiyer@gmail.com">寄信詢問 ↗</a><blockquote>No pressure. Just music.</blockquote></div></section>
     </main>
   );
 }

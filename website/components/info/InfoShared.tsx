@@ -12,15 +12,16 @@ export function InfoHero({ eyebrow, title, intro, variant, children, locale = "z
   locale?: SiteLocale;
 }) {
   const english = locale === "en";
+  const breadcrumbLabel = english ? eyebrow : variant === "fees" ? "課程費用" : variant === "faq" ? "常見問題" : "聯絡與預約";
   return (
     <section className={`info-hero info-hero-${variant}`}>
       <div className="info-hero-grid container-wide">
         <div className="info-hero-copy">
-          <nav className="info-breadcrumb" aria-label={english ? "Breadcrumb" : "麵包屑導覽"}><Link href={english ? "/en" : routes.home}>HOME</Link><span>/</span><span>{eyebrow}</span></nav>
+          <nav className="info-breadcrumb" aria-label={english ? "Breadcrumb" : "麵包屑導覽"}><Link href={english ? "/en" : routes.home}>{english ? "HOME" : "首頁"}</Link><span>/</span><span>{breadcrumbLabel}</span></nav>
           <p className="eyebrow">{eyebrow}</p>
           <h1>{title}</h1>
           <p>{intro}</p>
-          <Link className="button button-burgundy" href={english ? "/en/contact" : routes.contact}>{english ? "Book a Trial Lesson" : "Book a Trial Lesson／預約試課"}</Link>
+          <Link className="button button-burgundy" href={english ? "/en/contact" : routes.contact}>{english ? "Book a Trial Lesson" : "預約試課"}</Link>
         </div>
         <div className="info-hero-art" aria-hidden="true">{children}</div>
       </div>

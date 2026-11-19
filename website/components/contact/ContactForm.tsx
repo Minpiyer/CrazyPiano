@@ -4,12 +4,12 @@ import { FormEvent, useRef, useState } from "react";
 import type { SiteLocale } from "@/lib/i18n";
 
 const fields = [
-  { id: "name", label: "Name／姓名", type: "text", autoComplete: "name", required: true, maxLength: 100 },
-  { id: "email", label: "Email", type: "email", autoComplete: "email", required: true, maxLength: 254 },
-  { id: "location", label: "Location／所在地區", type: "text", autoComplete: "country-name", required: false, maxLength: 120 },
-  { id: "age", label: "Age／年齡", type: "text", autoComplete: "off", required: false, maxLength: 30 },
-  { id: "currentLevel", label: "Current Level／目前程度", type: "text", autoComplete: "off", required: false, maxLength: 200 },
-  { id: "learningGoal", label: "What would you like to learn?／想學什麼？", type: "text", autoComplete: "off", required: true, maxLength: 1000 },
+  { id: "name", label: "姓名", type: "text", autoComplete: "name", required: true, maxLength: 100 },
+  { id: "email", label: "電子郵件", type: "email", autoComplete: "email", required: true, maxLength: 254 },
+  { id: "location", label: "所在地區", type: "text", autoComplete: "country-name", required: false, maxLength: 120 },
+  { id: "age", label: "年齡", type: "text", autoComplete: "off", required: false, maxLength: 30 },
+  { id: "currentLevel", label: "目前程度", type: "text", autoComplete: "off", required: false, maxLength: 200 },
+  { id: "learningGoal", label: "想學什麼？", type: "text", autoComplete: "off", required: true, maxLength: 1000 },
 ] as const;
 
 const englishFields = [
@@ -24,7 +24,7 @@ const englishFields = [
 type SubmitState = "idle" | "submitting" | "success" | "error";
 
 const statusCopy: Record<SubmitState, string> = {
-  idle: "必填欄位標示為 required。資料只會用於回覆這次課程詢問。",
+  idle: "必填欄位以星號標示。資料只會用於回覆這次課程詢問。",
   submitting: "送出中…",
   success: "訊息已送出，謝謝你的詢問。",
   error: "傳送失敗，請稍後再試，或直接寄信至 minpiyer@gmail.com。",
@@ -105,7 +105,7 @@ export function ContactForm({ locale = "zh-Hant" }: { locale?: SiteLocale }) {
           </div>
         ))}
         <div className="contact-field contact-field-wide">
-          <label htmlFor="message">{english ? "Additional Message" : "Message／補充訊息"}</label>
+          <label htmlFor="message">{english ? "Additional Message" : "補充訊息"}</label>
           <textarea id="message" name="message" rows={6} maxLength={3000} disabled={isSubmitting} />
         </div>
         <div className="contact-honeypot" aria-hidden="true">
@@ -114,7 +114,7 @@ export function ContactForm({ locale = "zh-Hant" }: { locale?: SiteLocale }) {
         </div>
       </div>
       <button className="button button-burgundy contact-submit" type="submit" disabled={isSubmitting} aria-disabled={isSubmitting}>
-        {isSubmitting ? (english ? "Sending…" : "Sending／送出中…") : (english ? "Send Inquiry" : "Send Inquiry／送出詢問")}
+        {isSubmitting ? (english ? "Sending…" : "送出中…") : (english ? "Send Inquiry" : "送出詢問")}
       </button>
       <p
         className={`contact-form-status is-${submitState}`}
