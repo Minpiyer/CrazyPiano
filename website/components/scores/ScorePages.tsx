@@ -50,7 +50,7 @@ export function ScoresOverview({ locale }: ScorePageProps) {
         </div>
       </section>
 
-      <section className="scores-rights-note section-pad"><div className="container-wide"><p className="eyebrow">PORTFOLIO PREVIEW ONLY</p><h2>{english ? "Selected excerpts—not complete scores." : "只展示少量片段，不公開完整樂譜。"}</h2><p>{english ? "These pages present arranging and score-writing work only. They do not offer complete PDFs, downloads, sales, or licenses for the underlying copyrighted compositions." : "本區僅展示編曲與製譜能力，不提供完整 PDF、下載、販售，亦不代表取得原作品的發行或授權權利。"}</p></div></section>
+      <section className="scores-rights-note section-pad"><div className="container-wide"><p className="eyebrow">PORTFOLIO PREVIEW ONLY</p><h2>{english ? "Selected score excerpts are shown here." : "目前只展示部分樂譜。"}</h2><p>{english ? "For arrangement inquiries, contact me by email or LINE." : "如有編曲合作需求，可透過 Email 或 LINE 與我聯繫。"}</p></div></section>
     </main>
   );
 }
