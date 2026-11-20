@@ -1263,6 +1263,9 @@ h2 { font-size: clamp(2.25rem, 4.2vw, 3.65rem); }
 .score-preview-grid figcaption span { font-family: var(--font-mono); color: var(--burgundy); }
 .score-preview-detail { grid-column: 1 / -1; width: min(100%,900px); justify-self: center; }
 .score-video-section { background: var(--paper); }
+.score-video-card { display: grid; grid-template-columns: minmax(0,1fr) auto; gap: 56px; align-items: end; padding-block: clamp(34px,5vw,66px); border-block: 2px solid var(--ink); }
+.score-video-card h2 { margin: 14px 0 22px; font-size: clamp(3rem,5.3vw,5.5rem); }
+.score-video-card .button { background: var(--mustard); color: var(--ink); white-space: nowrap; }
 .score-copyright-note { border-bottom: 2px solid var(--ink); background: var(--coffee); color: var(--paper); }
 .score-copyright-note > div { display: grid; grid-template-columns: 210px 1fr; gap: 30px; padding-block: 30px; }
 .score-copyright-note strong { font-family: var(--font-mono); font-size: .75rem; letter-spacing: .08em; text-transform: uppercase; }
@@ -1296,7 +1299,7 @@ h2 { font-size: clamp(2.25rem, 4.2vw, 3.65rem); }
   .score-work-copy { padding: 27px 22px 31px; }
   .score-work-copy h2 { font-size: clamp(2.45rem,12vw,3.7rem); }
   .score-work-copy dl div, .score-detail-facts div { grid-template-columns: 72px 1fr; gap: 12px; }
-  .scores-rights-note > div, .score-concept-grid, .score-copyright-note > div, .score-final-cta > div { grid-template-columns: 1fr; }
+  .scores-rights-note > div, .score-concept-grid, .score-copyright-note > div, .score-final-cta > div, .score-video-card { grid-template-columns: 1fr; }
   .scores-rights-note > div > p:last-child, .score-concept-grid ul { grid-column: auto; margin-top: 0; }
   .score-detail-cover { box-shadow: 8px 9px 0 var(--coffee); transform: none; }
   .score-concept-number { font-size: 5.5rem; }
@@ -1306,6 +1309,8 @@ h2 { font-size: clamp(2.25rem, 4.2vw, 3.65rem); }
   .score-copyright-note > div { gap: 10px; padding-block: 26px; }
   .score-final-cta > div { align-items: start; }
   .score-final-cta .button { width: 100%; white-space: normal; }
+  .score-video-card { gap: 28px; align-items: start; }
+  .score-video-card .button { width: 100%; white-space: normal; }
 }
 
 @media (prefers-reduced-motion: reduce) {

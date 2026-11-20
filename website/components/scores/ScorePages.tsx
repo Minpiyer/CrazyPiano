@@ -79,7 +79,19 @@ export function ScoreWorkDetail({ locale, work }: ScorePageProps & { work: Score
 
       <section className="score-preview-section section-pad"><div className="container-wide"><header className="scores-section-heading"><p className="eyebrow">02 — {english ? "SELECTED SCORE EXCERPTS" : "精選樂譜片段"}</p><h2>{english ? work.enPreviewTitle : work.zhPreviewTitle}</h2></header><div className="score-preview-grid">{work.previews.map((preview, index) => <figure className={index === 2 ? "score-preview-detail" : ""} key={preview.src}><div><Image src={preview.src} alt={english ? preview.enAlt : preview.zhAlt} width={preview.width} height={preview.height} sizes="(max-width: 767px) 100vw, 48vw" /></div><figcaption><span>{String(index + 1).padStart(2, "0")}</span>{english ? preview.enCaption : preview.zhCaption}</figcaption></figure>)}</div></div></section>
 
-      {work.videoUrl && <section className="score-video-section section-pad"><div className="container-wide"><p className="eyebrow">03 — VIDEO</p><h2>{english ? "Hear the arrangement in performance." : "從演奏中聽見編曲。"}</h2><a className="button button-burgundy" href={work.videoUrl} target="_blank" rel="noopener noreferrer">{english ? "Watch on YouTube" : "前往 YouTube 觀看"}</a></div></section>}
+      {work.videoUrl && (
+        <section className="score-video-section section-pad">
+          <div className="score-video-card container-wide">
+            <div>
+              <p className="eyebrow">03 — PERFORMANCE VIDEO</p>
+              <h2>{english ? "Performance Video" : "樂曲欣賞"}</h2>
+            </div>
+            <a className="button button-burgundy" href={work.videoUrl} target="_blank" rel="noopener noreferrer">
+              {english ? "Watch on YouTube" : "在 YouTube 觀看"}
+            </a>
+          </div>
+        </section>
+      )}
 
       <section className="score-copyright-note"><div className="container-wide"><strong>{english ? "Portfolio notice" : "作品展示說明"}</strong><p>{english ? "This page presents selected excerpts from an independent arrangement. Copyright in the underlying composition belongs to its respective rights holders. No complete score, PDF download, sale, or distribution license is offered here." : "本頁僅展示自行編曲的少量片段。原作品著作權歸相關權利人所有；網站不提供完整樂譜、PDF 下載、販售或發行授權。"}</p></div></section>
 
